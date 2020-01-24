@@ -4,21 +4,42 @@
     color: white;
     font-size: 16px;
     text-align: center;
+    margin: 20px;
+    padding: 0;
 }
 
 h1 {
     font-size: 3.125rem;
     font-weight: normal;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 h2 {
     font-size: 2.625rem;
     font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 p {
     color: grey;
     font-size: 1.3125rem;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    padding-top: 40px;
+    margin: auto;
+}
+
+video {
+
 }
 
 #copyright {
@@ -27,10 +48,7 @@ p {
     text-align: right;
 }
 
-.link {
-    color: aquamarine;
 
-}
 
 
 
