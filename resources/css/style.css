@@ -6,12 +6,21 @@
 }
 
 h2 {
+    color: #4a4a4a;
     font-size: 3rem;
     line-height: 1.2;
     padding: 20px 0 30px 0;
 }
 
 h3 {
+    color: #4a4a4a;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding: 20px 0 20px 0;
+}
+
+h4 {
+    color: #4a4a4a;
     font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;
@@ -19,10 +28,13 @@ h3 {
 }
 
 p { 
+    color: #4a4a4a;
     font-size: 1rem;
     font-family: 'Merriweather Sans', Arial, sans-serif;
 }
 
+
+/* Logo & navigation */
 
 nav {
     height: 64px;
@@ -43,6 +55,7 @@ nav ul {
     float: right;
     list-style-type: none;
     overflow: hidden;
+    padding-right: 24px;
 }
 
 nav li {
@@ -59,10 +72,7 @@ nav li a {
 }
 
 
-
-
-
-/* Header banner */
+/* Main banner */
 
 #banner {
     background-color: #d8d8d8;
@@ -77,28 +87,27 @@ nav li a {
     padding: 2rem 3rem 2rem 2rem;
 }
 
-.textbox {
+#banner .text-box {
     float: left;
-    color: #4a4a4a;
     position: relative;
     height: auto;
     max-width: 400px;
     padding: 100px 120px 30px 0;
 }
 
+
+/* Grey button */
+
 .button {
-    color: #ffffff;
     text-align: center;
     background-color: #4a4a4a;
     width: 400px;
     height: 3rem;
-    /* float: right; */
-    /* position: relative; */
-    /* border: 1px solid #4a4a4a; */
     border-radius: 2px;
 }
 
 .button p {
+    color: #ffffff;
     font-size: 1.2rem;
     font-weight: 200;
     line-height: 1.7;
@@ -106,21 +115,69 @@ nav li a {
 }
 
 
-
-
-
 /* Information banner */
 
-#information img {
-    width: 40rem;
-    padding: 2rem 1.5rem;
+.information {
+    width: 100%;
+    height: 770px;
 }
 
-.quotation {
+.information img {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 2rem 3rem 2rem 2rem;
+}
+
+.information .information-box {
+    float: left;
+    color: #666666;
+    width: 50%;
+    padding: 0 3rem 2rem 2rem;
+}
+
+.information .quote {
     font-size: 1.2rem;
-    font-style: italic;
+    font-weight: 200;
+    line-height: 1.5;
 }
 
-.quoteby {
+.information .quote-by {
     font-size: 1rem;
+    line-height: 5;
 }
+
+.information .grid-item {
+    float: right;
+    width: 40%;
+}
+
+.grid-item {
+    border: 1px solid #d8d8d8;
+    width: 65%;
+}
+
+.grid-item img {
+    width: 30%;
+    padding: 1.65rem 1rem;
+}
+
+.grid-item p {
+    padding: 8px 90px;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.grid-item a {
+    color: #2e7dff;
+    font-size: 1.1rem;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.grey {
+    background-color: #d8d8d8;
+}
+
+
+/* Courses banner */
