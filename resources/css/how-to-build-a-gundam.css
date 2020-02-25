@@ -3,6 +3,7 @@
     margin: 0;
     font-size: 20px;
     font-family: 'Timmana', sans-serif;
+    color: black;
 
     /*
     font-family: 'Alegreya Sans SC', ;
@@ -46,14 +47,16 @@ a {
     color: darkblue;
 }
 
+a h2 {
+    color: black;
+}
+
 header {
     height: 150px;
     z-index: 1;
 }
 
 .logo {
-    font-size: 3rem;
-    font-family: 'Exo', 'Timmana', sans-serif;;
     display: inline-block;
 }
 
@@ -79,7 +82,7 @@ nav li a {
 
 body {
     margin: 20px 100px;
-    background-image: url("/resources/images/5Dh7rb6HB0A.jpg");
+    background-image: url("/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg");
     background-position: center;
     
 }

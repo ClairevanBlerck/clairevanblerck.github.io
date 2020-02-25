@@ -1,4 +1,60 @@
 * { margin: 0;
-    background-color: darkgray;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+header {
+    height: 100px;
+}
+
+body {
+    margin: 20px 100px;
+}
+
+.logo {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 24px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    padding: 0 16px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.grid .grid-item {
+    padding: 20px;
+}
+
+.grid-item h3 {
+    padding: 20px 0;
+}
+
+.grid-item p {
+    line-height: 1.5;
 }
