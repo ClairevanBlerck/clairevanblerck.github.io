@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 1.5rem;
     padding: 0;
     font-family: 'DM Sans', Arial, sans-serif;
     font-size: 16px;
@@ -245,25 +245,25 @@ nav li a {
 .videobanner {
     width: 100%;
     height: 770px;
+    margin: 20px;
 }
 
 .videobanner video {
     float: left;
     width: 50%;
     height: auto;
-    padding: 0 3rem 2rem 2rem;
+    /*padding: 0 3rem 2rem 2rem;*/
 }
 
 .videobanner .information-box {
     float: left;
-    color: #666666;
     width: 50%;
-    padding: 0 3rem 2rem 2rem;
+    color: #666666;
+    /*padding: 0 3rem 2rem 2rem;*/
 }
 
 .videobanner .grid-item {
     display: inline-flex;
-    /* float: right; */
     width: 40%;
 }
 
@@ -303,36 +303,37 @@ nav li a {
 /* Footer */
 
 footer {
-    width: 100%; 
+    width: auto; 
     height: 60px;
+    border-top: 1px solid #ebebeb;
+    padding: 16px 0 0 0;
+    margin: 0 2rem 2rem;
 }
 
-footer p {
-    display: block;
-    /* text-align: center; */
-    /* text-decoration: none; */
+footer .copyright {
     color: #4a4a4a;
-    /* font-size: 1.2rem; */
-    /* padding: 19px 0 19px 16px; */
+    display: block;
+    text-align: left;
 }
 
-footer ul {
-    list-style-type: none;
-    overflow: hidden;
-    padding-right: 24px;
-}
-
-footer li {
+footer #copyright-text {
     float: left;
 }
 
-footer li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #4a4a4a;
-    font-size: 1.2rem;
-    padding: 19px 0 19px 16px;
-
+footer #footer-links {
+    display: flex;
+    float: right;
 }
 
+footer #footer-links a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+footer #terms-conditions {
+    width: 4rem;
+}
+
+footer #privacy-policy {
+}
