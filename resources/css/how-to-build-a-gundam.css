@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Timmana', sans-serif;
+
+    /*
+    font-family: 'Alegreya Sans SC', ;
+    font-family: 'Nobile', ;
+    font-family: 'Timmana', ;
+    font-family: 'Dosis', ;
+    font-family: 'Exo', ;
+    */
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: darkblue;
+}
+
+header {
+    height: 150px;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: 'Exo', 'Timmana', sans-serif;;
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 24px;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    padding: 0 16px;
+}
+
+body {
+    margin: 20px 100px;
+    background-image: url("/resources/images/5Dh7rb6HB0A.jpg");
+    background-position: center;
+    
+}
+
+section {
+    /*background-color: hsl(60, 16%, 93%);*/
+}
+
+.container {
+    width: auto;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.container h2 {
+    padding: 20px 50px;
+    text-decoration: underline;
+}
+
+.container img {
+    float: right;
+    width: 55%;
+    height: auto;
+    padding: 2rem 3rem 2rem 2rem;
+}
+
+.container figcaption {
+    display: none;
+}
+
+
+.container .textbox {
+    float: left;
+    position: relative;
+    height: auto;
+    max-width: 400px;
+    padding: 100px 0 30px 120px;
+}
+
+footer {
+    font-size: 0.5rem;
+}
