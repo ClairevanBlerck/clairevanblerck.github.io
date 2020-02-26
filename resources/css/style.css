@@ -1,28 +1,27 @@
 * {
+    box-sizing: border-box;
     margin: 1.5rem;
     padding: 0;
     font-family: 'DM Sans', Arial, sans-serif;
     font-size: 16px;
-    text-align: left;
+    color: #7b828e;
+    text-align: center;
 }
 
 
 h2 {
-    color: #4a4a4a;
     font-size: 3rem;
     line-height: 1.2;
     padding: 20px 0 30px 0;
 }
 
 h3 {
-    color: #4a4a4a;
     font-size: 2.5rem;
     line-height: 1.2;
     padding: 20px 0 20px 0;
 }
 
 h4 {
-    color: #4a4a4a;
     font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;
@@ -30,7 +29,6 @@ h4 {
 }
 
 h5 {
-    color: #4a4a4a;
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5;
@@ -38,7 +36,6 @@ h5 {
 }
 
 p { 
-    color: #4a4a4a;
     font-size: 1rem;
     font-family: 'Merriweather Sans', Arial, sans-serif;
 }
@@ -47,24 +44,13 @@ p {
 /* Logo & navigation */
 
 nav {
-    height: 64px;
+    height: 100px;
     margin: 0 24px;
-}
-
-nav #icon img {
-    height: 50px;
-    padding: 7px 0;
-}
-
-nav #logo img {
-    height: 17px;
-    padding: 24px 5px;
 }
 
 nav ul {
     float: right;
     list-style-type: none;
-    overflow: hidden;
     padding-right: 24px;
 }
 
@@ -72,17 +58,120 @@ nav li {
     float: left;
 }
 
-nav li a {
-    display: block;
+
+/* About section */
+
+.image-panel {
+    padding: 20px;
+    border: 10px solid hsl(79, 18%, 42%);
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.image-panel img {
+    /*float: left;*/
+    width: 20%;
+    height: auto;
+    /*padding: 2rem 3rem 2rem 2rem;*/
+}
+
+.image-panel .text-item {
     text-align: center;
-    text-decoration: none;
-    color: #4a4a4a;
-    font-size: 1.2rem;
-    padding: 19px 0 19px 16px;
+    /*float: left;
+    position: relative;
+    height: auto;
+    max-width: 600px;
+    padding: 100px 120px 30px 0;*/
+
 }
 
 
-/* Grey background and grey button */
+/* Portfolio section */
+
+.image-grid-panel {
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item a {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    color: hsl(79, 18%, 42%);
+    text-decoration: none;
+}
+
+.grid-item img {
+
+}
+
+
+/* CV section */
+
+.image-and-text-panel {
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.image-and-text-panel img {
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 2rem 3rem 2rem 2rem;
+}
+
+.image-and-text-panel .text-item {
+    float: left;
+    position: relative;
+    height: auto;
+    max-width: 700px;
+    padding: 100px 120px 30px 0;
+}
+
+
+/* Contact section */
+
+.social-panel {
+    padding: 20px;
+    border-top: 1px solid hsl(79, 18%, 42%);
+    /*width: 100%;
+    height: 200px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-panel .email a {
+    color: hsl(79, 18%, 42%);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/* Footer */
+
+footer {
+
+}
+
+
+/* Grey background and grey button 
 
 .button {
     text-align: center;
@@ -110,7 +199,7 @@ nav li a {
 }
 
 
-/* Main banner */
+/* Main banner 
 
 #banner {
     background-color: #d8d8d8;
@@ -134,7 +223,7 @@ nav li a {
 }
 
 
-/* Information banner */
+/* Information banner 
 
 .information {
     width: 100%;
@@ -195,7 +284,7 @@ nav li a {
 }
 
 
-/* Courses banner */
+/* Courses banner 
 
 .featuregrid {
     text-align: center;
@@ -240,7 +329,7 @@ nav li a {
 }
 
 
-/* Video banner */
+/* Video banner 
 
 .videobanner {
     width: 100%;
@@ -255,12 +344,16 @@ nav li a {
     /*padding: 0 3rem 2rem 2rem;*/
 }
 
+/*
+
 .videobanner .information-box {
     float: left;
     width: 50%;
     color: #666666;
     /*padding: 0 3rem 2rem 2rem;*/
 }
+
+/*
 
 .videobanner .grid-item {
     display: inline-flex;
@@ -300,7 +393,7 @@ nav li a {
 }
 
 
-/* Footer */
+/* Footer 
 
 footer {
     width: auto; 
