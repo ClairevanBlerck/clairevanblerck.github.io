@@ -8,10 +8,6 @@
     text-align: center;
 }
 
-body {
-    margin: 1rem;
-}
-
 h1 {
     font-size: 3.5rem;
     line-height: 1.2;
@@ -58,7 +54,7 @@ p {
     align-items: center;
     height: 70rem;
     width: 100%;
-    padding: 10rem 2rem;
+    padding: 10rem 2rem 2rem 2rem;
 }
 
 .image-panel img {
@@ -98,7 +94,7 @@ p {
 /* Portfolio section */
 
 .image-grid-panel {
-    height: 50rem;
+    height: 45rem;
     width: 100%;
     padding: 2rem;
 }
@@ -110,8 +106,8 @@ p {
 
 .grid-item {
     position: relative;
-    margin: 2px;
-    padding: 2px;
+    margin: 0.2rem;
+    padding: 0.2rem;
 }
 
 .grid-item a {
@@ -137,7 +133,7 @@ p {
     align-items: center;
     height: 45rem;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .image-and-text-panel img {
@@ -163,8 +159,9 @@ p {
 
 .social-panel {
     display: block;
-    height: 250px;
+    height: 16rem;
     width: 100%;
+    margin: 0;
     padding: 3rem 1rem 1rem 1rem;
     background-color: hsl(79, 18%, 42%);
 }
