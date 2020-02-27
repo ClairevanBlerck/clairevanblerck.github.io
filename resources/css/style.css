@@ -1,12 +1,19 @@
 * {
     box-sizing: border-box;
-    margin: 1.5rem;
+    margin: 0;
     padding: 0;
     font-family: 'DM Sans', Arial, sans-serif;
     font-size: 16px;
     color: #7b828e;
     text-align: center;
 }
+
+
+body {
+    margin: 1rem;
+}
+
+
 
 
 h2 {
@@ -41,29 +48,16 @@ p {
 }
 
 
-/* Logo & navigation */
-
-nav {
-    height: 100px;
-    margin: 0 24px;
-}
-
-nav ul {
-    float: right;
-    list-style-type: none;
-    padding-right: 24px;
-}
-
-nav li {
-    float: left;
-}
 
 
 /* About section */
 
 .image-panel {
+    /*position: relative;
+    top: 50px;
+    border: 10px solid hsl(79, 18%, 42%); */
     padding: 20px;
-    border: 10px solid hsl(79, 18%, 42%);
+    height: 700px;
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -71,29 +65,58 @@ nav li {
 }
 
 .image-panel img {
-    /*float: left;*/
-    width: 20%;
-    height: auto;
-    /*padding: 2rem 3rem 2rem 2rem;*/
+
+    width: auto;
+    height: 300px;
+    padding: 2rem 1rem 1rem 1rem;
 }
 
 .image-panel .text-item {
     text-align: center;
+    padding: 2rem 0 4rem 0;
+    max-width: 600px;
+    line-height: 2rem;
     /*float: left;
     position: relative;
     height: auto;
-    max-width: 600px;
+    
     padding: 100px 120px 30px 0;*/
-
 }
+
+
+
+/* Navigation */
+
+nav {
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+/*nav*/ ul {
+    list-style-type: none;
+}
+
+/*nav*/ li {
+    padding: 0 3rem;
+    display: inline;
+}
+
 
 
 /* Portfolio section */
 
 .image-grid-panel {
-    padding: 20px;
+    /*position: relative;
+    top: 50px;*/
+    padding: 2rem;
     width: 100%;
-    height: 400px;
+    height: 800px;
 
 }
 
@@ -104,6 +127,8 @@ nav li {
 
 .grid-item {
     position: relative;
+    padding: 2px;
+    margin: 2px;
 }
 
 .grid-item a {
@@ -116,6 +141,7 @@ nav li {
 }
 
 .grid-item img {
+width: 27.5rem;
 
 }
 
@@ -123,45 +149,82 @@ nav li {
 /* CV section */
 
 .image-and-text-panel {
-    padding: 20px;
+    /*position: relative;
+    top: 50px;*/
+    padding: 1rem 1rem 2rem 1rem;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .image-and-text-panel img {
-    float: left;
-    width: 30%;
+    /*float: left;*/
+    width: 20%;
     height: auto;
-    padding: 2rem 3rem 2rem 2rem;
+    padding: 2rem;
 }
 
 .image-and-text-panel .text-item {
     float: left;
-    position: relative;
+    /*position: relative;
+    top: 50px;*/
     height: auto;
     max-width: 700px;
-    padding: 100px 120px 30px 0;
+    padding:  0 4rem;
+    line-height: 2.5rem;
 }
 
 
 /* Contact section */
 
 .social-panel {
-    padding: 20px;
-    border-top: 1px solid hsl(79, 18%, 42%);
+    /*position: relative;
+    top: 50px;
+    border-top: 3px solid hsl(79, 18%, 42%);
     /*width: 100%;
     height: 200px;*/
+    display: block;
+    height: 250px;
+    padding: 3rem 1rem 1rem 1rem;
+    background-color: hsl(79, 18%, 42%);;
+
+}
+
+.social-panel .footer-heading {
+    color:white;
+    font-size: 2rem;
+    width: 1000px;
+    display: inline;
+
+}
+
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-panel .email a {
-    color: hsl(79, 18%, 42%);
+.social-icons i.fa.fa-linkedin {
+    font-size: 48px;
+    color:white;
+    padding: 2rem;
+}
+
+.social-icons .email a {
+    color:white;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 300;
+    padding: 2rem;
 }
+
+.social-icons i.fa.fa-github {
+    font-size:60px;
+    color:white;
+    padding: 2rem;
+}
+
+
+
 
 
 /* Footer */
