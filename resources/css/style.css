@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'DM Sans', Arial, sans-serif;
     font-size: 16px;
-    color: #7b828e;
+    color: hsl(218, 6%, 43%);
     text-align: center;
 }
 
@@ -93,36 +93,80 @@ p {
 
 /* Portfolio section */
 
+
 .image-grid-panel {
-    height: 45rem;
     width: 100%;
-    padding: 2rem;
+    height: 700px;
+    display: inline-flex;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
-.image-grid-panel .grid {
-    display: flex;
-    justify-content: center;
+.image-grid-panel ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
 }
 
-.image-grid-panel .grid-item {
-    position: relative;
-    margin: 0.2rem;
-    padding: 0.2rem;
+.image-grid-panel li {
+    list-style: none;
+    max-width: 33.3%;
+    min-width: 33.3%;
+    min-height: 200px;
+    max-height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+    vertical-align: bottom;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 100;
+    background: black;
 }
 
-.image-grid-panel .grid-item a {
-    position: absolute;
-    top: 2.5rem;
-    left: 2.5rem;
-    right: 2.5rem;
-    bottom: 2.5rem;
-    color: hsl(79, 18%, 42%);
+.image-grid-panel li:last-child {
+    list-style: none;
+    max-width: 33.3%;
+    min-width: 33.3%;
+    min-height: 200px;
+    max-height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+    vertical-align: bottom;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 100;
+    background: white;
+}
+
+.image-grid-panel img {
+    min-height: 900px;
+    max-height: 100%;
+    min-width: 50px;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    background: black;
+    opacity: 0.6;
+    transition-duration: 0.5s;
+
+}
+
+.image-grid-panel img:hover {
+    opacity: 1;
+}
+
+.image-grid-panel a {
+    color: white;
+    background-color: black;
     text-decoration: none;
+    font-size: 25px;
+    position: sticky;
+    top: 2.5rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 17rem;
+    padding: 0.3rem;
 }
 
-.image-grid-panel .grid-item img {
-    width: 27.5rem;
-}
 
 
 /* CV section */
@@ -163,7 +207,7 @@ p {
     width: 100%;
     margin: 0;
     padding: 3rem 1rem 1rem 1rem;
-    background-color: hsl(79, 18%, 42%);
+    background-color: hsl(69.4,44.3%,22.5%);
 }
 
 .social-panel .footer-heading {
@@ -202,14 +246,42 @@ p {
 
 /* Media queries */
 
+
+
+/* NEW PORTFOLIO SECTION */
+
+@media (max-aspect-ratio: 1/1) {
+    .image-grid-panel li {
+    height: 30vh;
+  }
+}
+
+
+@media (max-height: 480px) {
+    .image-grid-panel li {
+    height: 80vh;
+  }
+}
+
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    .image-grid-panel ul {
+    flex-direction: row;
+  }
+
+  .image-grid-panel li {
+    height: auto;
+    width: 100%;
+  }
+  .image-grid-panel img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+
 @media only screen and (max-width: 1400px) {
-
-    /* Portfolio section */
-
-    .image-grid-panel .grid-item img {
-        width: 23.5rem;
-    }
-
 
     /* CV section */
 
@@ -217,16 +289,7 @@ p {
         display: flex;
         flex-flow: column;
         align-items: center;
-    }
-}
-
-
-@media only screen and (max-width: 1300px) {
-
-    /* Portfolio section */
-
-    .image-grid-panel .grid-item img {
-        width: 20rem;
+        height: 30rem;
     }
 }
 
@@ -236,23 +299,8 @@ p {
     /* About section */
 
     .image-panel {
-        height: 90rem;
-        padding-top: 20rem;
-    }
-
-
-    /* Portfolio section */
-
-    .image-grid-panel {
-        height: auto;
-    }
-
-    .image-grid-panel .grid {
-        display: block;
-    }
-
-    .image-grid-panel .grid-item img {
-        width: 25rem;
+        height: 60rem;
+        padding-top: 10rem;
     }
 }
 
@@ -329,7 +377,7 @@ p {
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 530px) {
 
     /* About section */
     .image-panel {
@@ -344,13 +392,6 @@ p {
     .table li {
         padding: 0.5rem;
         display: block;
-    }
-
-
-    /* Portfolio section */
-
-    .image-grid-panel .grid-item img {
-        width: 18rem;
     }
 
 
@@ -383,19 +424,12 @@ p {
     }
 }
 
-
+/* this is the second 420 mq */
 @media only screen and (max-width: 420px) {
 
     /* About section */
 
     .image-panel .text-item {
-        width: 15rem;
-    }
-
-
-    /* Portfolio section */
-    
-    .image-grid-panel .grid-item img {
         width: 15rem;
     }
 
