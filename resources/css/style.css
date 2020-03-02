@@ -5,12 +5,12 @@
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: hsl(218, 6%, 43%);
+    color: black;
     text-align: center;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     line-height: 1.2;
     padding: 1.5rem 0 2rem 0;
 }
@@ -49,6 +49,19 @@ a {
     font-size: 1.2rem;
 }
 
+section .image-panel,.image-and-text-panel {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+section .image-grid-panel {
+    min-height: 50vh;
+}
+
+section .social-panel {
+    min-height: 15rem;
+}
+
 
 /* About section */
 
@@ -56,8 +69,6 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
-    height: 70rem;
-    width: 100%;
     padding: 10rem 2rem 2rem 2rem;
 }
 
@@ -95,12 +106,11 @@ a {
 
 
 
+
 /* Portfolio section */
 
 
 .image-grid-panel {
-    width: 100%;
-    height: 700px;
     display: inline-flex;
     overflow: hidden;
     vertical-align: middle;
@@ -158,11 +168,16 @@ a {
     opacity: 1;
 }
 
+.image-grid-panel a:hover {
+    opacity: 1;
+}
+
 .image-grid-panel a {
-    color: white;
-    background-color: black;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2rem;
     position: sticky;
     top: 2.5rem;
     left: 1rem;
@@ -179,8 +194,6 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 45rem;
-    width: 100%;
     padding: 2rem;
 }
 
@@ -206,17 +219,16 @@ a {
 /* Contact section */
 
 .social-panel {
+
     display: block;
-    height: 16rem;
-    width: 100%;
     margin: 0;
     padding: 3rem 1rem 1rem 1rem;
-    background-color: hsl(69.4,44.3%,22.5%);
+    background-color: black;
 }
 
 .social-panel .footer-heading {
     display: inline;
-    font-size: 2rem;
+    font-size: 3rem;
     color:white;
 }
 
@@ -234,7 +246,7 @@ a {
 
 .social-panel .social-icons .email a {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
     color:white;
     text-decoration: none;
     padding: 2rem;
