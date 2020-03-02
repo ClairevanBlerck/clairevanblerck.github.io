@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'DM Sans', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: hsl(218, 6%, 43%);
     text-align: center;
@@ -41,8 +42,11 @@ h5 {
 }
 
 p { 
-    font-size: 1rem;
-    font-family: 'Merriweather Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+a {
+    font-size: 1.2rem;
 }
 
 
@@ -230,7 +234,7 @@ p {
 
 .social-panel .social-icons .email a {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 700;
     color:white;
     text-decoration: none;
     padding: 2rem;
