@@ -105,10 +105,7 @@ section .social-panel {
 }
 
 
-
-
 /* Portfolio section */
-
 
 .image-grid-panel {
     display: inline-flex;
@@ -164,14 +161,6 @@ section .social-panel {
 
 }
 
-.image-grid-panel img:hover {
-    opacity: 1;
-}
-
-.image-grid-panel a:hover {
-    opacity: 1;
-}
-
 .image-grid-panel a {
     background-color: white;
     color: black;
@@ -186,6 +175,12 @@ section .social-panel {
     padding: 0.3rem;
 }
 
+.grid-item:hover img {
+    opacity: 1;
+}
+.grid-item:hover a {
+    opacity: 0.8;
+}
 
 
 /* CV section */
@@ -460,266 +455,4 @@ section .social-panel {
         height: 35rem;
     }
 
-}
-
-
-
-/* Grey background and grey button 
-
-.button {
-    text-align: center;
-    background-color: #4a4a4a;
-    width: 400px;
-    height: 3rem;
-    border-radius: 2px;
-}
-
-.button p {
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: 200;
-    line-height: 1.7;
-    text-align: center;
-    padding: 8px;
-}
-
-.grey {
-    background-color: #d8d8d8;
-}
-
-.grey p {
-    color: #4a4a4a;
-}
-
-
-/* Main banner 
-
-#banner {
-    background-color: #d8d8d8;
-    width: 100%;
-    height: 600px;
-}
-
-#banner img {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 2rem 3rem 2rem 2rem;
-}
-
-#banner .text-box {
-    float: left;
-    position: relative;
-    height: auto;
-    max-width: 400px;
-    padding: 100px 120px 30px 0;
-}
-
-
-/* Information banner 
-
-.information {
-    width: 100%;
-    height: 770px;
-}
-
-.information img {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 2rem 3rem 2rem 2rem;
-}
-
-.information .information-box {
-    float: left;
-    color: #666666;
-    width: 50%;
-    padding: 0 3rem 2rem 2rem;
-}
-
-.information .quote {
-    font-size: 1.2rem;
-    font-weight: 200;
-    line-height: 1.5;
-}
-
-.information .quote-by {
-    font-size: 1rem;
-    line-height: 5;
-}
-
-.information .grid-item {
-    float: right;
-    width: 40%;
-    border: 1px solid #d8d8d8;
-}
-
-.information .grid-item img {
-    width: 30%;
-    padding: 1.65rem 1rem;
-}
-
-.information .grid-item-text {
-    margin: 0 90px;
-}
-
-.information .grid-item p {
-    padding: 8px 0;
-    font-size: 1.1rem;
-    line-height: 2;
-}
-
-.information .grid-item a {
-    color: #2e7dff;
-    font-size: 1.1rem;
-    line-height: 2;
-    text-decoration: none;
-}
-
-
-/* Courses banner 
-
-.featuregrid {
-    text-align: center;
-}
-
-.featuregrid .grid-item {
-    display: inline-flex;
-    flex-flow: column;
-    width: 350px;
-    height: auto;
-    background-color: #ffffff;
-    margin: 16px;
-}
-
-.featuregrid img {
-    width: inherit;
-    height: auto;
-}
-
-.featuregrid .text-box {
-    padding: 24px 16px;
-    min-height: 160px;
-}
-
-.featuregrid h2 {
-    text-align: center;
-}
-
-.featuregrid h4 {
-    padding: 10px 0 8px 0;
-}
-
-.featuregrid h5 {
-    color: #848484;
-    padding: 0 0 8px 0;
-    font-weight: 300;
-}
-
-.featuregrid p { 
-    color: #848484;
-    font-weight: 300;
-}
-
-
-/* Video banner 
-
-.videobanner {
-    width: 100%;
-    height: 770px;
-    margin: 20px;
-}
-
-.videobanner video {
-    float: left;
-    width: 50%;
-    height: auto;
-    /*padding: 0 3rem 2rem 2rem;*/
-}
-
-/*
-
-.videobanner .information-box {
-    float: left;
-    width: 50%;
-    color: #666666;
-    /*padding: 0 3rem 2rem 2rem;*/
-}
-
-/*
-
-.videobanner .grid-item {
-    display: inline-flex;
-    width: 40%;
-}
-
-.videobanner .grid-item img {
-    width: 30%;
-    padding: 1.65rem 1rem;
-}
-
-.videobanner .grid-item-text {
-    margin: 0 40px 0 0;
-    align-self: center;
-}
-
-.videobanner .grid-item h4 {
-    padding: 0;
-}
-
-.videobanner .grid-item p {
-    color: #848484;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
-    padding: 10px 0 0 0;
-}
-
-.videobanner h2 {
-    text-align: center;
-}
-
-.videobanner .quote {
-    font-size: 1.2rem;
-    font-weight: 200;
-    line-height: 1.5;
-}
-
-
-/* Footer 
-
-footer {
-    width: auto; 
-    height: 60px;
-    border-top: 1px solid #ebebeb;
-    padding: 16px 0 0 0;
-    margin: 0 2rem 2rem;
-}
-
-footer .copyright {
-    color: #4a4a4a;
-    display: block;
-    text-align: left;
-}
-
-footer #copyright-text {
-    float: left;
-}
-
-footer #footer-links {
-    display: flex;
-    float: right;
-}
-
-footer #footer-links a {
-    text-decoration: none;
-    color: #4a4a4a;
-    font-size: 1rem;
-}
-
-footer #terms-conditions {
-    width: 4rem;
-}
-
-footer #privacy-policy {
 }
