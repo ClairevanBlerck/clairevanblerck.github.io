@@ -49,40 +49,40 @@ a {
     font-size: 1.2rem;
 }
 
-section .image-panel,.image-and-text-panel {
+section .image-and-text-panel,.text-panel {
     min-height: 100vh;
     min-width: 100vh;
 }
 
 section .image-grid-panel {
     min-height: 50vh;
+    min-width: 100vh;
 }
 
 section .social-panel {
     min-height: 15rem;
+    min-width: 100vh;
 }
 
 
 /* About section */
 
-.image-panel {
+.image-and-text-panel {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding: 10rem 2rem 2rem 2rem;
 }
 
-.image-panel img {
-    height: 20rem;
+.image-and-text-panel img {
+    height: 10rem;
     width: auto;
     padding: 1rem;
 }
 
-.image-panel .text-item {
+.image-and-text-panel .text-item {
     text-align: center;
     line-height: 2rem;
-    height: auto;
-    width: 50rem;
     padding: 2rem 0 4rem 0;
 }
 
@@ -156,7 +156,7 @@ section .social-panel {
     object-fit: cover;
     vertical-align: bottom;
     background: black;
-    opacity: 0.6;
+    opacity: 0.4;
     transition-duration: 0.5s;
 
 }
@@ -185,28 +185,26 @@ section .social-panel {
 
 /* CV section */
 
-.image-and-text-panel {
+.text-panel {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
 
-.image-and-text-panel img {
+.text-panel img {
     height: auto;
     width: auto;
     padding: 2rem;
 }
 
-.image-and-text-panel .text-item {
+.text-panel .text-item {
     float: left;
     line-height: 2.5rem;
-    height: auto;
-    width: 44rem;
     padding: 0 4rem;
 }
 
-.image-and-text-panel .text-item p {
+.text-panel .text-item p {
     padding: 1rem 0;
 }
 
@@ -255,204 +253,7 @@ section .social-panel {
 
 
 
-/* Media queries */
 
 
 
-/* NEW PORTFOLIO SECTION */
 
-@media (max-aspect-ratio: 1/1) {
-    .image-grid-panel li {
-    height: 30vh;
-  }
-}
-
-
-@media (max-height: 480px) {
-    .image-grid-panel li {
-    height: 80vh;
-  }
-}
-
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-    .image-grid-panel ul {
-    flex-direction: row;
-  }
-
-  .image-grid-panel li {
-    height: auto;
-    width: 100%;
-  }
-  .image-grid-panel img {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}
-
-
-@media only screen and (max-width: 1400px) {
-
-    /* CV section */
-
-    .image-and-text-panel {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        height: 30rem;
-    }
-}
-
-
-@media only screen and (max-width: 1024px) {
-
-    /* About section */
-
-    .image-panel {
-        height: 60rem;
-        padding-top: 10rem;
-    }
-}
-
-
-@media only screen and (max-width: 900px) {
-
-    /* About section */
-    .image-panel {
-        height: 55rem;
-    }
-
-    .image-panel .text-item {
-        width: 40rem;
-    }
-
-
-    /* CV section */
-    .image-and-text-panel {
-        height: 30rem;
-    }
-}
-
-
-@media only screen and (max-width: 800px) {
-
-    /* About section */
-
-    .image-panel {
-        height: 60rem;
-        padding-top: 5rem;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-
-    /* About section */
-    .image-panel .text-item {
-        width: 30rem;
-    }
-
-
-    /* CV section */
-    .image-and-text-panel .text-item {
-        line-height: 2rem;
-        padding: 0 2rem;
-        width: 30rem;
-    }
-
-
-    /* Contact section */
-
-    .social-panel .social-panel{
-        height: 15rem;
-    }
-
-    .social-panel .social-panel .footer-heading {
-        font-size: 1.5rem;
-    }
-
-    .social-panel .social-icons i.fa.fa-linkedin {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
-    .social-panel .social-icons .email a {
-        font-size: 1rem;
-        padding: 1rem;
-    }
-
-    .social-panel .social-icons i.fa.fa-github {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-}
-
-
-@media only screen and (max-width: 530px) {
-
-    /* About section */
-    .image-panel {
-        height: auto;
-        padding-top: 5rem;
-    }
-
-    .image-panel .text-item {
-        width: 20rem;
-    }
-
-    .table li {
-        padding: 0.5rem;
-        display: block;
-    }
-
-
-    /* CV section */
-
-    .image-and-text-panel .text-item {
-        width: 23rem;
-    }
-
-
-    /* Contact section */
-
-    .social-panel .social-icons {
-        display: block;
-    }
-
-    .social-panel .social-icons i.fa.fa-linkedin {
-        font-size: 2rem;
-        padding: 1rem;
-    }
-
-    .social-panel .social-icons .email a {
-        font-size: 1rem;
-        padding: 1rem;
-    }
-
-    .social-panel .social-icons i.fa.fa-github {
-        font-size: 2rem;
-        padding: 1rem;
-    }
-}
-
-/* this is the second 420 mq */
-@media only screen and (max-width: 420px) {
-
-    /* About section */
-
-    .image-panel .text-item {
-        width: 15rem;
-    }
-
-
-    /* CV section */
-
-    .image-and-text-panel .text-item {
-        width: 18rem;
-    }
-
-    .image-and-text-panel {
-        height: 35rem;
-    }
-
-}
