@@ -51,17 +51,17 @@ a {
 
 section .image-and-text-panel,.text-panel {
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 section .image-grid-panel {
     min-height: 50vh;
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 section .social-panel {
     min-height: 15rem;
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 
@@ -167,6 +167,7 @@ section .social-panel {
     opacity: 0.5;
     text-decoration: none;
     font-size: 2rem;
+    line-height: 1.5;
     position: sticky;
     top: 2.5rem;
     left: 1rem;
@@ -253,7 +254,29 @@ section .social-panel {
 
 
 
+/* Media Queries */
 
+@media only screen and (max-width: 570px) {
 
+    /* Contact section */
 
+  .social-panel .social-icons {
+    display: block;
+  }
 
+  .social-panel .social-icons i.fa.fa-linkedin {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .social-panel .social-icons .email a {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .social-panel .social-icons i.fa.fa-github {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+}
