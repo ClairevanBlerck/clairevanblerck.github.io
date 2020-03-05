@@ -52,6 +52,7 @@ a {
 section .image-and-text-panel,.text-panel {
     min-height: 100vh;
     min-width: 100vw;
+    padding: 2rem;
 }
 
 section .image-grid-panel {
@@ -83,7 +84,7 @@ section .social-panel {
 .image-and-text-panel .text-item {
     text-align: center;
     line-height: 2rem;
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0 3rem 0;
 }
 
 
@@ -120,8 +121,8 @@ section .social-panel {
 
 .image-grid-panel li {
     list-style: none;
-    max-width: 33.3%;
-    min-width: 33.3%;
+    max-width: 33.33%;
+    min-width: 33.33%;
     min-height: 200px;
     max-height: 600px;
     overflow: hidden;
@@ -263,8 +264,6 @@ section .social-panel {
         max-width: 100vh;
         max-height: 80vh;
     }
-
-
 }
 
 
@@ -303,6 +302,6 @@ section .social-panel {
 
 @media only screen and (max-width: 480px) {
     .image-grid-panel img {
-        min-height: 600px;
+        min-height: 700px;
     }       
 }
