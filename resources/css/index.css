@@ -304,4 +304,7 @@ section .social-panel {
     .image-grid-panel img {
         min-height: 700px;
     }       
+
+    .image-and-text-panel .text-item {
+        padding: 2rem 0 2rem 0;
 }
