@@ -76,7 +76,7 @@ section .social-panel {
 }
 
 .image-and-text-panel img {
-    height: 10rem;
+    max-height: 8rem;
     width: auto;
     padding: 1rem;
 }
@@ -306,6 +306,14 @@ section .social-panel {
     }       
 
     section .image-and-text-panel, .text-panel {
-        min-height: 70vh;
-        padding: 0 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .image-and-text-panel .text-item {
+         padding: 0 0 2rem 0;
+    }
+
+    .image-and-text-panel img {
+        padding: 0rem;
+    }
 }
