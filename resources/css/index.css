@@ -261,8 +261,21 @@ section .social-panel {
 /* Media Queries */
 
 
-@media only screen and (max-width: 767px) {
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
 
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .image-grid-panel a {
+        top: 0;
+        bottom: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
 
     /* Portfolio section */
 
@@ -278,7 +291,6 @@ section .social-panel {
 
 
 @media only screen and (max-width: 570px) {
-
 
     /* Contact section */
 
@@ -304,7 +316,6 @@ section .social-panel {
 
 
 @media only screen and (max-width: 480px) {
-
 
     /* About section */
 
