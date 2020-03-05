@@ -307,4 +307,5 @@ section .social-panel {
 
     section .image-and-text-panel, .text-panel {
         min-height: 70vh;
+        padding: 0 2rem;
 }
