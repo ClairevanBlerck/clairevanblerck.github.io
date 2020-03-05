@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-size: 20px;
     font-family: 'Timmana', sans-serif;
     color: black;
@@ -82,9 +83,114 @@ nav li a {
 
 body {
     margin: 20px 100px;
-    background-image: url("/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg");
+    background-image: url("/resources/images/how-to-build-a-gundam/unicorn-interface-design.png");
     background-position: center;
     
+}
+
+.logo img {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    height: 200px;
+}
+
+.nav {
+    position: relative;
+    background-color: green;
+    width: 85vw;
+    height: 95vh;
+    margin: 2rem;
+}
+
+#left-block {
+    background-color: tomato;
+    width: 42vw;
+    height: 80vh;
+    float: left;
+}
+
+#right-block {
+    background-color: turquoise;
+    width: 42vw;
+    height: 80vh;
+    float: right;
+}
+
+#left-block .top img {
+    min-width: 42vw;
+    max-width: 42vw;
+    min-height: 50vh;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+#left-block .bottom {
+    display: block;
+    justify-content: space-between;
+}
+
+#left-block .bottom .bottom-left img {
+    min-width: 20vw;
+    max-width: 35vw;
+    min-height: 29vh;
+    max-height: 29vh;
+    float: left;
+    object-fit: cover;
+}
+
+#left-block .bottom .bottom-right img {
+    min-width: 20vw;
+    max-width: 35vw;
+    min-height: 29vh;
+    max-height: 29vh;
+    float: right;  
+    object-fit: cover;
+}
+
+#right-block .left img {
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 81vh;
+    max-height: 81vh;
+    float: left;
+    object-fit: cover;
+}
+
+#right-block .centre img {
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    z-index: 5;
+    min-width: 8vw;
+    max-width: 8vw;
+    min-height: 30vh;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+#right-block .right {
+    position: ;
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    z-index: 1;
+}
+
+#right-block .right .top img {
+    min-width: 20vw;
+    max-width: 35vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+#right-block .right .bottom img {
+    min-width: 20vw;
+    max-width: 35vw;
+    min-height: 39vh;
+    max-height: 39vh; 
+    object-fit: cover;
 }
 
 section {
