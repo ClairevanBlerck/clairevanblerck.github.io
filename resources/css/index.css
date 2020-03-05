@@ -119,6 +119,10 @@ section .social-panel {
     flex-wrap: nowrap;
 }
 
+.image-grid-panel li.grid-item {
+    min-width: 30vw;
+}
+
 .image-grid-panel li {
     list-style: none;
     max-width: 33.33%;
@@ -174,6 +178,8 @@ section .social-panel {
     bottom: 17rem;
     padding: 0.3rem;
 }
+
+
 
 .grid-item:hover img {
     opacity: 1;
@@ -254,27 +260,24 @@ section .social-panel {
 
 /* Media Queries */
 
+
 @media only screen and (max-width: 767px) {
+
+
+    /* Portfolio section */
 
     .image-grid-panel ul {
         display: block;
     }
 
-    .image-grid-panel li {
-        max-width: 100vh;
+    .image-grid-panel li.grid-item {
+        max-width: 100vw;
         max-height: 80vh;
     }
 }
 
 
 @media only screen and (max-width: 570px) {
-
-
-    /* About section */
-
-  .image-and-text-panel {
-      padding: 0;
-    }
 
 
     /* Contact section */
@@ -301,19 +304,26 @@ section .social-panel {
 
 
 @media only screen and (max-width: 480px) {
-    .image-grid-panel img {
-        min-height: 700px;
-    }       
+
+
+    /* About section */
 
     section .image-and-text-panel, .text-panel {
         padding: 1rem 2rem;
     }
 
     .image-and-text-panel .text-item {
-         padding: 0 0 2rem 0;
+        padding: 0 0 2rem 0;
     }
 
     .image-and-text-panel img {
         padding: 0rem;
     }
+
+
+    /* Portfolio section */
+
+    .image-grid-panel img {
+        min-height: 700px;
+    }       
 }
