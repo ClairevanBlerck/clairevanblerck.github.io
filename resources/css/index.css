@@ -135,10 +135,8 @@ section .social-panel {
 
 .image-grid-panel li:last-child {
     list-style: none;
-    max-width: 33.3%;
-    min-width: 33.3%;
-    min-height: 200px;
-    max-height: 600px;
+    min-width: 0;
+    min-height: 0;
     overflow: hidden;
     object-fit: cover;
     vertical-align: bottom;
@@ -202,7 +200,6 @@ section .social-panel {
 .text-panel .text-item {
     float: left;
     line-height: 2.5rem;
-    padding: 0 4rem;
 }
 
 .text-panel .text-item p {
@@ -256,27 +253,56 @@ section .social-panel {
 
 /* Media Queries */
 
+@media only screen and (max-width: 767px) {
+
+    .image-grid-panel ul {
+        display: block;
+    }
+
+    .image-grid-panel li {
+        max-width: 100vh;
+        max-height: 80vh;
+    }
+
+
+}
+
+
 @media only screen and (max-width: 570px) {
+
+
+    /* About section */
+
+  .image-and-text-panel {
+      padding: 0;
+    }
+
 
     /* Contact section */
 
   .social-panel .social-icons {
-    display: block;
+      display: block;
   }
 
   .social-panel .social-icons i.fa.fa-linkedin {
-    font-size: 2rem;
-    padding: 1rem;
+      font-size: 2rem;
+      padding: 1rem;
   }
 
   .social-panel .social-icons .email a {
-    font-size: 1rem;
-    padding: 1rem;
+      font-size: 1rem;
+      padding: 1rem;
   }
 
   .social-panel .social-icons i.fa.fa-github {
-    font-size: 2rem;
-    padding: 1rem;
+      font-size: 2rem;
+      padding: 1rem;
   }
+}
 
+
+@media only screen and (max-width: 480px) {
+    .image-grid-panel img {
+        min-height: 600px;
+    }       
 }
