@@ -1,120 +1,127 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Timmana', sans-serif;
+}
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.7rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: darkblue;
+}
+
+a h3 {
+  color: black;
 }
 
 
-.image-grid-panel {
-    width: 100%;
-    height: 700px;
-    display: inline-flex;
-    overflow: hidden;
-}
 
-.image-grid-panel ul {
-    display: inline-flex;
-    flex-wrap: nowrap;
-}
-
-.image-grid-panel li {
-    list-style: none;
-    max-width: 33%;
-    min-width: 33%;
-    min-height: 200px;
-    max-height: 600px;
-    overflow: hidden;
-    object-fit: cover;
-    vertical-align: bottom;
-    background-position: center;
-    background-size: cover;
-    flex-grow: 100;
-    background: black;
-}
-
-.image-grid-panel li:last-child {
-    list-style: none;
-    max-width: 33%;
-    min-width: 33%;
-    min-height: 200px;
-    max-height: 600px;
-    overflow: hidden;
-    object-fit: cover;
-    vertical-align: bottom;
-    background-position: center;
-    background-size: cover;
-    flex-grow: 100;
-    background: white;
-}
-
-.image-grid-panel img {
-    min-height: 900px;
-    max-height: 100%;
-    min-width: 50px;
-    max-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-    background: black;
-    opacity: 0.6;
-    transition-duration: 0.5s;
+header {
 
 }
 
-.image-grid-panel img:hover {
-    opacity: 1;
-}
-
-.image-grid-panel a:hover {
-
-}
-
-.image-grid-panel a {
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    font-size: 25px;
-    position: sticky;
-    top: 2.5rem;
-    left: 1rem;
-    right: 1rem;
-    bottom: 2.5rem;
-    padding: 0.3rem;
+body {
+  margin: ;
+  background-image: url("/resources/images/how-to-build-a-gundam/unicorn-interface-design.png");
+  background-position: center;
 }
 
 
 
 
 
-@media (max-aspect-ratio: 1/1) {
-    .image-grid-panel li {
-    height: 30vh;
+section .equipment {
+  margin: 1rem auto;
+  background-color: whitesmoke;
+  min-width: 80vw;
+  max-width: 80vw;
+  max-height: 60vh;
+}
+
+.equipment .container {
+  display: flex;
+  justify-content: center;
+}
+
+.equipment .container figure {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.equipment .container .caption {
+  background-color: whitesmoke;
+  min-width: 40vw;
+  max-width: 40vw;
+  max-height: 60vh;
+  padding: 2rem;
+  /* display: inline-flex;
+  flex-direction: column; */
+}
+
+.equipment .container img {
+  min-width: 40vw;
+  max-width: 40vw;
+  max-height: 60vh;
+  padding: 1rem;
+  object-fit: contain;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  section .equipment {
+    margin: 1rem auto;
+    min-width: 80vw;
+    max-width: 80vw;
+    max-height: 100vh;
+  }
+
+  .equipment .container figure {
+    display: block;
+  }
+
+  .equipment .container .caption {
+    min-width: 70vw;
+    max-width: 70vw;
+    padding: 0.5rem;
+  }
+
+  .equipment .container img {
+    min-width: 70vw;
+    max-width: 70vw;
+    padding: 0.5rem;
   }
 }
 
 
 
-@media (max-height: 480px) {
-    .image-grid-panel li {
-    height: 80vh;
-  }
-}
-
-
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-    .image-grid-panel ul {
-    flex-direction: row;
-  }
-
-  .image-grid-panel li {
-    height: auto;
-    width: 100%;
-  }
-  .image-grid-panel img {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}

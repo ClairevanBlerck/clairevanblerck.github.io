@@ -58,9 +58,10 @@ header {
 }
 
 body {
-    margin: 20px 100px;
-    background-image: url("/resources/images/how-to-build-a-gundam/unicorn-interface-design.png");
-    background-position: center;  
+    margin: 1rem auto;
+    background-image: url(/resources/images/how-to-build-a-gundam/unicorn-interface-design.png);
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .logo {
@@ -70,7 +71,8 @@ body {
 .logo img {
     position: fixed;
     z-index: 10;
-    height: 200px;
+    height: 10rem;
+    padding: 1rem;
 }
 
 
@@ -98,12 +100,14 @@ nav li a {
 
 
 .nav {
-    display: block;
-    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    /* background-color: black; */
     max-width: 100vw;
-    min-width: 65vw;
+    min-width: 100vw;
     max-height: 80vh;
     min-height: 80vh;
+
 }
 
 .nav #left-block {
@@ -114,6 +118,7 @@ nav li a {
     max-height: 80vh;
     float: left;
     flex-shrink: 2;
+
 }
 
 .nav #right-block {
@@ -125,6 +130,7 @@ nav li a {
     float: right;
     padding-left: 0.5rem;
     flex-shrink: 2;
+
 }
 
 .nav #left-block .top img {
@@ -210,42 +216,51 @@ nav li a {
     object-fit: cover;
 }
 
-section {
-    /*background-color: hsl(60, 16%, 93%);*/
-}
 
-.container {
-    width: auto;
-    height: 600px;
+
+
+
+section .equipment {
+    margin: 1rem auto;
     background-color: whitesmoke;
+    min-width: 80vw;
+    max-width: 80vw;
+    max-height: 60vh;
+}
+  
+.equipment .container {
+    display: flex;
+    justify-content: center;
+}
+  
+.equipment .container figure {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+  
+.equipment .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 2rem;
 }
 
-.container h2 {
-    padding: 20px 50px;
+.equipment .container .caption h3 {
     text-decoration: underline;
 }
-
-.container img {
-    float: right;
-    width: 55%;
-    height: auto;
-    padding: 2rem 3rem 2rem 2rem;
+  
+.equipment .container img {
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 1rem;
+    object-fit: contain;
 }
+  
 
-.container figcaption {
-    display: none;
-}
-
-
-.container .textbox {
-    float: left;
-    position: relative;
-    height: auto;
-    max-width: 400px;
-    padding: 100px 0 30px 120px;
-}
-
-footer {
+footer p, a {
     font-size: 0.5rem;
 }
 
@@ -254,7 +269,7 @@ footer {
 
 
     .nav {
-        display: grid;
+        display: inline-grid;
         min-height: 200vh;
     }
 
@@ -264,6 +279,7 @@ footer {
         max-width: 80vw;
         min-height: 60vh;
         max-height: 60vh;
+        margin: auto 1rem;
     }
 
     .nav #left-block .top img {
@@ -286,8 +302,6 @@ footer {
         min-height: 40vh;
         max-height: 40vh;
     }
-
-
     
     .nav #right-block {
         min-width: 80vw;
@@ -295,6 +309,7 @@ footer {
         min-height: 60vh;
         max-height: 60vh;
         padding-left: 0;
+        margin: auto 1rem;
     }
 
     .nav #right-block .left img {
@@ -319,3 +334,43 @@ footer {
     }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo img {
+        height: 8rem;
+    }
+
+
+  
+    section .equipment {
+      margin: 1rem auto;
+      min-width: 80vw;
+      max-width: 80vw;
+      max-height: 100vh;
+    }
+  
+    .equipment .container figure {
+      display: block;
+    }
+  
+    .equipment .container .caption {
+      min-width: 70vw;
+      max-width: 70vw;
+      padding: 0.5rem;
+    }
+  
+    .equipment .container img {
+      min-width: 70vw;
+      max-width: 70vw;
+      padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo img {
+        height: 6rem;
+    }
+}
+
