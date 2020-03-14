@@ -54,13 +54,10 @@ body {
     margin: 1rem auto;
 }
 
-h2.heading {
-    margin-top: 2rem;
-}
-
 .container .caption h4, h2 {
     text-decoration: underline;
 }
+
 
 
 /* Nav section */
@@ -241,43 +238,39 @@ section .grades {
     background-color: whitesmoke;
     min-width: 80vw;
     max-width: 80vw;
-    min-height: 100vh;
-    max-height: 100vh;
-}
+  }
   
-.grades .container {
+  
+  .grades .container {
     display: flex;
     justify-content: center;
-    min-height: 40rem;
-    max-height: 40rem;
-}
   
-.grades .container figure {
+  }
+  
+  .grades .container figure {
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
-}
+  }
   
-.grades .container .caption {
-    background-color: whitesmoke;
+  .grades .container .caption {
     min-width: 40vw;
-    max-width: 40vw;
-
+    max-width: 50vw;
     max-height: 40rem;
     padding: 0.5rem;
-}
-
-.grades .container .caption p {
+  }
+  
+  .grades .container .caption p {
     padding: 0.4rem 0 1rem 0;
-}
-
-.grades .container img {
+  }
+  
+  .grades .container img {
     object-fit: contain;
-    min-width: 40vw;
-    max-width: 40vw;
+    min-width: 60vw;
+    max-width: 60vw;
     max-height: 60vh;
     padding: 1rem;
-}
+  }
 
 
 /* Building section */
@@ -556,9 +549,6 @@ footer p, a {
     /* Grades section */
 
     section .grades {
-      min-width: 80vw;
-      max-width: 80vw;
-      max-height: 250vh;
       margin: 1rem auto;
     }
 
@@ -573,7 +563,7 @@ footer p, a {
     }
 
     .grades .container .caption p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .grades .container img {
@@ -581,6 +571,7 @@ footer p, a {
       max-width: 80vw;
       padding: 0.5rem;
     }
+}
 
 
     /* Building section */
