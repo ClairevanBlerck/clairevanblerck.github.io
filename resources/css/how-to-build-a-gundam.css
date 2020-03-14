@@ -12,6 +12,8 @@ h1 {
 
 h2 {
     font-size: 2.7rem;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 h3 {
@@ -46,11 +48,18 @@ header {
 }
 
 body {
-    background-image: url(/resources/images/how-to-build-a-gundam/unicorn-interface-design.png);
-    background-color: 
+    /* background-image: url(/resources/images/how-to-build-a-gundam/unicorn-interface-design.png); */
     background-position: center;
     background-repeat: repeat;
     margin: 1rem auto;
+}
+
+h2.heading {
+    margin-top: 2rem;
+}
+
+.container .caption h4, h2 {
+    text-decoration: underline;
 }
 
 
@@ -71,13 +80,15 @@ body {
 
 .nav {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* background-color: black; */
     min-width: 100vw;
     max-width: 100vw;
-    min-height: 80vh;
-    max-height: 80vh;
+    min-height: 90vh;
+    max-height: 90vh;
     margin-top: 7.4rem;
+    /* position: relative;
+    top: 7.4rem; */
 }
 
 .nav #left-block {
@@ -221,7 +232,210 @@ section .equipment {
     max-height: 60vh;
     padding: 1rem;
 }
+
+
+/* Grades section */
+
+section .grades {
+    margin: 2rem auto;
+    background-color: whitesmoke;
+    min-width: 80vw;
+    max-width: 80vw;
+    min-height: 100vh;
+    max-height: 100vh;
+}
   
+.grades .container {
+    display: flex;
+    justify-content: center;
+    min-height: 40rem;
+    max-height: 40rem;
+}
+  
+.grades .container figure {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+  
+.grades .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+
+    max-height: 40rem;
+    padding: 0.5rem;
+}
+
+.grades .container .caption p {
+    padding: 0.4rem 0 1rem 0;
+}
+
+.grades .container img {
+    object-fit: contain;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 1rem;
+}
+
+
+/* Building section */
+
+section .build {
+    margin: 2rem auto;
+    background-color: whitesmoke;
+    min-width: 80vw;
+    max-width: 80vw;
+    max-height: 60vh;
+}
+  
+.build .container {
+    display: flex;
+    justify-content: center;
+}
+  
+.build .container figure {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.build .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 2rem;
+}
+
+.build .container img {
+    object-fit: contain;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 1rem;
+}
+
+
+/* Finishing section */
+
+section .finish {
+    margin: 2rem auto;
+    background-color: whitesmoke;
+    min-width: 80vw;
+    max-width: 80vw;
+    max-height: 60vh;
+}
+  
+.finish .container {
+    display: flex;
+    justify-content: center;
+}
+  
+.finish .container figure {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.finish .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 2rem;
+}
+
+.finish .container .caption h3 {
+    text-decoration: underline;
+}
+  
+.finish .container img {
+    object-fit: contain;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 1rem;
+}
+
+
+/* Display section */
+
+section .display {
+    margin: 1rem auto;
+
+}
+  
+.display .container {
+    display: flex;
+    justify-content: center;
+}
+  
+.display .container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.display .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 2rem;
+}
+  
+.display .container img {
+    min-width: 90%;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    border: 5px solid black;
+    margin: 2rem;
+}
+
+
+/* Tips section */
+
+section .tips {
+    margin: 2rem auto;
+    background-color: whitesmoke;
+    min-width: 80vw;
+    max-width: 80vw;
+    max-height: 60vh;
+}
+  
+.tips .container {
+    display: flex;
+    justify-content: center;
+}
+  
+.tips .container figure {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+  
+.tips .container .caption {
+    background-color: whitesmoke;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 2rem;
+}
+
+.tips .container img {
+    object-fit: contain;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 1rem;
+}
+
+
+/* Footer section */
+
 footer {
     text-align: center;
 }
@@ -339,6 +553,141 @@ footer p, a {
     }
 
 
+    /* Grades section */
+
+    section .grades {
+      min-width: 80vw;
+      max-width: 80vw;
+      max-height: 250vh;
+      margin: 1rem auto;
+    }
+
+    .grades .container figure {
+      display: block;
+    }
+
+    .grades .container .caption {
+      min-width: 80vw;
+      max-width: 80vw;
+      padding: 0.5rem;
+    }
+
+    .grades .container .caption p {
+        font-size: 0.8rem;
+    }
+
+    .grades .container img {
+      min-width: 80vw;
+      max-width: 80vw;
+      padding: 0.5rem;
+    }
+
+
+    /* Building section */
+
+    section .build {
+        min-width: 80vw;
+        max-width: 80vw;
+        max-height: 200vh;
+        min-height: 170vh;
+        margin: 1rem auto;
+    }
+    
+    .build .container figure {
+        display: block;
+    }
+    
+    .build .container .caption {
+        min-width: 70vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+    }
+    
+    .build .container img {
+        min-width: 70vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+    }
+
+
+    /* Finishing section */
+
+    section .finish {
+        min-width: 80vw;
+        max-width: 80vw;
+        max-height: 100vh;
+        margin: 1rem auto;
+    }
+
+    .finish .container figure {
+        display: block;
+    }
+
+    .finish .container .caption {
+        min-width: 70vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+    }
+
+    .finish .container img {
+        min-width: 70vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+    }
+
+
+    /* Display section */
+
+    section .display {
+        margin: 1rem auto;
+        min-width: 80vw;
+        max-width: 80vw;
+        max-height: 250vh;
+    }
+    
+    .display .container figure {
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+    }
+    
+    .display .container .caption {
+        min-width: 70vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+    }
+    
+    .display .container {
+        flex-flow: column;
+    }
+
+
+    /* Tips section */
+
+    section .tips {
+      min-width: 80vw;
+      max-width: 80vw;
+      max-height: 100vh;
+      margin: 1rem auto;
+    }
+    
+    .tips .container figure {
+      display: block;
+    }
+    
+    .tips .container .caption {
+      min-width: 70vw;
+      max-width: 70vw;
+      padding: 0.5rem;
+    }
+    
+    .tips .container img {
+      min-width: 70vw;
+      max-width: 70vw;
+      padding: 0.5rem;
+    }
+
+
     /* Footer section */
 
     footer p, a {
@@ -354,5 +703,8 @@ footer p, a {
     .logo img {
         height: 6rem;
     }
+
+
+
 }
 
