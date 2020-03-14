@@ -445,44 +445,44 @@ footer p, a {
 
     .nav {
         display: inline-grid;
-        min-height: 200vh;
+        min-height: 100vh;
         margin-top: 0rem;
     }
 
     .nav #left-block {
         min-width: 80vw;
         max-width: 80vw;
-        min-height: 60vh;
-        max-height: 60vh;
+        min-height: 30vh;
+        max-height: 30vh;
         margin: auto 1rem;
     }
 
     .nav #left-block .top img {
         min-width: 80vw;
         max-width: 80vw;
-        min-height: 50vh;
-        max-height: 50vh;
+        min-height: 25vh;
+        max-height: 25vh;
     }
     
     .nav #left-block .bottom .bottom-left img {
         min-width: 39vw;
         max-width: 39vw;
-        min-height: 40vh;
-        max-height: 40vh;
+        min-height: 20vh;
+        max-height: 20vh;
     }
     
     .nav #left-block .bottom .bottom-right img {
         min-width: 39vw;
         max-width: 39vw;
-        min-height: 40vh;
-        max-height: 40vh;
+        min-height: 20vh;
+        max-height: 20vh;
     }
     
     .nav #right-block {
         min-width: 80vw;
         max-width: 80vw;
-        min-height: 60vh;
-        max-height: 60vh;
+        min-height: 30vh;
+        max-height: 30vh;
         padding-left: 0;
         margin: auto 1rem;
     }
@@ -490,22 +490,22 @@ footer p, a {
     .nav #right-block .left img {
         min-width: 45vw;
         max-width: 45vw;
-        min-height: 80vh;
-        max-height: 80vh;
+        min-height: 40vh;
+        max-height: 40vh;
     }
     
     .nav #right-block .right .top img {
         min-width: 32vw;
         max-width: 32vw;
-        min-height: 35vh;
-        max-height: 35vh; 
+        min-height: 17vh;
+        max-height: 17vh; 
     }
     
     .nav #right-block .right .bottom img {
         min-width: 32vw;
         max-width: 32vw;
-        min-height: 43vh;
-        max-height: 43vh; 
+        min-height: 22vh;
+        max-height: 22vh; 
     }
 }
 
