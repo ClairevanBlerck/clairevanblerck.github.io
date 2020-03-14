@@ -445,6 +445,8 @@ footer p, a {
 
     .nav {
         display: inline-grid;
+        position: relative;
+        bottom: 2rem;
         min-height: 100vh;
         margin-top: 0rem;
     }
@@ -504,8 +506,8 @@ footer p, a {
     .nav #right-block .right .bottom img {
         min-width: 32vw;
         max-width: 32vw;
-        min-height: 22vh;
-        max-height: 22vh; 
+        min-height: 21vh;
+        max-height: 21vh; 
     }
 }
 
