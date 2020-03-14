@@ -238,39 +238,38 @@ section .grades {
     background-color: whitesmoke;
     min-width: 80vw;
     max-width: 80vw;
-  }
+}
   
   
-  .grades .container {
+.grades .container {
     display: flex;
     justify-content: center;
+}
   
-  }
-  
-  .grades .container figure {
+.grades .container figure {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  .grades .container .caption {
+.grades .container .caption {
     min-width: 40vw;
     max-width: 50vw;
     max-height: 40rem;
     padding: 0.5rem;
-  }
+}
   
-  .grades .container .caption p {
+.grades .container .caption p {
     padding: 0.4rem 0 1rem 0;
-  }
+}
   
-  .grades .container img {
+.grades .container img {
     object-fit: contain;
     min-width: 60vw;
     max-width: 60vw;
     max-height: 60vh;
     padding: 1rem;
-  }
+}
 
 
 /* Building section */
@@ -571,7 +570,6 @@ footer p, a {
       max-width: 80vw;
       padding: 0.5rem;
     }
-}
 
 
     /* Building section */
@@ -579,8 +577,7 @@ footer p, a {
     section .build {
         min-width: 80vw;
         max-width: 80vw;
-        max-height: 200vh;
-        min-height: 170vh;
+        max-height: 100vh;
         margin: 1rem auto;
     }
     
@@ -694,8 +691,6 @@ footer p, a {
     .logo img {
         height: 6rem;
     }
-
-
 
 }
 
