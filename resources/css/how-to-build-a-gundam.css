@@ -696,3 +696,12 @@ footer p, a {
 
 }
 
+
+/* 
+Dont forget to test 
+1. iPhone 5 landscape media queries - as of 14/03/2020 there is a content overflow problem 
+2. images in nave load slowly
+3. Why do some have a min/max-width/height of the same value? - see Nick's message from 16 March 2020
+4. Divs around images don't have a height - see Nick's message from 16 March 2020
+*/
+
