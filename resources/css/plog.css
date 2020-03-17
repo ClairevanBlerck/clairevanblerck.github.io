@@ -1,12 +1,46 @@
-* { box-sizing: border-box;
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    font-size: 16px;
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+
+h1 {
+  display: block;
+  font-size: 3rem;
+  margin-top: 0.67rem;
+  margin-bottom: 0.67rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  display: block;
+  font-size: 2.5rem;
+  margin-top: 0.83rem;
+  margin-bottom: 0.83rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h3 {
-    font-size: 2rem;
+  display: block;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p {
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 header {
@@ -26,9 +60,10 @@ nav {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 4rem;
   display: inline-block;
   padding: 0 1rem;
+  color: black;
 }
 
 nav ul {
@@ -65,6 +100,14 @@ nav li a {
   display: inline-block;
   padding: 2rem;
   min-width: 30vw;
+}
+
+.featured.beginner {
+  background-color: rgb(243, 253, 246);
+}
+
+.featured.advanced {
+  background-color: rgb(252, 241, 255);
 }
 
 .grid img {
@@ -186,9 +229,23 @@ nav li a {
   to {opacity: 1}
 }
 
+
+
+/* Text section */
+
+.text-item {
+  padding: 2rem;
+  max-width: 60vw;
+}
+
+
+
+/* Footer section */
+
 footer {
   padding: 2rem;
 }
+
 
 
 /* Media queries */
