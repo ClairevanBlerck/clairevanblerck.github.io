@@ -45,11 +45,16 @@ h4 {
 
 p {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0;
+}
+
+strong {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 header {
@@ -107,8 +112,9 @@ nav li a {
 
 .featured .grid {
   display: inline-block;
-  padding: 2rem;
+  padding: 1rem;
   min-width: 30vw;
+  max-height: 100vh;
 }
 
 .featured.beginner {
@@ -124,15 +130,18 @@ nav li a {
   text-decoration: none;
 }
 
+.grid li {
+  font-size: 1.2rem;
+}
+
 .grid img {
-  max-width: -webkit-fill-available;
+  max-width: 33.3vw;
+  max-height: 50vh;
 }
 
 .grid .grid-item {
   padding: 1rem 0;
 }
-
-
 
 .grid-item h3 {
   padding: 1rem 0;
