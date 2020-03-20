@@ -113,7 +113,8 @@ nav li a {
 .featured .grid {
   display: inline-block;
   padding: 1rem;
-  min-width: 30vw;
+  /* min-width: 30vw; */
+  max-width: 33vw;
   max-height: 100vh;
 }
 
@@ -269,6 +270,7 @@ nav li a {
 
 .about img {
   max-width: 40vw;
+  padding: 2rem;
 }
 
 

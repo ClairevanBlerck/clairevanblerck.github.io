@@ -1,127 +1,50 @@
-* {
+* { 
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  font-size: 20px;
-  font-family: 'Timmana', sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2.7rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
 }
 
 h3 {
   font-size: 2rem;
 }
 
-h4 {
-  font-size: 1.7rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-}
-
-h6 {
-  font-size: 1.2rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
-a {
-  color: darkblue;
-}
-
-a h3 {
-  color: black;
-}
-
-
-
 header {
-
+  height: 100px;
 }
 
 body {
-  margin: ;
-  background-image: url("/resources/images/how-to-build-a-gundam/unicorn-interface-design.png");
-  background-position: center;
 }
 
 
 
+/* Featured grid section */
 
-
-section .equipment {
-  margin: 1rem auto;
-  background-color: whitesmoke;
-  min-width: 80vw;
-  max-width: 80vw;
-  max-height: 60vh;
-}
-
-.equipment .container {
-  display: flex;
-  justify-content: center;
-}
-
-.equipment .container figure {
+.featured {
   display: inline-flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100vw;
 }
 
-.equipment .container .caption {
-  background-color: whitesmoke;
-  min-width: 40vw;
-  max-width: 40vw;
-  max-height: 60vh;
+.grid {
+  display: inline-block;
   padding: 2rem;
-  /* display: inline-flex;
-  flex-direction: column; */
+  min-width: 30vw;
 }
 
-.equipment .container img {
-  min-width: 40vw;
-  max-width: 40vw;
-  max-height: 60vh;
-  padding: 1rem;
-  object-fit: contain;
+.grid img {
+  max-width: -webkit-fill-available;
 }
 
-
-
-@media only screen and (max-width: 768px) {
-
-  section .equipment {
-    margin: 1rem auto;
-    min-width: 80vw;
-    max-width: 80vw;
-    max-height: 100vh;
-  }
-
-  .equipment .container figure {
-    display: block;
-  }
-
-  .equipment .container .caption {
-    min-width: 70vw;
-    max-width: 70vw;
-    padding: 0.5rem;
-  }
-
-  .equipment .container img {
-    min-width: 70vw;
-    max-width: 70vw;
-    padding: 0.5rem;
-  }
+.grid .grid-item {
+  padding: 1rem 0;
 }
 
+.grid-item h3 {
+  padding: 1rem 0;
+}
 
-
+.grid-item p {
+  line-height: 1.5;
+}
