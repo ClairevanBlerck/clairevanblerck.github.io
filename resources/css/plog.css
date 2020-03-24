@@ -263,14 +263,35 @@ nav li a {
   display: flex;
 }
 
+.about img {
+  max-width: 40vw;
+  padding: 2rem;
+}
+
 .text-item {
   padding: 2rem;
   max-width: 60vw;
 }
 
-.about img {
-  max-width: 40vw;
-  padding: 2rem;
+.text-item hr {
+  margin-top: 3rem;
+}
+
+.two-images {
+  display: block;
+  padding: 1rem 3rem;
+  float: right;
+}
+
+.two-images img {
+  display: inline-flex;
+  width: 20vw;
+}
+
+.two-images a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
 
 
