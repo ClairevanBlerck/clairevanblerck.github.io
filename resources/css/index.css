@@ -1,6 +1,9 @@
-/* Notes from 5 March 2020:
+/* 
+Notes from 5 March 2020:
 change plants blog to "pl(ants bl)og"
-"div.grid-image-panel should be an <a> tag" - dan */
+"div.grid-image-panel should be an <a> tag" - dan 
+image dims removed from image tags = bad for loading?
+*/
 
 
 * {
