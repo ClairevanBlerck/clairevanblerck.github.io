@@ -266,6 +266,7 @@ nav li a {
 
 .about img {
   max-width: 40vw;
+  object-fit: contain;
   padding: 2rem;
 }
 
