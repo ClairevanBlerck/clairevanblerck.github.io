@@ -332,6 +332,10 @@ footer {
     max-width: 60vw;
   }
 
+  .small-image img {
+    max-width: 40vw;
+  }
+
   .text-item {
     max-width: 100vw;
 
@@ -418,6 +422,10 @@ footer {
 
   .about img {
     max-width: 100vw;
+  }
+
+  .small-image img {
+    max-width: 50vw;
   }
 
 }
