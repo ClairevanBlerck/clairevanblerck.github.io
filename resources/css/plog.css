@@ -135,6 +135,11 @@ nav li a {
   max-height: 55vh;
 }
 
+.grid.two img {
+  max-width: 40vw;
+  max-height: 55vh;
+}
+
 .grid .grid-item {
   max-width: 27vw;
 }
@@ -368,6 +373,11 @@ footer {
     display: block;
     margin: auto;
     max-width: 100%;
+  }
+
+  .grid.two img {
+    max-width: 80vw;
+    max-height: 55vh;
   }
 
   .dot {
