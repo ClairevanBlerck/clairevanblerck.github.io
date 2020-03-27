@@ -269,27 +269,33 @@ nav li a {
   padding: 2rem;
 }
 
+.small-image img {
+  max-width: 20vw;
+  padding: 2rem;
+}
+
+.small-image a {
+  text-align: center;
+}
+
 .text-item {
   padding: 2rem;
-  max-width: 60vw;
+  min-width: 60vw;
 }
 
 .text-item hr {
   margin-top: 3rem;
 }
 
-.two-images {
+.small-image {
   display: block;
-  padding: 1rem 3rem;
-  float: right;
+  text-align: center;
+  padding: 2rem;
+  margin: 0 auto;
+
 }
 
-.two-images img {
-  display: inline-flex;
-  width: 20vw;
-}
-
-.two-images a {
+.small-image a {
   color: black;
   text-decoration: none;
   text-align: center;
