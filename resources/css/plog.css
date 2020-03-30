@@ -28,7 +28,7 @@ h2 {
 h3 {
   display: block;
   font-size: 1.8rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0;
@@ -50,6 +50,18 @@ p {
   margin-bottom: 1rem;
   margin-left: 0;
   margin-right: 0;
+}
+
+em {
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+a {
+  font-size: 1.2rem;
 }
 
 strong {
@@ -74,7 +86,7 @@ nav {
 }
 
 .logo {
-  font-size: 4rem;
+  font-size: 5rem;
   display: inline-block;
   padding: 0 1rem;
   color: black;
@@ -302,6 +314,10 @@ nav li a {
   text-align: center;
 }
 
+.indent {
+  padding: 2rem 0;
+}
+
 
 
 /* Footer section */
@@ -316,13 +332,77 @@ footer {
 
 /* Media queries */
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1010px) {
 
+  .logo {
+    font-size: 4.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .logo {
+    font-size: 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 965px) {
+
+  nav li a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .logo {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 860px) {
+
+  nav li a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+  .logo {
+    font-size: 3rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  nav {
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    float: none;
+  }
+
+  nav li a {
+    padding: 0;
+  }
 
 }
 
 
 @media only screen and (max-width: 768px) {
+
+
+
 
   .about {
     display: block;
@@ -356,9 +436,9 @@ footer {
    padding: 0;
   }
 
-  nav ul {
-    display: none;
-  }
+
+
+ 
 
   .slideshow {
     min-height: 90vh;
