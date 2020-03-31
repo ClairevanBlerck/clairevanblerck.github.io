@@ -52,8 +52,19 @@ p {
   margin-right: 0;
 }
 
+figcaption {
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 0 2rem;
+}
+
 em {
   font-size: 1.2rem;
+}
+
+strong {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 li {
@@ -64,10 +75,7 @@ a {
   font-size: 1.2rem;
 }
 
-strong {
-  font-size: 1.2rem;
-  font-weight: 400;
-}
+
 
 header {
     height: 7rem;
