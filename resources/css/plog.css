@@ -169,6 +169,17 @@ nav li a {
   max-width: 27vw;
 }
 
+.grid.grey img {
+  background: lightgrey;
+  opacity: 0.4;
+}
+
+.grid.grey {
+  color: #717171;
+
+}
+
+
 .grid-item h3 {
   padding: 1rem 0;
 }
