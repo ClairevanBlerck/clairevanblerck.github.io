@@ -68,6 +68,10 @@ strong {
   font-weight: 400;
 }
 
+ul li {
+  list-style-type: circle;
+}
+
 li {
   font-size: 1.2rem;
 }
@@ -103,13 +107,13 @@ nav {
 
 nav ul {
   float: right;
-  list-style-type: none;
   overflow: hidden;
   padding: 0.5rem 2rem;
 }
 
 nav li {
   float: left;
+  list-style-type: none;
 }
 
 nav li a {
