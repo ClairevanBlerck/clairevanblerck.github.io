@@ -19,9 +19,7 @@ layout: default
 <!-- Row 1 plants -->
 <section>
     <article>
-
         <div class="featured beginner">
-
             <div class="grid">
                 <img src="/resources/images/PileaPeperomioides.jpg">
                 <div class="grid-item">
@@ -30,7 +28,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/Sansevieria_1 2.jpg">
                 <div class="grid-item">
@@ -39,7 +36,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/EpiphyllumAnguliger_1.jpg">
                 <div class="grid-item">
@@ -48,19 +44,15 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
         </div>
-
   </article>
 </section>
 
 <!-- Row 2 plants -->
 <section>
     <article>
-
         <div class="featured">
-
-            <div class="grid">
+           <div class="grid">
                 <img src="/resources/images/CeropegiaWoodii_2.jpg">
                 <div class="grid-item">
                     <h3>Ceropegia Woodii<br>(Rosary vine)</h3>
@@ -68,7 +60,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/HederaHelix_2.jpg">
                 <div class="grid-item">
@@ -77,7 +68,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/HoyaCarnosa_close-up.jpg">
                 <div class="grid-item">
@@ -86,18 +76,14 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
         </div>
-
   </article>
 </section>
 
 <!-- Row 3 plants -->
 <section>
     <article>
-
         <div class="featured">
-
             <div class="grid">
                 <img src="/resources/images/CalatheaOrnata_2_large.jpg">
                 <div class="grid-item">
@@ -106,7 +92,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/Utricularia_2.jpg">
                 <div class="grid-item">
@@ -115,7 +100,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/WallisiaCyanea_2.jpg">
                 <div class="grid-item">
@@ -124,9 +108,7 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
         </div>
-
   </article>
 </section>
 
@@ -135,9 +117,7 @@ layout: default
 <!-- Row 4 plants -->
 <section>
     <article>
-
         <div class="featured">
-
             <div class="grid">
                 <img src="/resources/images/AloeVera_1.jpg">
                 <div class="grid-item">
@@ -146,7 +126,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/Succulent.jpg">
                 <div class="grid-item">
@@ -155,7 +134,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
             <div class="grid">
                 <img src="/resources/images/Terracotta-pots.jpg">
                 <div class="grid-item">
@@ -164,8 +142,6 @@ layout: default
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illum officiis iure, enim consequuntur atque!</p>
                 </div>
             </div>
-
         </div>
-
   </article>
 </section>

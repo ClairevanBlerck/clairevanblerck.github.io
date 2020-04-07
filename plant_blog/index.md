@@ -6,11 +6,8 @@ layout: default
 <!-- Slideshow container -->
 <section>
   <article>
-
       <div class="slideshow">
-
       <div class="slideshow-container">
-
         <!-- Full-width images with caption text -->
         <a href="https://clairevanblerck.com/plog/blog/calathea-ornata">
           <div class="mySlides fade">
@@ -18,37 +15,30 @@ layout: default
             <div class="slideshow-text">Calathea Ornata (latest post) <h4>20 Feb 2020</h4></div>
           </div>
         </a>
-      
         <a href="https://clairevanblerck.com/plog/blog/give-away">
           <div class="mySlides fade">
             <img src="resources/images/EpiphyllumAnguliger_3.jpg">
             <div class="slideshow-text">Give away! Only pay shipping! UK ONLY</div>
           </div>
         </a>
-      
         <a href="https://clairevanblerck.com/plog/care-tips/seasonal-tips/winter-care">
           <div class="mySlides fade">
             <img src="resources/images/PileaPeperomioides.jpg">
             <div class="slideshow-text">Winter care</div>
           </div>
         </a>
-      
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <br>
-      
       <!-- The dots/circles -->
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
-
       </div>
-      
     </div>
-
   </article>
 </section>
 
@@ -56,9 +46,7 @@ layout: default
 <!-- Featured grid section -->
 <section>
     <article>
-
         <div class="featured">
-
           <div class="grid">
             <a href="https://clairevanblerck.com/plog/blog/propagation">
               <img src="resources/images/HederaHelix_1.jpg">
@@ -69,7 +57,6 @@ layout: default
               </div>
             </a>
           </div>
-
             <div class="grid">
               <a href="https://clairevanblerck.com/plog/care-tips/neem-oil">
                 <img src="resources/images/Naissance_NeemOil.jpg">
@@ -80,9 +67,7 @@ layout: default
                     <p>Non-toxic to you, your pets, and the bugs you love.</p>    
                 </div>
               </a>
-            </div>
-
-            
+            </div>           
             <div class="grid">
               <a href="https://clairevanblerck.com/plog/care-tips/seasonal-tips">
                 <img src="resources/images/HoyaCarnosa_close-up.jpg">
@@ -97,10 +82,7 @@ layout: default
                     </ul>
                 </div>
               </a>
-            </div>
-
-            
+            </div>            
         </div>
-
     </article>
 </section>
