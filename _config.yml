@@ -10,5 +10,5 @@ kramdown:
  syntax_highlighter: rouge
 
 collections:
-  blog:
-  care-tips:
+  plog/blog:
+  plog/care-tips:
