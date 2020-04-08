@@ -12,3 +12,7 @@ kramdown:
 collections:
   care-tips:
     output: true
+    path: /:collection/:path/
+    title: care-tips
+
+

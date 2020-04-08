@@ -10,13 +10,6 @@
     </url>
     
     <url>
-        <loc>/blag.html</loc>
-        <lastmod>2020-04-08</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>/plog/blog.html</loc>
         <lastmod>2020-04-08</lastmod>
         <changefreq>daily</changefreq>
@@ -52,6 +45,13 @@
     </url>
     
     <url>
+        <loc>/plog/</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/</loc>
         <lastmod>2020-04-08</lastmod>
         <changefreq>daily</changefreq>
@@ -59,7 +59,7 @@
     </url>
     
     <url>
-        <loc>/plog/</loc>
+        <loc>/posts.html</loc>
         <lastmod>2020-04-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -75,7 +75,28 @@
 
     
     <url>
+        <loc>/plog/2020/04/02/give-away.html</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/03/20/calathea-ornata.html</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/2020/02/20/calathea-ornata.html</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/02/02/propagation.html</loc>
         <lastmod>2020-04-08</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>

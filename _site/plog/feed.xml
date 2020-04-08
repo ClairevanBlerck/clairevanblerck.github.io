@@ -5,7 +5,51 @@
         <title></title>
         <link>http://localhost:4000</link>
         <description></description>
-        <lastBuildDate>Wed, 08 Apr 2020 17:06:38 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2020 18:17:56 +0100</lastBuildDate>
+        
+        <item>
+            <title>give away</title>
+            <link>
+                http://localhost:4000/plog/2020/04/02/give-away.html
+            </link>
+            <description>
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt;
+        &lt;div class=&quot;about&quot;&gt;
+            &lt;div class=&quot;text-item&quot;&gt;
+                &lt;h1&gt;Give away!&lt;/h1&gt;
+                &lt;p&gt;I propagate my plants often, especially some fast growing types like Ceropegia woodii, and my
+                    Hoya carnosa mama.&lt;/p&gt;
+                &lt;p...
+            </description>
+            <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/04/02/give-away.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>calathea ornata</title>
+            <link>
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
+            </link>
+            <description>
+                &lt;!-- Slideshow container --&gt;
+&lt;section&gt;
+    &lt;article&gt;
+        &lt;div class=&quot;slideshow&quot;&gt;
+            &lt;div class=&quot;slideshow-container&quot;&gt;
+                &lt;!-- Full-width images --&gt;
+                &lt;div class=&quot;mySlides fade&quot;&gt;
+                    &lt;img src=&quot;/plog/resources/images/plog/CalatheaOrnata_1.jpg&quot; /&gt;
+        ...
+            </description>
+            <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
+            </guid>
+        </item>
         
         <item>
             <title>calathea ornata</title>
@@ -13,12 +57,38 @@
                 http://localhost:4000/2020/02/20/calathea-ornata.html
             </link>
             <description>
-                &lt;p&gt;This is a calathea ornata&lt;/p&gt;
+                
+&lt;p&gt;This is a calathea ornata&lt;/p&gt;
 
             </description>
             <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
                 http://localhost:4000/2020/02/20/calathea-ornata.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>propagation</title>
+            <link>
+                http://localhost:4000/plog/2020/02/02/propagation.html
+            </link>
+            <description>
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt; 
+        &lt;div class=&quot;text-item&quot;&gt;
+            &lt;h1&gt;Propagation&lt;/h1&gt;
+            &lt;p&gt;There are a few different propagation methods, the most widespread and easiest being simple
+                cuttings.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+&lt;/section&gt;
+
+&lt;!-- Cuttings (water method...
+            </description>
+            <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/02/02/propagation.html
             </guid>
         </item>
         
