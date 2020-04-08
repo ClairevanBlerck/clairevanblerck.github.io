@@ -10,6 +10,13 @@
     </url>
     
     <url>
+        <loc>/blag.html</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/plog/blog.html</loc>
         <lastmod>2020-04-08</lastmod>
         <changefreq>daily</changefreq>
@@ -66,6 +73,13 @@
     </url>
     
 
+    
+    <url>
+        <loc>/2020/02/20/calathea-ornata.html</loc>
+        <lastmod>2020-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
     
 
 </urlset>
