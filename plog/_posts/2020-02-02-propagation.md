@@ -31,7 +31,7 @@ layout: plog
                 <p>Cut just above a leaf node. Then trim off the stem of your cutting, and snip off the two lowest leaves - your new roots will grow from this de-leaved node.</p>
                 <p>Drop your cutting in a glass of water and keep it in a bright location (no direct sun though). Change the water every few days or when it becomes murky. In a few weeks you should see some new roots appearing!</p>
             </div>
-            <img src="/plog/resources/images/plog/HederaHelix_1.jpg">
+            <img src="resources/images/plog/HederaHelix_1.jpg">
         </div>
         <div class="about">
             <div class="text-item">
@@ -42,7 +42,7 @@ layout: plog
                 <h3>No roots?</h3>
                 <p>Its possible that the cutting doesn't produce roots but also doesn't deteriorate. Usually this is because the cutting was taken while the parent plant was dormant. In my case it was a cutting I took in Autumn, after 5 months I gave up.</p>
             </div>
-            <img src="/plog/resources/images/plog/HederaHelix_2.jpg">
+            <img src="resources/images/plog/HederaHelix_2.jpg">
         </div>
     </article>
 </section>
@@ -62,7 +62,7 @@ layout: plog
                 <p>Tubers are like potatoes and are found under the soil. Some plants like Ceropegia woodii also grow tubers on their vines which root when they make contact with soil.</p>
                 <p>Rhizomes are also found in your soil like tubers and can be cut to literally break a plant into segments, like with Sanseviera.</p>
             </div>
-            <img src="/plog/resources/images/plog/CeropegiaWoodii_3.jpg">
+            <img src="resources/images/plog/CeropegiaWoodii_3.jpg">
         </div>
         <div class="about">
             <div class="text-item">
@@ -71,7 +71,7 @@ layout: plog
                 <p>Dividing rhizomes: Carefully remove the parent plant from its pot and slice apart the root/rhizome cluster with a clean sharp blade to divide the parent plant in half. Pot in fresh soil. Optionally sprinkle the wound of each plant with cinnamon to heal it and prevent fungal infection.</p>
                 <h3></h3>
             </div>
-            <img src="/plog/resources/images/plog/CeropegiaWoodii_2.jpg">
+            <img src="resources/images/plog/CeropegiaWoodii_2.jpg">
         </div>
     </article>
 </section>
@@ -89,7 +89,7 @@ layout: plog
                 <h3>What</h3>
                 <p>This method involves placing the cutting directly into your soil medium. Your soil should be prepared carefully, using the recommendations for that plant. You'll need to pay attention to drainage, nutrients, and whether a porous (eg. terracotta) pot or a plastic pot is best.</p>
             </div>
-            <img src="/plog/resources/images/plog/EpiphyllumAnguliger_2.jpg">
+            <img src="resources/images/plog/EpiphyllumAnguliger_2.jpg">
         </div>
         <div class="about">
             <div class="text-item">
@@ -99,7 +99,7 @@ layout: plog
                 <h3>Rooting hormone</h3>
                 <p>Some people help their newly rooted cuttings along by dipping the roots in rooting hormone, cinnamon, or even honey. I've had good results with and without these aids.</p>
             </div>
-            <img src="/plog/resources/images/plog/EpiphyllumAnguliger_3.jpg">
+            <img src="resources/images/plog/EpiphyllumAnguliger_3.jpg">
         </div>
     </article>
 </section>

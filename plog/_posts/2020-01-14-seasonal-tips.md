@@ -21,7 +21,7 @@ layout: plog
     <article>
         <div class="featured">
             <div class="grid two">
-                <img src="/plog/resources/images/plog/PileaPeperomioides.jpg">
+                <img src="resources/images/plog/PileaPeperomioides.jpg">
                 <div class="grid-item">
                     <h3>Winter</h3>
                     <h4>Maintaining</h4>
@@ -29,7 +29,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid two">
-                <img src="/plog/resources/images/plog/Sansevieria_1 2.jpg">
+                <img src="resources/images/plog/Sansevieria_1 2.jpg">
                 <div class="grid-item">
                     <h3>Spring</h3>
                     <h4>Preparing</h4>
@@ -45,7 +45,7 @@ layout: plog
     <article>
         <div class="featured">
             <div class="grid two">
-                <img src="/plog/resources/images/plog/CeropegiaWoodii_2.jpg">
+                <img src="resources/images/plog/CeropegiaWoodii_2.jpg">
                 <div class="grid-item">
                     <h3>Summer</h3>
                     <h4>Monitoring</h4>
@@ -53,7 +53,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid two">
-                <img src="/plog/resources/images/plog/HederaHelix_2.jpg">
+                <img src="resources/images/plog/HederaHelix_2.jpg">
                 <div class="grid-item">
                     <h3>Autumn</h3>
                     <h4>Planning</h4>

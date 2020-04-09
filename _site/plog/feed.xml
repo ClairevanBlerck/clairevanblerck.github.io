@@ -5,7 +5,7 @@
         <title></title>
         <link>http://localhost:4000</link>
         <description></description>
-        <lastBuildDate>Thu, 09 Apr 2020 15:53:33 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 09 Apr 2020 16:09:42 +0100</lastBuildDate>
         
         <item>
             <title>give away</title>
@@ -42,8 +42,8 @@
             &lt;div class=&quot;slideshow-container&quot;&gt;
                 &lt;!-- Full-width images --&gt;
                 &lt;div class=&quot;mySlides fade&quot;&gt;
-                    &lt;img src=&quot;/plog/resources/images/plog/CalatheaOrnata_1.jpg&quot; /&gt;
-        ...
+                    &lt;img src=&quot;resources/images/plog/CalatheaOrnata_1.jpg&quot; /&gt;
+              ...
             </description>
             <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
             <guid>

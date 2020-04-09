@@ -16,7 +16,7 @@ layout: plog
                 <p>I've shared a few tips and tricks which i've found useful.</p>
                 <p>Claire</p>
             </div>
-            <img src="/plog/resources/images/plog/HoyaCarnosa.jpg" alt="Image of a Hoya Carnosa plant">
+            <img src="resources/images/plog/HoyaCarnosa.jpg" alt="Image of a Hoya Carnosa plant">
         </div>
     </article>
 </section>

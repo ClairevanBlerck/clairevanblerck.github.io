@@ -21,7 +21,7 @@ layout: plog
     <article>
         <div class="featured beginner">
             <div class="grid">
-                <img src="/plog/resources/images/PileaPeperomioides.jpg">
+                <img src="resources/images/PileaPeperomioides.jpg">
                 <div class="grid-item">
                     <h3>Pilea Peperomioides<br>(Money plant)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -29,7 +29,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/Sansevieria_1 2.jpg">
+                <img src="resources/images/Sansevieria_1 2.jpg">
                 <div class="grid-item">
                     <h3>Sansevieria<br>(Snake plant)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -37,7 +37,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/EpiphyllumAnguliger_1.jpg">
+                <img src="resources/images/EpiphyllumAnguliger_1.jpg">
                 <div class="grid-item">
                     <h3>Epiphyllum Anguliger<br>(Fishbone cactus)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -53,7 +53,7 @@ layout: plog
     <article>
         <div class="featured">
            <div class="grid">
-                <img src="/plog/resources/images/CeropegiaWoodii_2.jpg">
+                <img src="resources/images/CeropegiaWoodii_2.jpg">
                 <div class="grid-item">
                     <h3>Ceropegia Woodii<br>(Rosary vine)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -61,7 +61,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/HederaHelix_2.jpg">
+                <img src="resources/images/HederaHelix_2.jpg">
                 <div class="grid-item">
                     <h3>Hedera Helix<br>(Ivy)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -69,7 +69,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/HoyaCarnosa_close-up.jpg">
+                <img src="resources/images/HoyaCarnosa_close-up.jpg">
                 <div class="grid-item">
                     <h3>Hoya Carnosa<br>(Wax plant)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -85,7 +85,7 @@ layout: plog
     <article>
         <div class="featured">
             <div class="grid">
-                <img src="/plog/resources/images/CalatheaOrnata_2_large.jpg">
+                <img src="resources/images/CalatheaOrnata_2_large.jpg">
                 <div class="grid-item">
                     <h3>Calathea Ornata<br>(Pinstipe plant)</h3>
                     <h4>Advanced ＼(◎o◎)／！</h4>
@@ -93,7 +93,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/Utricularia_2.jpg">
+                <img src="resources/images/Utricularia_2.jpg">
                 <div class="grid-item">
                     <h3>Utricularia<br>(Bladderwort)</h3>
                     <h4>Moderate ヽ(^。^)ノ</h4>
@@ -101,7 +101,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/WallisiaCyanea_2.jpg">
+                <img src="resources/images/WallisiaCyanea_2.jpg">
                 <div class="grid-item">
                     <h3>Pink Quilll<br>(Wallisia Cyanea)</h3>
                     <h4>Moderate ヽ(^。^)ノ</h4>
@@ -119,7 +119,7 @@ layout: plog
     <article>
         <div class="featured">
             <div class="grid">
-                <img src="/plog/resources/images/AloeVera_1.jpg">
+                <img src="resources/images/AloeVera_1.jpg">
                 <div class="grid-item">
                     <h3>Aloe Vera</h3>
                     <h4>Easy (^_^)/</h4>
@@ -127,7 +127,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/Succulent.jpg">
+                <img src="resources/images/Succulent.jpg">
                 <div class="grid-item">
                     <h3>Succulents</h3>
                     <h4>Easy (^_^)/</h4>
@@ -135,7 +135,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="/plog/resources/images/Terracotta-pots.jpg">
+                <img src="resources/images/Terracotta-pots.jpg">
                 <div class="grid-item">
                     <h3>Terracotta pots</h3>
                     <h4>Equipment</h4>

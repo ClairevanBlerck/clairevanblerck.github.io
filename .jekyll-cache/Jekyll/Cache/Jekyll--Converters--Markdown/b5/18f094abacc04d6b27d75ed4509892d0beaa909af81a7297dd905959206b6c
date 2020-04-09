@@ -1,0 +1,17 @@
+I"@<!-- Text section -->
+<section>
+    <article>
+        <div class="about">
+        <div class="text-item">
+                <h2>Hi!</h2>
+                <p>I live in a small one bedroom apartment, and I've filled it however and wherever I can with plants.</p>
+                <p>Plant care doesn't have to be difficult or take up time. That's why it can be so rewarding.</p>
+                <p>No matter if you have a lack of sunlight or a lack of space in your home (or if you only have 1 plant!) including a bit of vegetation should only make you happier.</p>
+                <p>I've shared a few tips and tricks which i've found useful.</p>
+                <p>Claire</p>
+            </div>
+            <img src="resources/images/plog/HoyaCarnosa.jpg" alt="Image of a Hoya Carnosa plant" />
+        </div>
+    </article>
+</section>
+:ET
