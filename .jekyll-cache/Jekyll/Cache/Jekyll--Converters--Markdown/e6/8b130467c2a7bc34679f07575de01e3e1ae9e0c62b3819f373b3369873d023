@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-93599017-2');
-  </script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>plog - propagation</title>
-  <link href="/plog/resources/css/index.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="alternate" type="application/rss+xml"  href="http://localhost:4000/feed.xml" title="">
-</head>
-
-<body>
-
-  <!-- Logo & Nav -->
-  <header>
-    <nav>
-      <a href="https://clairevanblerck.com/plog">
-        <div class="logo">p(lants b)log</div>
-      </a>
-      <ul>
-        <li><a href="https://clairevanblerck.com/plog/blog">Blog</a></li>
-        <li><a href="https://clairevanblerck.com/plog/care-tips">Care tips</a></li>
-        <li><a href="https://clairevanblerck.com/plog/about">About</a></li>
-        <li><a href="https://www.instagram.com/plants_pleaz/">Instagram</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Text section -->
+I"×<!-- Text section -->
 <section>
     <article> 
         <div class="text-item">
@@ -65,7 +24,7 @@
                 <p>Cut just above a leaf node. Then trim off the stem of your cutting, and snip off the two lowest leaves - your new roots will grow from this de-leaved node.</p>
                 <p>Drop your cutting in a glass of water and keep it in a bright location (no direct sun though). Change the water every few days or when it becomes murky. In a few weeks you should see some new roots appearing!</p>
             </div>
-            <img src="resources/images/HederaHelix_1.jpg" />
+            <img src="resources/images/plog/HederaHelix_1.jpg" />
         </div>
         <div class="about">
             <div class="text-item">
@@ -76,7 +35,7 @@
                 <h3>No roots?</h3>
                 <p>Its possible that the cutting doesn't produce roots but also doesn't deteriorate. Usually this is because the cutting was taken while the parent plant was dormant. In my case it was a cutting I took in Autumn, after 5 months I gave up.</p>
             </div>
-            <img src="resources/images/HederaHelix_2.jpg" />
+            <img src="resources/images/plog/HederaHelix_2.jpg" />
         </div>
     </article>
 </section>
@@ -135,15 +94,4 @@
         </div>
     </article>
 </section>
-
-
-  <!-- Footer -->
-  <footer>
-    <a href="https://clairevanblerck.com/">See my portfolio</a>
-  </footer>
-
-  <script src="/plog/resources/js/plog.js"></script>
-
-</body>
-
-</html>
+:ET

@@ -1,64 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-93599017-2');
-  </script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>plog - calathea ornata</title>
-  <link href="/plog/resources/css/index.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="alternate" type="application/rss+xml"  href="http://localhost:4000/feed.xml" title="">
-</head>
-
-<body>
-
-  <!-- Logo & Nav -->
-  <header>
-    <nav>
-      <a href="https://clairevanblerck.com/plog">
-        <div class="logo">p(lants b)log</div>
-      </a>
-      <ul>
-        <li><a href="https://clairevanblerck.com/plog/blog">Blog</a></li>
-        <li><a href="https://clairevanblerck.com/plog/care-tips">Care tips</a></li>
-        <li><a href="https://clairevanblerck.com/plog/about">About</a></li>
-        <li><a href="https://www.instagram.com/plants_pleaz/">Instagram</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Slideshow container -->
+I"À <!-- Slideshow container -->
 <section>
     <article>
         <div class="slideshow">
             <div class="slideshow-container">
                 <!-- Full-width images -->
                 <div class="mySlides fade">
-                    <img src="resources/images/CalatheaOrnata_1.jpg" />
+                    <img src="resources/images/plog/CalatheaOrnata_1.jpg" />
                     <div class="text">When it was new...</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="resources/images/CalatheaOrnata_3_large.jpg" />
+                    <img src="resources/images/plog/CalatheaOrnata_3_large.jpg" />
                     <div class="text">it was happy and energetic</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="resources/images/CalatheaOrnata_2_large.jpg" />
+                    <img src="resources/images/plog/CalatheaOrnata_2_large.jpg" />
                     <div class="text">New leaves were amazing and frequent</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="resources/images/CalatheaOrnata_4_large.jpg" />
+                    <img src="resources/images/plog/CalatheaOrnata_4_large.jpg" />
                     <div class="text">Annnnd then it started</div>
                 </div>
                 <!-- Next and previous buttons -->
@@ -119,7 +78,7 @@
                 </p>
             </div>
             <figure>
-                <img src="resources/images/floor-plan (2).jpg" alt="Floorplan of my flat" />
+                <img src="resources/images/plog/floor-plan (2).jpg" alt="Floorplan of my flat" />
                 <figcaption>
                     The floorplan of my flat
                 </figcaption>
@@ -196,15 +155,4 @@
         </div>  
     </article>
 </section>
-
-
-  <!-- Footer -->
-  <footer>
-    <a href="https://clairevanblerck.com/">See my portfolio</a>
-  </footer>
-
-  <script src="/plog/resources/js/plog.js"></script>
-
-</body>
-
-</html>
+:ET
