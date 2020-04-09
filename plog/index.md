@@ -1,6 +1,6 @@
 ---
 title: home
-layout: default
+layout: plog
 ---
 
 <!-- Slideshow container -->
@@ -48,7 +48,7 @@ layout: default
     <article>
         <div class="featured">
           <div class="grid">
-            <a href="https://clairevanblerck.com/plog/blog/propagation">
+            <a href="https://clairevanblerck.com/plog/2020/02/02/propagation">
               <img src="resources/images/HederaHelix_1.jpg">
               <div class="grid-item">
                   <h3>Propagation</h3>

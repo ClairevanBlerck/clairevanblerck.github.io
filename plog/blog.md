@@ -1,6 +1,6 @@
 ---
 title: blog
-layout: default
+layout: plog
 ---
 
 <!-- Text section -->

@@ -1,6 +1,6 @@
 ---
 title: propagation
-layout: posts
+layout: plog
 ---
 
 

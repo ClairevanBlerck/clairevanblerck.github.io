@@ -5,7 +5,7 @@
         <title></title>
         <link>http://localhost:4000</link>
         <description></description>
-        <lastBuildDate>Wed, 08 Apr 2020 18:17:56 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 09 Apr 2020 15:53:33 +0100</lastBuildDate>
         
         <item>
             <title>give away</title>
@@ -52,18 +52,24 @@
         </item>
         
         <item>
-            <title>calathea ornata</title>
+            <title>neem oil</title>
             <link>
-                http://localhost:4000/2020/02/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </link>
             <description>
-                
-&lt;p&gt;This is a calathea ornata&lt;/p&gt;
-
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt;
+        &lt;div class=&quot;about&quot;&gt;
+            &lt;div class=&quot;text-item&quot;&gt;
+                &lt;h1&gt;Neem oil&lt;/h1&gt;
+                &lt;p class=&quot;date&quot;&gt;05 Mar 2020&lt;/p&gt;
+                &lt;h4&gt;Potentially toxic to childeren and pregnant people if ingested&lt;/h4&gt;
+                &lt;p...
             </description>
-            <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/2020/02/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </guid>
         </item>
         
@@ -89,6 +95,51 @@
             <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
                 http://localhost:4000/plog/2020/02/02/propagation.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>winter care</title>
+            <link>
+                http://localhost:4000/plog/2020/01/30/winter-care.html
+            </link>
+            <description>
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt; 
+        &lt;div class=&quot;text-item&quot;&gt;
+            &lt;h2&gt;Winter care tips&lt;/h2&gt;
+            &lt;p&gt;Why this is important etc Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo...
+            </description>
+            <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/01/30/winter-care.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>seasonal tips</title>
+            <link>
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
+            </link>
+            <description>
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt;
+        &lt;div class=&quot;text-item&quot;&gt;
+            &lt;h2&gt;Seasonal tips&lt;/h2&gt;
+            &lt;p&gt;You might think winter is a boring season, but there&#39;s still plenty to keep you occupied!&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+&lt;/section&gt;
+
+&lt;!-- Featured grid section --&gt;
+
+&lt;!-- Row 1 p...
+            </description>
+            <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
             </guid>
         </item>
         

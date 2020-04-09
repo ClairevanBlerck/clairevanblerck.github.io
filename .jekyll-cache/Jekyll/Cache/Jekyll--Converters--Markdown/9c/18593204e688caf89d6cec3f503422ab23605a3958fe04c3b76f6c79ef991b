@@ -1,10 +1,4 @@
----
-title: winter care
-layout: default
----
-
-
-<!-- Text section -->
+I"€<!-- Text section -->
 <section>
     <article> 
         <div class="text-item">
@@ -30,3 +24,4 @@ layout: default
         </ul>
     </article>
 </section>
+:ET

@@ -1,4 +1,4 @@
-name: plog
+name: 
 title:
 url:
 description:
@@ -8,11 +8,3 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
-
-collections:
-  care-tips:
-    output: true
-    path: /:collection/:path/
-    title: care-tips
-
-

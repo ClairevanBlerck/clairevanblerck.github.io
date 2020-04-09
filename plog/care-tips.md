@@ -1,6 +1,6 @@
 ---
 title: care-tips
-layout: default
+layout: plog
 ---
 
 
