@@ -1,4 +1,4 @@
-I"ª<!-- Text section -->
+I"§<!-- Text section -->
 <section>
     <article>
         <div class="about">
@@ -20,7 +20,7 @@
                     then you gotta do what you gotta do.</p>
             </div>
             <div class="small-image">
-                <a href="https://www.amazon.co.uk/Neem-Oil-50ml-Pressed-Unrefined/dp/B07G2DPR8C?ref_=ast_bbp_dp" alt="Neem oil by The Soapery on Amazon.co.uk" target="blank"><img src="resources/images/plog/TheSoapery_NeemOil_2.jpg" />
+                <a href="https://www.amazon.co.uk/Neem-Oil-50ml-Pressed-Unrefined/dp/B07G2DPR8C?ref_=ast_bbp_dp" alt="Neem oil by The Soapery on Amazon.co.uk" target="blank"><img src="plog/resources/images/plog/TheSoapery_NeemOil_2.jpg" />
                     <p>Buy Neem oil by The Soapery</p>
                 </a>
             </div>
@@ -46,7 +46,7 @@
                     recommend using it as a 'soil drench' but I've not had the need to try that.</p>
             </div>
             <div class="small-image">
-                <a href="https://www.amazon.co.uk/stores/node/1648793031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=Naissance&amp;ref_=bl_dp_s_web_1648793031" alt="Neem oil by Naissance on Amazon.co.uk" target="blank"><img src="/plog/resources/images/plog/Naissance_NeemOil_2.jpg" />
+                <a href="https://www.amazon.co.uk/stores/node/1648793031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=Naissance&amp;ref_=bl_dp_s_web_1648793031" alt="Neem oil by Naissance on Amazon.co.uk" target="blank"><img src="plog/resources/images/Naissance_NeemOil.jpg" />
                     <p>Buy Neem oil by Naissance</p>
                 </a>
             </div>
