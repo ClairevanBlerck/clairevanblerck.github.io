@@ -12,21 +12,22 @@ layout: plog
         <a href="https://clairevanblerck.com/plog/2020/03/20/calathea-ornata">
           <div class="mySlides fade">
             <img src="resources/images/CalatheaOrnata_2_large.jpg">
-            <div class="slideshow-text">Calathea Ornata (latest post) <h4>20 Mar 2020</h4></div>
+            <div class="slideshow-text">Calathea Ornata (latest post) 
+            </div>
           </div>
         </a>
         <a href="https://clairevanblerck.com/plog/2020/04/02/give-away">
           <div class="mySlides fade">
             <img src="resources/images/EpiphyllumAnguliger_3.jpg">
-            <div class="slideshow-text">Give away! Only pay shipping! UK ONLY</div>
-            <h4>02 Apr 2020</h4></div>
+            <div class="slideshow-text">Give away! Only pay shipping! UK ONLY
+            </div>
           </div>
         </a>
         <a href="https://clairevanblerck.com/plog/2020/01/30/winter-care">
           <div class="mySlides fade">
             <img src="resources/images/PileaPeperomioides.jpg">
-            <div class="slideshow-text">Winter care</div>
-            <h4>30 Jan 2020</h4></div>
+            <div class="slideshow-text">Winter care
+            </div>
           </div>
         </a>
         <!-- Next and previous buttons -->
