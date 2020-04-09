@@ -1,9 +1,4 @@
----
-title: neem oil
-layout: plog
----
-
-<!-- Text section -->
+I"ù<!-- Text section -->
 <section>
     <article>
         <div class="about">
@@ -11,27 +6,21 @@ layout: plog
                 <h1>Neem oil</h1>
                 <p class="date">05 Mar 2020</p>
                 <h4>Potentially toxic to childeren and pregnant people if ingested</h4>
-                <p>In addition to its use in organic insecticide sprays, this oil has been used for centuries in <a
-                        href="https://www.medicalnewstoday.com/articles/327179#summary" target="blank">medicines</a>
-                    and <a
-                        href="https://www.vogue.in/content/skin-care-alphabet-neem-oil-benefits-for-skin-hair-ayurvedic-skincare-ingredient-for-acne">skincare</a>.
+                <p>In addition to its use in organic insecticide sprays, this oil has been used for centuries in <a href="https://www.medicalnewstoday.com/articles/327179#summary" target="blank">medicines</a>
+                    and <a href="https://www.vogue.in/content/skin-care-alphabet-neem-oil-benefits-for-skin-hair-ayurvedic-skincare-ingredient-for-acne">skincare</a>.
                     I haven't myself used it on my skin/hair but there are plenty articles online about its frankly
                     jaw-dropping properties. Personally, I've only held off because I like going quite slow with any
                     new product (I research the hell out of it, then scour the internet for stores, then take up to
                     a month to actualy crack the seal, and then I don't shut up about it).</p>
                 <p>Skin/hair benefits aside, this oil does everything I want from an insecticide. The idea is that
-                    the oil <em>doesn't harm most beneficial insects</em>, and it doesn't carry the same <a
-                        href="https://extension.colostate.edu/topic-areas/insects/insect-control-soaps-and-detergents-5-547/"
-                        target="blank">risks to plant health as dishwashing liquid</a>, and <strong>neem oil doubles
+                    the oil <em>doesn't harm most beneficial insects</em>, and it doesn't carry the same <a href="https://extension.colostate.edu/topic-areas/insects/insect-control-soaps-and-detergents-5-547/" target="blank">risks to plant health as dishwashing liquid</a>, and <strong>neem oil doubles
                         as a foliar fertiliser</strong>. It works by supressing hormones in the pests, reducing
                     their desire to eat and breed (and generally making the leaves taste bitter). It sounds like a
                     pretty awful way to go I know, but when you can't wipe/spray your pests with water/find ladybugs
                     then you gotta do what you gotta do.</p>
             </div>
             <div class="small-image">
-                <a href="https://www.amazon.co.uk/Neem-Oil-50ml-Pressed-Unrefined/dp/B07G2DPR8C?ref_=ast_bbp_dp"
-                    alt="Neem oil by The Soapery on Amazon.co.uk" target="blank"><img
-                        src="plog/resources/images/TheSoapery_NeemOil_2.jpg">
+                <a href="https://www.amazon.co.uk/Neem-Oil-50ml-Pressed-Unrefined/dp/B07G2DPR8C?ref_=ast_bbp_dp" alt="Neem oil by The Soapery on Amazon.co.uk" target="blank"><img src="plog/resources/images/TheSoapery_NeemOil_2.jpg" />
                     <p>Buy Neem oil by The Soapery</p>
                 </a>
             </div>
@@ -57,9 +46,7 @@ layout: plog
                     recommend using it as a 'soil drench' but I've not had the need to try that.</p>
             </div>
             <div class="small-image">
-                <a href="https://www.amazon.co.uk/stores/node/1648793031?_encoding=UTF8&field-lbr_brands_browse-bin=Naissance&ref_=bl_dp_s_web_1648793031"
-                    alt="Neem oil by Naissance on Amazon.co.uk" target="blank"><img
-                        src="plog/resources/images/Naissance_NeemOil.jpg">
+                <a href="https://www.amazon.co.uk/stores/node/1648793031?_encoding=UTF8&amp;field-lbr_brands_browse-bin=Naissance&amp;ref_=bl_dp_s_web_1648793031" alt="Neem oil by Naissance on Amazon.co.uk" target="blank"><img src="resources/images/Naissance_NeemOil.jpg" />
                     <p>Buy Neem oil by Naissance</p>
                 </a>
             </div>
@@ -67,12 +54,11 @@ layout: plog
     </article>
 </section>
 
-
 <section>
     <article>
         <div class="about">
             <div class="text-item">
-                <hr>
+                <hr />
                 <h4>Further reading</h4>
                 <a href="https://www.thespruce.com/using-neem-oil-as-an-organic-insecticide-2132579" target="blank">
                     <p>The Spruce</p>
@@ -80,8 +66,7 @@ layout: plog
                 <a href="https://en.wikipedia.org/wiki/Neem_oil" target="blank">
                     <p>Neem oil wiki</p>
                 </a>
-                <a href="https://www.gardeningknowhow.com/plant-problems/pests/pesticides/neem-oil-uses.htm"
-                    target="blank">
+                <a href="https://www.gardeningknowhow.com/plant-problems/pests/pesticides/neem-oil-uses.htm" target="blank">
                     <p>Gardening Know How</p>
                 </a>
                 <a href="https://core.ac.uk/download/pdf/82887334.pdf" target="blank">
@@ -91,3 +76,4 @@ layout: plog
         </div>
     </article>
 </section>
+:ET
