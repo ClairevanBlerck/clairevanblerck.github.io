@@ -27,8 +27,8 @@ layout: main
         <h3>I made these just for you</h3>
         <div class="image-grid-panel">
             <ul>
-                <li class="grid-item"><img src="/plog/resources/images/calathea-ornata.jpg" target="blank" alt="plant blog" loading="lazy">
-                    <a href="/plog">p(lant b)log</a></li>
+                <li class="grid-item"><img src="/plog/resources/images/calathea-ornata.jpg">
+                    <a href="/plog" target="blank" alt="plant blog">p(last b)log</a></li>
                 <li class="grid-item"><img src="resources/images/how-to-build-a-gundam/VvgZ7ZfV.jpg">
                     <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam" loading="lazy">how to build a gundam</a></li>
                 <li class="grid-item"><img src="resources/images/bracknell-game/bracknell.jpg">
