@@ -11,7 +11,7 @@ layout: how-to-build-a-gundam
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/tools.jpeg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Markers</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -21,7 +21,7 @@ layout: how-to-build-a-gundam
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/god-hands.jpeg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Markers</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -31,7 +31,7 @@ layout: how-to-build-a-gundam
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/5Dh7rb6HB0A.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Markers</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -50,7 +50,7 @@ layout: how-to-build-a-gundam
         <h2 class="heading">Grades</h2>
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/Unicorn_Regular_Box_Art.jpg">
+                    <img src="/how-to-build-a-gundam/resources/images/Unicorn_Regular_Box_Art.jpg">
                     <figcaption>
                         <div class="caption">
                             <h4>High Grade</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -80,7 +80,7 @@ layout: how-to-build-a-gundam
         <div class="build">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Altron_01.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Cut</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -90,7 +90,7 @@ layout: how-to-build-a-gundam
         <div class="build">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Smooth</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -100,7 +100,7 @@ layout: how-to-build-a-gundam
         <div class="build">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_pilot-03.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Assemble</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -119,7 +119,7 @@ layout: how-to-build-a-gundam
         <div class="finish">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Altron_05.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Painting</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -129,7 +129,7 @@ layout: how-to-build-a-gundam
         <div class="finish">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_04.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Weathering</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -148,12 +148,12 @@ layout: how-to-build-a-gundam
         <div class="display">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/5Dh7rb6HB0A.jpg" alt="alternative">
                 </figure>
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/5Dh7rb6HB0A.jpg" alt="alternative">
                 </figure>
             </div>
         </div>
@@ -169,7 +169,7 @@ layout: how-to-build-a-gundam
         <div class="tips">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Altron_02.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Assemble</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -179,7 +179,7 @@ layout: how-to-build-a-gundam
         <div class="tips">
             <div class="container">
                 <figure>
-                    <img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg" alt="alternative">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_03.jpg" alt="alternative">
                     <figcaption>
                         <div class="caption"><h3>Assemble</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
