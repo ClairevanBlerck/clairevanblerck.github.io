@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+        <loc>/plog/about.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/blog.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/bracknell-game.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/care-tips.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/feed.xml</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/how-to-build-a-gundam/</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/sitemap.xml</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>/plog/2020/04/02/give-away.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/03/20/calathea-ornata.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/03/16/neem-oil.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/02/02/propagation.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/01/30/winter-care.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/01/14/seasonal-tips.html</loc>
+        <lastmod>2020-04-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+
+</urlset>

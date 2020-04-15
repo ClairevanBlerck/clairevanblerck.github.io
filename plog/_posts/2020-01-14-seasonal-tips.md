@@ -1,6 +1,6 @@
 ---
 title: seasonal tips
-layout: plog
+layout: plog-posts
 ---
 
 <!-- Text section -->

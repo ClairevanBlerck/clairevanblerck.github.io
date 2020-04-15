@@ -1,6 +1,6 @@
 ---
 title: calathea ornata
-layout: plog
+layout: plog-posts
 ---
 
 

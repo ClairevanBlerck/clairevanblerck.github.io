@@ -1,6 +1,6 @@
 ---
 title: winter care
-layout: plog
+layout: plog-posts
 ---
 
 
