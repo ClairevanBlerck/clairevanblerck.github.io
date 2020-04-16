@@ -175,9 +175,6 @@ p.portfolio-item-text {
 
 
 
-
-
-
 /* CV section */
 
 .text-panel {
@@ -201,6 +198,7 @@ p.portfolio-item-text {
 .text-panel .text-item p {
     padding: 1rem 0;
 }
+
 
 
 /* Contact section */
@@ -255,7 +253,7 @@ p.portfolio-item-text {
 ##Screen = B/w 481px to 767px
 */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
 
     /* Portfolio section */
 
@@ -265,18 +263,13 @@ p.portfolio-item-text {
 
     .portfolio-item img {
         height: 70vh;
+        opacity: 0.8;
     }
-}
-
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-    /*
-    .portfolio-grid a {
-        top: 0;
-        bottom: 6rem;
+    
+    p.portfolio-item-text {
+        opacity: 0.9;
+        bottom: 24rem;
     }
-    */
 }
 
 
@@ -297,7 +290,7 @@ p.portfolio-item-text {
     }
 
     p.portfolio-item-text {
-        bottom: 10rem;
+        bottom: 16rem;
     }
 }
 
