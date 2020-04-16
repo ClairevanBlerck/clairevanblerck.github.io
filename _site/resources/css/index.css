@@ -160,7 +160,7 @@ p.portfolio-item-text {
     background-color: white;
     opacity: 0.7;
     position: sticky;
-    top: 2.5rem;
+    /*top: 2.5rem;*/
     bottom: 17rem;
     margin: 1rem;
 }
@@ -267,8 +267,7 @@ p.portfolio-item-text {
     }
     
     p.portfolio-item-text {
-        opacity: 0.9;
-        bottom: 24rem;
+        opacity: 0.7;
     }
 }
 
@@ -290,7 +289,7 @@ p.portfolio-item-text {
     }
 
     p.portfolio-item-text {
-        bottom: 16rem;
+        font-size: 2rem;
     }
 }
 
@@ -341,6 +340,7 @@ p.portfolio-item-text {
 
     p.portfolio-item-text {
         line-height: 3rem;
+    }
      
 }
 

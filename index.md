@@ -26,9 +26,9 @@ layout: main
         <div class="portfolio-grid">
             <ul>
                 <li class="portfolio-item">
-                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_00.jpg"><p class="portfolio-item-text">p(lant b)log</p></a></li>
-                <li class="portfolio-item">
                     <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg"><p class="portfolio-item-text">how to build a gundam</p></a></li>
+                <li class="portfolio-item">
+                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_00.jpg"><p class="portfolio-item-text">p(lant b)log</p></a></li>
                 <!--<li class="portfolio-item">
                     <a href="/bracknell-game" target="blank" alt="mobile game design"><img src="resources/images/bracknell-game/bracknell.jpg"><p class="portfolio-item-text">mobile game design</p></a></li> -->
                 <li class="portfolio-item"></li>
