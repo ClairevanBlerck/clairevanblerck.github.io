@@ -143,7 +143,6 @@ h3.portfolio-heading {
     width: 50vw;
     height: 90vh;
     opacity: 0.6;
-    /*transition-duration: 0.5s;*/
     object-fit: cover;
     z-index: 1;
 }
@@ -154,18 +153,18 @@ h3.portfolio-heading {
 
 p.portfolio-item-text {
     font-size: 3rem;
-    line-height: 4rem;
+    line-height: 9rem;
     color: white;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
     position: absolute;
     height: fit-content;
     width: 50vw;
     z-index: 10;
+    padding: 0.5rem;
 }
 
 p.left {
-
     top: 150vh;
     left: 0;
     bottom: 0;
@@ -180,13 +179,13 @@ p.right {
 }
 
 .portfolio-item:hover img {
-    transition-duration: 0.5s;
+    transition-duration: 1.4s;
     opacity: 1;
 }
 
 .portfolio-item:hover p {
-    transition-duration: 0.5s;
-    opacity: 0.9;
+    transition-duration: 0.8s;
+    opacity: 0.7;
 }
 
 
@@ -283,11 +282,28 @@ p.right {
     }
     
     p.portfolio-item-text {
+        font-size: 2.8rem;
         opacity: 0.7;
         height: fit-content;
+        line-height: normal;
+        padding: 2rem 1rem;
     }
 
+    p.left {
+        top: 140vh;
+    }
+    
+    p.right {
+        top: 140vh;
+    }
 
+    .portfolio-item:hover img {
+        opacity: 0.8;
+    }
+    
+    .portfolio-item:hover p {
+        opacity: 0.7;
+    }
 }
 
 
@@ -308,12 +324,16 @@ p.right {
     }
 
     p.portfolio-item-text {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         width: 100vw;
     }
 
+    p.left {
+        top: 138vh;
+    }
+
     p.right {
-        top: 220vh;
+        top: 209vh;
         left: 0;
         bottom: 0;
         right: 0;
@@ -361,21 +381,63 @@ p.right {
     .image-and-text-panel img {
         padding: 0rem;
     }
+}
 
+@media only screen and (max-width: 464px) {
+
+    /* Portfolio secion */
+
+    p.portfolio-item-text {
+        font-size: 2.5rem;
+    }
+
+    p.left {
+        top: 140vh;
+    }
+
+    p.right {
+        top: 218vh;
+    }
+}
+
+@media only screen and (max-width: 416px) {
 
     /* Portfolio section */
 
     p.portfolio-item-text {
-        line-height: 3rem;
+        font-size: 2.5rem;
     }
-     
-}
 
-@media only screen and (max-width: 410px) {
+    p.left {
+        top: 145vh;
+    }
+
+    p.right {
+        top: 218vh;
+    }
+
 
     /* Contact section */
 
     .social-panel .footer-heading {
         font-size: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+
+    /* Portfolio section */
+
+    p.portfolio-item-text {
+        font-size: 2.2rem;
+    }
+
+    p.left {
+        top: 150vh;
+    }
+
+    p.right {
+        top: 225vh;
     }
 }

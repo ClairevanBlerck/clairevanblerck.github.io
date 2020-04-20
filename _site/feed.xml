@@ -3,14 +3,14 @@
 
     <channel>
         <title></title>
-        <link></link>
+        <link>http://localhost:4000</link>
         <description></description>
-        <lastBuildDate>Fri, 17 Apr 2020 17:01:22 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 20 Apr 2020 19:06:45 +0100</lastBuildDate>
         
         <item>
             <title>give away</title>
             <link>
-                /plog/2020/04/02/give-away.html
+                http://localhost:4000/plog/2020/04/02/give-away.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -25,14 +25,14 @@
             </description>
             <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
             <guid>
-                /plog/2020/04/02/give-away.html
+                http://localhost:4000/plog/2020/04/02/give-away.html
             </guid>
         </item>
         
         <item>
             <title>calathea ornata</title>
             <link>
-                /plog/2020/03/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
             </link>
             <description>
                 &lt;!-- Slideshow container --&gt;
@@ -47,14 +47,14 @@
             </description>
             <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                /plog/2020/03/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
             </guid>
         </item>
         
         <item>
             <title>neem oil</title>
             <link>
-                /plog/2020/03/16/neem-oil.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -69,14 +69,14 @@
             </description>
             <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                /plog/2020/03/16/neem-oil.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </guid>
         </item>
         
         <item>
             <title>propagation</title>
             <link>
-                /plog/2020/02/02/propagation.html
+                http://localhost:4000/plog/2020/02/02/propagation.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -94,14 +94,14 @@
             </description>
             <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                /plog/2020/02/02/propagation.html
+                http://localhost:4000/plog/2020/02/02/propagation.html
             </guid>
         </item>
         
         <item>
             <title>winter care</title>
             <link>
-                /plog/2020/01/30/winter-care.html
+                http://localhost:4000/plog/2020/01/30/winter-care.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -113,14 +113,14 @@
             </description>
             <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                /plog/2020/01/30/winter-care.html
+                http://localhost:4000/plog/2020/01/30/winter-care.html
             </guid>
         </item>
         
         <item>
             <title>seasonal tips</title>
             <link>
-                /plog/2020/01/14/seasonal-tips.html
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -139,7 +139,7 @@
             </description>
             <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                /plog/2020/01/14/seasonal-tips.html
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
             </guid>
         </item>
         
