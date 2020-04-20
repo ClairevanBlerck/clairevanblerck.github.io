@@ -299,11 +299,13 @@ p.right {
 
     .portfolio-item:hover img {
         transition-duration: 1s;
+        transition-timing-function: ease-in-out;
         opacity: 0.8;
     }
     
     .portfolio-item:hover p {
         transition-duration: 0s;
+        transition-timing-function: ease-in-out;
     }
 }
 
