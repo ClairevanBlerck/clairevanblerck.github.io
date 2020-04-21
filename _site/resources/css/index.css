@@ -84,7 +84,7 @@ section .social-panel {
 }
 
 .image-and-text-panel img {
-    max-height: 8rem;
+    height: 20rem;
     width: auto;
     padding: 1rem;
 }
@@ -382,6 +382,7 @@ p.right {
     }
 
     .image-and-text-panel img {
+        height: 30vh;
         padding: 0rem;
     }
 }
@@ -429,6 +430,10 @@ p.right {
 
 
 @media only screen and (max-width: 350px) {
+
+    .image-and-text-panel img {
+        height: 20vh;
+    }
 
     /* Portfolio section */
 
