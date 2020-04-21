@@ -153,7 +153,7 @@ h3.portfolio-heading {
     text-decoration: none;
 }
 
-p.portfolio-item-text {
+.portfolio-item-text {
     font-size: 3rem;
     line-height: 9rem;
     color: white;
@@ -167,14 +167,14 @@ p.portfolio-item-text {
     transition-duration: 0.8s;
 }
 
-p.left {
+.portfolio-item-text.left {
     top: 150vh;
     left: 0;
     bottom: 0;
     right: 0;
 }
 
-p.right {
+.portfolio-item-text.right {
     top: 150vh;
     left: 50vw;
     bottom: 0;
@@ -283,7 +283,7 @@ p.right {
         transition-timing-function: ease-in-out;
     }
     
-    p.portfolio-item-text {
+    .portfolio-item-text {
         font-size: 2.8rem;
         opacity: 0.7;
         height: fit-content;
@@ -291,11 +291,11 @@ p.right {
         padding: 2rem 1rem;
     }
 
-    p.left {
+    .portfolio-item-text.left {
         top: 140vh;
     }
     
-    p.right {
+    .portfolio-item-text.right {
         top: 140vh;
     }
 
@@ -326,16 +326,16 @@ p.right {
         width: 100vw;
     }
 
-    p.portfolio-item-text {
+    .portfolio-item-text {
         font-size: 2.5rem;
         width: 100vw;
     }
 
-    p.left {
+    .portfolio-item-text.left {
         top: 138vh;
     }
 
-    p.right {
+    .portfolio-item-text.right {
         top: 209vh;
         left: 0;
         bottom: 0;
@@ -391,15 +391,15 @@ p.right {
 
     /* Portfolio secion */
 
-    p.portfolio-item-text {
+    .portfolio-item-text {
         font-size: 2.5rem;
     }
 
-    p.left {
+    .portfolio-item-text.left {
         top: 140vh;
     }
 
-    p.right {
+    .portfolio-item-text.right {
         top: 218vh;
     }
 }
@@ -408,15 +408,15 @@ p.right {
 
     /* Portfolio section */
 
-    p.portfolio-item-text {
+    .portfolio-item-text {
         font-size: 2.5rem;
     }
 
-    p.left {
+    .portfolio-item-text.left {
         top: 145vh;
     }
 
-    p.right {
+    .portfolio-item-text.right {
         top: 218vh;
     }
 
@@ -437,15 +437,15 @@ p.right {
 
     /* Portfolio section */
 
-    p.portfolio-item-text {
+    .portfolio-item-text {
         font-size: 2.2rem;
     }
 
-    p.left {
+    .portfolio-item-text.left {
         top: 150vh;
     }
 
-    p.right {
+    .portfolio-item-text.right {
         top: 225vh;
     }
 }
