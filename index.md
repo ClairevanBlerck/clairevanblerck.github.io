@@ -12,7 +12,7 @@ layout: main
                 <h1>Hi, I'm Claire</h1>
                 <p>I have a creative and customer-focussed background, <br>and now I'm a web developer.</p>
             </div>
-            <img src="resources/images/portfolio/headshot.png" alt="a picture of claire">            
+            <img src="resources/images/portfolio/1.png" alt="a picture of claire">            
         </div>
     </article>
 </section>
@@ -22,13 +22,16 @@ layout: main
 
 <section>
     <article>
-        <h3 class="portfolio-heading">I made these just for you</h3>
         <div class="portfolio">
             <ul>
                 <li class="portfolio-item">
-                    <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg"><div class="portfolio-item-text left">how to build a gundam</div></a></li>
+                    <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg">
+                      <div class="portfolio-item-text left">how to build a gundam</div>
+                    </a></li>
                 <li class="portfolio-item">
-                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_00.jpg"><p class="portfolio-item-text right">p(lant b)log</p></a></li>
+                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_00.jpg">
+                      <div class="portfolio-item-text right">p(lant b)log</div>
+                    </a></li>
                 <!--<li class="portfolio-item">
                     <a href="/bracknell-game" target="blank" alt="mobile game design"><img src="resources/images/bracknell-game/bracknell.jpg"><p class="portfolio-item-text">mobile game design</p></a></li> -->
                 <li class="portfolio-item"></li>

@@ -128,7 +128,7 @@ h3.portfolio-heading {
 .portfolio li {
     list-style: none;
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     overflow: hidden;
     background-color: black;
 }
@@ -141,52 +141,49 @@ h3.portfolio-heading {
 
 .portfolio-item img {
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     object-fit: cover;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.4;
     transition-duration: 1.4s;
-
 }
 
 .portfolio-item a {
     text-decoration: none;
 }
 
-.portfolio-item-text {
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item .portfolio-item-text {
     font-size: 3rem;
-    line-height: 9rem;
+    line-height: 4;
     color: white;
     background-color: black;
-    position: absolute;
-    height: fit-content;
     width: 50vw;
+
+    position: absolute;
     z-index: 10;
     padding: 0.5rem;
-    opacity: 0.9;
+    opacity: 0.8;
     transition-duration: 0.8s;
 }
 
-.portfolio-item-text.left {
-    top: 150vh;
-    left: 0;
+.portfolio-item .portfolio-item-text.left {
     bottom: 0;
-    right: 0;
 }
 
-.portfolio-item-text.right {
-    top: 150vh;
-    left: 50vw;
+.portfolio-item .portfolio-item-text.right {
     bottom: 0;
-    right: 0;
 }
 
 .portfolio-item:hover img {
     opacity: 1;
 }
 
-.portfolio-item:hover p {
-    opacity: 0.7;
+.portfolio-item-text:hover div {
+    opacity: 0.1;
 }
 
 
@@ -272,7 +269,6 @@ h3.portfolio-heading {
 @media only screen and (max-width: 1025px) {
 
     /* Portfolio section */
-
     .portfolio li {
         height: 70vh;
     }
@@ -280,32 +276,27 @@ h3.portfolio-heading {
     .portfolio-item img {
         height: 70vh;
         opacity: 0.8;
-        transition-timing-function: ease-in-out;
+        transition-duration: 0s;
     }
     
-    .portfolio-item-text {
-        font-size: 2.8rem;
+    .portfolio-item .portfolio-item-text {
+        font-size: 2.5rem;
+        min-height: 20vh;
         opacity: 0.7;
-        height: fit-content;
-        line-height: normal;
-        padding: 2rem 1rem;
-    }
-
-    .portfolio-item-text.left {
-        top: 140vh;
-    }
-    
-    .portfolio-item-text.right {
-        top: 140vh;
+        transition-duration: 0s;
     }
 
     .portfolio-item:hover img {
-        transition-duration: 1s;
         opacity: 0.8;
     }
-    
-    .portfolio-item:hover p {
-        transition-duration: 0s;
+}
+
+
+@media only screen and (max-width: 860px) {
+
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text {
+        font-size: 2.3rem;
     }
 }
 
@@ -313,7 +304,6 @@ h3.portfolio-heading {
 @media only screen and (max-width: 767px) {
 
     /* Portfolio section */
-
     .portfolio ul {
         display: block;
     }
@@ -326,20 +316,9 @@ h3.portfolio-heading {
         width: 100vw;
     }
 
-    .portfolio-item-text {
-        font-size: 2.5rem;
+    .portfolio-item .portfolio-item-text {
+        font-size: 2.8rem;
         width: 100vw;
-    }
-
-    .portfolio-item-text.left {
-        top: 138vh;
-    }
-
-    .portfolio-item-text.right {
-        top: 209vh;
-        left: 0;
-        bottom: 0;
-        right: 0;
     }
 }
 
@@ -347,7 +326,6 @@ h3.portfolio-heading {
 @media only screen and (max-width: 570px) {
 
     /* Contact section */
-
   .social-panel .social-icons {
       display: block;
   }
@@ -372,7 +350,6 @@ h3.portfolio-heading {
 @media only screen and (max-width: 480px) {
 
     /* About section */
-
     section .image-and-text-panel, .text-panel {
         padding: 1rem 2rem;
     }
@@ -387,65 +364,47 @@ h3.portfolio-heading {
     }
 }
 
+
 @media only screen and (max-width: 464px) {
 
     /* Portfolio secion */
+    .portfolio-item .portfolio-item-text {
+        font-size: 2.6rem;
+    }
+}
 
-    .portfolio-item-text {
+
+@media only screen and (max-width: 431px) {
+
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text {
         font-size: 2.5rem;
     }
 
-    .portfolio-item-text.left {
-        top: 140vh;
-    }
-
-    .portfolio-item-text.right {
-        top: 218vh;
+    /* Contact section */
+    .social-panel .footer-heading {
+        font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 416px) {
 
     /* Portfolio section */
-
-    .portfolio-item-text {
-        font-size: 2.5rem;
-    }
-
-    .portfolio-item-text.left {
-        top: 145vh;
-    }
-
-    .portfolio-item-text.right {
-        top: 218vh;
-    }
-
-
-    /* Contact section */
-
-    .social-panel .footer-heading {
-        font-size: 2rem;
+    .portfolio-item .portfolio-item-text.left {
+        line-height: 5rem;
     }
 }
 
 
 @media only screen and (max-width: 350px) {
 
+    /* About section */
     .image-and-text-panel img {
         height: 20vh;
     }
 
     /* Portfolio section */
-
-    .portfolio-item-text {
-        font-size: 2.2rem;
-    }
-
-    .portfolio-item-text.left {
-        top: 150vh;
-    }
-
-    .portfolio-item-text.right {
-        top: 225vh;
+    .portfolio-item .portfolio-item-text {
+        font-size: 2.3rem;
     }
 }
