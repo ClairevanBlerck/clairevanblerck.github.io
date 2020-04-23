@@ -50,7 +50,7 @@ layout: main
                 <h3>A little more about me</h3>
                 <p>I originally studied Fine Art and Business Administration.</p>
                 <p>Customer success and CX were my driving interests before I got into web development.</p>
-                <p>Would you like to see more? Here's <a href="/resources/documents/cv.pdf" target="blank" alt="my cv">my full CV</a>!</p>
+                <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
             </div>
         </div>
     </article>
