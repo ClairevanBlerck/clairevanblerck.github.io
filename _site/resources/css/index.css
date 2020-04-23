@@ -84,7 +84,7 @@ section .social-panel {
 }
 
 .image-and-text-panel img {
-    height: 25rem;
+    height: 20rem;
     width: auto;
     padding: 1rem;
 }
@@ -355,7 +355,7 @@ h3.portfolio-heading {
     }
 
     .image-and-text-panel .text-item {
-        padding: 0 0 2rem 0;
+        padding: 0 0 1rem 0;
     }
 
     .image-and-text-panel img {
@@ -388,11 +388,6 @@ h3.portfolio-heading {
 }
 
 @media only screen and (max-width: 416px) {
-
-    /* About section */
-    section .image-and-text-panel,.text-panel {
-        height: 70vh;
-    }
 
     /* Portfolio section */
     .portfolio-item .portfolio-item-text.left {
