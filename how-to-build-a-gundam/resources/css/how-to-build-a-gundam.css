@@ -81,8 +81,6 @@ body {
     width: 100vw;
     height: 90vh;
     margin-top: 4.4rem;
-    /* position: relative;
-    top: 7.4rem; */
 }
 
 .nav #left-block {
@@ -101,8 +99,8 @@ body {
 
 .nav #left-block .top img {
     object-fit: cover;
-    min-width: 42vw;
-    max-height: 50vh;
+    width: 42vw;
+    height: 50vh;
 }
 
 .nav #left-block .bottom {
