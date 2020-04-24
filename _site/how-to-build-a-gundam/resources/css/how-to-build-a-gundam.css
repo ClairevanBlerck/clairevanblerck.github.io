@@ -127,7 +127,7 @@ body {
     float: left;
     object-fit: cover;
     width: 20vw;
-    height: 80vh;
+    height: 76vh;
 }
 
 .nav #right-block .right {
@@ -142,13 +142,13 @@ body {
     object-fit: cover;
     position: relative;
     width: 20vw;
-    height: 38vh; 
+    height: 36vh; 
 }
 
 .nav #right-block .right .bottom img {
     object-fit: cover;
     width: 20vw;
-    height: 40vh; 
+    height: 38vh; 
 }
 
 
