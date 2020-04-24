@@ -132,19 +132,6 @@ body {
     height: 80vh;
 }
 
-/*
-.nav #right-block .centre img {
-    position: relative;
-    right: 3rem;
-    z-index: 3;
-    min-width: 9vw;
-    max-width: 9vw;
-    min-height: 35vh;
-    max-height: 35vh;
-    object-fit: cover;
-}
-*/
-
 .nav #right-block .right {
     display: inline-flex;
     flex-direction: column;
@@ -156,18 +143,14 @@ body {
 .nav #right-block .right .top img {
     object-fit: cover;
     position: relative;
-    min-width: 20vw;
-    max-width: 20vw;
-    min-height: 38vh;
-    max-height: 38vh; 
+    width: 20vw;
+    height: 38vh; 
 }
 
 .nav #right-block .right .bottom img {
     object-fit: cover;
-    min-width: 20vw;
-    max-width: 20vw;
-    min-height: 40vh;
-    max-height: 40vh; 
+    width: 20vw;
+    height: 40vh; 
 }
 
 
@@ -433,7 +416,7 @@ footer p, a {
         position: relative;
         bottom: 2rem;
         height: 90vh;
-        margin-top: 3rem;
+        margin-top: 3.5rem;
     }
 
     .nav #left-block {
@@ -444,29 +427,29 @@ footer p, a {
 
     .nav #left-block .top img {
         width: 80vw;
-        height: 20vh;
+        height: 22vh;
     }
     
     .nav #left-block .bottom .bottom-left img {
         width: 39vw;
-        height: 20vh;
+        height: 14vh;
     }
     
     .nav #left-block .bottom .bottom-right img {
         width: 39vw;
-        height: 20vh;
+        height: 14vh;
     }
     
     .nav #right-block {
         width: 80vw;
         height: fit-content;
         padding-left: 0;
-        margin: 2rem 1rem 1rem 1rem;
+        margin: 1rem;
     }
 
     .nav #right-block .left img {
         width: 45vw;
-        height: 40vh;
+        height: 38vh;
     }
     
     .nav #right-block .right .top img {
@@ -476,7 +459,7 @@ footer p, a {
     
     .nav #right-block .right .bottom img {
         width: 32vw;
-        height: 21vh; 
+        height: 19vh; 
     }
 }
 
