@@ -258,7 +258,7 @@ section .build {
 }
 
 .build .container img {
-    object-fit: contain;
+    object-fit: cover;
     width: 40vw;
     height: 60vh;
     padding: 1rem;
@@ -297,7 +297,7 @@ section .finish {
 }
   
 .finish .container img {
-    object-fit: contain;
+    object-fit: cover;
     width: 40vw;
     height: 60vh;
     padding: 1rem;
