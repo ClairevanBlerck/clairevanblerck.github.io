@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-93599017-2');
-    </script>
-
-    <link href="/how-to-build-a-gundam/resources/css/how-to-build-a-gundam.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300i|Dosis:200|Exo:600i|Nobile:400i|Timmana&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to build a Gundam</title>
-</head>
-
-
-<!-- Logo & Nav -->
-
-<header>
-    <div class="logo"><img src="/how-to-build-a-gundam/resources/images/mobile-suit-gundam.png"></div>
-</header>
-
-
-<body>
-
-    <section>
-        <article>
-
-            <div class="nav">
-
-                <div id="left-block">
-                    <div class="top"><img src="/how-to-build-a-gundam/resources/images/Altron-box.jpg" width="42vw" height="50vh"></div>
-                    <div class="bottom">
-                        <div class="bottom-left"><img
-                                src="/how-to-build-a-gundam/resources/images/god-hand.jpg" width="20vw" height="28vh"></div>
-                        <div class="bottom-right"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" width="20vw" height="28vh"></div>
-                    </div>
-                </div>
-
-                <div id="right-block">
-                    <div class="left"><img src="/how-to-build-a-gundam/resources/images/Altron_04.jpg" width="20vw" height="80vh"></div>
-                    <!--<div class="centre"><img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg"></div>-->
-                    <div class="right">
-                        <div class="top"><img src="/how-to-build-a-gundam/resources/images/painting3.jpg" width="20vw" height="38vh"></div>
-                        <div class="bottom"><img
-                                src="/how-to-build-a-gundam/resources/images/weathering-after.jpg" width="20vw" height="40vh"></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </article>
-    </section>
-
-    <!-- Grades section -->
+I"(<!-- Grades section -->
 
 <section>
     <article>
@@ -107,7 +45,7 @@
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/sandpaper-p1500.jpg" alt="alternative" />
+                    <img src="/how-to-build-a-gundam/resources/images/god-hand.jpg" alt="alternative" />
                     <figcaption>
                         <div class="caption"><h3>Sandpaper</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -117,9 +55,9 @@
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/tamiya-cement.jpg" alt="alternative" />
+                    <img src="/how-to-build-a-gundam/resources/images/god-hand.jpg" alt="alternative" />
                     <figcaption>
-                        <div class="caption"><h3>Cement</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Glue</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -127,7 +65,7 @@
         <div class="equipment">
             <div class="container">
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/gundam-markers.jpg" alt="alternative" />
+                    <img src="/how-to-build-a-gundam/resources/images/god-hand.jpg" alt="alternative" />
                     <figcaption>
                         <div class="caption"><h3>Markers</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
                     </figcaption>
@@ -290,12 +228,4 @@
         </div>
     </article>
 </section>   -->
-
-
-</body>
-
-<footer>
-    <a href="https://clairevanblerck.com/" target="blank">See my portfolio</a>
-</footer>
-
-</html>
+:ET

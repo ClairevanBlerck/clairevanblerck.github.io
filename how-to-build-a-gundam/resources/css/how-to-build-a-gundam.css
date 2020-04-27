@@ -156,7 +156,7 @@ body {
 
 section .equipment {
     margin: 2rem auto;
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 80vw;
     height: 60vh;
 }
@@ -173,7 +173,7 @@ section .equipment {
 }
   
 .equipment .container .caption {
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 40vw;
     height: 60vh;
     padding: 2rem;
@@ -195,7 +195,7 @@ section .equipment {
 
 section .grades {
     margin: 2rem auto;
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 80vw;
 }
   
@@ -222,10 +222,11 @@ section .grades {
 }
   
 .grades .container img {
-    object-fit: cover;
+    object-fit: contain;
     width: 60vw;
     height: 60vh;
     padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
 }
 
 
@@ -233,7 +234,7 @@ section .grades {
 
 section .build {
     margin: 2rem auto;
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 80vw;
     height: 60vh;
 }
@@ -250,7 +251,7 @@ section .build {
 }
   
 .build .container .caption {
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 40vw;
     height: 60vh;
     padding: 2rem;
@@ -268,7 +269,7 @@ section .build {
 
 section .finish {
     margin: 2rem auto;
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     width: 80vw;
     height: 60vh;
 }
