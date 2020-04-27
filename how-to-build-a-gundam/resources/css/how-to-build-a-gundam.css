@@ -213,7 +213,7 @@ section .grades {
   
 .grades .container .caption {
     width: 60vw;
-    height: 25vh;
+    height: fit-content;
     padding: 0.5rem;
 }
   
@@ -444,6 +444,16 @@ footer p, a {
 }
 
 
+@media only screen and (max-width: 1025px) {
+
+    /* Grades section */
+    .grades .container .caption {
+
+    }
+
+}
+
+
 @media only screen and (max-width: 768px) {
 
     /* Nav section */
@@ -454,7 +464,7 @@ footer p, a {
     /* Equipment section */
     section .equipment {
       width: 80vw;
-      height: 100vh;
+      height: fit-content;
       margin: 1rem auto;
     }
   
@@ -464,12 +474,13 @@ footer p, a {
   
     .equipment .container .caption {
       width: 70vw;
-      height: 25vh;
+      height: fit-content;
       padding: 0.5rem;
     }
   
     .equipment .container img {
       width: 70vw;
+      height: 40vh;
       padding: 0.5rem;
     }
 
@@ -484,7 +495,7 @@ footer p, a {
 
     .grades .container .caption {
         width: 80vw;
-        height: 25vh;
+        height: fit-content;
         padding: 0.5rem;
     }
 
@@ -494,13 +505,14 @@ footer p, a {
 
     .grades .container img {
       width: 80vw;
+      height: 40vh;
       padding: 0.5rem;
     }
 
     /* Building section */
     section .build {
         width: 80vw;
-        height: 100vh;
+        height: fit-content;
         margin: 1rem auto;
     }
     
@@ -510,19 +522,20 @@ footer p, a {
     
     .build .container .caption {
         width: 70vw;
-        height: 25vh;
+        height: fit-content;
         padding: 0.5rem;
     }
     
     .build .container img {
         width: 70vw;
+        height: 40vh;
         padding: 0.5rem;
     }
 
     /* Finishing section */
     section .finish {
         width: 80vw;
-        height: 100vh;
+        height: fit-content;
         margin: 1rem auto;
     }
 
@@ -532,12 +545,13 @@ footer p, a {
 
     .finish .container .caption {
         width: 70vw;
-        height: 25vh;
+        height: fit-content;
         padding: 0.5rem;
     }
 
     .finish .container img {
         width: 70vw;
+        height: 40vh;
         padding: 0.5rem;
     }
 
@@ -560,6 +574,7 @@ footer p, a {
 
     .display .container img {
         width: 70vw;
+        height: 50vh;
     }
     
     .display .container {
@@ -579,12 +594,13 @@ footer p, a {
     
     .tips .container .caption {
       width: 70vw;
-      height: 25vh;
+      height: fit-content;
       padding: 0.5rem;
     }
     
     .tips .container img {
       width: 70vw;
+      height: 40vh;
       padding: 0.5rem;
     }
 
@@ -602,6 +618,8 @@ footer p, a {
         height: 4rem;
         padding: 0 1rem;
     }
+
+
 }
 
 
