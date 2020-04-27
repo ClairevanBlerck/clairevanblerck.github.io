@@ -157,9 +157,8 @@ body {
 section .equipment {
     margin: 2rem auto;
     background-color: whitesmoke;
-    min-width: 80vw;
-    max-width: 80vw;
-    max-height: 60vh;
+    width: 80vw;
+    height: 60vh;
 }
   
 .equipment .container {
@@ -175,9 +174,8 @@ section .equipment {
   
 .equipment .container .caption {
     background-color: whitesmoke;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 2rem;
 }
 
@@ -187,9 +185,8 @@ section .equipment {
   
 .equipment .container img {
     object-fit: contain;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -199,8 +196,7 @@ section .equipment {
 section .grades {
     margin: 2rem auto;
     background-color: whitesmoke;
-    min-width: 80vw;
-    max-width: 80vw;
+    width: 80vw;
 }
   
   
@@ -216,9 +212,8 @@ section .grades {
 }
   
 .grades .container .caption {
-    min-width: 40vw;
-    max-width: 50vw;
-    max-height: 40rem;
+    width: 60vw;
+    height: 25vh;
     padding: 0.5rem;
 }
   
@@ -227,10 +222,9 @@ section .grades {
 }
   
 .grades .container img {
-    object-fit: contain;
-    min-width: 60vw;
-    max-width: 60vw;
-    max-height: 60vh;
+    object-fit: cover;
+    width: 60vw;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -240,9 +234,8 @@ section .grades {
 section .build {
     margin: 2rem auto;
     background-color: whitesmoke;
-    min-width: 80vw;
-    max-width: 80vw;
-    max-height: 60vh;
+    width: 80vw;
+    height: 60vh;
 }
   
 .build .container {
@@ -258,17 +251,15 @@ section .build {
   
 .build .container .caption {
     background-color: whitesmoke;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 2rem;
 }
 
 .build .container img {
     object-fit: contain;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -278,9 +269,8 @@ section .build {
 section .finish {
     margin: 2rem auto;
     background-color: whitesmoke;
-    min-width: 80vw;
-    max-width: 80vw;
-    max-height: 60vh;
+    width: 80vw;
+    height: 60vh;
 }
   
 .finish .container {
@@ -296,9 +286,8 @@ section .finish {
   
 .finish .container .caption {
     background-color: whitesmoke;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 2rem;
 }
 
@@ -308,9 +297,8 @@ section .finish {
   
 .finish .container img {
     object-fit: contain;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -319,7 +307,6 @@ section .finish {
 
 section .display {
     margin: 1rem auto;
-
 }
   
 .display .container {
@@ -335,16 +322,14 @@ section .display {
   
 .display .container .caption {
     background-color: whitesmoke;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 2rem;
 }
   
 .display .container img {
-    min-width: 90%;
-    max-width: 90%;
-    max-height: 90%;
+    width: 37vw;
+    height: 70vh;
     object-fit: cover;
     border: 5px solid black;
     margin: 2rem;
@@ -356,9 +341,8 @@ section .display {
 section .tips {
     margin: 2rem auto;
     background-color: whitesmoke;
-    min-width: 80vw;
-    max-width: 80vw;
-    max-height: 60vh;
+    width: 80vw;
+    height: 60vh;
 }
   
 .tips .container {
@@ -374,17 +358,15 @@ section .tips {
   
 .tips .container .caption {
     background-color: whitesmoke;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 2rem;
 }
 
 .tips .container img {
     object-fit: contain;
-    min-width: 40vw;
-    max-width: 40vw;
-    max-height: 60vh;
+    width: 40vw;
+    height: 60vh;
     padding: 1rem;
 }
 
@@ -471,9 +453,8 @@ footer p, a {
 
     /* Equipment section */
     section .equipment {
-      min-width: 80vw;
-      max-width: 80vw;
-      max-height: 100vh;
+      width: 80vw;
+      height: 100vh;
       margin: 1rem auto;
     }
   
@@ -482,14 +463,13 @@ footer p, a {
     }
   
     .equipment .container .caption {
-      min-width: 70vw;
-      max-width: 70vw;
+      width: 70vw;
+      height: 25vh;
       padding: 0.5rem;
     }
   
     .equipment .container img {
-      min-width: 70vw;
-      max-width: 70vw;
+      width: 70vw;
       padding: 0.5rem;
     }
 
@@ -503,26 +483,24 @@ footer p, a {
     }
 
     .grades .container .caption {
-      min-width: 80vw;
-      max-width: 80vw;
-      padding: 0.5rem;
+        width: 80vw;
+        height: 25vh;
+        padding: 0.5rem;
     }
 
     .grades .container .caption p {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .grades .container img {
-      min-width: 80vw;
-      max-width: 80vw;
+      width: 80vw;
       padding: 0.5rem;
     }
 
     /* Building section */
     section .build {
-        min-width: 80vw;
-        max-width: 80vw;
-        max-height: 100vh;
+        width: 80vw;
+        height: 100vh;
         margin: 1rem auto;
     }
     
@@ -531,22 +509,20 @@ footer p, a {
     }
     
     .build .container .caption {
-        min-width: 70vw;
-        max-width: 70vw;
+        width: 70vw;
+        height: 25vh;
         padding: 0.5rem;
     }
     
     .build .container img {
-        min-width: 70vw;
-        max-width: 70vw;
+        width: 70vw;
         padding: 0.5rem;
     }
 
     /* Finishing section */
     section .finish {
-        min-width: 80vw;
-        max-width: 80vw;
-        max-height: 100vh;
+        width: 80vw;
+        height: 100vh;
         margin: 1rem auto;
     }
 
@@ -555,23 +531,20 @@ footer p, a {
     }
 
     .finish .container .caption {
-        min-width: 70vw;
-        max-width: 70vw;
+        width: 70vw;
+        height: 25vh;
         padding: 0.5rem;
     }
 
     .finish .container img {
-        min-width: 70vw;
-        max-width: 70vw;
+        width: 70vw;
         padding: 0.5rem;
     }
 
     /* Display section */
-    section .display {
+    .display {
         margin: 1rem auto;
-        min-width: 80vw;
-        max-width: 80vw;
-        max-height: 250vh;
+        width: 80vw;
     }
     
     .display .container figure {
@@ -581,9 +554,12 @@ footer p, a {
     }
     
     .display .container .caption {
-        min-width: 70vw;
-        max-width: 70vw;
+        width: 70vw;
         padding: 0.5rem;
+    }
+
+    .display .container img {
+        width: 70vw;
     }
     
     .display .container {
@@ -591,10 +567,9 @@ footer p, a {
     }
 
     /* Tips section */
-    section .tips {
-      min-width: 80vw;
-      max-width: 80vw;
-      max-height: 100vh;
+    .tips {
+      width: 80vw;
+      height: 100vh;
       margin: 1rem auto;
     }
     
@@ -603,14 +578,13 @@ footer p, a {
     }
     
     .tips .container .caption {
-      min-width: 70vw;
-      max-width: 70vw;
+      width: 70vw;
+      height: 25vh;
       padding: 0.5rem;
     }
     
     .tips .container img {
-      min-width: 70vw;
-      max-width: 70vw;
+      width: 70vw;
       padding: 0.5rem;
     }
 
