@@ -87,14 +87,14 @@ body {
     float: left;
     flex-shrink: 2;
     width: 42vw;
-    height: 70vh;
+    height: fit-content;
 }
 
 .nav #right-block {
     float: right;
     flex-shrink: 2;
     width: 42vw;
-    height: 70vh;
+    height: fit-content;
 }
 
 .nav #left-block .top img {
@@ -149,6 +149,57 @@ body {
     object-fit: cover;
     width: 20vw;
     height: 38vh; 
+}
+
+.nav #left-block .top {
+    display: block;
+}
+
+#left-block .overlay {
+    position: absolute; 
+    color: red;
+    text-align: center;
+    background-color: white;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+#left-block .top .overlay {
+    font-size: 5rem;
+    line-height: 4;
+    bottom: 35vh; 
+    width: 42vw;
+    height: 51vh;
+}
+
+#left-block .bottom .overlay {
+    font-size: 3rem;
+    line-height: 4;
+}
+
+#left-block .bottom-left .overlay {
+    bottom: 5vh;
+    width: 20vw;
+    height: 29vh;
+}
+
+#left-block .bottom-right .overlay {
+    bottom: 5vh;
+    left: 27vw;
+    width: 21vw;
+    height: 29vh;
+}
+
+#left-block .top:hover .overlay {
+    opacity: 0.8;
+}
+
+#left-block .bottom-left:hover .overlay {
+    opacity: 0.8;
+}
+
+#left-block .bottom-right:hover .overlay {
+    opacity: 0.8;
 }
 
 
@@ -442,6 +493,32 @@ footer p, a {
         width: 32vw;
         height: 19vh; 
     }
+
+    #left-block .top .overlay {
+        font-size: 4rem;
+        line-height: 3;
+        bottom: 66vh;
+        width: 80vw;
+        height: 23vh;
+    }
+    
+    #left-block .bottom .overlay {
+        font-size: 2rem;
+        line-height: 3;
+    }
+    
+    #left-block .bottom-left .overlay {
+        bottom: 50vh;
+        width: 39vw;
+        height: 15vh;
+    }
+    
+    #left-block .bottom-right .overlay {
+        bottom: 50vh;
+        left: 51vw;
+        width: 39vw;
+        height: 15vh;
+    }
 }
 
 
@@ -627,8 +704,9 @@ footer p, a {
 /* 
 Dont forget to test 
 1. iPhone 5 landscape media queries - as of 14/03/2020 there is a content overflow problem 
-2. images in nave load slowly
-3. Why do some have a min/max-width/height of the same value? - see Nick's message from 16 March 2020
-4. Divs around images don't have a height - see Nick's message from 16 March 2020
+2. images in nav load slowly
+3. Divs around images don't have a height - see Nick's message from 16 March 2020
+4. Set expires headers after content is completed: https://moz.com/blog/expires-headers-for-seo-why-you-should-think-twice-before-using-them
+5. Conside placing height and width constraints on div and not in img
 */
 
