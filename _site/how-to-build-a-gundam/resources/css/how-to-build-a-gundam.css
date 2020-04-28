@@ -167,7 +167,7 @@ body {
 #left-block .top .overlay {
     font-size: 5rem;
     line-height: 4;
-    bottom: 35vh; 
+    top: 5rem; 
     width: 42vw;
     height: 51vh;
 }
@@ -497,9 +497,9 @@ footer p, a {
     #left-block .top .overlay {
         font-size: 4rem;
         line-height: 3;
-        bottom: 66vh;
+        top: 0rem;
         width: 80vw;
-        height: 23vh;
+        height: 24vh;
     }
     
     #left-block .bottom .overlay {
