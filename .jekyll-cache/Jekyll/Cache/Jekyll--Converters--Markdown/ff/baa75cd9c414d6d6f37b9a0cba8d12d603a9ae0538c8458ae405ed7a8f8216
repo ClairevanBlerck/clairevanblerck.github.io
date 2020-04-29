@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-93599017-2');
-    </script>
-
-    <link href="/how-to-build-a-gundam/resources/css/how-to-build-a-gundam.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300i|Dosis:200|Exo:600i|Nobile:400i|Timmana&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to build a Gundam</title>
-</head>
-
-
-<!-- Logo & Nav -->
-
-<header>
-    <div class="logo"><img src="/how-to-build-a-gundam/resources/images/mobile-suit-gundam.png"></div>
-</header>
-
-
-<body>
-
-    <section>
-        <article>
-
-            <div class="nav">
-
-                <div id="left-block">
-                    <div class="top"><img src="/how-to-build-a-gundam/resources/images/Altron-box.jpg" width="42vw" height="50vh"></div>
-                    <div class="bottom">
-                        <div class="bottom-left"><img
-                                src="/how-to-build-a-gundam/resources/images/gundam-markers.jpg" width="20vw" height="28vh"></div>
-                        <div class="bottom-right"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" width="20vw" height="28vh"></div>
-                    </div>
-                </div>
-
-                <div id="right-block">
-                    <div class="left"><img src="/how-to-build-a-gundam/resources/images/Altron_04.jpg" width="20vw" height="80vh"></div>
-                    <!--<div class="centre"><img src="/resources/images/how-to-build-a-gundam/5Dh7rb6HB0A.jpg"></div>-->
-                    <div class="right">
-                        <div class="top"><img src="/how-to-build-a-gundam/resources/images/painting3.jpg" width="20vw" height="38vh"></div>
-                        <div class="bottom"><img
-                                src="/how-to-build-a-gundam/resources/images/weathering-after.jpg" width="20vw" height="40vh"></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </article>
-    </section>
-
-    <!-- Grades section -->
+I"|%<!-- Grades section -->
 
 <section>
     <article>
@@ -149,7 +87,7 @@
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_01.jpg" alt="alternative" loading="lazy" />
                     <figcaption>
-                        <div class="caption"><h3>Cut</h3><p>Everyone has a different technique. We find that cutting as far away from the piece as possble, and then slowly trimming the nib down with your cutters is the best way to prevent stress marks.</p></div>
+                        <div class="caption"><h3>Cut</h3><p>Everyone has a different technique. We find that cutting as far away form the piece as possble and slowly trimming the nib down with your cutters is the best way to prevent stress marks.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -159,7 +97,7 @@
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" alt="alternative" loading="lazy" />
                     <figcaption>
-                        <div class="caption"><h3>Smooth</h3><p>Inevitably you'll need to sand down a lump your cutters can't quite get at. Also very useful for 'polishing' when you've used cement to melt out a stress mark.</p></div>
+                        <div class="caption"><h3>Smooth</h3><p>Inevitably you'll need to sand down a lump your cutters can't quite get at. Also very useful for 'polishing' when youu've used cement to melt out a stress mark.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -180,7 +118,7 @@
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_03.jpg" alt="alternative" loading="lazy" />
                     <figcaption>
-                        <div class="caption"><p>Take pictures as you build, chances are you aren't going to dismantle it ever and it's nice to remember what it took to put together.</p></div>
+                        <div class="caption"><p>Take pictures as you build, chances are you aren't going to dismantle it ever and it's nice to remember what it took.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -273,12 +211,4 @@
         </div>
     </article>
 </section>   -->
-
-
-</body>
-
-<footer>
-    <a href="https://clairevanblerck.com/" target="blank">See my portfolio</a>
-</footer>
-
-</html>
+:ET

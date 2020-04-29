@@ -44,7 +44,7 @@ layout: how-to-build-a-gundam
                     <img src="/how-to-build-a-gundam/resources/images/god-hand.jpg" alt="alternative" loading="lazy">
                     <figcaption>
                         <div class="caption"><h3>Cutters</h3><p>The sharper and better your cutters, the least likely you'll get those white stress marks as you cut each piece and trim the nibs.</p>
-                        <p>We used the <a href="https://www.gunpla101.com/review-god-hand-ultimate-nipper/">God Hand Ultimate Nipper</a> because it's the sharpest on the market.</p></div>
+                        <p>We use the <a href="https://www.gunpla101.com/review-god-hand-ultimate-nipper/">God Hand Ultimate Nipper</a> because it's the sharpest on the market.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -65,7 +65,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/tamiya-cement.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Cement</h3><p>Used for gluing parts but most importantly for the way it slightly melts the plastic, removign any white stress parks from your nibs.</p></div>
+                        <div class="caption"><h3>Cement</h3><p>Used for glueing parts but most importantly for the way it slightly melts the plastic, removing any white stress marks left over from cutting.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -94,7 +94,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_01.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Cut</h3><p>Everyone has a different technique, we find that cutting as far away form the piece as possble and slowly trimming the nib down with your cutters is the best way to prevent stress marks.</p></div>
+                        <div class="caption"><h3>Cut</h3><p>Everyone has a different technique. We find that cutting as far away from the piece as possble, and then slowly trimming the nib down with your cutters is the best way to prevent stress marks.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -104,7 +104,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Smooth</h3><p>Inevitably you'll need to sand down a lump your cutters can't quite get at. Also very useful for 'polishing' when youu've used cement to melt out a stress mark.</p></div>
+                        <div class="caption"><h3>Smooth</h3><p>Inevitably you'll need to sand down a lump your cutters can't quite get at. Also very useful for 'polishing' when you've used cement to melt out a stress mark.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -125,7 +125,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_03.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><p>Take pictures as you build, chances are you aren't going to dismantle it ever and it's nice to remember what it took.</p></div>
+                        <div class="caption"><p>Take pictures as you build, chances are you aren't going to dismantle it ever and it's nice to remember what it took to put together.</p></div>
                     </figcaption>
                 </figure>
             </div>
