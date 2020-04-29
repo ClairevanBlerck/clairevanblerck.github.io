@@ -12,7 +12,7 @@ layout: plog
         <a href="https://clairevanblerck.com/plog/2020/03/20/calathea-ornata">
           <div class="mySlides fade">
             <img src="resources/images/CalatheaOrnata_6.jpg">
-            <div class="slideshow-text">Calathea Ornata (latest post) 
+            <div class="slideshow-text">Calathea Ornata (featured plant) 
             </div>
           </div>
         </a>

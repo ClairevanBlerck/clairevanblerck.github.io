@@ -160,8 +160,9 @@ nav li a {
 }
 
 .grid img {
-    max-width: 27vw;
-    max-height: 55vh;
+    width: 27vw;
+    height: 45vh;
+    object-fit: contain;
 }
 
 .grid.two img {
