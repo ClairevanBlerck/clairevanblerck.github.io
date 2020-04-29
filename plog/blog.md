@@ -60,8 +60,8 @@ layout: plog
                     <h3>Neem oil</h3>
                     <h4>Equipment<br>Pest solution & fertiliser in 1</h4>
                     <p>Non-toxic to you, your pets, and the bugs you love.<br>Haven't tried it yet?</p>
-                    </a> 
                 </div>
+                </a>
             </div>
             <div class="grid">
                 <img src="resources/images/EpipremnumAureum.jpg">
