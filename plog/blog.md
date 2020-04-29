@@ -29,7 +29,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="resources/images/Sansevieria_1 2.jpg">
+                <img src="resources/images/Sansevieria.jpg">
                 <div class="grid-item">
                     <h3>Sansevieria<br>(Snake plant)</h3>
                     <h4>Easy (^_^)/</h4>
@@ -85,7 +85,7 @@ layout: plog
     <article>
         <div class="featured">
             <div class="grid">
-                <img src="resources/images/CalatheaOrnata_2_large.jpg">
+                <img src="resources/images/CalatheaOrnata_2.jpg">
                 <div class="grid-item">
                     <h3>Calathea Ornata<br>(Pinstipe plant)</h3>
                     <h4>Advanced ＼(◎o◎)／！</h4>
@@ -101,7 +101,7 @@ layout: plog
                 </div>
             </div>
             <div class="grid">
-                <img src="resources/images/WallisiaCyanea_2.jpg">
+                <img src="resources/images/WallisiaCyanea_1.jpg">
                 <div class="grid-item">
                     <h3>Pink Quilll<br>(Wallisia Cyanea)</h3>
                     <h4>Moderate ヽ(^。^)ノ</h4>

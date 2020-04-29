@@ -11,7 +11,7 @@ layout: plog
         <!-- Full-width images with caption text -->
         <a href="https://clairevanblerck.com/plog/2020/03/20/calathea-ornata">
           <div class="mySlides fade">
-            <img src="resources/images/CalatheaOrnata_2_large.jpg">
+            <img src="resources/images/CalatheaOrnata_6.jpg">
             <div class="slideshow-text">Calathea Ornata (latest post) 
             </div>
           </div>
@@ -63,7 +63,7 @@ layout: plog
           </div>
             <div class="grid">
               <a href="https://clairevanblerck.com/plog/2020/03/16/neem-oil">
-                <img src="resources/images/Naissance_NeemOil.jpg">
+                <img src="resources/images/NeemOil_Naissance.jpg">
                 <div class="grid-item">
                     <h3>What about: Neem oil?</h3>
                     <p class="date">16 Mar 2020</p>

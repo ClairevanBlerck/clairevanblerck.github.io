@@ -15,15 +15,15 @@ layout: plog-posts
                     <div class="text">When it was new...</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="/plog/resources/images/CalatheaOrnata_3_large.jpg">
+                    <img src="/plog/resources/images/CalatheaOrnata_3.jpg">
                     <div class="text">it was happy and energetic</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="/plog/resources/images/CalatheaOrnata_2_large.jpg">
+                    <img src="/plog/resources/images/CalatheaOrnata_2.jpg">
                     <div class="text">New leaves were amazing and frequent</div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="/plog/resources/images/CalatheaOrnata_4_large.jpg">
+                    <img src="/plog/resources/images/CalatheaOrnata_4.jpg">
                     <div class="text">Annnnd then it started</div>
                 </div>
                 <!-- Next and previous buttons -->
@@ -85,7 +85,7 @@ layout: plog-posts
                 </p>
             </div>
             <figure>
-                <img src="/plog/resources/images/floor-plan (2).jpg" alt="Floorplan of my flat">
+                <img src="/plog/resources/images/floor-plan.jpg" alt="Floorplan of my flat">
                 <figcaption>
                     The floorplan of my flat
                 </figcaption>
