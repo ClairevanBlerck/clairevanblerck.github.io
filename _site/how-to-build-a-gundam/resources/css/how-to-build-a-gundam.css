@@ -265,7 +265,7 @@ section .grades {
 .grades .container .caption {
     width: 60vw;
     height: fit-content;
-    padding: 0.5rem;
+    padding: 2rem 0.5rem 0 0.5rem;
 }
   
 .grades .container .caption p {
@@ -519,16 +519,6 @@ footer p, a {
         width: 39vw;
         height: 15vh;
     }
-}
-
-
-@media only screen and (max-width: 1025px) {
-
-    /* Grades section */
-    .grades .container .caption {
-
-    }
-
 }
 
 

@@ -14,7 +14,7 @@ layout: how-to-build-a-gundam
                     <img src="/how-to-build-a-gundam/resources/images/grades.gif">
                     <figcaption>
                         <div class="caption">
-                            <h4>High Grade (HG)</h4><p>One of the most affordable grades to purchase. Better range of motion and greater poseability than most No-Grade kits, great for new hobbyists.</p>
+                            <h4>High Grade (HG)</h4><p>One of the most affordable grades to purchase. Better range of motion and greater posability than most No-Grade kits, great for new hobbyists.</p>
                         </div>
                         <div class="caption">
                             <h4>Master Grade MG)</h4><p>One up from High Grade, more pricey, more detail, more work, more decals.</p>
@@ -43,7 +43,8 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/god-hand.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Cutters</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Cutters</h3><p>The sharper and better your cutters, the least likely you'll get those white stress marks as you cut each piece and trim the nibs.</p>
+                        <p>We used the <a href="https://www.gunpla101.com/review-god-hand-ultimate-nipper/">God Hand Ultimate Nipper</a> because it's the sharpest on the market.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -53,7 +54,8 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/sandpaper-p1500.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Sandpaper</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Sandpaper</h3><p>Fine 1500 grit sandpaper is useful for grinding down any bits of leftover nib.</p>
+                        <p>Some people like to have a range from 800 to 2000 grit but we don't find that necessary.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -63,7 +65,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/tamiya-cement.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Cement</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Cement</h3><p>Used for gluing parts but most importantly for the way it slightly melts the plastic, removign any white stress parks from your nibs.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -73,7 +75,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/gundam-markers.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Markers</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Markers</h3><p>Used for weathering, paint effect, etc.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -92,7 +94,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_01.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Cut</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Cut</h3><p>Everyone has a different technique, we find that cutting as far away form the piece as possble and slowly trimming the nib down with your cutters is the best way to prevent stress marks.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -102,7 +104,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_Altron_heads.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Smooth</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Smooth</h3><p>Inevitably you'll need to sand down a lump your cutters can't quite get at. Also very useful for 'polishing' when youu've used cement to melt out a stress mark.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -112,27 +114,18 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_pilot.gif" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Assemble</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Assemble</h3><p>The best bit.</p>
+                        <p></p></div>
                     </figcaption>
                 </figure>
             </div>
         </div>
-                <div class="build">
-            <div class="container">
-                <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/Altron_02.jpg" alt="alternative" loading="lazy">
-                    <figcaption>
-                        <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-                <div class="build">
+        <div class="build">
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/Altron_03.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><p>Take pictures as you build, chances are you aren't going to dismantle it ever and it's nice to remember what it took.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -151,7 +144,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/painting1.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Painting</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Painting</h3><p>Technically you'd paint your pilot before constructing the suit, but as the pilot is not visible after the fact, not many people take the time.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -161,17 +154,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/painting4.jpg" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="finish">
-            <div class="container">
-                <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/painting2.jpg" alt="alternative" loading="lazy">
-                    <figcaption>
-                        <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><p>Spraying parts.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -181,7 +164,7 @@ layout: how-to-build-a-gundam
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/weathering.gif" alt="alternative" loading="lazy">
                     <figcaption>
-                        <div class="caption"><h3>Weathering</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="caption"><h3>Weathering</h3><p>Use your markers to bring out the battle damage your suit has taken.</p></div>
                     </figcaption>
                 </figure>
             </div>
@@ -198,11 +181,11 @@ layout: how-to-build-a-gundam
             <h2>Display</h2>
             <div class="container">
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/painting3.jpg" alt="alternative" loading="lazy">
-                    <img src="/how-to-build-a-gundam/resources/images/painting3.jpg" alt="alternative" loading="lazy">
+                    <img src="/how-to-build-a-gundam/resources/images/painting2.jpg" alt="alternative" loading="lazy">
+                    <img src="/how-to-build-a-gundam/resources/images/Altron_04.jpg" alt="alternative" loading="lazy">
                 </figure>
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/painting3.jpg" alt="alternative" loading="lazy">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg" alt="alternative" loading="lazy">
                     <img src="/how-to-build-a-gundam/resources/images/painting3.jpg" alt="alternative" loading="lazy">
                 </figure>
             </div>
