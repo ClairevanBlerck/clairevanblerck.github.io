@@ -4,6 +4,8 @@
     padding: 0;
     font-size: 20px;
     font-family: 'Timmana', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -62,6 +64,7 @@ body {
 
 /* Nav section */
 
+/* Logo */
 .logo {
     position: fixed;
     z-index: 10;
@@ -75,41 +78,32 @@ body {
     padding: 0 1rem;
 }
 
+
+/* Nav - general */
 .nav {
     display: inline-flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     margin-top: 4.4rem;
 }
 
-.nav img {
-    object-fit: cover;
-}
-
-.nav #left-block {
-    float: left;
-    flex-shrink: 2;
-    width: 42vw;
-    height: fit-content;
-}
-
-.nav #right-block {
-    float: right;
-    flex-shrink: 2;
-    width: 42vw;
-    height: fit-content;
-}
-
-<<<<<<< Updated upstream
-=======
 .nav img {
     width: 100%;
     Height: 100%;
     object-fit: cover;
 }
 
->>>>>>> Stashed changes
+
+/* Nav - left block */
+.nav #left-block {
+    position: relative;
+    float: left;
+    flex-shrink: 2;
+    width: 42vw;
+    height: fit-content;
+}
+
 .nav #left-block .top {
     width: 42vw;
     height: 50vh;
@@ -122,15 +116,63 @@ body {
 }
 
 .nav #left-block .bottom .bottom-left {
-    float: left;
     width: 20vw;
     height: 28vh;
 }
 
 .nav #left-block .bottom .bottom-right {
-    float: right;  
     width: 20vw;
     height: 28vh;
+}
+
+/* Nav - left block overlays */
+#left-block .overlay {
+    position: absolute;
+    color: rgb(177, 177, 177);
+    text-align: center;
+    background-color: rgba(109, 0, 0, 0.808);
+    /*opacity: 1;
+    transition: 0.5s ease;*/
+    cursor: pointer;
+}
+
+#left-block .top .overlay {
+    font-size: 5rem;
+    line-height: 60vh;
+    width: 42vw;
+    height: 50vh;
+    top: 0;
+}
+
+#left-block .bottom .overlay {
+    bottom: 0;
+    font-size: 3rem;
+    line-height: 30vh;
+    width: 20vw;
+    height: 28vh;
+    margin-top: 1rem;
+}
+
+#left-block .top:hover .overlay {
+    opacity: 0;
+}
+
+#left-block .bottom-left:hover .overlay {
+    opacity: 0;
+}
+
+#left-block .bottom-right:hover .overlay {
+    opacity: 0;
+}
+
+
+/* Nav - right block */
+.nav #right-block {
+    position: relative;
+    float: right;
+    flex-shrink: 2;
+    width: 42vw;
+    height: fit-content;
 }
 
 .nav #right-block .left {
@@ -154,60 +196,59 @@ body {
 
 .nav #right-block .right .bottom {
     width: 20vw;
-<<<<<<< Updated upstream
-    height: 38vh; 
-=======
     height: 39vh; 
->>>>>>> Stashed changes
 }
 
-#left-block .overlay {
+/* Nav - right block overlays */
+#right-block .overlay {
     position: absolute;
     color: rgb(177, 177, 177);
     text-align: center;
-    background-color: rgba(109, 0, 0, 0.808);
-    opacity: 1;
-    transition: 0.5s ease;
+    background-color: rgba(109, 80, 0, 0.808);
+    /*opacity: 1;
+    transition: 0.5s ease;*/
+    cursor: pointer;
 }
 
-.nav #left-block .top .overlay {
+#right-block .left .overlay {
     font-size: 5rem;
-    line-height: 4;
-    float: left;
-    flex-shrink: 2;
-    width: 42vw;
-    height: 50vh;
-    top: 5.4rem;
-}
-
-.nav #left-block .bottom .overlay {
-    font-size: 3rem;
-    line-height: 4;
+    line-height: 80vh;
     width: 20vw;
-    height: 28vh;
-    margin-top: 1rem;
-    bottom: 5vh;
+    height: 80vh;
+    top: 0;
 }
 
-#left-block .bottom .bottom-left .overlay {
-    float: left;
+#right-block .right .overlay {
+    font-size: 3rem;
+    line-height: 40vh;
+    background-color: rgba(0, 44, 109, 0.808);
 }
 
-#left-block .bottom-right .overlay {
-    float: right;
+#right-block .top .overlay {
+    width: 20vw;
+    height: 36vh;
+    top: 0;
 }
 
-#left-block .top:hover .overlay {
+#right-block .bottom .overlay {
+    width: 20vw;
+    height: 39vh;
+    bottom: 0;
+}
+
+#right-block .left:hover .overlay {
     opacity: 0;
 }
 
-#left-block .bottom-left:hover .overlay {
+#right-block .top:hover .overlay {
     opacity: 0;
 }
 
-#left-block .bottom-right:hover .overlay {
+#right-block .bottom:hover .overlay {
     opacity: 0;
 }
+
+
 
 
 /* Equipment section */
