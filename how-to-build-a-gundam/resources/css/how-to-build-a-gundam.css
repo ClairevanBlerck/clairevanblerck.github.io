@@ -83,6 +83,10 @@ body {
     margin-top: 4.4rem;
 }
 
+.nav img {
+    object-fit: cover;
+}
+
 .nav #left-block {
     float: left;
     flex-shrink: 2;
@@ -97,8 +101,7 @@ body {
     height: fit-content;
 }
 
-.nav #left-block .top img {
-    object-fit: cover;
+.nav #left-block .top {
     width: 42vw;
     height: 50vh;
 }
@@ -149,10 +152,6 @@ body {
     object-fit: cover;
     width: 20vw;
     height: 38vh; 
-}
-
-.nav #left-block .top {
-    display: block;
 }
 
 #left-block .overlay {
