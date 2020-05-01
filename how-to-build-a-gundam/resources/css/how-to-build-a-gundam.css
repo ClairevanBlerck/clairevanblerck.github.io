@@ -101,104 +101,112 @@ body {
     height: fit-content;
 }
 
+<<<<<<< Updated upstream
+=======
+.nav img {
+    width: 100%;
+    Height: 100%;
+    object-fit: cover;
+}
+
+>>>>>>> Stashed changes
 .nav #left-block .top {
     width: 42vw;
     height: 50vh;
 }
 
 .nav #left-block .bottom {
-    display: block;
+    display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
-.nav #left-block .bottom .bottom-left img {
+.nav #left-block .bottom .bottom-left {
     float: left;
-    object-fit: cover;
     width: 20vw;
     height: 28vh;
 }
 
-.nav #left-block .bottom .bottom-right img {
+.nav #left-block .bottom .bottom-right {
     float: right;  
-    object-fit: cover;
     width: 20vw;
     height: 28vh;
 }
 
-.nav #right-block .left img {
-    z-index: 2;
-    float: left;
-    object-fit: cover;
+.nav #right-block .left {
     width: 20vw;
-    height: 76vh;
+    height: 80vh;
+    float: left;
 }
 
 .nav #right-block .right {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     float: right;
-    z-index: 1;
-    position: relative;
+    height: 80vh;
 }
 
-.nav #right-block .right .top img {
-    object-fit: cover;
-    position: relative;
+.nav #right-block .right .top {
     width: 20vw;
     height: 36vh; 
 }
 
-.nav #right-block .right .bottom img {
-    object-fit: cover;
+.nav #right-block .right .bottom {
     width: 20vw;
+<<<<<<< Updated upstream
     height: 38vh; 
+=======
+    height: 39vh; 
+>>>>>>> Stashed changes
 }
 
 #left-block .overlay {
-    position: absolute; 
-    color: red;
+    position: absolute;
+    color: rgb(177, 177, 177);
     text-align: center;
-    background-color: white;
-    opacity: 0;
-    transition: 0.1s ease;
+    background-color: rgba(109, 0, 0, 0.808);
+    opacity: 1;
+    transition: 0.5s ease;
 }
 
-#left-block .top .overlay {
+.nav #left-block .top .overlay {
     font-size: 5rem;
     line-height: 4;
-    top: 5rem; 
+    float: left;
+    flex-shrink: 2;
     width: 42vw;
-    height: 51vh;
+    height: 50vh;
+    top: 5.4rem;
 }
 
-#left-block .bottom .overlay {
+.nav #left-block .bottom .overlay {
     font-size: 3rem;
     line-height: 4;
+    width: 20vw;
+    height: 28vh;
+    margin-top: 1rem;
+    bottom: 5vh;
 }
 
-#left-block .bottom-left .overlay {
-    bottom: 5vh;
-    width: 20vw;
-    height: 29vh;
+#left-block .bottom .bottom-left .overlay {
+    float: left;
 }
 
 #left-block .bottom-right .overlay {
-    bottom: 5vh;
-    left: 27vw;
-    width: 21vw;
-    height: 29vh;
+    float: right;
 }
 
 #left-block .top:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 #left-block .bottom-left:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 #left-block .bottom-right:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 
@@ -456,17 +464,17 @@ footer p, a {
         margin: auto 1rem;
     }
 
-    .nav #left-block .top img {
+    .nav #left-block .top {
         width: 80vw;
         height: 22vh;
     }
     
-    .nav #left-block .bottom .bottom-left img {
+    .nav #left-block .bottom .bottom-left {
         width: 39vw;
         height: 14vh;
     }
     
-    .nav #left-block .bottom .bottom-right img {
+    .nav #left-block .bottom .bottom-right {
         width: 39vw;
         height: 14vh;
     }
@@ -478,19 +486,23 @@ footer p, a {
         margin: 1rem;
     }
 
-    .nav #right-block .left img {
+    .nav #right-block .left {
         width: 45vw;
-        height: 38vh;
+        height: 41vh;
+    }
+
+    .nav #right-block .right {
+        height: 41vh;
     }
     
-    .nav #right-block .right .top img {
+    .nav #right-block .right .top {
         width: 32vw;
-        height: 17vh; 
+        height: 18.5vh; 
     }
     
-    .nav #right-block .right .bottom img {
+    .nav #right-block .right .bottom {
         width: 32vw;
-        height: 19vh; 
+        height: 20vh;
     }
 
     #left-block .top .overlay {
