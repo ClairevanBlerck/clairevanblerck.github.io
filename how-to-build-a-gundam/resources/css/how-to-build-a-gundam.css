@@ -4,6 +4,8 @@
     padding: 0;
     font-size: 20px;
     font-family: 'Timmana', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -62,6 +64,7 @@ body {
 
 /* Nav section */
 
+/* Logo */
 .logo {
     position: fixed;
     z-index: 10;
@@ -75,132 +78,177 @@ body {
     padding: 0 1rem;
 }
 
+
+/* Nav - general */
 .nav {
     display: inline-flex;
     justify-content: space-evenly;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     margin-top: 4.4rem;
 }
 
+.nav img {
+    width: 100%;
+    Height: 100%;
+    object-fit: cover;
+}
+
+
+/* Nav - left block */
 .nav #left-block {
+    position: relative;
     float: left;
     flex-shrink: 2;
     width: 42vw;
     height: fit-content;
 }
 
-.nav #right-block {
-    float: right;
-    flex-shrink: 2;
-    width: 42vw;
-    height: fit-content;
-}
-
-.nav #left-block .top img {
-    object-fit: cover;
+.nav #left-block .top {
     width: 42vw;
     height: 50vh;
 }
 
 .nav #left-block .bottom {
-    display: block;
+    display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
-.nav #left-block .bottom .bottom-left img {
-    float: left;
-    object-fit: cover;
+.nav #left-block .bottom .bottom-left {
     width: 20vw;
     height: 28vh;
 }
 
-.nav #left-block .bottom .bottom-right img {
-    float: right;  
-    object-fit: cover;
+.nav #left-block .bottom .bottom-right {
     width: 20vw;
     height: 28vh;
 }
 
-.nav #right-block .left img {
-    z-index: 2;
-    float: left;
-    object-fit: cover;
-    width: 20vw;
-    height: 76vh;
-}
-
-.nav #right-block .right {
-    display: inline-flex;
-    flex-direction: column;
-    float: right;
-    z-index: 1;
-    position: relative;
-}
-
-.nav #right-block .right .top img {
-    object-fit: cover;
-    position: relative;
-    width: 20vw;
-    height: 36vh; 
-}
-
-.nav #right-block .right .bottom img {
-    object-fit: cover;
-    width: 20vw;
-    height: 38vh; 
-}
-
-.nav #left-block .top {
-    display: block;
-}
-
+/* Nav - left block overlays */
 #left-block .overlay {
-    position: absolute; 
-    color: red;
+    position: absolute;
+    color: rgb(177, 177, 177);
     text-align: center;
-    background-color: white;
-    opacity: 0;
-    transition: 0.1s ease;
+    background-color: rgba(109, 0, 0, 0.808);
+    /*opacity: 1;
+    transition: 0.5s ease;*/
+    cursor: pointer;
 }
 
 #left-block .top .overlay {
     font-size: 5rem;
-    line-height: 4;
-    top: 5rem; 
+    line-height: 60vh;
     width: 42vw;
-    height: 51vh;
+    height: 50vh;
+    top: 0;
 }
 
 #left-block .bottom .overlay {
+    bottom: 0;
     font-size: 3rem;
-    line-height: 4;
-}
-
-#left-block .bottom-left .overlay {
-    bottom: 5vh;
+    line-height: 30vh;
     width: 20vw;
-    height: 29vh;
-}
-
-#left-block .bottom-right .overlay {
-    bottom: 5vh;
-    left: 27vw;
-    width: 21vw;
-    height: 29vh;
+    height: 28vh;
+    margin-top: 1rem;
 }
 
 #left-block .top:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 #left-block .bottom-left:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 #left-block .bottom-right:hover .overlay {
-    opacity: 0.8;
+    opacity: 0;
 }
+
+
+/* Nav - right block */
+.nav #right-block {
+    position: relative;
+    float: right;
+    flex-shrink: 2;
+    width: 42vw;
+    height: fit-content;
+}
+
+.nav #right-block .left {
+    width: 20vw;
+    height: 80vh;
+    float: left;
+}
+
+.nav #right-block .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    height: 80vh;
+}
+
+.nav #right-block .right .top {
+    width: 20vw;
+    height: 36vh; 
+}
+
+.nav #right-block .right .bottom {
+    width: 20vw;
+    height: 39vh; 
+}
+
+/* Nav - right block overlays */
+#right-block .overlay {
+    position: absolute;
+    color: rgb(177, 177, 177);
+    text-align: center;
+    background-color: rgba(109, 80, 0, 0.808);
+    /*opacity: 1;
+    transition: 0.5s ease;*/
+    cursor: pointer;
+}
+
+#right-block .left .overlay {
+    font-size: 5rem;
+    line-height: 80vh;
+    width: 20vw;
+    height: 80vh;
+    top: 0;
+}
+
+#right-block .right .overlay {
+    font-size: 3rem;
+    line-height: 40vh;
+    background-color: rgba(0, 44, 109, 0.808);
+}
+
+#right-block .top .overlay {
+    width: 20vw;
+    height: 36vh;
+    top: 0;
+}
+
+#right-block .bottom .overlay {
+    width: 20vw;
+    height: 39vh;
+    bottom: 0;
+}
+
+#right-block .left:hover .overlay {
+    opacity: 0;
+}
+
+#right-block .top:hover .overlay {
+    opacity: 0;
+}
+
+#right-block .bottom:hover .overlay {
+    opacity: 0;
+}
+
+
 
 
 /* Equipment section */
@@ -457,17 +505,17 @@ footer p, a {
         margin: auto 1rem;
     }
 
-    .nav #left-block .top img {
+    .nav #left-block .top {
         width: 80vw;
         height: 22vh;
     }
     
-    .nav #left-block .bottom .bottom-left img {
+    .nav #left-block .bottom .bottom-left {
         width: 39vw;
         height: 14vh;
     }
     
-    .nav #left-block .bottom .bottom-right img {
+    .nav #left-block .bottom .bottom-right {
         width: 39vw;
         height: 14vh;
     }
@@ -479,19 +527,23 @@ footer p, a {
         margin: 1rem;
     }
 
-    .nav #right-block .left img {
+    .nav #right-block .left {
         width: 45vw;
-        height: 38vh;
+        height: 41vh;
+    }
+
+    .nav #right-block .right {
+        height: 41vh;
     }
     
-    .nav #right-block .right .top img {
+    .nav #right-block .right .top {
         width: 32vw;
-        height: 17vh; 
+        height: 18.5vh; 
     }
     
-    .nav #right-block .right .bottom img {
+    .nav #right-block .right .bottom {
         width: 32vw;
-        height: 19vh; 
+        height: 20vh;
     }
 
     #left-block .top .overlay {
