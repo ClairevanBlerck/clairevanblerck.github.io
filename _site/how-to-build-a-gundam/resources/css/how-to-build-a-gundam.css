@@ -92,6 +92,22 @@ body {
     width: 100%;
     Height: 100%;
     object-fit: cover;
+    outline-color: black;
+    outline-style: inset;
+}
+
+.nav p.overlay {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.nav .overlay {
+    /*opacity: 1;
+    transition: 0.5s ease;*/
+    position: absolute;
+    cursor: crosshair;
+    outline-color: black;
+    outline-style: inset;
 }
 
 
@@ -127,13 +143,7 @@ body {
 
 /* Nav - left block overlays */
 #left-block .overlay {
-    position: absolute;
-    color: rgb(177, 177, 177);
-    text-align: center;
-    background-color: rgba(109, 0, 0, 0.808);
-    /*opacity: 1;
-    transition: 0.5s ease;*/
-    cursor: pointer;
+    background-color: rgba(202, 45, 45, 0.692);
 }
 
 #left-block .top .overlay {
@@ -200,14 +210,8 @@ body {
 }
 
 /* Nav - right block overlays */
-#right-block .overlay {
-    position: absolute;
-    color: rgb(177, 177, 177);
-    text-align: center;
-    background-color: rgba(109, 80, 0, 0.808);
-    /*opacity: 1;
-    transition: 0.5s ease;*/
-    cursor: pointer;
+#right-block .left .overlay {
+    background-color: rgba(160, 123, 41, 0.79);
 }
 
 #right-block .left .overlay {
@@ -221,7 +225,7 @@ body {
 #right-block .right .overlay {
     font-size: 3rem;
     line-height: 40vh;
-    background-color: rgba(0, 44, 109, 0.808);
+    background-color: rgba(30, 29, 48, 0.726);
 }
 
 #right-block .top .overlay {
@@ -521,16 +525,6 @@ footer p, a {
     }
 
     /* Nav - left block overlays */
-    #left-block .overlay {
-        position: absolute;
-        color: rgb(177, 177, 177);
-        text-align: center;
-        background-color: rgba(109, 0, 0, 0.808);
-        /*opacity: 1;
-        transition: 0.5s ease;*/
-        cursor: pointer;
-    }
-
     #left-block .top .overlay {
         font-size: 4.5rem;
         line-height: 25vh;
@@ -554,6 +548,14 @@ footer p, a {
         height: 14vh;
         bottom: 0;
         left: 41vw;
+    }
+
+    #left-block .top:hover .overlay {
+        opacity: 1;
+    }
+    
+    #left-block .bottom:hover .overlay {
+        opacity: 1;
     }
 
 
@@ -609,6 +611,14 @@ footer p, a {
         height: 20vh;
         line-height: 24vh;
         bottom: 0;
+    }
+
+    #right-block .left:hover .overlay {
+        opacity: 1;
+    }
+    
+    #right-block .right:hover .overlay {
+        opacity: 1;
     }
 }
 
@@ -821,6 +831,7 @@ footer p, a {
 
     #left-block .bottom .overlay {
         font-size: 1.5rem;
+        line-height: 16vh;
     }
 
     #right-block .left .overlay {
@@ -841,7 +852,7 @@ footer p, a {
     }
 
     #left-block .bottom .overlay {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     #right-block .left .overlay {
