@@ -138,7 +138,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2>Finishing</h2>
+        <h2 id="#Finishing">Finishing</h2>
         <div class="finish">
             <div class="container">
                 <figure>
@@ -178,7 +178,7 @@ layout: how-to-build-a-gundam
 <section>
     <article>
         <div class="display">
-            <h2>Display</h2>
+            <h2 id="#Display">Display</h2>
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/painting2.jpg" alt="alternative" loading="lazy">
