@@ -3,39 +3,52 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
-    font-family: 'Timmana', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
+    font-family: Timmana;
     font-size: 3rem;
 }
 
 h2 {
+    font-family: Timmana;
     font-size: 2.7rem;
     text-align: center;
     padding-top: 3rem;
 }
 
 h3 {
+    font-family: Timmana;
     font-size: 2rem;
 }
 
 h4 {
+    font-family: Timmana;
     font-size: 1.7rem;
 }
 
 h5 {
+    font-family: Timmana;
     font-size: 1.2rem;
 }
 
 h6 {
+    font-family: Timmana;
     font-size: 1.2rem;
 }
 
 p {
     font-size: 1rem;
+    font-weight: 300;
+}
+
+em {
+    font-weight: 300i;
+}
+
+strong {
+    font-weight: 600;
 }
 
 a {
@@ -97,6 +110,7 @@ body {
 }
 
 .nav p.overlay {
+    font-family: "Timmana", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -482,6 +496,7 @@ footer {
 }
 
 footer p, a {
+    font-family: Timmana;
     font-size: 1.3rem;
 }
 
