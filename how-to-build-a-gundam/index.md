@@ -8,7 +8,7 @@ layout: how-to-build-a-gundam
 <section>
     <article>
         <div class="grades">
-        <h2 class="heading">Grades</h2>
+        <h2 id="#Grades">Grades</h2>
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/grades.gif">
@@ -37,7 +37,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2>Equipment</h2>
+        <h2 id="#Equipment">Equipment</h2>
         <div class="equipment">
             <div class="container">
                 <figure>
@@ -88,7 +88,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2 class="heading">Building</h2>
+        <h2 id="#Building">Building</h2>
         <div class="build">
             <div class="container">
                 <figure>

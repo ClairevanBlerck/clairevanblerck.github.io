@@ -1,9 +1,9 @@
-I"‘%<!-- Grades section -->
+I"ž%<!-- Grades section -->
 
 <section>
     <article>
         <div class="grades">
-        <h2 class="heading">Grades</h2>
+        <h2 class="heading" id="#Grades">Grades</h2>
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/grades.gif" />
