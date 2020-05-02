@@ -8,7 +8,7 @@ layout: how-to-build-a-gundam
 <section>
     <article>
         <div class="grades">
-        <h2 id="#Grades">Grades</h2>
+        <h2 id="Grades">Grades</h2>
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/grades.gif">
@@ -37,7 +37,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2 id="#Equipment">Equipment</h2>
+        <h2 id="Equipment">Equipment</h2>
         <div class="equipment">
             <div class="container">
                 <figure>
@@ -88,7 +88,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2 id="#Building">Building</h2>
+        <h2 id="Building">Building</h2>
         <div class="build">
             <div class="container">
                 <figure>
@@ -138,7 +138,7 @@ layout: how-to-build-a-gundam
 
 <section>
     <article>
-        <h2 id="#Finishing">Finishing</h2>
+        <h2 id="Finishing">Finishing</h2>
         <div class="finish">
             <div class="container">
                 <figure>
@@ -178,7 +178,7 @@ layout: how-to-build-a-gundam
 <section>
     <article>
         <div class="display">
-            <h2 id="#Display">Display</h2>
+            <h2 id="Display">Display</h2>
             <div class="container">
                 <figure>
                     <img src="/how-to-build-a-gundam/resources/images/painting2.jpg" alt="alternative" loading="lazy">
@@ -193,12 +193,9 @@ layout: how-to-build-a-gundam
     </article>
 </section>
 
-
-<!-- Tips section
-
 <section>
     <article>
-        <h2 class="heading">Tips</h2>
+        <h2 id="Tips">Tips</h2>
         <div class="tips">
             <div class="container">
                 <figure>
@@ -220,4 +217,4 @@ layout: how-to-build-a-gundam
             </div>
         </div>
     </article>
-</section>   -->
+</section>
