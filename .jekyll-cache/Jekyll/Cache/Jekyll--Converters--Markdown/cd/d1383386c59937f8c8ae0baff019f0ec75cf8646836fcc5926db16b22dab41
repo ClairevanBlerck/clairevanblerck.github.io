@@ -1,5 +1,4 @@
-I"”
-<!-- About section -->
+I"<!-- About section -->
 
 <section>
     <article>
@@ -21,11 +20,11 @@
             <ul>
                 <li class="portfolio-item">
                     <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg" />
-                      <div class="portfolio-item-text left">how to build a gundam</div>
+                      <div class="portfolio-item-text left"><h3>how to build a gundam</h3><br /><h4>A guide to assembling &amp; painting gunpla</h4></div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg" />
-                      <div class="portfolio-item-text right">p(lant b)log</div>
+                      <div class="portfolio-item-text right"><h3>p(lant b)log</h3><br /><h4>A houseplant journal + product reviews</h4></div>
                     </a></li>
                 <!--<li class="portfolio-item">
                     <a href="/bracknell-game" target="blank" alt="mobile game design"><img src="resources/images/bracknell-game/bracknell.jpg"><p class="portfolio-item-text">mobile game design</p></a></li> -->

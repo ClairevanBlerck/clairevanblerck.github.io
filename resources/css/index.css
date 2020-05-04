@@ -148,8 +148,8 @@ h3.portfolio-heading {
     height: 80vh;
     object-fit: cover;
     z-index: 1;
-    opacity: 0.4;
-    transition-duration: 1.4s;
+    opacity: 0.95;
+    transition-duration: 0.7s; /* previously 1.4s */
 }
 
 .portfolio-item a {
@@ -160,18 +160,28 @@ h3.portfolio-heading {
     position: relative;
 }
 
-.portfolio-item .portfolio-item-text {
+.portfolio-item .portfolio-item-text h3 {
     font-size: 3rem;
-    line-height: 4;
+    line-height: 3.2;
     color: white;
+    padding: 0.5rem;
+}
+
+.portfolio-item .portfolio-item-text h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2;
+    color: white;
+    padding: 0.5rem;
+}
+
+.portfolio-item .portfolio-item-text {
     background-color: black;
     width: 50vw;
-
     position: absolute;
     z-index: 10;
-    padding: 0.5rem;
-    opacity: 0.8;
-    transition-duration: 0.8s;
+    opacity: 0.7;
+    transition-duration: 0.5s; /* previously 0.8s */
 }
 
 .portfolio-item .portfolio-item-text.left {
@@ -182,12 +192,15 @@ h3.portfolio-heading {
     bottom: 0;
 }
 
+
+/* To do: Prevent transformations on resizing ref: https://css-tricks.com/stop-animations-during-window-resizing/#comments */
+
 .portfolio-item:hover img {
-    opacity: 1;
+    opacity: 0.6;
 }
 
-.portfolio-item-text:hover div {
-    opacity: 0.1;
+.portfolio-item .portfolio-item-text:hover {
+    opacity: 0.8;
 }
 
 
@@ -279,7 +292,6 @@ h3.portfolio-heading {
 
     .portfolio-item img {
         height: 70vh;
-        opacity: 0.8;
         transition-duration: 0s;
     }
     
@@ -296,16 +308,32 @@ h3.portfolio-heading {
 }
 
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 990px) {
 
     /* Portfolio section */
-    .portfolio-item .portfolio-item-text {
-        font-size: 2.3rem;
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.6rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.4rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.3rem;
     }
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 799px) {
 
     /* Portfolio section */
     .portfolio ul {
@@ -321,8 +349,15 @@ h3.portfolio-heading {
     }
 
     .portfolio-item .portfolio-item-text {
-        font-size: 2.8rem;
         width: 100vw;
+    }
+
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 3rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.5rem;
     }
 }
 
@@ -351,6 +386,19 @@ h3.portfolio-heading {
 }
 
 
+@media only screen and (max-width: 500px) {
+
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.4rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.3rem;
+    }
+}
+
+
 @media only screen and (max-width: 480px) {
 
     /* About section */
@@ -369,21 +417,20 @@ h3.portfolio-heading {
 }
 
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 417px) {
 
-    /* Portfolio secion */
-    .portfolio-item .portfolio-item-text {
-        font-size: 2.6rem;
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.2rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.2rem;
     }
 }
 
 
 @media only screen and (max-width: 431px) {
-
-    /* Portfolio section */
-    .portfolio-item .portfolio-item-text {
-        font-size: 2.5rem;
-    }
 
     /* Contact section */
     .social-panel .footer-heading {
@@ -391,16 +438,19 @@ h3.portfolio-heading {
     }
 }
 
-@media only screen and (max-width: 416px) {
+@media only screen and (max-width: 368px) {
 
     /* Portfolio section */
-    .portfolio-item .portfolio-item-text.left {
-        line-height: 5rem;
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.1rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.1rem;
     }
 }
 
-
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 353px) {
 
     /* About section */
     .image-and-text-panel img {
@@ -408,7 +458,36 @@ h3.portfolio-heading {
     }
 
     /* Portfolio section */
-    .portfolio-item .portfolio-item-text {
-        font-size: 2.3rem;
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2rem;
+    }
+
+    .portfolio-item .portfolio-item-text h4 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* Portfolio section */
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+
+    /* Contact section */
+    .social-panel .social-icons .email a {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+
+    /* Contact section */
+    .social-panel .social-icons .email a {
+        display: none;
     }
 }
