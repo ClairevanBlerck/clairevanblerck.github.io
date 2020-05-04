@@ -1,22 +1,16 @@
----
-title: claire van blerck
-layout: main
----
-
-<!-- About section -->
+I"û<!-- About section -->
 
 <section>
     <article>
         <div class="image-and-text-panel">
             <div class="text-item">
                 <h1>Hi, I'm Claire</h1>
-                <p>I have a creative and customer-focussed background, <br>and now I'm a web developer.</p>
+                <p>I have a creative and customer-focussed background, <br />and now I'm a web developer.</p>
             </div>
-            <img src="resources/images/portfolio/4.png" alt="Claire van Blerck">            
+            <img src="resources/images/portfolio/4.png" alt="Claire van Blerck" />            
         </div>
     </article>
 </section>
-
 
 <!-- Portfolio section -->
 
@@ -25,12 +19,12 @@ layout: main
         <div class="portfolio">
             <ul>
                 <li class="portfolio-item">
-                    <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg">
-                      <div class="portfolio-item-text left"><h3>how to build a gundam</h3><br><h4>A guide to assembling & painting gunpla</h4></div>
+                    <a href="/how-to-build-a-gundam" target="blank" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg" />
+                      <div class="portfolio-item-text left"><h3>how to build a gundam</h3><br /><h4>A guide to assembling &amp; painting gunpla</h4></div>
                     </a></li>
                 <li class="portfolio-item">
-                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg">
-                      <div class="portfolio-item-text right"><h3>p(lant b)log</h3><br><h4>A houseplant journal + product reviews</h4></div>
+                    <a href="/plog" target="blank" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg" />
+                      <div class="portfolio-item-text right"><h3>p(lant b)log</h3><br /><h4>A houseplant journal + product reviews</h4></div>
                     </a></li>
                 <!--<li class="portfolio-item">
                     <a href="/bracknell-game" target="blank" alt="mobile game design"><img src="resources/images/bracknell-game/bracknell.jpg"><p class="portfolio-item-text">mobile game design</p></a></li> -->
@@ -39,7 +33,6 @@ layout: main
         </div>
     </article>
 </section>
-
 
 <!-- CV section -->
 
@@ -52,19 +45,18 @@ layout: main
                 <p>Customer success and CX were my driving interests before I got into web development.</p>
                 <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
             </div>
-            <div class="skill-set">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JAVASCRIPT</li>
-                  <li>JEKYLL</li>
-                  <li>LIQUID</li>
-                </ul>
+            <div class="skillset">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
             </div>
         </div>
     </article>
 </section>
-
 
 <!-- Contact section -->
 
@@ -80,3 +72,4 @@ layout: main
         </div>
     </article>
 </section>
+:ET

@@ -1,4 +1,4 @@
-I"<!-- About section -->
+I"=<!-- About section -->
 
 <section>
     <article>
@@ -45,7 +45,17 @@
                 <p>Customer success and CX were my driving interests before I got into web development.</p>
                 <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
             </div>
-        </div>
+            <div class="skill-set">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Jekyll</li>
+                  <li>Liquid</li>
+                </ul>
+                </div>
+            </div>
+        &lt;/div&gt;
     </article>
 </section>
 
