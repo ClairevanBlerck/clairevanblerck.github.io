@@ -11,7 +11,7 @@ layout: how-to-build-a-gundam
         <h2 id="Grades">Grades</h2>
             <div class="container">
                 <figure>
-                    <img src="/how-to-build-a-gundam/resources/images/grades.gif">
+                    <img src="/how-to-build-a-gundam/resources/images/Sandrock_Custom_box.jpg">
                     <figcaption>
                         <div class="caption">
                             <h4>High Grade (HG)</h4><p>One of the most affordable grades to purchase. Better range of motion and greater posability than most No-Grade kits, great for new hobbyists.</p>

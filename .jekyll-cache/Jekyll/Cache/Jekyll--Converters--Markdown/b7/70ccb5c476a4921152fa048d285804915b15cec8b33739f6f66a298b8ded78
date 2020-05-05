@@ -1,4 +1,4 @@
-I"è<!-- About section -->
+I"¿<!-- About section -->
 
 <section>
     <article>
@@ -42,7 +42,7 @@
             <div class="text-item">
                 <h3>A little more about me</h3>
                 <p>I originally studied Fine Art and Business Administration.</p>
-                <p>Customer success (CS) and Customer Experience (CE) were my driving interests before I got into web development.</p>
+                <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving interests before I got into web development.</p>
                 <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
             </div>
             <div class="skill-set">
@@ -54,13 +54,12 @@
                   <li>Liquid</li>
                   <li>Project management</li>
                   <li>CS</li>
-                  <li>
-                &lt;/ul&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/article&gt;
-&lt;/section&gt;
-
+                  <li>CE</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+</section>
 
 <!-- Contact section -->
 
@@ -76,5 +75,4 @@
         </div>
     </article>
 </section>
-</li></ul></div></div></article></section>
 :ET
