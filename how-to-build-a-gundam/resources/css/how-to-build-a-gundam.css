@@ -51,10 +51,6 @@ strong {
     font-weight: 600;
 }
 
-a {
-    color: darkblue;
-}
-
 a h2 {
     color: black;
 }
@@ -495,7 +491,7 @@ footer {
     text-align: center;
 }
 
-footer p, a {
+footer p, footer a {
     font-family: Timmana;
     font-size: 1.3rem;
 }
