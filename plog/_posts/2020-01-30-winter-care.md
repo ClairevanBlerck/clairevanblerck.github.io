@@ -21,6 +21,7 @@ layout: plog-posts
             <h3>What</h3>
             <h3>How</h3>
         </div>
+        <div class="text-item">
         <h4>Checklist</h4>
         <ul>
           <li>Look for roots</li>
@@ -28,5 +29,6 @@ layout: plog-posts
           <li>Help your plants through dormancy</li>
           <li>Prepare for Spring</li>
         </ul>
+        </div>
     </article>
 </section>
