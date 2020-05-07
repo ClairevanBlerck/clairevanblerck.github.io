@@ -88,15 +88,77 @@ body {
 
 
 /* Nav section */
+
+
+/* Style the navigation menu */
+nav {
+    overflow: hidden;
+    position: relative;
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+nav a.logo {
+    font-size: 3rem;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+nav #myLinks {
+    line-height: 2;
+    background-color: rgba(255, 255, 255, 0.692);
+    display: none;
+    float: right;
+    z-index: 3;
+    position: relative;
+    padding: 1rem;
+    border: 0.1px solid gray;
+    width: 11rem;
+    height: fit-content;
+}
+  
+/* Style navigation menu links */
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+nav #myLinks a {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+  
+/* Style the hamburger menu */
+nav a.icon {
+    font-size: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.8rem;
+}
+
+
+/*
 nav {
     margin: 1rem;
 }
 
-.logo {
-    font-size: 5rem;
+#logo {
+    font-size: 4rem;
     display: inline-block;
     padding: 0 1rem;
     color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav a.icon {
+    display: none;
+    color: black;
+    font-size: 2rem;
+    float: right;
+    padding: 1rem 2rem;
 }
 
 nav ul {
@@ -118,6 +180,8 @@ nav li a {
     font-size: 1.5rem;
     padding: 0 1rem;
 }
+
+*/
 
 
 /* Featured grid section */
@@ -250,8 +314,8 @@ nav li a {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-    background-color: #717171;
+.active .dot:hover {
+    background-color: rgb(94, 94, 94);
 }
 
 /* Fading animation */
@@ -357,7 +421,7 @@ footer {
 /* Media queries */
 @media only screen and (max-width: 1010px) {
 
-    .logo {
+   /* .logo {
         font-size: 4.5rem;
     }
 }
@@ -383,25 +447,33 @@ footer {
     .logo {
         font-size: 3.5rem;
     }
-}
+} */
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1000px) {
 
-    nav li a {
+    /* nav li a {
         font-size: 1rem;
+    } */
+
+    nav ul {
+        display: none;
+    }
+
+    nav a.icon {
+        display: block;
     }
 }
 
 @media only screen and (max-width: 780px) {
 
-    .logo {
+    /*.logo {
         font-size: 3rem;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 767px) {
 
-    nav ul {
+    /*nav ul {
         display: flex;
         justify-content: space-around;
         padding: 1rem 0;
@@ -410,7 +482,7 @@ footer {
 
     nav li a {
         padding: 0;
-    }
+    }*/
 }
 
 
@@ -439,10 +511,10 @@ footer {
         height: 5rem;
     }
 
-    .logo {
+    /*.logo {
         font-size: 2rem;
         padding: 0;
-    }
+    }*/
 
     .slideshow {
         min-height: 90vh;
@@ -491,6 +563,18 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+    nav a.logo {
+        font-size: 2.5rem;
+    }
+
+    nav a.icon {
+        font-size: 1.5rem;
+    }
+
+    .slideshow-text {
+    font-size: 2.5rem;
+    }
 
     .text {
         font-size: 1.5rem;
