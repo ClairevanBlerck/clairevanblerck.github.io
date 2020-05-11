@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.9rem;
+    font-size: 3.2rem;
     line-height: 1.2;
     padding: 1.5rem 0 2rem 0;
 }
@@ -47,9 +47,9 @@ h4 {
 }
 
 h5 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.5;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2;
     padding: 1rem 0 1.25rem 0;
 }
 
@@ -75,6 +75,12 @@ section .image-grid-panel {
 section .social-panel {
     min-height: 15rem;
     min-width: 100vw;
+}
+
+section .experience,.qualifications {
+    min-height: 50vh;
+    min-width: 100vw;
+
 }
 
 
@@ -143,6 +149,8 @@ h3.portfolio-heading {
     background: white;
 }
 
+/* Portfolio section - Portfolio */
+
 .portfolio-item img {
     width: 50vw;
     height: 80vh;
@@ -192,7 +200,6 @@ h3.portfolio-heading {
     bottom: 0;
 }
 
-
 /* To do: Prevent transformations on resizing ref: https://css-tricks.com/stop-animations-during-window-resizing/#comments */
 
 .portfolio-item:hover img {
@@ -201,6 +208,68 @@ h3.portfolio-heading {
 
 .portfolio-item .portfolio-item-text:hover {
     opacity: 0.8;
+}
+
+
+/* Experience section */
+
+.experience {
+    width: auto;
+    background-color: rgb(94, 94, 114);
+}
+
+.experience h2 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.job-item h3, .job-item h4, .job-item h5, .job-item p {
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.job-item li {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.experience .job-item {
+    padding: 2rem;
+}
+
+.experience ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.experience .job-item ul {
+    padding: 2rem;
+}
+
+.experience .job-item li {
+    list-style-type: disc;
+    text-align: left;
+}
+
+
+
+.qualifications ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.qualifications .edu-item {
+    padding: 2rem;
+}
+
+.qualifications .edu-item ul {
+    padding: 2rem;
+}
+
+.qualifications .edu-item li {
+    text-align: center;
+    list-style-type: none;
 }
 
 
@@ -215,6 +284,20 @@ h3.portfolio-heading {
     padding: 2rem;
 }
 
+.border {
+    border: 0.5px solid black;
+    padding: 2rem;
+}
+
+li.grey, .grey p, .grey h5 {
+    color: white;
+}
+
+.grey {
+    background-color: rgb(99, 99, 99);
+    padding: 2rem;
+}
+
 .text-panel img {
     height: auto;
     width: auto;
@@ -223,6 +306,7 @@ h3.portfolio-heading {
 
 .text-panel .text-item {
     line-height: 2.5rem;
+    width: 80vw;
 }
 
 .text-panel .text-item p {
@@ -231,7 +315,8 @@ h3.portfolio-heading {
 
 .skill-set ul {
     list-style-type: none;
-    padding: 0.5rem;   
+    padding: 0.5rem;
+    padding-bottom: 2rem;
 }
 
 .skill-set li {
@@ -427,6 +512,18 @@ h3.portfolio-heading {
     .image-and-text-panel img {
         height: 25vh;
         padding: 0rem;
+    }
+
+    /* Experience section */
+    .experience .job-item {
+        padding: 0rem;
+        padding-bottom: 2rem;
+    }
+
+    /* Qualification section */
+    .qualifications .edu-item {
+        padding: 0rem;
+        padding-bottom: 2rem;
     }
 }
 
