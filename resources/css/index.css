@@ -234,9 +234,13 @@ h3.portfolio-heading {
     padding: 2rem;
 }
 
+.experience .job-item a {
+    text-decoration: none;
+}
+
 .experience ol {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     margin: 1rem;
     list-style-type: none;
 }
@@ -254,7 +258,7 @@ h3.portfolio-heading {
 
 .qualifications ol {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     margin: 1rem;
     list-style-type: none;
 }
@@ -558,6 +562,18 @@ li.grey, .grey p, .grey h5 {
 
     .portfolio-item .portfolio-item-text h4 {
         font-size: 1.1rem;
+    }
+
+    /* Experience section */
+    .experience ol {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    /* Qualifications section */
+    .qualifications ol {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 
