@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-93599017-2');
-    </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Claire van Blerck</title>
-    <link href="resources/css/index.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700|Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
-</head>
-
-
-<body>
-
-    <!-- Summary -->
+I"9<!-- Summary -->
 <section>
     <article>
         <div class="text-panel">
@@ -37,8 +6,8 @@
             <div class="text-item">
                 <h2>About me</h2>
                 <h5>As a developer</h5>
-                <p>I have HTML, CSS and JavaScript skills; working knowledge of Jekyll; 3y previous experience with web
-                    design and development projects, e-commerce, SEO, accessibility and performance.
+                <p>I have HTML, CSS and JavaScript skills; working knowledge of Jekyll; previous experience with web
+                    design and development projects; an understanding of e-commerce, SEO, accessibility and performance.
                 </p>
                 <div class="skill-set">
                     <ul>
@@ -57,7 +26,8 @@
                 <h5>Pre-developer</h5>
                 <p>I originally studied Fine Art and Business Administration.</p>
                 <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving
-                    interests before I got into web development. Looking to change my career as writing code better matches my ambitions, thinking, creativity and personality.</p>
+                    interests before I got into web development. Looking to change my career now that I've realised
+                    that writing code is my ideal job.</p>
             </div>
         </div>
     </article>
@@ -189,13 +159,4 @@
         </div>
     </article>
 </section>
-
-
-    <footer>
-
-    </footer>
-
-
-</body>
-
-</html>
+:ET

@@ -7,12 +7,12 @@ layout: main
 <section>
     <article>
         <div class="text-panel">
-            <h2>Claire May van Blerck</h2>
-            <div class="text-item border">
+            <h1>Claire van Blerck</h1>
+            <div class="text-item">
                 <h2>About me</h2>
                 <h5>As a developer</h5>
-                <p>I have HTML, CSS and JavaScript skills; working knowledge of Jekyll; previous experience with web
-                    design and development projects; an understanding of e-commerce, SEO, accessibility and performance.
+                <p>I have HTML, CSS and JavaScript skills; working knowledge of Jekyll; 3y previous experience with web
+                    design and development projects, e-commerce, SEO, accessibility and performance.
                 </p>
                 <div class="skill-set">
                     <ul>
@@ -27,12 +27,11 @@ layout: main
                     </ul>
                 </div>
             </div>
-            <div class="text-item grey">
+            <div class="text-item">
                 <h5>Pre-developer</h5>
                 <p>I originally studied Fine Art and Business Administration.</p>
                 <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving
-                    interests before I got into web development. Looking to change my career now that I've realised
-                    that writing code is my ideal job.</p>
+                    interests before I got into web development. Looking to change my career as writing code better matches my ambitions, thinking, creativity and personality.</p>
             </div>
         </div>
     </article>

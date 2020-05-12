@@ -80,7 +80,7 @@ section .social-panel {
 section .experience,.qualifications {
     min-height: 50vh;
     min-width: 100vw;
-
+    padding-top: 3rem;
 }
 
 
@@ -258,7 +258,7 @@ h3.portfolio-heading {
 
 .qualifications ol {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: 33vw 33vw 33vw;;
     margin: 1rem;
     list-style-type: none;
 }
@@ -300,6 +300,11 @@ li.grey, .grey p, .grey h5 {
 .grey {
     background-color: rgb(99, 99, 99);
     padding: 2rem;
+}
+
+.full-width {
+    width: 100vw;
+    height: fit-content;
 }
 
 .text-panel img {
@@ -407,6 +412,11 @@ li.grey, .grey p, .grey h5 {
 
     .portfolio-item:hover img {
         opacity: 0.8;
+    }
+
+    /* Qualifications section */
+    .qualifications ol {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 
@@ -566,13 +576,6 @@ li.grey, .grey p, .grey h5 {
 
     /* Experience section */
     .experience ol {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
-
-    /* Qualifications section */
-    .qualifications ol {
-        display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
