@@ -258,8 +258,7 @@ h3.portfolio-heading {
 
 .qualifications ol {
     display: grid;
-    grid-template-columns: 33vw 33vw 33vw;;
-    margin: 1rem;
+    grid-template-columns: 33.3vw 33.3vw 33.3vw;;
     list-style-type: none;
 }
 
