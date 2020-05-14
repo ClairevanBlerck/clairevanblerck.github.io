@@ -44,7 +44,7 @@ layout: main
             <h2>Professional Experience</h2>
             <ol>
                 <li class="job-item">
-                    <a href="https://artlogic.net/" target="blank">
+                    <a href="https://artlogic.net/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Artlogic</h4>
                         <p>2 years 9 months<br>04 / 2017 - 01 / 2020</p>
                         <h5>Project Manager</h5>
@@ -58,7 +58,7 @@ layout: main
                     </a>
                 </li>
                 <li class="job-item">
-                    <a href="https://artthrob.co.za/" target="blank">
+                    <a href="https://artthrob.co.za/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Artthrob</h4>
                         <p>4.5 years part-time<br>09 / 2013 - 04 / 2018</p>
                         <h5>Website management & sales</h5>
@@ -71,7 +71,7 @@ layout: main
                     </a>
                 </li>
                 <li class="job-item">
-                        <a href="https://www.opendialogbox.space/" target="blank">
+                        <a href="https://www.opendialogbox.space/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Open Dialog Box</h4>
                         <p>2 months<br>10 / 2016 - 11 / 2016</p>
                         <h5>Self-funded project space</h5>
@@ -84,7 +84,7 @@ layout: main
                     </a>
                 </li>
                 <li class="job-item">
-                    <a href="https://blankprojects.com/" target="blank">
+                    <a href="https://blankprojects.com/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Blank Projects</h4>
                         <p>2 years<br>09 / 2013 - 08 / 2015</p>
                         <h5>Gallery Manager</h5>
@@ -97,7 +97,7 @@ layout: main
                     </a>
                 </li>
                 <li class="job-item">
-                    <a href="http://www.goodman-gallery.com/" target="blank">
+                    <a href="http://www.goodman-gallery.com/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Goodman Gallery</h4>
                         <p>3 years<br>08 / 2010 - 08 / 2013 </p>
                         <h5>Gallery Manager</h5>
@@ -156,10 +156,10 @@ layout: main
         <div class="social-panel">
             <div class="footer-heading">Get in touch :)</div>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/clairemayvanblerck/" target="blank" alt="linkedin"><i
+                <a href="https://www.linkedin.com/in/clairemayvanblerck/" target="_blank" rel="noopener" rel="noreferrer" alt="linkedin"><i
                         class="fa fa-linkedin"></i></a>
                 <p class="email"><a href="mailto:claire.vanblerck@gmail.com">claire.vanblerck@gmail.com</a></p>
-                <a href="https://github.com/ClairevanBlerck" target="blank" alt="github"><i
+                <a href="https://github.com/ClairevanBlerck" target="_blank" rel="noopener" rel="noreferrer" alt="github"><i
                         class="fa fa-github"></i></a>
             </div>
         </div>

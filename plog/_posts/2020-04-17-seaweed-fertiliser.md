@@ -16,7 +16,7 @@ layout: plog-posts
             </div>
             <div class="small-image">
                 <a href="https://www.amazon.co.uk/Vitax-1L-Organic-Liquid-Seaweed/dp/B0036186CO"
-                    alt="Liquid Seaweed by Vitax on Amazon.co.uk" target="blank"><img
+                    alt="Liquid Seaweed by Vitax on Amazon.co.uk" target="_blank" rel="noopener" rel="noreferrer"><img
                         src="/plog/resources/images/Seaweed-Vitax.jpg">
                     <p>Buy Liquid Seaweed by Vitax</p>
                 </a>
@@ -43,7 +43,7 @@ layout: plog-posts
             </div>
             <div class="small-image">
                 <a href="https://emeraldisleseaweed.com/product-category/garden-products/"
-                    alt="Seaweed meal by Emerald Isle on emeraldisleseaweed.com" target="blank"><img
+                    alt="Seaweed meal by Emerald Isle on emeraldisleseaweed.com" target="_blank" rel="noopener" rel="noreferrer"><img
                         src="/plog/resources/images/SeaweedMeal-EmeraldIsle.jpg">
                     <p>Buy Seaweed meal by Emerald Isle</p>
                 </a>
@@ -59,17 +59,17 @@ layout: plog-posts
             <div class="text-item">
                 <hr>
                 <h4>Further reading</h4>
-                <a href="https://emeraldisleseaweed.com/about-us-2/" target="blank">
+                <a href="https://emeraldisleseaweed.com/about-us-2/" rel="noopener" rel="noreferrer">
                     <p>Emerald Isle: Organic Irish seaweed</p>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Seaweed_fertiliser" target="blank">
+                <a href="https://en.wikipedia.org/wiki/Seaweed_fertiliser" rel="noopener" rel="noreferrer">
                     <p>Wikipedia: Seaweed fertiliser</p>
                 </a>
                 <a href="https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/making-fertilizer-from-seaweed.htm"
-                    target="blank">
+                    rel="noopener" rel="noreferrer">
                     <p>Gardening Know How: Making fertiliser from seaweed</p>
                 </a>
-                <a href="https://dengarden.com/gardening/The-Benefits-of-Using-Liquid-Seaweed-Fertilizer" target="blank">
+                <a href="https://dengarden.com/gardening/The-Benefits-of-Using-Liquid-Seaweed-Fertilizer" rel="noopener" rel="noreferrer">
                     <p>dengarden: The Benefits of Liquid Seaweed Fertilizer</p>
                 </a>
             </div>
