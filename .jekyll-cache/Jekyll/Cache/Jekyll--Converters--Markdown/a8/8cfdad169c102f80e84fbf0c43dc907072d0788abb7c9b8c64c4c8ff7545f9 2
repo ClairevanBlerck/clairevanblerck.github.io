@@ -1,0 +1,112 @@
+I"<!-- Text section -->
+<section>
+    <article>
+        <div class="about">
+            <div class="text-item">
+                <h1>Give away!</h1>
+                <p>I propagate my plants often, especially some fast growing types like Ceropegia woodii, and my
+                    Hoya carnosa mama.</p>
+                <p>The thing is, I can't really <em>fit</em> them all into my flat
+                    and on top of that I've landed up with quite a few of the same plant.</p>
+                <h3>UK only - just pay postage :)</h3>
+                <ol>
+                    <li>Choose a plant</li>
+                    <li>Click on the link to email me</li>
+                    <li>I'll get back to you to arrange postage</li>
+                    <li>Transfer me the postage fee and track your new plant home :)</li>
+                </ol>
+            </div>
+        </div>
+    </article>
+</section>
+
+<section>
+    <article>
+        <div class="about">
+            <div class="text-item">
+                <h2>Free plants list</h2>
+            </div>
+        </div>
+        <div class="featured">
+            <div class="grid">
+                <img src="/plog/resources/images/CeropegiaWoodii_2.jpg" />
+                <div class="grid-item email">
+                    <h3>Ceropegia Woodii - cutting<br />(Rosary vine)</h3>
+                    <a href="mailto:claire.vanblerck@gmail.com?subject=plog - Ceropegia woodii cutting - give away&amp;body=Hi Claire!
+Is this plant still available?
+If so, let's arrange postage! My postal address is below:
+Address:
+Post code:
+Thanks!">Email me to claim this plant!</a>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="/plog/resources/images/HederaHelix_2.jpg" />
+                <div class="grid-item email">
+                    <h3>Hedera Helix - cutting<br />(Ivy)</h3>
+                    <h4>Available</h4>
+                    <a href="mailto:claire.vanblerck@gmail.com?subject=plog - Ceropegia woodii cutting - give away&amp;body=Hi Claire!
+Is this plant still available?
+If so, let's arrange postage! My postal address is below:
+Address:
+Post code:
+Thanks!">Email me to claim this plant!</a>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+<section>
+    <article>
+        <div class="featured">
+            <div class="grid">
+                <img src="/plog/resources/images/HoyaCarnosa_close-up.jpg" />
+                <div class="grid-item email">
+                    <h3>Hoya carnosa - cutting<br />(Wax plant)</h3>
+                    <h4>Available</h4>
+                    <a href="mailto:claire.vanblerck@gmail.com?subject=plog - Hoya carnosa - cutting - give away&amp;body=Hi Claire!
+Is this plant still available?
+If so, let's arrange postage! My postal address is below:
+Address:
+Post code:
+Thanks!">Email me to claim this plant!</a>
+                </div>
+            </div>
+            <div class="grid grey">
+                <img src="/plog/resources/images/Utricularia_2.jpg" />
+                <div class="grid-item email">
+                    <h3>Utricularia<br />(Bladderwort)</h3>
+                    <h4>Not currently available</h4>
+                    <!--
+                        <a href="mailto:claire.vanblerck@gmail.com?subject=plog - Utricularia - cutting - give away&body=Hi Claire!
+Is this plant still available?
+If so, let's arrange postage! My postal address is below:
+Address:
+Post code:
+Thanks!">Email me to claim this plant!</a>
+                    -->
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+<!-- Text section -->
+<section>
+    <article>
+        <div class="about">
+            <div class="text-item">
+                <h3>Why am I doing this? What's the catch?</h3>
+                <p>No catch at all!</p>
+                <p>Plant swops occur all over the UK (and sometimes online or SM!), and unfortunatly they're all too
+                    far away from me. I don't have a car and I'm trifty, so setting out on an hour-long journey to a
+                    swop isn't always my vibe.</p>
+                <p>The plants I've listed here are the most easy-care in my collection, they're tough as nails and
+                    have been propagated many times already. If you'd like to give me a plant in return, we could
+                    put the postage fees to the side and do a mail-based swop instead!</p>
+            </div>
+        </div>
+    </article>
+</section>
+:ET
