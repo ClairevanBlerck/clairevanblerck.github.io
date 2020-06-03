@@ -183,7 +183,7 @@ body {
 
 
 /* Buttons section */
-div.buttons {
+.buttons {
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -263,16 +263,20 @@ div.buttons {
 
 #up-button {
     margin: 0 auto;
+    touch-action: manipulation;
 }
 
 #right-button {  
+    touch-action: manipulation;
 }
 
 #down-button {
     margin: 0 auto;
+    touch-action: manipulation;
 }
 
 #left-button {
+    touch-action: manipulation;
 }
 
 
@@ -295,9 +299,11 @@ div.buttons {
 }
 
 #b-button {
+    touch-action: manipulation;
 }
 
 #a-button {
+    touch-action: manipulation;
     margin: 0 auto;
 }
 
@@ -316,6 +322,7 @@ div.buttons {
     background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 0.5rem;
+    touch-action: manipulation;
 }
 
 #start-button h3 {
