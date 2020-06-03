@@ -432,6 +432,7 @@ div.buttons {
 
     .square-button h3 {
         font-size: 0.9rem;
+        text-align: center;
     }
 
 
@@ -444,6 +445,7 @@ div.buttons {
 
     .rotation h3 {
         font-size: 0.9rem;
+        text-align: center;
     }
 
     .round-button {
@@ -463,6 +465,7 @@ div.buttons {
 
     #start-button h3 {
         font-size: 0.6rem;
+        text-align: center;
     }
 
 }
