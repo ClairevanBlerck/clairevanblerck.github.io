@@ -80,19 +80,19 @@ document.addEventListener('DOMContentLoaded', () => {
         [width, width+1, width+2, width+3]
     ]
 
-    const theTetrominoes = [l1Tetromino, l2Tetromino, z1Tetromino, z2Tetromino, tTetromino, oTetromino, iTetromino]
-    let currentPosition = 4
-    let currentRotation = 0
+    const theTetrominoes = [l1Tetromino, l2Tetromino, z1Tetromino, z2Tetromino, tTetromino, oTetromino, iTetromino];
+    let currentPosition = 4;
+    let currentRotation = 0;
     
     //randomly select a Tetromino and it's first rotation
-    let random = Math.floor(Math.random()*theTetrominoes.length)
+    let random = Math.floor(Math.random()*theTetrominoes.length);
     console.log(random)
-    let current = theTetrominoes[random][currentRotation]
+    let current = theTetrominoes[random][currentRotation];
 
     //draw the Tetromino
     function draw() {
         current.forEach(index =>{
-            squares[currentPosition + index].classList.add('tetromino')
+            //squares[currentPosition + index].classList.add('tetromino')
             squares[currentPosition + index].style.backgroundImage = colors[random];
         })
     }
@@ -102,8 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //undraw the Tetromino
     function undraw() {
         current.forEach(index => {
-            squares[currentPosition + index].classList.remove('tetromino')
-            squares[currentPosition + index].style.backgroundImage = ''
+            //squares[currentPosition + index].classList.remove('tetromino')
+            squares[currentPosition + index].style.backgroundImage = '';
         })
     }
 
@@ -113,104 +113,132 @@ document.addEventListener('DOMContentLoaded', () => {
     //assign functions on keyCodes
     function control(e) {
         if(e.keyCode === 65) {
-            moveLeft()
-        } else if (e.keyCode === 39) {
-            rotate()
+            moveLeft();
         } else if (e.keyCode === 68) {
-            moveRight()
+            moveRight();
         } else if (e.keyCode == 83) {
-            moveDown()
+            moveDown();
+        } else if (e.keyCode === 39) {
+            rotateClockwise();
+        } else if (e.keyCode === 37) {
+            rotateCounterClockwise();
         }
     }
 
-    //add functionality to the up button
+    //add functionality to 'A' / right-arrow key
     aButton.addEventListener('click', () => {
-        rotate();
+        rotateClockwise();
         }
     )
 
-    //add functionality to the left button
+    //add functionality to 'B' / left-arrow key
+    bButton.addEventListener('click', () => {
+        rotateCounterClockwise();
+        }
+    )
+
+    //add functionality to the 'A' key
     leftButton.addEventListener('click', () => {
         moveLeft();
         }
     )
 
-    //add functionality to the right button
+    //add functionality to the 'D' key
     rightButton.addEventListener('click', () => {
         moveRight();
         }
     )
     
-    //add functionality to the down button
+    //add functionality to the 'S' key
     downButton.addEventListener('click', () => {
         moveDown();
         }
+        ),
+    downButton.addEventListener('', () => {
+        moveDownFast();
+        }
     )
 
-    
     //movedown function
     function moveDown() {
-        undraw()
-        currentPosition += width
-        draw()
-        freeze()
+        undraw();
+        currentPosition += width;
+        draw();
+        freeze();
+    }
+
+    //movedown function
+    function moveDownFast() {
+        moveDown();
+        timerId = setInterval(moveDown, 400);
     }
 
     //freeze function
     function freeze() {
         if(current.some(index => squares[currentPosition + index + width].classList.contains('taken'))) {
-            current.forEach(index => squares[currentPosition + index].classList.add('taken'))
+            current.forEach(index => squares[currentPosition + index].classList.add('taken'));
             //start a new Tetromino falling
-            random = nextRandom
-            nextRandom =  Math.floor(Math.random() * theTetrominoes.length)
-            current = theTetrominoes[random][currentRotation]
-            currentPosition = 4
-            draw()
-            displayShape()
-            addScore()
-            addLevel()
-            addLines()
-            gameOver()
+            random = nextRandom;
+            nextRandom =  Math.floor(Math.random() * theTetrominoes.length);
+            current = theTetrominoes[random][currentRotation];
+            currentPosition = 4;
+            draw();
+            displayShape();
+            addScore();
+            addLevel();
+            addLines();
+            gameOver();
         }
     }
 
     //move the tetromino left, unless it is at the left edge or the index is taken
     function moveLeft () {
-        undraw()
+        undraw();
         const isAtLeftEdge = current.some(index => (currentPosition + index) % width === 0)   
-        if(!isAtLeftEdge) currentPosition -=1
+        if(!isAtLeftEdge) currentPosition -=1;
         if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-            currentPosition +=1
+            currentPosition +=1;
         }
-        draw()
+        draw();
     }
 
     //move the tetromino right, unless it is at the right edge or the index is taken
     function moveRight () {
-        undraw()
+        undraw();
         const isAtRightEdge = current.some(index => (currentPosition + index) % width === width -1)
-        if(!isAtRightEdge) currentPosition +=1
+        if(!isAtRightEdge) currentPosition +=1;
         if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-            currentPosition -=1
+            currentPosition -=1;
         }
-        draw()
+        draw();
     }
 
-    //rotate the tetromino
-    function rotate() {
-        undraw()
-        currentRotation ++
+    //rotate the tetromino clockwise / to the right
+    function rotateClockwise() {
+        undraw();
+        currentRotation ++;
         if(currentRotation === current.length) { //if the array limit has been reached proceed to 0
-            currentRotation = 0
+            currentRotation = 0;
         }
-        current = theTetrominoes[random][currentRotation]
-        draw()
+        current = theTetrominoes[random][currentRotation];
+        draw();
+    }
+
+    //rotate the tetromino counter-clockwise / to the left
+    function rotateCounterClockwise() {
+        undraw();
+        currentRotation --;
+        if(currentRotation = [0]) { //if the array limit has been reached proceed to index 3 - FIX THIS
+            currentRotation = [3];
+        }
+        current = theTetrominoes[random][currentRotation];
+        draw();
     }
 
     //show up-next tetromino in mini-grid display
-    const displaySquares = document.querySelectorAll('.mini-grid div')
-    const displayWidth = 4
-    const displayIndex = 0
+    const displaySquares = document.querySelectorAll('.mini-grid div');
+    const displayWidth = 4;
+    const displayIndex = 0;
 
     //the Tetraminoes without rotation
     const upNextTetrominoes = [
@@ -227,25 +255,25 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayShape() {
         //remove any trace of a tetromino from the entire grid
         displaySquares.forEach(square => {
-            square.classList.remove('tetromino')
-            square.style.backgroundImage = ''
+            //square.classList.remove('tetromino');
+            square.style.backgroundImage = '';
         })
         upNextTetrominoes[nextRandom].forEach( index => {
-            displaySquares[displayIndex + index].classList.add('tetromino')
-            displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom]
+            //displaySquares[displayIndex + index].classList.add('tetromino');
+            displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom];
         })
     }
 
     //add functionality to the start button
     startButton.addEventListener('click', () => {
         if (timerId) {
-            clearInterval(timerId)
-            timerId = null
+            clearInterval(timerId);
+            timerId = null;
         } else {
-            draw()
-            timerId = setInterval(moveDown, 1000)
-            nextRandom = Math.floor(Math.random()*theTetrominoes.length)
-            displayShape()
+            draw();
+            timerId = setInterval(moveDown, 1000);
+            nextRandom = Math.floor(Math.random()*theTetrominoes.length);
+            displayShape();
         }
     })
 
@@ -254,18 +282,18 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < 199; i +=width) {
             const row = [i, i+1, i+2, i+3, i+4, i+5, i+6, i+7, i+8, i+9]
             if(row.every(index => squares[index].classList.contains('taken'))) {
-                score +=10
-                scoreDisplay.innerHTML = score
-                lines +=1
-                linesDisplay.innerHTML = lines
+                score +=10;
+                scoreDisplay.innerHTML = score;
+                lines +=1;
+                linesDisplay.innerHTML = lines;
                 row.forEach(index => {
-                    squares[index].classList.remove('taken')
-                    squares[index].classList.remove('tetromino')
-                    squares[index].style.backgroundImage = ''
+                    squares[index].classList.remove('taken');
+                    squares[index].classList.remove('tetromino');
+                    squares[index].style.backgroundImage = '';
                 })
-                const squaresRemoved = squares.splice(i, width)
-                squares = squaresRemoved.concat(squares)
-                squares.forEach(cell => grid.appendChild(cell))
+                const squaresRemoved = squares.splice(i, width);
+                squares = squaresRemoved.concat(squares);
+                squares.forEach(cell => grid.appendChild(cell));
             }
         }
     }
@@ -278,8 +306,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //game over
     function gameOver() {
         if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-        scoreDisplay.innerHTML = 'end'
-        clearInterval(timerId)
+        scoreDisplay.innerHTML = 'end';
+        clearInterval(timerId);
         }
     }
 })
