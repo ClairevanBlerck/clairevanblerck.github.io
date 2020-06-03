@@ -9,7 +9,6 @@
 }
 
 body {
-    margin-top: 1rem;
     background-color: grey;
 }
 
@@ -285,6 +284,13 @@ div.buttons {
     color: #1c343e;
 }
 
+audio { 
+    display: block;
+    background-color: #edfcdf;
+    border: 9px double #5b886e;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+}
 
 
 
