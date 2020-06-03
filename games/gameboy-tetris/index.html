@@ -284,12 +284,20 @@
 
         <!-- Movement control buttons -->
         <div class="controls">
-            <button id="up-button" class="square-button"><h3>^</h3></button>
-            <div class="left-right">
-                <button id="left-button" class="square-button"><h3><</h3></button>
-                <button id="right-button" class="square-button"><h3>></h3></button>
+            <div class="square-border">
+                <button id="up-button" class="arrow-up square-button"></button>
             </div>
-            <button id="down-button" class="square-button"><h3>v</h3></button>
+            <div class="left-right">
+                <div class="square-border">
+                    <button id="left-button" class="arrow-left square-button"></button>
+                </div>
+                <div class="square-border">
+                    <button id="right-button" class="arrow-right square-button"></button>
+                </div>
+            </div>
+            <div class="square-border">
+                <button id="down-button" class="arrow-down square-button"></button>
+            </div>
         </div>
         <!-- Rotation control buttons -->
         <div class="rotation">
@@ -304,9 +312,8 @@
             <button id="start-button"><h3>Start</h3></button>
         </div>
 
-        <audio src="games/gameboy-tetris/resources/Tetris_theme.ogg" controls>Your browser does not support the audio element.</audio>
+        <audio src="/games/gameboy-tetris/resources/Tetris_theme.ogg" controls>Your browser does not support the audio element.</audio>
     
-
 </body>
 
 </html>

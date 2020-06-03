@@ -195,23 +195,66 @@ div.buttons {
 .controls {
     display: flex;
     flex-direction: column;
-    width: 11rem;
+    width: 14rem;
     height: fit-content;
     margin: 1rem;
 }
 
-.square-button {
-    display: block;
-    width: 3.5rem;
-    height: 3.5rem;
-    background-color: #edfcdf;
+.square-border {
     border: 9px double #5b886e;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    background-color: #edfcdf;
+    margin: 0 auto;
 }
 
-.square-button h3 {
-    font-size: 1rem;
+.square-button {
+    display: block;
+    background-color: #edfcdf;
+    padding: 0;
 }
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-top: 0;
+    border-right: 2rem solid transparent;
+    border-bottom: 3rem solid #1c343e;
+    border-left: 2rem solid transparent;
+    border-radius: 0.6rem;
+}
+  
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-top: 3rem solid #1c343e; 
+    border-right: 2rem solid transparent;
+    border-bottom: 0;
+    border-left: 2rem solid transparent;
+    border-radius: 0.6rem;
+}
+  
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid transparent;
+    border-right: 0;
+    border-bottom: 2rem solid transparent;
+    border-left: 3rem solid #1c343e;
+    border-radius: 0.6rem;
+
+}
+  
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid transparent;
+    border-right: 3rem solid #1c343e; 
+    border-bottom: 2rem solid transparent;  
+    border-left: 0;
+    border-radius: 0.6rem;
+}
+
+
 
 .left-right {
     display: inline-flex;
@@ -249,15 +292,13 @@ div.buttons {
     background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 2rem;
-    margin: 0 auto;
 }
 
 #b-button {
-    float: left;
 }
 
 #a-button {
-    float: right;
+    margin: 0 auto;
 }
 
 /* Start button */
@@ -427,18 +468,41 @@ audio {
 
     /* Movement control buttons */
     .controls {
+        width: 17rem;
         margin: 0.5rem;
     }
-
-    .square-button {
-        width: 2.2rem;
-        height: 2.2rem;
+    
+    .square-border {
         border: 5px double #5b886e;
+        border-radius: 0.5rem;
     }
-
-    .square-button h3 {
-        font-size: 0.9rem;
-        text-align: center;
+    
+    .arrow-up {
+        border-right: 1rem solid transparent;
+        border-bottom: 2rem solid #1c343e;
+        border-left: 1rem solid transparent;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-down {
+        border-top: 2rem solid #1c343e; 
+        border-right: 1rem solid transparent;
+        border-left: 1rem solid transparent;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-right {
+        border-top: 1rem solid transparent;
+        border-bottom: 1rem solid transparent;
+        border-left: 2rem solid #1c343e;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-left {
+        border-top: 1rem solid transparent;
+        border-right: 2rem solid #1c343e; 
+        border-bottom: 1rem solid transparent;  
+        border-radius: 0.2rem;
     }
 
 
@@ -458,8 +522,16 @@ audio {
         width: 2.5rem;
         height: 2.5rem;
         border: 5px double #5b886e;
-        margin: 0.1rem;
     }
+
+    #a-button {
+        margin: 0;
+    }
+
+    #b-button {
+        margin: 0 auto;
+    }
+
 
     /* Start button */
     #start-button {
