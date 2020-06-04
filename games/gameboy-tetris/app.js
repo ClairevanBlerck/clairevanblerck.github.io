@@ -97,8 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
-
-
     //undraw the Tetromino
     function undraw() {
         current.forEach(index => {
@@ -219,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentRotation ++;
         if(currentRotation === current.length) { //if the array limit has been reached proceed to 0
             currentRotation = 0;
-        }
+        } 
         current = theTetrominoes[random][currentRotation];
         draw();
     }

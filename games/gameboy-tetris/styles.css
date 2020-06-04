@@ -32,14 +32,14 @@ body {
 
 .left .border {
     background-image: url("https://clairevanblerck.com/resources/images/tetris/gridborder.png");
-    width: 30px;
+    width: 40px;
     height: 608px;
-    border-left: 2px solid #edfcdf;
-    border-right: 2px solid #edfcdf;
+    border-left: 5px solid #edfcdf;
+    border-right: 5px solid #edfcdf;
 }
 
 .grid {
-    width: 303px;
+    width: 302px;
     height: 608px;
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +60,7 @@ body {
 
 /* Right / stats section */
 .right {
-    width: 10rem;
+    width: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,7 +70,8 @@ body {
 .stats-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: fit-content;
     height: 15rem;
     margin: 0 auto;
 }
@@ -94,32 +95,33 @@ body {
 
 /* Score section */
 .score-board {
+    width: fit-content;
     height: 6rem;
-    width: 10.5rem;
 }
 
 .stripes {
+    width: fit-content;
     height: 2rem;  
 }
 
 #blue {
     background-color: #1c343e;
+    width: 10rem;
     height: 2rem;
-    width: 10.3rem;
-    border-bottom: 9px solid ##edfcdf;
+    border-bottom: 5px solid #edfcdf;
 }
 
 #green {
     background-color: #5b886e;
+    width: 10rem;
     height: 1.5rem;
-    width: 10.3rem;
     border-bottom: 9px double #edfcdf;
 }
 
 #white {
     background-color: #edfcdf;
+    width: 10rem;
     height: 2rem;
-    width: 10.3rem;
     border-bottom: 9px double #5b886e;
 }
 
@@ -127,7 +129,7 @@ body {
     position: relative;
     bottom: 1rem;
     width: 7rem;
-    height: 2.2rem;
+    height: 2rem;
 }
 
 #score {
@@ -147,6 +149,7 @@ body {
     padding: 0.1rem;
     position: relative;
     top: 0.2rem;
+    right: 1.3rem;
     float: right;
 }
 
@@ -156,6 +159,7 @@ body {
     padding: 0.1rem;
     position: relative;
     top: 0.2rem;
+    right: 1.3rem;
     float: right;
 }
 
@@ -168,12 +172,11 @@ body {
 .mini-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 159px;
-    height: 159px;
+    width: 158px;
+    height: 158px;
     background-color: #edfcdf;
     border: 14px double #5b886e;
     border-radius: 0.6rem;
-    margin: 0.5rem;
     padding: 0.2rem;
 }
 
@@ -296,7 +299,7 @@ body {
 .rotation h4 {
     display: flex;
     justify-content: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     margin: 0 auto;
     color: #1c343e;
@@ -394,7 +397,6 @@ audio {
 
     .stats-section {
         height: 8rem;
-        justify-content: space-between;
     }
     
     .stats-item {
