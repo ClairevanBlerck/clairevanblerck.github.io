@@ -321,6 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     squares[index].classList.remove('taken');
                     //squares[index].classList.remove('tetromino');
                     squares[index].classList.remove('cube');
+                    squares[index].classList.remove('tet');
                     squares[index].style.backgroundImage = '';
                 })
                 const squaresRemoved = squares.splice(i, width);
