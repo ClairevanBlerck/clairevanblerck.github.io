@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let lines = 0;
     const linesDisplay = document.querySelector('#lines');
     //tetromino display colours/images
-    const colors  = [
+    /*const colors  = [
         "url('https://clairevanblerck.com/resources/images/tetris/l1-tetromino.png')",
         "url('https://clairevanblerck.com/resources/images/tetris/l2-tetromino.png')",
         "url('https://clairevanblerck.com/resources/images/tetris/z-tetromino.png')",
@@ -27,8 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
         "url('https://clairevanblerck.com/resources/images/tetris/t-tetromino.png')",
         "url('https://clairevanblerck.com/resources/images/tetris/o-tetromino.png')",
         "url('https://clairevanblerck.com/resources/images/tetris/i-tetromino.png')"
-    ];
-
+    ];*/
+    let colors = [
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+        document.querySelector ('.tet'),
+    ]
 
     //The Tetrominoes
     const l1Tetromino = [
@@ -89,10 +97,31 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(random)
     let current = theTetrominoes[random][currentRotation];
 
+
+
+    /*if (theTetrominoes[0]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[1]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[2]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[3]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[4]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[5]) {
+        colors = document.querySelector ('.tet');
+    } else if (theTetrominoes[6]) {
+        colors = document.querySelector ('.tet');
+    }*/
+    
+
+
     //draw the Tetromino
     function draw() {
         current.forEach(index =>{
-            //squares[currentPosition + index].classList.add('tetromino')
+            squares[currentPosition + index].classList.add('cube');
+            squares[currentPosition + index].classList.add('tet');
             squares[currentPosition + index].style.backgroundImage = colors[random];
         })
     }
@@ -100,7 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //undraw the Tetromino
     function undraw() {
         current.forEach(index => {
-            //squares[currentPosition + index].classList.remove('tetromino')
+            squares[currentPosition + index].classList.remove('cube');
+            squares[currentPosition + index].classList.remove('tet');
             squares[currentPosition + index].style.backgroundImage = '';
         })
     }
@@ -184,7 +214,6 @@ document.addEventListener('DOMContentLoaded', () => {
             displayShape();
             addScore();
             addLevel();
-            addLines();
             gameOver();
         }
     }
@@ -254,10 +283,14 @@ document.addEventListener('DOMContentLoaded', () => {
         //remove any trace of a tetromino from the entire grid
         displaySquares.forEach(square => {
             //square.classList.remove('tetromino');
+            square.classList.remove('cube');
+            square.classList.remove('tet');
             square.style.backgroundImage = '';
         })
         upNextTetrominoes[nextRandom].forEach( index => {
             //displaySquares[displayIndex + index].classList.add('tetromino');
+            displaySquares[displayIndex + index].classList.add('cube');
+            displaySquares[displayIndex + index].classList.add('tet');
             displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom];
         })
     }
@@ -286,7 +319,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 linesDisplay.innerHTML = lines;
                 row.forEach(index => {
                     squares[index].classList.remove('taken');
-                    squares[index].classList.remove('tetromino');
+                    //squares[index].classList.remove('tetromino');
+                    squares[index].classList.remove('cube');
                     squares[index].style.backgroundImage = '';
                 })
                 const squaresRemoved = squares.splice(i, width);
