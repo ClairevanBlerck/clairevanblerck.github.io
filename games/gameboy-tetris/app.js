@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         current.forEach(index =>{
             squares[currentPosition + index].classList.add('cube');
             squares[currentPosition + index].classList.add('tet');
-            squares[currentPosition + index].style.backgroundImage = colors[random];
+            //squares[currentPosition + index].style.backgroundImage = colors[random];
         })
     }
 
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         current.forEach(index => {
             squares[currentPosition + index].classList.remove('cube');
             squares[currentPosition + index].classList.remove('tet');
-            squares[currentPosition + index].style.backgroundImage = '';
+            //squares[currentPosition + index].style.backgroundImage = '';
         })
     }
 
@@ -285,13 +285,13 @@ document.addEventListener('DOMContentLoaded', () => {
             //square.classList.remove('tetromino');
             square.classList.remove('cube');
             square.classList.remove('tet');
-            square.style.backgroundImage = '';
+            //square.style.backgroundImage = '';
         })
         upNextTetrominoes[nextRandom].forEach( index => {
             //displaySquares[displayIndex + index].classList.add('tetromino');
             displaySquares[displayIndex + index].classList.add('cube');
             displaySquares[displayIndex + index].classList.add('tet');
-            displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom];
+            //displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom];
         })
     }
 
