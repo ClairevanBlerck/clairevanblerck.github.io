@@ -247,6 +247,7 @@ body {
     flex-direction: column;
     width: 14rem;
     height: fit-content;
+    touch-action: manipulation;
 }
 
 .square-border {
@@ -290,7 +291,6 @@ body {
     border-bottom: 2rem solid transparent;
     border-left: 3.8rem solid #1c343e;
     border-radius: 0.6rem;
-
 }
   
 .arrow-left {
@@ -302,8 +302,6 @@ body {
     border-left: 0;
     border-radius: 0.6rem;
 }
-
-
 
 .left-right {
     display: inline-flex;
@@ -340,6 +338,7 @@ body {
     align-items: flex-end;
     width: 11rem;
     height: fit-content;
+    touch-action: manipulation;
 }
 
 .rotation h4 {
