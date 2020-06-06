@@ -344,3 +344,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 })
+
+/* Known bugs:
+1. Can i remove copy/paste pop-up from rotation buttons?
+2. #b-button - only rotates once, only occasionally, and not to currentRotation--
+3. rotate next to border - allows tetromino to be split by width
+4. right-button and left-button when colliding with taken tetrominos seems to be merging
+*/
+
+/* Missing features:
+1. Tetrominos - add stying for each shape
+2. Controls - add 'hold' down-button function to drop the tetromino to the highest 'taken' div
+3. Score - add complex scores for multi-line elimination and level-based multi-lne elimination
+4. Line elimination - add animation
+5. Score save - add top scores board
+*/
