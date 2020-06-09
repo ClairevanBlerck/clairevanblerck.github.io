@@ -1,0 +1,46 @@
+* {
+    /*border: 1px red solid;*/
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #edfcdf;
+}
+
+body {
+    background-color: #1c343e;
+    margin: 1rem;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    height: 570px;
+    border: 5px solid #edfcdf;
+    margin: 0 auto;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 0.5;
+}
+
+.walls {
+    background-color: blue;
+}
+
+.power-pellets {
+    background-color: blueviolet;
+}

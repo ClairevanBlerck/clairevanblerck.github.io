@@ -89,6 +89,7 @@ section .experience,.qualifications {
     height: 20rem;
     width: auto;
     padding: 1rem;
+    image-rendering: pixelated;
 }
 
 .image-and-text-panel .text-item {

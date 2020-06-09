@@ -218,6 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
     //move the tetromino left, unless it is at the left edge or the index is taken
     function moveLeft () {
         undraw();
