@@ -18,6 +18,7 @@ h3 {
 }
 
 .grid {
+    background-color: #edfcdf;
     display: flex;
     flex-wrap: wrap;
     width: 570px;
@@ -33,14 +34,55 @@ h3 {
 
 .pac-dot {
     background-color: black;
-    border: 5px solid white;
-    border-radius: 0.5;
+    border: 7px solid #edfcdf;
 }
 
-.walls {
-    background-color: blue;
+.wall {
+    background-color: #93a384;
 }
 
-.power-pellets {
-    background-color: blueviolet;
+.power-pellet {
+    background-color: #edfcdf;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.ghost-lair{
+    background-color: #1c343e;
+}
+
+.dave {
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 1rem;
+}
+
+.ddog {
+    background-color: cyan;
+    border: 2px solid cyan;
+    border-radius: 1rem;
+}
+
+.scadog {
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 1rem;
+}
+
+.scads {
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 1rem;
+}
+
+.scared-ghosts {
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 1rem;
+}
+
+.pac-man {
+    background-color: #000000;
+    border: 2px solid black;
+    border-radius: 1rem;
 }
