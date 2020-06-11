@@ -17,8 +17,17 @@ h3 {
     padding: 1rem 0;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
 .grid {
-    background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     width: 570px;
@@ -27,19 +36,19 @@ h3 {
     border: 5px solid black;
 }
 
-/*.grid.level-up{
-    background-image: ;
-    transition: ;
-}*/
-
 .grid div {
     width: 20px;
     height: 20px;
 }
 
 .pac-dot {
-    border: 2px solid yellow;
-    border-radius: 1rem;
+    display: flex;
+    background-color: yellow;
+}
+
+.dot {
+    border: 6px solid black;
+    border-radius: 48%;
 }
 
 .wall {
@@ -104,11 +113,8 @@ h3 {
     border-radius: 1rem;
 }
 
-
-
-
 :root {
-    --character-size: 2;
+    --character-size: 1.5;
 }
 
 .character {
@@ -117,8 +123,8 @@ h3 {
     width: calc(15px * var(--character-size));
     height: calc(15px * var(--character-size));
     image-rendering: pixelated;
-    border: 1px solid red;
-
+    /*border: 1px solid red;*/
+    overflow: hidden;
 }
 
 .spritesheet {
@@ -128,56 +134,117 @@ h3 {
     height: calc(822px * var(--character-size));
 }
 
-
-.pacman-right {
-    animation: moveSpritesheet 1s steps(2) infinite;
-    top: calc(0px * var(--character-size));
-    left: calc(-335px * var(--character-size));
-}
-
-
-/*
-.pacman-left {
-    animation: moveSpritesheet 0.5s steps(2) infinite;
-    top: calc(-16px * var(--character-size));
-    left: calc(-2px * var(--character-size));
-}
-*/
-
-/*
-.pacman-up {
-    animation: moveSpritesheet 1s steps(2) infinite;
-    top: calc(-32px * var(--character-size));
-    left: calc(-2px * var(--character-size));
-}
-*/
-
-/*
-.pacman-down {
-    animation: moveSpritesheet 0.5s steps(2) infinite;
-    top: calc(-48px * var(--character-size));
-    left: calc(-2px * var(--character-size));
-}
-*/
-
-/* NOT FINISHED
-.blinky {
-    animation: moveSpritesheet 3s steps(9) infinite;
-    top: calc(-64px * var(--character-size));
-    left: calc(-2px * var(--character-size));
-}
-*/
-
-@keyframes moveSpritesheet {
+@keyframes moveSpritesheetpacmandie {
     from {
         transform: translate3d(0px,0,0)
     }
     to {
-        transform: translate3d(-15%,0,0)
+        transform: translate3d(-32%,0,0);
     }
 }
 
+@keyframes moveSpritesheetpacmanupdown {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-6%,0,0);
+    }
+}
 
+@keyframes moveSpritesheetpacmanleftright {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-9%,0,0);
+    }
+}
 
+@keyframes moveSpritesheetghosts {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-23.2%,0,0)
+    }
+}
 
+@keyframes moveSpritesheetscaredghosts {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-6%,0,0)
+    }
+}
 
+.pacman-die {
+    animation: moveSpritesheetpacmandie 3s steps(11) infinite;
+    top: calc(-19px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+
+.pacman-right {
+    animation: moveSpritesheetpacmanleftright 0.3s steps(3) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-1px * var(--character-size));
+}
+
+.pacman-left {
+    animation: moveSpritesheetpacmanleftright 0.3s steps(3) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-82px * var(--character-size));
+}
+
+.pacman-up {
+    animation: moveSpritesheetpacmanupdown 0.3s steps(2) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-129px * var(--character-size));
+}
+
+.pacman-down {
+    animation: moveSpritesheetpacmanupdown 0.33s steps(2) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-49px * var(--character-size));
+}
+
+.blinky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-34px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.pinky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-50px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.inky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-67px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.clyde {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-83px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.scared-ghosts {
+    animation: moveSpritesheetscaredghosts 0.3s steps(2) infinite;
+    top: calc(-34px * var(--character-size));
+    left: calc(-130px * var(--character-size));
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: red;
+}

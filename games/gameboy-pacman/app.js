@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             //add layout to the board
             if (layout[i] === 0) {
-                squares[i].classList.add('pac-dot');
+                squares[i].classList.add('pac-dot', 'dot');
             } else if (layout[i] === 1) {
                 squares[i].classList.add('wall');
             } else if (layout[i] === 2) {
@@ -117,10 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // what happens them pac-man collides with a pac-dot
     function pacDotEaten() {
-        if (squares[pacmanCurrentIndex].classList.contains('pac-dot')) {
+        if (squares[pacmanCurrentIndex].classList.contains('pac-dot', 'dot')) {
             score++;
             scoreDisplay.innerHTML = score;
-            squares[pacmanCurrentIndex].classList.remove('pac-dot');
+            squares[pacmanCurrentIndex].classList.remove('pac-dot', 'dot');
         }
     }
 
