@@ -27,6 +27,11 @@ h3 {
     border: 5px solid black;
 }
 
+.grid.level-up{
+    background-image: ;
+    transition: ;
+}
+
 .grid div {
     width: 20px;
     height: 20px;
@@ -101,3 +106,81 @@ h3 {
     border: 6px solid yellow;
     border-radius: 1rem;
 }
+
+
+
+
+:root {
+    --character-size: 2;
+}
+
+.character {
+    position: relative;
+    margin: 0 auto;
+    width: calc(17px * var(--character-size));
+    height: calc(16px * var(--character-size));
+    image-rendering: pixelated;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.spritesheet {
+    position: absolute;
+    /*animation: moveSpritesheet 1s steps(2) infinite;*/
+    width: calc(227px * var(--character-size));
+    height: calc(160px * var(--character-size));
+}
+
+/*
+.pacman-right {
+    animation: moveSpritesheet 1s steps(2) infinite;
+    top: calc(0px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+*/
+
+
+.pacman-left {
+    animation: moveSpritesheet 0.5s steps(2) infinite;
+    top: calc(-16px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+
+
+/*
+.pacman-up {
+    animation: moveSpritesheet 1s steps(2) infinite;
+    top: calc(-32px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+*/
+
+/*
+.pacman-down {
+    animation: moveSpritesheet 0.5s steps(2) infinite;
+    top: calc(-48px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+*/
+
+/* NOT FINISHED
+.blinky {
+    animation: moveSpritesheet 3s steps(9) infinite;
+    top: calc(-64px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+*/
+
+@keyframes moveSpritesheet {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-15%,0,0)
+    }
+}
+
+
+
+
+
