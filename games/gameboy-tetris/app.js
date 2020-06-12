@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(random)
     let current = theTetrominoes[random][currentRotation];
     console.log(colors[random])
+    console.log((colors[random]))
     
 
     //draw the Tetromino
@@ -95,7 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function undraw() {
         current.forEach(index => {
             //squares[currentPosition + index].classList.remove('tetromino');
-            squares[currentPosition + index].classList.remove((colors[random]));
+            //squares[currentPosition + index].classList(colors[random]);
+            squares[currentPosition + index].classList = "";
         })
     }
 
@@ -248,7 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
         //remove any trace of a tetromino from the entire grid
         displaySquares.forEach(square => {
             //square.classList.remove('tetromino');
-            square.classList.remove(colors[random]);
+            //square.classList.remove((colors[random]));
+            square.classList = "";
         })
         upNextTetrominoes[nextRandom].forEach( index => {
             //displaySquares[displayIndex + index].classList.add('tetromino');
@@ -279,9 +282,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 lines +=1;
                 linesDisplay.innerHTML = lines;
                 row.forEach(index => {
-                    squares[index].classList.remove('taken');
+                    //squares[index].classList.remove(colors[random]);
+                    //squares[index].classList.remove('taken');
                     //squares[index].classList.remove('tetromino');
-                    squares[index].classList.remove((colors[random]));
+                    squares[index].classList = "";
                 })
                 const squaresRemoved = squares.splice(i, width);
                 squares = squaresRemoved.concat(squares);
