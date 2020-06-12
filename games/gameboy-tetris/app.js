@@ -19,24 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let lines = 0;
     const linesDisplay = document.querySelector('#lines');
     //tetromino display colours/images
-    /*const colors  = [
-        "url('https://clairevanblerck.com/resources/images/tetris/l1-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/l2-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/z-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/z-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/t-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/o-tetromino.png')",
-        "url('https://clairevanblerck.com/resources/images/tetris/i-tetromino.png')"
-    ];*/
-    let colors = [
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-        document.querySelector ('.tet'),
-    ]
+    let colors = ["l1", "l2", "z1", "z2", "t", "o", "i"];
+
 
     //The Tetrominoes
     const l1Tetromino = [
@@ -96,42 +80,22 @@ document.addEventListener('DOMContentLoaded', () => {
     let random = Math.floor(Math.random()*theTetrominoes.length);
     console.log(random)
     let current = theTetrominoes[random][currentRotation];
-
-
-
-    /*if (theTetrominoes[0]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[1]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[2]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[3]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[4]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[5]) {
-        colors = document.querySelector ('.tet');
-    } else if (theTetrominoes[6]) {
-        colors = document.querySelector ('.tet');
-    }*/
+    console.log(colors[random])
     
-
 
     //draw the Tetromino
     function draw() {
         current.forEach(index =>{
-            squares[currentPosition + index].classList.add('tet');
-            squares[currentPosition + index].classList.add('t');
-            //squares[currentPosition + index].style.backgroundImage = colors[random];
+            //squares[currentPosition + index].classList.add('tetromino');
+            squares[currentPosition + index].classList.add((colors[random]));
         })
     }
 
     //undraw the Tetromino
     function undraw() {
         current.forEach(index => {
-            squares[currentPosition + index].classList.remove('tet');
-            squares[currentPosition + index].classList.remove('t');
-            //squares[currentPosition + index].style.backgroundImage = '';
+            //squares[currentPosition + index].classList.remove('tetromino');
+            squares[currentPosition + index].classList.remove((colors[random]));
         })
     }
 
@@ -284,15 +248,11 @@ document.addEventListener('DOMContentLoaded', () => {
         //remove any trace of a tetromino from the entire grid
         displaySquares.forEach(square => {
             //square.classList.remove('tetromino');
-            square.classList.remove('tet');
-            square.classList.remove('t');
-            //square.style.backgroundImage = '';
+            square.classList.remove(colors[random]);
         })
         upNextTetrominoes[nextRandom].forEach( index => {
             //displaySquares[displayIndex + index].classList.add('tetromino');
-            displaySquares[displayIndex + index].classList.add('tet');
-            displaySquares[displayIndex + index].classList.add('t');
-            //displaySquares[displayIndex + index].style.backgroundImage = colors[nextRandom];
+            displaySquares[displayIndex + index].classList.add((colors[nextRandom]));
         })
     }
 
@@ -321,9 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 row.forEach(index => {
                     squares[index].classList.remove('taken');
                     //squares[index].classList.remove('tetromino');
-                    squares[index].classList.remove('tet');
-                    squares[index].classList.remove('t');
-                    squares[index].style.backgroundImage = '';
+                    squares[index].classList.remove((colors[random]));
                 })
                 const squaresRemoved = squares.splice(i, width);
                 squares = squaresRemoved.concat(squares);
