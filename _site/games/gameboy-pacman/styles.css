@@ -1,0 +1,250 @@
+* {
+    /*border: 1px red solid;*/
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #edfcdf;
+}
+
+body {
+    background-color: #000000;
+    margin: 1rem;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    height: 570px;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    display: flex;
+    background-color: yellow;
+}
+
+.dot {
+    border: 6px solid black;
+    border-radius: 48%;
+}
+
+.wall {
+    border: 1px solid darkblue;
+    /*outline: #4CAF50 solid 1px;*/
+}
+
+.border-top {
+    border-top: 2px double darkblue;
+}
+
+.border-right {
+    border-right: 2px double darkblue;
+}
+
+.border-bottom {
+    border-bottom: 2px double darkblue;
+}
+
+.border-left {
+    border-left: 2px double darkblue;
+}
+
+.power-pellet {
+    border: 10px solid yellow;
+    border-radius: 1rem;
+}
+
+.blinky {
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 1rem;
+}
+
+.pinky {
+    background-color: lightpink;
+    border: 2px solid lightpink;
+    border-radius: 1rem;
+}
+
+.inky {
+    background-color: cyan;
+    border: 2px solid cyan;
+    border-radius: 1rem;
+}
+
+.clyde {
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 1rem;
+}
+
+.scared-ghosts {
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 1rem;
+}
+
+.pac-man {
+    background-color: black;
+    border: 6px solid yellow;
+    border-radius: 1rem;
+}
+
+:root {
+    --character-size: 1.5;
+}
+
+.character {
+    position: relative;
+    margin: 0 auto;
+    width: calc(15px * var(--character-size));
+    height: calc(15px * var(--character-size));
+    image-rendering: pixelated;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.spritesheet {
+    position: absolute;
+    /*animation: moveSpritesheet 1s steps(2) infinite;*/
+    width: calc(549px * var(--character-size));
+    height: calc(822px * var(--character-size));
+}
+
+@keyframes moveSpritesheetpacmandie {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-32%,0,0);
+    }
+}
+
+@keyframes moveSpritesheetpacmanupdown {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-6%,0,0);
+    }
+}
+
+@keyframes moveSpritesheetpacmanleftright {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-9%,0,0);
+    }
+}
+
+@keyframes moveSpritesheetghosts {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-23.2%,0,0)
+    }
+}
+
+@keyframes moveSpritesheetscaredghosts {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-6%,0,0)
+    }
+}
+
+.pacman-die {
+    animation: moveSpritesheetpacmandie 3s steps(11) infinite;
+    top: calc(-19px * var(--character-size));
+    left: calc(-2px * var(--character-size));
+}
+
+.pacman-right {
+    animation: moveSpritesheetpacmanleftright 0.3s steps(3) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-1px * var(--character-size));
+}
+
+.pacman-left {
+    animation: moveSpritesheetpacmanleftright 0.3s steps(3) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-82px * var(--character-size));
+}
+
+.pacman-up {
+    animation: moveSpritesheetpacmanupdown 0.3s steps(2) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-129px * var(--character-size));
+}
+
+.pacman-down {
+    animation: moveSpritesheetpacmanupdown 0.33s steps(2) infinite;
+    top: calc(-1px * var(--character-size));
+    left: calc(-49px * var(--character-size));
+}
+
+.blinky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-34px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.pinky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-50px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.inky {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-67px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.clyde {
+    animation: moveSpritesheetghosts 2s steps(8) infinite;
+    top: calc(-83px * var(--character-size));
+    left: calc(-3px * var(--character-size));
+}
+
+.scared-ghosts {
+    animation: moveSpritesheetscaredghosts 0.3s steps(2) infinite;
+    top: calc(-34px * var(--character-size));
+    left: calc(-130px * var(--character-size));
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: red;
+}

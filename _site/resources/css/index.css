@@ -89,6 +89,7 @@ section .experience,.qualifications {
     height: 20rem;
     width: auto;
     padding: 1rem;
+    image-rendering: pixelated;
 }
 
 .image-and-text-panel .text-item {
@@ -124,7 +125,7 @@ h3.portfolio-heading {
 
 .portfolio ul {
     display: inline-flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .portfolio li {

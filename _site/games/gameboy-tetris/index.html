@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-93599017-2');
+    </script>
+
+    <script src="/games/gameboy-tetris/app.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Tetris</title>
+    <link rel="stylesheet" type="text/css" href="/games/gameboy-tetris/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Press+Start+2P&family=Squada+One&display=swap"
+        rel="stylesheet">
+    
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
+</head>
+
+<body>
+
+    <!-- Main container -->
+
+    <div class="container">
+
+        <!-- Left / grid section -->
+        <div class="left">
+            <div class="border">
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+            </div>
+            <div class="grid">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <!-- Frozen wall divs -->
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+                <div class="taken"></div>
+            </div>
+            <div class="border">
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick3"></div>
+                    <div class="brick3"></div>
+                </div>
+                <div class="border-brick">
+                    <div class="brick0"></div>
+                    <div class="brick1"></div>
+                    <div class="brick2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right / stats section -->
+        <div class="right">
+
+            <div class="stats-section">
+
+                <!-- Score section -->
+                <div class="score-board">
+                    <div class="stripes">
+                        <div id="blue"></div>
+                        <div id="green"></div>
+                        <div id="white"></div>
+                    </div>
+                    <div class="score stats-item">
+                        <h3>Score</h3><span id="score">0</span>
+                    </div>
+                </div>
+
+                <!-- Level and lines section -->
+                <div class="level stats-item">
+                    <h3>Level</h3><span id="level">0</span>
+                </div>
+                <div class="lines stats-item">
+                    <h3>Lines</h3><span id="lines">0</span>
+                </div>
+            </div>
+
+            <!-- Mini grid / Next-up section -->
+            <div class="mini-grid">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Buttons section -->
+
+    <div class="buttons">
+
+        <!-- Movement control buttons -->
+        <div class="controls">
+            <div class="square-border">
+                <button id="up-button" class="arrow-up square-button"></button>
+            </div>
+            <div class="left-right">
+                <div class="square-border">
+                    <button id="left-button" class="arrow-left square-button"></button>
+                </div>
+                <div class="square-border">
+                    <button id="right-button" class="arrow-right square-button"></button>
+                </div>
+            </div>
+            <div class="square-border">
+                <button id="down-button" class="arrow-down square-button"></button>
+            </div>
+        </div>
+        <!-- Rotation control buttons -->
+        <div class="rotation">
+            <button id="a-button" class="round-button">
+                <h4>A</h4>
+            </button>
+            <button id="b-button" class="round-button">
+                <h4>B</h4>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Start button -->
+    <div class="start">
+        <button id="start-button">
+            <h4>Start</h4>
+        </button>
+    </div>
+
+    <audio src="/games/gameboy-tetris/resources/Tetris_theme.ogg" controls>Your browser does not support the audio
+        element.</audio>
+
+</body>
+
+</html>

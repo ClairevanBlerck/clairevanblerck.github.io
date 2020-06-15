@@ -1,0 +1,745 @@
+* {
+    /*border: 1px red solid;*/
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #1c343e;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
+body {
+    background-color: grey;
+    touch-action: manipulation;
+}
+
+
+.test {
+    background: 
+    linear-gradient(315deg, transparent 63%, #213c21 0) -2px 0, 
+    linear-gradient(45deg, transparent 73%, #213c21 0) 0px 0, 
+    linear-gradient(180deg, #213c21 42%, transparent 0) 0px 0, 
+    linear-gradient(90deg, #213c21 100%, transparent 0) -3px 0;
+    background-size: 18px 15px;
+    border: 4.5px solid #a7c7a5;
+    outline: 1px solid black;
+}
+
+.l1 {
+    background: 
+    linear-gradient(315deg, transparent 63%, #213c21 0) -2px 0, 
+    linear-gradient(45deg, transparent 73%, #213c21 0) 0px 0, 
+    linear-gradient(180deg, #213c21 42%, transparent 0) 0px 0, 
+    linear-gradient(90deg, #213c21 100%, transparent 0) -3px 0;
+    background-size: 17px 14px;
+    border: 5.5px solid #a7c7a5;
+    outline: 1px solid black;
+}
+
+.l2 {
+    border: 1.5px solid #213c2f;
+    background-color: #72a390;
+}
+
+.z1 {
+    background: 
+    linear-gradient(315deg, transparent 63%, #213c21 0) -2px 0, 
+    linear-gradient(45deg, transparent 73%, #213c21 0) 0px 0, 
+    linear-gradient(180deg, #213c21 42%, transparent 0) 0px 0, 
+    linear-gradient(90deg, #213c21 100%, transparent 0) -3px 0;
+    background-size: 18px 15px;
+    border: 4.5px solid #72a390;
+    outline: 1px solid black;
+}
+
+.z2 {
+    border: 9px solid #aed3ac;
+    background: #213c2f;
+    outline: 1px solid black;
+}
+
+.t {
+    border-top: 4px solid #cee9c5;
+    border-right: 4px solid #213c21;
+    border-bottom: 6px solid #213c21;
+    border-left: 6px solid #bcd3b4;
+    background-color: #91ad8f;
+    /*outline: 1px solid black;*/
+}
+
+.o {
+    border: 5px solid #e0f8e9;
+    background-color: #213c2f;
+    outline: 1px solid black;
+}
+
+.i {
+    border: 1px solid #213c21;
+    background:
+    radial-gradient(#213c2f 15%, transparent 25%) 0 0,
+    radial-gradient(#213c2f 15%, transparent 25%) 6px 9px,
+    radial-gradient(#213c2f 15%, transparent 25%) 0 1px,
+    radial-gradient(#213c2f 15%, transparent 13%) 6px 9px;
+    background-color: #a8d391;
+    background-size: 13px 16px;
+    /*outline: 1px solid black;*/
+}
+
+.tetromino {
+    border: 1px solid #000000;
+}
+
+
+/* Main container */
+.container {
+    display: flex;
+    background-color: #1c343e;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+/* Left / grid section */
+.left {
+    display: flex;
+}
+
+.left .border {
+    width: 38px;
+    height: 608px;
+    border-left: 5px solid #edfcdf;
+    border-right: 5px solid #edfcdf;
+}
+
+.border-brick {
+    display: flex;
+    width: 28px;
+    height: 10px;
+    background-color: #b2d1b1;
+    border-bottom: 3px solid #1c343e;
+}
+
+.brick0 {
+    display: inline-flex;
+    width: 6px;
+    border-right: 3px solid #1c343e;
+}
+
+.brick1 {
+    display: inline-flex;
+    width: 17px;
+    border-right: 3px solid #1c343e;
+}
+
+.brick2 {
+    display: inline-flex;
+    width: 6px;
+}
+
+.brick3 {
+    width: 16px;
+    border-right: 3px solid #1c343e;
+}
+
+.grid {
+    width: 302px;
+    height: 608px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #edfcdf;
+    padding: 0.1rem 0;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Right / stats section */
+.right {
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.stats-item {
+    display: block;
+    background-color: #edfcdf;
+    width: 7rem;
+    height: 3.7rem;
+    border: 9px double #5b886e;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+
+.stats-item h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    padding: 0.2rem 0.1rem;
+}
+
+
+/* Score section */
+.score-board {
+    width: fit-content;
+    height: 6rem;
+}
+
+.stripes {
+    width: fit-content;
+    height: 2rem;  
+}
+
+#blue {
+    background-color: #1c343e;
+    width: 10rem;
+    height: 2rem;
+    border-bottom: 5px solid #edfcdf;
+}
+
+#green {
+    background-color: #5b886e;
+    width: 10rem;
+    height: 1.5rem;
+    border-bottom: 9px double #edfcdf;
+}
+
+#white {
+    background-color: #edfcdf;
+    width: 10rem;
+    height: 2rem;
+    border-bottom: 9px double #5b886e;
+}
+
+.score-board .stats-item {
+    position: relative;
+    bottom: 1rem;
+    width: 7rem;
+    height: 2rem;
+}
+
+#score {
+    display: block;
+    color: #1c343e;
+    padding: 0.1rem;
+    position: relative;
+    top: 0.9rem;
+    float: right;
+}
+
+
+/* Level and lines section */
+#level {
+    display: block;
+    color: #1c343e;
+    padding: 0.1rem;
+    position: relative;
+    top: 0.2rem;
+    right: 1.3rem;
+    float: right;
+}
+
+#lines {
+    display: block;
+    color: #1c343e;
+    padding: 0.1rem;
+    position: relative;
+    top: 0.2rem;
+    right: 1.3rem;
+    float: right;
+}
+
+
+/* Mini grid / next-up section */
+.next {
+    margin-right: 0.5rem;
+}
+
+.mini-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 158px;
+    height: 158px;
+    background-color: #edfcdf;
+    border: 14px double #5b886e;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+
+.mini-grid div {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Buttons section */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    height: auto;
+    margin: 1rem auto;
+}
+
+/* Movement control buttons */
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    height: fit-content;
+    touch-action: manipulation;
+}
+
+.square-border {
+    border: 9px double #5b886e;
+    border-radius: 1rem;
+    background-color: #edfcdf;
+    margin: 0 auto;
+}
+
+.square-button {
+    display: block;
+    background-color: #edfcdf;
+    padding: 0;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-top: 0;
+    border-right: 2rem solid transparent;
+    border-bottom: 3.8rem solid #1c343e;
+    border-left: 2rem solid transparent;
+    border-radius: 0.6rem;
+}
+  
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-top: 3.8rem solid #1c343e; 
+    border-right: 2rem solid transparent;
+    border-bottom: 0;
+    border-left: 2rem solid transparent;
+    border-radius: 0.6rem;
+}
+  
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid transparent;
+    border-right: 0;
+    border-bottom: 2rem solid transparent;
+    border-left: 3.8rem solid #1c343e;
+    border-radius: 0.6rem;
+}
+  
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid transparent;
+    border-right: 3.8rem solid #1c343e; 
+    border-bottom: 2rem solid transparent;  
+    border-left: 0;
+    border-radius: 0.6rem;
+}
+
+.left-right {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.left-right .square-border {
+    margin: 0;
+}
+
+#up-button {
+    margin: 0.05rem;
+    touch-action: manipulation;
+}
+
+#right-button {  
+    margin: 0.05rem;
+    touch-action: manipulation;
+}
+
+#down-button {
+    margin: 0.05rem;
+    touch-action: manipulation;
+}
+
+#left-button {
+    margin: 0.05rem;
+    touch-action: manipulation;
+}
+
+
+/* Rotation buttons */
+.rotation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 11rem;
+    height: fit-content;
+    touch-action: manipulation;
+}
+
+.rotation h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #1c343e;
+}
+
+.round-button {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-color: #edfcdf;
+    border: 9px double #5b886e;
+    border-radius: 2rem;
+}
+
+#b-button {
+    touch-action: manipulation;
+    margin-right: 3rem;
+}
+
+#a-button {
+    touch-action: manipulation;
+}
+
+/* Start button */
+.start {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#start-button {
+    display: block;
+    width: 7rem;
+    height: 3rem;
+    background-color: #edfcdf;
+    border: 9px double #5b886e;
+    border-radius: 0.5rem;
+    touch-action: manipulation;
+}
+
+#start-button h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #1c343e;
+}
+
+audio { 
+    display: block;
+    background-color: #edfcdf;
+    border: 9px double #5b886e;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+}
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 414px) {
+
+    .l1 {
+        border: 3px solid #a7c7a5;
+        outline: 1px solid black;
+    }
+
+    .z1 {
+        border: 3px solid #72a390;
+    }
+
+    .z2 {
+        border: 6px solid #aed3ac;
+    }
+
+    .t {
+        border-top: 2px solid #cee9c5;
+        border-right: 2px solid #213c21;
+        border-bottom: 3px solid #213c21;
+        border-left: 3px solid #bcd3b4;
+    }
+
+    .o {
+        border: 3px solid #e0f8e9;
+    }
+
+    .i {
+        background: 
+        radial-gradient(#213c2f 15%, transparent 25%) 4px 2px, 
+        radial-gradient(#213c2f 15%, transparent 25%) 6px 8px, 
+        radial-gradient(#213c2f 15%, transparent 25%) -2px 4px, 
+        radial-gradient(#213c2f 15%, transparent 13%) 6px 8px;
+        background-size: 12px 12px;
+        background-color: #a8d391;
+    }
+
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0.1rem;
+    }
+
+    .left {
+        width: 60vw;
+    }
+
+    .left .border {
+        width: 18px;
+        height: 366px;
+        border-left: 2px solid #edfcdf;
+        border-right: 2px solid #edfcdf;
+    }
+    
+    .border-brick {
+        width: 14px;
+        height: 6px;
+        border-bottom: 2px solid #1c343e;
+    }
+
+    .brick0 {
+        width: 3px;
+        border-right: 2px solid #1c343e;
+    }
+    
+    .brick1 {
+        width: 9px;
+        border-right: 2px solid #1c343e;
+    }
+    
+    .brick2 {
+        width: 3px;
+    }
+    
+    .brick3 {
+        width: 8px;
+        border-right: 2px solid #1c343e;
+    }
+
+    .grid {
+        width: 182px;
+        height: 366px;
+        padding: 0.1rem 0;
+    }
+    
+    .grid div {
+        width: 18px;
+        height: 18px;
+    }
+
+    .right {
+        width: 40vw;
+    }
+
+    .stats-section {
+        height: 8rem;
+    }
+    
+    .stats-item {
+        width: 4.5rem;
+        height: 2.2rem;
+        border: 5px double #5b886e;
+        border-radius: 0.3rem;
+        margin-top: 0.1rem;
+    }
+    
+    .stats-item h3 {
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+        padding: 0.1rem 0.05rem;
+    }
+    
+    
+    /* Score section */
+    .score-board {
+        width: 40vw;
+        height: fit-content;
+    }
+    
+    .stripes {
+        height: 2.5rem;  
+    }
+    
+    #blue {
+        background-color: #1c343e;
+        height: 1.2rem;
+        width: 40vw;
+        border-bottom: 4px solid #edfcdf;
+    }
+    
+    #green {
+        background-color: #5b886e;
+        height: 1rem;
+        width: 40vw;
+        border-bottom: 4px double #edfcdf;
+    }
+    
+    #white {
+        background-color: #edfcdf;
+        height: 1.5rem;
+        width: 40vw;
+        border-bottom: 4px double #5b886e;
+    }
+    
+    .score-board .stats-item {
+        bottom: 2rem;
+        width: 4.5rem;
+        height: 1.3rem;
+    }
+    
+    #score {
+        font-size: 0.7rem;
+        padding: 0.1rem;
+        position: relative;
+        top: 0.8rem;
+    }
+    
+    
+    /* Level and lines section */
+    #level {
+        font-size: 0.7rem;
+        padding: 0.1rem;
+        top: 0rem;
+    }
+    
+    #lines {
+        font-size: 0.7rem;
+        padding: 0.1rem;
+        top: 0rem;
+    }
+
+
+    .mini-grid {
+        width: 93px;
+        height: 93px;
+        border: 5px double #5b886e;
+        margin: 0.3rem;
+    }
+    
+    .mini-grid div {
+        width: 18px;
+        height: 18.5px;
+    }
+
+    /* Buttons section */
+    .buttons {
+        margin: 0;
+        margin-top: 0.5rem;
+        width: 100vw;
+    }
+
+    /* Movement control buttons */
+    .controls {
+        width: 8rem;
+        margin: 0.2rem;
+    }
+    
+    .square-border {
+        border: 5px double #5b886e;
+        border-radius: 0.5rem;
+    }
+    
+    .arrow-up {
+        border-right: 0.8rem solid transparent;
+        border-bottom: 1.6rem solid #1c343e;
+        border-left: 0.8rem solid transparent;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-down {
+        border-top: 1.6rem solid #1c343e; 
+        border-right: 0.8rem solid transparent;
+        border-left: 0.8rem solid transparent;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-right {
+        border-top: 0.8rem solid transparent;
+        border-bottom: 0.8rem solid transparent;
+        border-left: 1.6rem solid #1c343e;
+        border-radius: 0.2rem;
+    }
+      
+    .arrow-left {
+        border-top: 0.8rem solid transparent;
+        border-right: 1.6rem solid #1c343e; 
+        border-bottom: 0.8rem solid transparent;  
+        border-radius: 0.2rem;
+    }
+
+
+    /* Rotation buttons */
+    .rotation {
+        width: 11rem;
+        margin: 0.2rem;
+    }
+
+    .rotation h4 {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .round-button {
+        width: 2.2rem;
+        height: 2.2rem;
+        border: 5px double #5b886e;
+        margin-bottom: 0.5rem;
+    }
+
+    #b-button {
+        margin-right: 2rem;
+    }
+
+
+    /* Start button */
+    #start-button {
+        width: 4rem;
+        height: 1.5rem;
+        border: 5px double #5b886e;
+        border-radius: 0.5rem;
+    }
+
+    #start-button h4 {
+        font-size: 0.6rem;
+    }
+
+    audio {
+        display: none;
+    }
+
+}

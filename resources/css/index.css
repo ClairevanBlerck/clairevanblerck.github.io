@@ -125,7 +125,7 @@ h3.portfolio-heading {
 
 .portfolio ul {
     display: inline-flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .portfolio li {

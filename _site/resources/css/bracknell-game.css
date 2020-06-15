@@ -39,6 +39,7 @@ ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
 	}
-	ul#horizontal-list li {
-		display: inline;
-	}
+
+ul#horizontal-list li {
+	display: inline;
+}

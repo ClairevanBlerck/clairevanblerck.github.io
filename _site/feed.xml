@@ -3,44 +3,68 @@
 
     <channel>
         <title></title>
-        <link>http://localhost:4000</link>
+        <link></link>
         <description></description>
-        <lastBuildDate>Thu, 14 May 2020 11:23:45 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2020 19:53:42 +0100</lastBuildDate>
         
         <item>
             <title>grow lights</title>
             <link>
-                http://localhost:4000/plog/2020/05/10/grow-lights.html
+                /plog/2020/05/10/grow-lights.html
             </link>
             <description>
-                
-
+                &lt;p&gt;excessive?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;poorly plants&lt;/li&gt;
+  &lt;li&gt;fc needs&lt;/li&gt;
+  &lt;li&gt;plant and light knowledge&lt;/li&gt;
+  &lt;li&gt;lack of info on tags
+how&lt;/li&gt;
+  &lt;li&gt;types&lt;/li&gt;
+  &lt;li&gt;cheap to run&lt;/li&gt;
+  &lt;li&gt;bathroom or dark space (feature)&lt;/li&gt;
+  &lt;li&gt;small or large
+impact&lt;/li&gt;
+  &lt;li&gt;before and a...
             </description>
             <pubDate>Sun, 10 May 2020 00:00:00 +0100</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/05/10/grow-lights.html
+                /plog/2020/05/10/grow-lights.html
             </guid>
         </item>
         
         <item>
             <title>hard water</title>
             <link>
-                http://localhost:4000/plog/2020/05/01/hard-water.html
+                /plog/2020/05/01/hard-water.html
             </link>
             <description>
-                
+                &lt;p&gt;types of water hardness&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;soft&lt;/li&gt;
+  &lt;li&gt;hard
+distilled water&lt;/li&gt;
+  &lt;li&gt;carnivorous plants&lt;/li&gt;
+  &lt;li&gt;calatheas
+rain water&lt;/li&gt;
+  &lt;li&gt;community rainwater&lt;/li&gt;
+  &lt;li&gt;balcony devices
+mineral water&lt;/li&gt;
+  &lt;li&gt;cost&lt;/li&gt;
+  &lt;li&gt;mineral content&lt;/li&gt;
+&lt;/ul&gt;
 
             </description>
             <pubDate>Fri, 01 May 2020 00:00:00 +0100</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/05/01/hard-water.html
+                /plog/2020/05/01/hard-water.html
             </guid>
         </item>
         
         <item>
             <title>seaweed fertiliser</title>
             <link>
-                http://localhost:4000/plog/2020/04/17/seaweed-fertiliser.html
+                /plog/2020/04/17/seaweed-fertiliser.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -55,14 +79,14 @@
             </description>
             <pubDate>Fri, 17 Apr 2020 00:00:00 +0100</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/04/17/seaweed-fertiliser.html
+                /plog/2020/04/17/seaweed-fertiliser.html
             </guid>
         </item>
         
         <item>
             <title>give away</title>
             <link>
-                http://localhost:4000/plog/2020/04/02/give-away.html
+                /plog/2020/04/02/give-away.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -77,14 +101,14 @@
             </description>
             <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/04/02/give-away.html
+                /plog/2020/04/02/give-away.html
             </guid>
         </item>
         
         <item>
             <title>calathea ornata</title>
             <link>
-                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
+                /plog/2020/03/20/calathea-ornata.html
             </link>
             <description>
                 &lt;!-- Slideshow container --&gt;
@@ -99,14 +123,14 @@
             </description>
             <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
+                /plog/2020/03/20/calathea-ornata.html
             </guid>
         </item>
         
         <item>
             <title>neem oil</title>
             <link>
-                http://localhost:4000/plog/2020/03/16/neem-oil.html
+                /plog/2020/03/16/neem-oil.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -121,14 +145,14 @@
             </description>
             <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/03/16/neem-oil.html
+                /plog/2020/03/16/neem-oil.html
             </guid>
         </item>
         
         <item>
             <title>propagation</title>
             <link>
-                http://localhost:4000/plog/2020/02/02/propagation.html
+                /plog/2020/02/02/propagation.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -146,14 +170,14 @@
             </description>
             <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/02/02/propagation.html
+                /plog/2020/02/02/propagation.html
             </guid>
         </item>
         
         <item>
             <title>winter care</title>
             <link>
-                http://localhost:4000/plog/2020/01/30/winter-care.html
+                /plog/2020/01/30/winter-care.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -165,14 +189,14 @@
             </description>
             <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/01/30/winter-care.html
+                /plog/2020/01/30/winter-care.html
             </guid>
         </item>
         
         <item>
             <title>seasonal tips</title>
             <link>
-                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
+                /plog/2020/01/14/seasonal-tips.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -191,7 +215,7 @@
             </description>
             <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
+                /plog/2020/01/14/seasonal-tips.html
             </guid>
         </item>
         
