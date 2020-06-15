@@ -29,11 +29,17 @@ layout: main
                       <div class="portfolio-item-text left"><h3>how to build a gundam</h3><br><h4>A guide to assembling & painting gunpla</h4></div>
                     </a></li>
                 <li class="portfolio-item">
-                    <a href="/plog" alt="plant blog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg">
-                      <div class="portfolio-item-text right"><h3>p(lant b)log</h3><br><h4>A houseplant journal + product reviews</h4></div>
+                    <a href="/plog" alt="plog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg">
+                      <div class="portfolio-item-text right"><h3>plog</h3><br><h4>A houseplant journal + product reviews</h4></div>
                     </a></li>
-                <!--<li class="portfolio-item">
-                    <a href="/bracknell-game" alt="mobile game design"><img src="resources/images/bracknell-game/bracknell.jpg"><p class="portfolio-item-text">mobile game design</p></a></li> -->
+                <li class="portfolio-item">
+                    <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png">
+                      <div class="portfolio-item-text right"><h3>Tetris</h3><br><h4>Using a tutorial as a core, adding custom JS and CSS</h4></div>
+                    </a></li>
+                <li class="portfolio-item">
+                    <a href="https://clairevanblerck.com/games/gameboy-pacman/" alt="plant blog"><img src="/resources/images/portfolio/gameboy-pacman.png">
+                      <div class="portfolio-item-text right"><h3>Pacman</h3><br><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4></div>
+                    </a></li>
                 <li class="portfolio-item"></li>
             </ul>  
         </div>
