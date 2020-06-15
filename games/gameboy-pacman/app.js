@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // move up
             case 38:
                 if(pacmanCurrentIndex - width >= 0 && !squares[pacmanCurrentIndex -width].classList.contains('wall') && !squares[pacmanCurrentIndex -width].classList.contains('ghost-lair')) pacmanCurrentIndex -= width;
+                
                 break;
 
             // move right

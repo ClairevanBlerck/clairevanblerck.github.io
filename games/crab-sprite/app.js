@@ -5,30 +5,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const walkDown = document.querySelector('.walk-down');
     const walkLeft = document.querySelector('.walk-left');
   
-  
-    //assign functions on keyCodes
-    function controlWalk() {
-        if (keys[38]) {
-            classlist.add('walk-up');
-            classlist.remove('walk-right');
-            classlist.remove('walk-down');
-            classlist.remove('walk-left');
-        } else if (keys[39]) {
-            classlist.add('walk-right');
-            classlist.remove('walk-down');
-            classlist.remove('walk-left');
-            classlist.remove('walk-up');
-        } else if (keys[40]) {
-            classlist.add('walk-down');
-            classlist.remove('walk-left');
-            classlist.remove('walk-up');
-            classlist.remove('walk-right');
-        } else if (keys[37]) {
-            classlist.add('walk-left');
-            classlist.remove('walk-up');
-            classlist.remove('walk-right');
-            classlist.remove('walk-down');
+
+    document.addEventListener('keydown', animateCrab => {
+        const keyName = event.key;
+
+
+        //assign functions on keyCodes
+        function animateCrab() {
+            if (keyName === 'ArrowUp') {
+                walkUp();
+            } else if (keyName === 'ArrowRight') {
+                walkRight();
+            } else if (keyName === 'ArrowDown') {
+                walkDown();
+            } else if (keyName === 'ArrowLeft') {
+                walkLeft();
+            }
         }
+
+    })
+
+    console.log(event.key)
+
+     
+    function walkUp() {
+        
+
     }
 
 }) 

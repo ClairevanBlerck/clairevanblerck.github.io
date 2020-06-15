@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //timerId = setInterval(moveDown, 1000)
 
     //assign functions on keyCodes
-    function control(e) {
+    /*function control(e) {
         if(e.keyCode === 65) {
             moveLeft();
         } else if (e.keyCode === 68) {
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (e.keyCode === 37) {
             rotateCounterClockwise();
         }
-    }
+    }*/
 
     //add functionality to 'A' / right-arrow key
     aButton.addEventListener('click', () => {

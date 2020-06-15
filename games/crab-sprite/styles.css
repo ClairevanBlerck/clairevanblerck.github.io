@@ -1,5 +1,5 @@
 :root {
-    --character-size: 3;
+    --character-size: 1;
 }
   
 body {
@@ -18,7 +18,7 @@ body {
   
 .sprite-sheet {
     position: absolute;
-    animation: moveSpritesheet 0.6s steps(5) infinite;
+    /*animation: moveSpritesheet 0.6s steps(5) infinite;*/
     width: calc(770px * var(--character-size));
     height: calc(496px * var(--character-size));
 }
