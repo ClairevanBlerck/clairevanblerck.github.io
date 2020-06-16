@@ -18,9 +18,12 @@ h3 {
 }
 
 .container {
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
 }
+
+/* Left/grid section */
 
 .left {
     display: flex;
@@ -53,9 +56,9 @@ h3 {
 
 .wall {
     border: 1px solid darkblue;
-    /*outline: #4CAF50 solid 1px;*/
 }
 
+/* Potantial wall borders
 .border-top {
     border-top: 2px double darkblue;
 }
@@ -70,12 +73,15 @@ h3 {
 
 .border-left {
     border-left: 2px double darkblue;
-}
+}*/
 
 .power-pellet {
     border: 10px solid yellow;
     border-radius: 1rem;
 }
+
+
+/* Basic css characters */
 
 .blinky {
     background-color: crimson;
@@ -112,6 +118,36 @@ h3 {
     border: 6px solid yellow;
     border-radius: 1rem;
 }
+
+
+/* Right/info section */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+}
+
+.right h3 {
+    text-transform: uppercase;
+    color: red;
+}
+
+
+#high-score {
+    font-size: 1rem;
+}
+
+#score {
+    font-size: 1rem;
+}
+
+#lives {
+    font-size: 1rem;
+}
+
+
+/* Sprites */
 
 :root {
     --character-size: 1.5;
@@ -239,12 +275,81 @@ h3 {
     left: calc(-130px * var(--character-size));
 }
 
-.right {
-    display: flex;
-    flex-direction: column;
+
+/* Media queries */
+
+@media only screen and (max-width: 414px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    /* Left/grid section */
+    
+    .grid {
+        width: 360px;
+        height: 360px;
+        border: none;
+    }
+    
+    .grid div {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    
+    .dot {
+        border: 4px solid black;
+    }
+    
+    .power-pellet {
+        border: 5px solid yellow;
+    }
+
+    .pac-man {
+        border: 3px solid yellow;
+        border-radius: 1rem;
+    }
+    
+
+    /* Right/info section */
+
+    .right {
+        margin: 1rem 0.5rem;
+    }
+
+    .right h3 {
+        font-size: 0.8rem;
+    }
+
+    #high-score {
+        font-size: 0.8rem;
+    }
+    
+    #score {
+        font-size: 0.8rem;
+    }
+    
+    #lives {
+        font-size: 0.8rem;
+    }
+
 }
 
-h3 {
-    text-transform: uppercase;
-    color: red;
-}
+@media only screen and (max-width: 320px) {
+    
+    /* Left/grid section */
+
+    .left {
+        width: 100vw;
+    }
+    
+    .grid {
+        width: 310px;
+        height: 310px;
+    }
+    
+    .grid div {
+        width: 11px;
+        height: 11px;
+    }
