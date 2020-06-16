@@ -1,0 +1,292 @@
+* {
+    /*border: 1px red solid;*/
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #edfcdf;
+}
+
+body {
+    background-color: #000000;
+    margin: 1rem;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Left/grid section */
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    height: 570px;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    display: flex;
+    background-color: yellow;
+}
+
+.dot {
+    border: 6px solid black;
+    border-radius: 48%;
+}
+
+.wall {
+    border: 1px solid darkblue;
+}
+
+/* Potantial wall borders
+.border-top {
+    border-top: 2px double darkblue;
+}
+
+.border-right {
+    border-right: 2px double darkblue;
+}
+
+.border-bottom {
+    border-bottom: 2px double darkblue;
+}
+
+.border-left {
+    border-left: 2px double darkblue;
+}*/
+
+.power-pellet {
+    border: 10px solid yellow;
+    border-radius: 1rem;
+}
+
+
+/* Basic css characters */
+
+.blinky {
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 1rem;
+}
+
+.pinky {
+    background-color: lightpink;
+    border: 2px solid lightpink;
+    border-radius: 1rem;
+}
+
+.inky {
+    background-color: cyan;
+    border: 2px solid cyan;
+    border-radius: 1rem;
+}
+
+.clyde {
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 1rem;
+}
+
+.scared-ghosts {
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 1rem;
+}
+
+.pac-man {
+    background-color: black;
+    border: 6px solid yellow;
+    border-radius: 1rem;
+}
+
+
+/* Right/info section */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+}
+
+.right h3 {
+    text-transform: uppercase;
+    color: red;
+}
+
+
+#high-score {
+    font-size: 1rem;
+}
+
+#score {
+    font-size: 1rem;
+}
+
+#lives {
+    font-size: 1rem;
+}
+
+
+/* Sprites */
+
+/*:root {
+    --character-size: 1.5;
+}
+
+.character {
+    position: relative;
+    margin: 0 auto;
+    width: calc(15px * var(--character-size));
+    height: calc(15px * var(--character-size));
+    image-rendering: pixelated;
+    overflow: hidden;
+}
+
+.spritesheet {
+    background-image: url("/games/gameboy-pacman/resources/SpriteSheet.png");
+    position: absolute;
+    width: calc(549px * var(--character-size));
+    height: calc(822px * var(--character-size));
+}
+
+@keyframes moveSpritesheetpacmandie {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+    to {
+        transform: translate3d(-32%,0,0);
+    }
+}*/
+
+
+.pac-right {
+	width: 20px;
+    height: 20px;
+    display: block;	
+    background: transparent url("/games/gameboy-pacman/resources/pac-right.png") 0 0 no-repeat;
+    background-size: 60px 20px;
+    animation: pac-right 0.3s steps(3) infinite;
+    image-rendering: pixelated;
+}
+
+
+@keyframes pac-right {
+    from {background-position: 0 0;}
+    to {background-position: -62px 0;}
+}
+
+.pac-left {
+	width: 20px;
+    height: 20px;
+    display: block;	
+    background: transparent url("/games/gameboy-pacman/resources/pac-left.png") 0 0 no-repeat;
+    background-size: 60px 20px;
+    animation: pac-right 0.3s steps(3) infinite;
+    image-rendering: pixelated;
+}
+
+
+@keyframes pac-left {
+    from {background-position: 0 0;}
+    to {background-position: -61px 0;}
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 414px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    /* Left/grid section */
+    
+    .grid {
+        width: 360px;
+        height: 360px;
+        border: none;
+    }
+    
+    .grid div {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    
+    .dot {
+        border: 4px solid black;
+    }
+    
+    .power-pellet {
+        border: 5px solid yellow;
+    }
+
+    .pac-man {
+        border: 3px solid yellow;
+        border-radius: 1rem;
+    }
+    
+
+    /* Right/info section */
+
+    .right {
+        margin: 1rem 0.5rem;
+    }
+
+    .right h3 {
+        font-size: 0.8rem;
+    }
+
+    #high-score {
+        font-size: 0.8rem;
+    }
+    
+    #score {
+        font-size: 0.8rem;
+    }
+    
+    #lives {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+    /* Left/grid section */
+
+    .left {
+        width: 100vw;
+    }
+    
+    .grid {
+        width: 310px;
+        height: 310px;
+    }
+    
+    .grid div {
+        width: 11px;
+        height: 11px;
+    }
+}

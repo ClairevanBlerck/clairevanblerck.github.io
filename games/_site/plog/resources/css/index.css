@@ -1,0 +1,528 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+h1 {
+    display: block;
+    font-size: 3rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 0.83rem;
+    margin-bottom: 0.83rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+}
+
+p {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 2rem;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+em {
+    font-size: 1.2rem;
+}
+
+strong {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+a {
+    font-size: 1.2rem;
+}
+
+header {
+    height: 5rem;
+}
+
+body {
+}
+
+
+/* Nav section */
+
+/* Style the navigation menu */
+nav {
+    overflow: hidden;
+    position: relative;
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+nav a.logo {
+    font-size: 3rem;
+    width: fit-content;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+nav #myLinks {
+    line-height: 2;
+    background-color: rgba(255, 255, 255, 0.863);
+    display: none;
+    float: right;
+    z-index: 3;
+    position: relative;
+    padding: 1rem;
+    border: 0.1px solid gray;
+    width: 11rem;
+    height: fit-content;
+}
+  
+/* Style navigation menu links */
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+nav #myLinks a {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+  
+/* Style the hamburger menu */
+nav a.icon {
+    font-size: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.8rem;
+}
+
+
+/* Original traditional nav
+nav {
+    margin: 1rem;
+}
+
+#logo {
+    font-size: 4rem;
+    display: inline-block;
+    padding: 0 1rem;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav a.icon {
+    display: none;
+    color: black;
+    font-size: 2rem;
+    float: right;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    float: right;
+    overflow: hidden;
+    padding: 0.5rem 2rem;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+*/
+
+
+/* Featured grid section */
+.featured {
+    display: inline-flex;
+    justify-content: space-evenly;
+    min-width: 100vw;
+}
+
+.featured .grid {
+    margin: 2rem 1rem;
+}
+
+.grid .email a {
+    text-decoration: underline;
+}
+
+.grid a, h3 h4 p {
+    color: black;
+    text-decoration: none;
+}
+
+.grid li {
+    font-size: 1.2rem;
+}
+
+.grid img {
+    max-width: 27vw;
+    max-height: 55vh;
+}
+
+.grid.two img {
+    max-width: 40vw;
+    max-height: 55vh;
+}
+
+.grid .grid-item {
+    max-width: 27vw;
+}
+
+.grid.grey img {
+    background: lightgrey;
+    opacity: 0.4;
+}
+
+.grid.grey {
+    color: #717171;
+}
+
+.grid-item h3 {
+    padding: 1rem 0;
+}
+
+.grid-item p {
+    line-height: 1.5;
+}
+
+
+/* Slideshow container */
+.slideshow {
+}
+
+.slideshow-container {
+    width: 85vw;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    object-fit: cover;
+    width: 85vw;
+    height: 70vh;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -2rem;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6s ease;
+    border-radius: 0 0.3rem 0.3rem 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: white;
+    background-color: rgba(143, 143, 143, 0.8);
+}
+
+/* Caption text */
+.slideshow-text {
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    font-size: 3rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.2rem;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active .dot:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/* Text section */
+.date {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.about {
+    display: flex;
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+.about img {
+    max-width: 40vw;
+    object-fit: contain;
+    padding: 2rem;
+}
+
+.small-image img {
+    max-width: 20vw;
+    padding: 2rem;
+}
+
+.small-image a {
+    text-align: center;
+}
+
+.text-item {
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+.text-item hr {
+    margin-top: 3rem;
+}
+
+.small-image {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.small-image a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.indent {
+    padding: 2rem 0;
+}
+
+
+/* Blog page grid */
+
+.page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 1rem;
+}
+
+.page-grid .grid-item {
+    margin: 1rem;
+}
+
+.page-grid .grid-item img {
+    width: 100%;
+}
+
+.page-grid .grid-item a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Footer section */
+footer {
+    width: 85vw;
+    margin: 2rem auto;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 1000px) {
+
+    nav ul {
+        display: none;
+    }
+
+    nav a.icon {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about {
+        display: block;
+    }
+
+    .about img {
+        max-width: 60vw;
+        padding: 2rem 0;
+    }
+
+    .small-image img {
+        max-width: 40vw;
+    }
+
+    .text-item {
+        max-width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    header {
+        height: 5rem;
+    }
+
+    .slideshow {
+        min-height: 90vh;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured .grid {
+        min-width: 100vw;
+        padding: 0 2rem 4rem 2rem;
+        margin: 0;
+    }
+
+    .featured .grid-item {
+        max-width: 100vw;
+    }
+
+    .grid img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .grid.two img {
+        max-width: 80vw;
+        max-height: 55vh;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 2rem;
+        width: 2rem;
+        margin: 0px 1rem;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    nav a.logo {
+        font-size: 2.5rem;
+    }
+
+    nav a.icon {
+        font-size: 1.5rem;
+    }
+
+    .slideshow-text {
+    font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .featured .grid {
+        min-width: 100vw;
+    }
+
+    .small-image img {
+        max-width: 50vw;
+    }
+}

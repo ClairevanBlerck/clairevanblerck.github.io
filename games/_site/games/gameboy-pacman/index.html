@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-93599017-2');
+    </script>
+
+    <script src="/games/gameboy-pacman/app.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pac-man</title>
+    <link href="/games/gameboy-pacman/styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Press+Start+2P&family=Squada+One&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <!-- Left/grid section -->
+        <div class="left">
+
+            <div class="grid"></div>
+
+        </div>
+
+
+        <!-- Right/info section -->
+        <div class="right">
+
+            <h3>Hi-Score <span id="high-score">0</span></h3>
+
+            <h3>Score <span id="score">0</span></h3>
+
+            <h3>Lives <span id="lives">0</span></h3>
+
+        </div>
+
+    </div>
+
+    <div class="pac-left"></div>
+
+</body>
+
+</html>

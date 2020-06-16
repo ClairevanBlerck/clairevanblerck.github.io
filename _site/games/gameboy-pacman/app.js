@@ -65,21 +65,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     createGrid()
 
-    //starting position of pac-man
+    //starting position of pac
     let pacmanCurrentIndex = 574;
 
-    squares[pacmanCurrentIndex].classList.add('pac-man');
+    squares[pacmanCurrentIndex].classList.add('pac-right');
 
-    //move pac-man
+    //move pac
     function movePacman(e) {
 
-        squares[pacmanCurrentIndex].classList.remove('pac-man');
+        squares[pacmanCurrentIndex].classList.remove('pac-right', 'pac-left', 'pac-up', 'pac-down');
 
         switch(e.keyCode) {
             // move up
             case 38:
                 if(pacmanCurrentIndex - width >= 0 && !squares[pacmanCurrentIndex -width].classList.contains('wall') && !squares[pacmanCurrentIndex -width].classList.contains('ghost-lair')) pacmanCurrentIndex -= width;
-                
+                squares[pacmanCurrentIndex].classList.add('pac-up');
                 break;
 
             // move right
@@ -89,11 +89,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if ((pacmanCurrentIndex +1) === 392) {
                     pacmanCurrentIndex = 364;
                 }
+                squares[pacmanCurrentIndex].classList.add('pac-right');
                 break;
 
             // move down
             case 40:
                 if(pacmanCurrentIndex + width <= layout.length && !squares[pacmanCurrentIndex +width].classList.contains('wall') && !squares[pacmanCurrentIndex +width].classList.contains('ghost-lair')) pacmanCurrentIndex += width;
+                squares[pacmanCurrentIndex].classList.add('pac-down');
                 break;
 
             // move left
@@ -103,10 +105,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 if ((pacmanCurrentIndex -1) === 363) {
                     pacmanCurrentIndex = 391;
                 }
+                squares[pacmanCurrentIndex].classList.add('pac-left');
                 break;
         }
 
-        squares[pacmanCurrentIndex].classList.add('pac-man');
+        squares[pacmanCurrentIndex].classList.add('pac');
 
         pacDotEaten()
         powerPelletEaten()
@@ -116,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     document.addEventListener('keyup', movePacman, pacDotEaten);
 
-    // what happens them pac-man collides with a pac-dot
+    // what happens them pac collides with a pac-dot
     function pacDotEaten() {
         if (squares[pacmanCurrentIndex].classList.contains('pac-dot', 'dot')) {
             score++;
@@ -125,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    //what happens when pac-man collides with a pac-dot
+    //what happens when pac collides with a pac-dot
     function powerPelletEaten() {
         if (squares[pacmanCurrentIndex].classList.contains('power-pellet')) {
             score+=10;
@@ -188,8 +191,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 squares[ghost.currentIndex].classList.add('scared-ghosts');
             }
 
-            // add pac-man ability to eat scared-ghosts
-            if (ghost.isScared && squares[ghost.currentIndex].classList.contains('pac-man')) {
+            // add pac ability to eat scared-ghosts
+            if (ghost.isScared && squares[ghost.currentIndex].classList.contains('pac')) {
                 // remove ghost
                 squares[ghost.currentIndex].classList.remove(ghost.className, 'ghost', 'scared-ghosts');
                 ghost.currentIndex = ghost.startIndex;
@@ -200,14 +203,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 squares[ghost.currentIndex].classList.add(ghost.className, 'ghost');
             }
 
-            // check to see if ghost moves into pac-man
+            // check to see if ghost moves into pac
             gameOver()
 
         //add unique speeds
         }, ghost.speed)
     } gameOver()
 
-    // check to see if pac-man moves into ghost
+    // check to see if pac moves into ghost
     function gameOver() {
         if (squares[pacmanCurrentIndex].classList.contains('ghost') &&
           !squares[pacmanCurrentIndex].classList.contains('scared-ghosts')) {

@@ -3,7 +3,11 @@ title: hard water
 layout: plog-posts
 ---
 
-types of water hardness
+# What??
+Water hardness was something I had never been aware of until I moved to the UK. 
+
+
+## types of water hardness
 - soft
 - hard
 distilled water
