@@ -44,81 +44,9 @@ h3 {
     height: 20px;
 }
 
-.pac-dot {
-    display: flex;
-    background-color: yellow;
-}
-
-.dot {
-    border: 6px solid black;
-    border-radius: 48%;
-}
-
 .wall {
     border: 1px solid darkblue;
 }
-
-/* Potantial wall borders
-.border-top {
-    border-top: 2px double darkblue;
-}
-
-.border-right {
-    border-right: 2px double darkblue;
-}
-
-.border-bottom {
-    border-bottom: 2px double darkblue;
-}
-
-.border-left {
-    border-left: 2px double darkblue;
-}*/
-
-.power-pellet {
-    border: 10px solid yellow;
-    border-radius: 1rem;
-}
-
-
-/* Basic css characters */
-
-/*.blinky {
-    background-color: crimson;
-    border: 2px solid crimson;
-    border-radius: 1rem;
-}
-
-.pinky {
-    background-color: lightpink;
-    border: 2px solid lightpink;
-    border-radius: 1rem;
-}
-
-.inky {
-    background-color: cyan;
-    border: 2px solid cyan;
-    border-radius: 1rem;
-}
-
-.clyde {
-    background-color: darkorange;
-    border: 2px solid darkorange;
-    border-radius: 1rem;
-}
-
-.scared-ghosts {
-    background-color: gray;
-    border: 2px solid gray;
-    border-radius: 1rem;
-}
-
-.pac-man {
-    background-color: black;
-    border: 6px solid yellow;
-    border-radius: 1rem;
-}
-*/
 
 
 /* Right/info section */
@@ -149,36 +77,6 @@ h3 {
 
 
 /* Sprites */
-
-/*:root {
-    --character-size: 1.5;
-}
-
-.character {
-    position: relative;
-    margin: 0 auto;
-    width: calc(15px * var(--character-size));
-    height: calc(15px * var(--character-size));
-    image-rendering: pixelated;
-    overflow: hidden;
-}
-
-.spritesheet {
-    background-image: url("/games/gameboy-pacman/resources/SpriteSheet.png");
-    position: absolute;
-    width: calc(549px * var(--character-size));
-    height: calc(822px * var(--character-size));
-}
-
-@keyframes moveSpritesheetpacmandie {
-    from {
-        transform: translate3d(0px,0,0)
-    }
-    to {
-        transform: translate3d(-32%,0,0);
-    }
-}*/
-
 /* Ghost sprites */
 
 .blinky {
@@ -300,6 +198,20 @@ h3 {
 @keyframes pac-left {
     from {background-position: 0 0;}
     to {background-position: -61px 0;}
+}
+
+
+/* Dots and pellets */
+.pac-dot {
+    display: flex;
+    background-color: yellow;
+    border: 6px solid black;
+    border-radius: 48%;
+}
+
+.power-pellet {
+    border: 10px solid yellow;
+    border-radius: 1rem;
 }
 
 
