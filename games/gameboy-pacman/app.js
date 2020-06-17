@@ -68,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //starting position of pac
     let pacmanCurrentIndex = 574;
 
-    squares[pacmanCurrentIndex].classList.add('pac-right');
+    squares[pacmanCurrentIndex].classList.add('pac-right', 'pac');
+    squares[pacmanCurrentIndex].classList.remove('pac-dot');
 
     //move pac
     function movePacman(e) {
@@ -109,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
         }
 
-        squares[pacmanCurrentIndex].classList.add('pac');
+        //squares[pacmanCurrentIndex].classList.add('pac');
 
         pacDotEaten()
         powerPelletEaten()
@@ -121,14 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // what happens them pac collides with a pac-dot
     function pacDotEaten() {
-        if (squares[pacmanCurrentIndex].classList.contains('pac-dot', 'dot')) {
+        if (squares[pacmanCurrentIndex].classList.contains('pac-dot')) {
             score++;
             scoreDisplay.innerHTML = score;
-            squares[pacmanCurrentIndex].classList.remove('pac-dot', 'dot');
+            squares[pacmanCurrentIndex].classList.remove('pac-dot');
         }
     }
 
-    //what happens when pac collides with a pac-dot
+    //what happens when pac collides with a power pellet
     function powerPelletEaten() {
         if (squares[pacmanCurrentIndex].classList.contains('power-pellet')) {
             score+=10;
@@ -176,6 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let direction = directions[Math.floor(Math.random() * directions.length)];
 
         ghost.timerID = setInterval(function() {
+
             // prevent ghosts from moving into walls and another ghost
            if (!squares[ghost.currentIndex + direction].classList.contains('wall') && !squares[ghost.currentIndex + direction].classList.contains('ghost')) {
                // remove any trace of ghost
@@ -196,11 +198,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 // remove ghost
                 squares[ghost.currentIndex].classList.remove(ghost.className, 'ghost', 'scared-ghosts');
                 ghost.currentIndex = ghost.startIndex;
-                //add to score
+                // add to score
                 score += 100;
                 scoreDisplay.innerHTML = score;
                 // respawn ghost
-                squares[ghost.currentIndex].classList.add(ghost.className, 'ghost');
+                squares[ghost.startIndex].classList.add(ghost.className, 'ghost');
             }
 
             // check to see if ghost moves into pac

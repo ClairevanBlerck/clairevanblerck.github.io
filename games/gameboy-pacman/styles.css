@@ -59,7 +59,7 @@ h3 {
 
 .right h3 {
     text-transform: uppercase;
-    color: red;
+    color: #d93a2f;
 }
 
 
@@ -87,6 +87,7 @@ h3 {
     background-size: 160px 20px;
     animation: ghosts 1.5s steps(8) infinite;
     image-rendering: pixelated;
+    border: none !important;
 }
 
 .pinky {
@@ -97,6 +98,7 @@ h3 {
     background-size: 160px 20px;
     animation: ghosts 1.5s steps(8) infinite;
     image-rendering: pixelated;
+    border: none !important;
 }
 
 .inky {
@@ -107,6 +109,7 @@ h3 {
     background-size: 160px 20px;
     animation: ghosts 1.5s steps(8) infinite;
     image-rendering: pixelated;
+    border: none !important;
 }
 
 .clyde {
@@ -117,6 +120,7 @@ h3 {
     background-size: 160px 20px;
     animation: ghosts 1.5s steps(8) infinite;
     image-rendering: pixelated;
+    border: none !important;
 }
 
 @keyframes ghosts {
@@ -203,14 +207,21 @@ h3 {
 
 /* Dots and pellets */
 .pac-dot {
-    display: flex;
-    background-color: yellow;
-    border: 6px solid black;
+    background-color: #f0bc3c;
+    border: 7px solid black;
     border-radius: 48%;
 }
 
+.pac-dot-new {
+    background: 
+    radial-gradient(#f0bc3c 15%, transparent 25%) 4px 2px, 
+    radial-gradient(#f0bc3c 15%, transparent 25%) 6px 8px, 
+    radial-gradient(#f0bc3c 15%, transparent 25%) -2px 4px, 
+    radial-gradient(#f0bc3c 15%, transparent 13%) 6px 8px;
+}
+
 .power-pellet {
-    border: 10px solid yellow;
+    border: 10px solid #f0bc3c;
     border-radius: 1rem;
 }
 
@@ -243,11 +254,6 @@ h3 {
     
     .power-pellet {
         border: 5px solid yellow;
-    }
-
-    .pac-man {
-        border: 3px solid yellow;
-        border-radius: 1rem;
     }
     
 
