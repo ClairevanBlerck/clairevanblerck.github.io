@@ -247,13 +247,113 @@ h3 {
         width: 12.5px;
         height: 12.5px;
     }
-    
-    .dot {
+
+    .pac-dot {
         border: 4px solid black;
     }
     
     .power-pellet {
-        border: 5px solid yellow;
+        border: 5px solid #f0bc3c;
+    }
+
+    /* Sprites */
+
+    /* Pac sprites */
+
+    .pac-up {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/pac-up_158.png") 0 0 no-repeat;
+        background-size: 23px 12px;
+    }
+
+    .pac-down {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/pac-down_162.png") 0 0 no-repeat;
+        background-size: 23px 12px;
+    }
+
+    @keyframes pac-up-down {
+        from {background-position: 0 0;}
+        to {background-position: -23px 0;}
+    }
+
+    .pac-right {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url(/games/gameboy-pacman/resources/pac-right_234.png) 0 0 no-repeat;
+        background-size: 35px 10px;
+    }
+
+    @keyframes pac-right {
+        from {background-position: 0 0;}
+        to {background-position: -36px 0;}
+    }
+
+
+    .pac-left {
+        width: 12.5px;
+        height: 12.5px;	
+        background: transparent url("/games/gameboy-pacman/resources/pac-left_239.png") 0 0 no-repeat;
+        background-size: 35px 10px;
+    }
+
+    @keyframes pac-left {
+        from {background-position: 0 0;}
+        to {background-position: -35px 0;}
+    }
+
+
+    /* Ghost sprites */
+
+    .blinky {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/blinky_640.png") 0 0 no-repeat;
+        background-size: 91px 12px;
+    }
+
+    .pinky {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/pinky_640.png") 0 0 no-repeat;
+        background-size: 91px 12px;
+    }
+
+    .inky {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/inky_640.png") 0 0 no-repeat;
+        background-size: 91px 12px;
+    }
+
+    .clyde {
+        width: 12.5px;
+        height: 12.5px;
+        background: transparent url("/games/gameboy-pacman/resources/clyde_640.png") 0 0 no-repeat;
+        background-size: 91px 12px;
+    }
+
+    @keyframes ghosts {
+        from {background-position: 1px 0;}
+        to {background-position: -90px 0;}
+    }
+
+
+    .scared-ghosts {
+        width: 20px;
+        height: 20px;
+        display: block;	
+        background: transparent url("/games/gameboy-pacman/resources/scared-ghosts1.png") 0 0 no-repeat;
+        background-size: 40px 20px;
+        animation: scared-ghosts 0.2s steps(2) infinite;
+        image-rendering: pixelated;
+    }
+
+    @keyframes scared-ghosts {
+        from {background-position: 0 0;}
+        to {background-position: -40px 0;}
     }
     
 
