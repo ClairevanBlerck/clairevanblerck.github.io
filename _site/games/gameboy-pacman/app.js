@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // what happens them pac collides with a pac-dot
     function pacDotEaten() {
         if (squares[pacmanCurrentIndex].classList.contains('pac-dot')) {
-            score++;
+            score+=10;
             scoreDisplay.innerHTML = score;
             squares[pacmanCurrentIndex].classList.remove('pac-dot');
         }
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //what happens when pac collides with a power pellet
     function powerPelletEaten() {
         if (squares[pacmanCurrentIndex].classList.contains('power-pellet')) {
-            score+=10;
+            score+=50;
             scoreDisplay.innerHTML = score;
             squares[pacmanCurrentIndex].classList.remove('power-pellet');
             ghosts.forEach(ghost => ghost.isScared = true);
@@ -199,10 +199,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 squares[ghost.currentIndex].classList.remove(ghost.className, 'ghost', 'scared-ghosts');
                 ghost.currentIndex = ghost.startIndex;
                 // add to score
-                score += 100;
+                score+=200;
                 scoreDisplay.innerHTML = score;
                 // respawn ghost
-                squares[ghost.startIndex].classList.add(ghost.className, 'ghost');
+                squares[ghost.startIndex].classList.add(ghost.className, 'ghost', 'scared-ghosts');
             }
 
             // check to see if ghost moves into pac
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //check for a win
     function checkForWin() {
-        if (score >= 274) {
+        if (score >= 2500) {
           ghosts.forEach(ghost => clearInterval(ghost.timerId));
           document.removeEventListener('keyup', movePacman);
           //setTimeout(function(){ alert("You have WON!"); }, 500);

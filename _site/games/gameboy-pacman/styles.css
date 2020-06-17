@@ -18,9 +18,8 @@ h3 {
 }
 
 .container {
-    width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /* Left/grid section */
@@ -69,10 +68,12 @@ h3 {
 
 #score {
     font-size: 1rem;
+    margin: 3rem 0;
 }
 
 #lives {
-    font-size: 1rem;
+    animation: none;
+    margin: 3rem 0;
 }
 
 
@@ -208,8 +209,7 @@ h3 {
 /* Dots and pellets */
 .pac-dot {
     background-color: #f0bc3c;
-    border: 7px solid black;
-    border-radius: 48%;
+    border: 8px solid black;
 }
 
 .pac-dot-new {
