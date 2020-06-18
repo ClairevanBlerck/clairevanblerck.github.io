@@ -47,6 +47,14 @@ h3 {
     border: 1px solid darkblue;
 }
 
+.border-wall {
+    border-left: 1px solid red;
+}
+
+.blah {
+    border-top: 1px solid green;
+}
+
 
 /* Right/info section */
 

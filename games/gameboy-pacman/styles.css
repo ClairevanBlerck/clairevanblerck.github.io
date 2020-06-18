@@ -47,6 +47,9 @@ h3 {
     border: 1px solid darkblue;
 }
 
+.border-wall {
+    border-left: 1px solid red;
+}
 
 /* Right/info section */
 

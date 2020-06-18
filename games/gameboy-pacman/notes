@@ -4,3 +4,9 @@ Bugs:
 Features:
 1. Increase size of characters
 2. Redesign power pellets
+3.             // draw the walls
+            if (((layout[i] === 0) +1) == (layout[i] === 1)) {
+                squares[i].classList.add('border-wall');
+            } else if (((layout[i] === 0) +width) == (layout[i] === 1)) {
+                squares[i].classList.add('blah');
+            }

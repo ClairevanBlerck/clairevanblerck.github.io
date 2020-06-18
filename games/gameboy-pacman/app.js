@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             grid.appendChild(square);
             squares.push(square);
 
-            //add layout to the board
+            // add layout to the board
             if (layout[i] === 0) {
                 squares[i].classList.add('pac-dot', 'dot');
             } else if (layout[i] === 1) {
@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     createGrid()
+
 
     //starting position of pac
     let pacmanCurrentIndex = 574;
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         checkForWin()
 
     }
-    document.addEventListener('keyup', movePacman, pacDotEaten);
+    document.addEventListener('keydown', movePacman, pacDotEaten);
 
     // what happens them pac collides with a pac-dot
     function pacDotEaten() {
@@ -217,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (squares[pacmanCurrentIndex].classList.contains('ghost') &&
           !squares[pacmanCurrentIndex].classList.contains('scared-ghosts')) {
           ghosts.forEach(ghost => clearInterval(ghost.timerId))
-          document.removeEventListener('keyup', movePacman)
+          document.removeEventListener('keydown', movePacman)
           //setTimeout(function(){ alert("Game Over"); }, 200)
           scoreDisplay.innerHTML = 'Game over';
         }
@@ -227,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function checkForWin() {
         if (score >= 2500) {
           ghosts.forEach(ghost => clearInterval(ghost.timerId));
-          document.removeEventListener('keyup', movePacman);
+          document.removeEventListener('keydown', movePacman);
           //setTimeout(function(){ alert("You have WON!"); }, 500);
           scoreDisplay.innerHTML = 'YOU WON!';
         }
