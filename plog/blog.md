@@ -68,12 +68,13 @@ layout: plog
         </div>
     </div>
     <div class="grid-item">
-        <img src="resources/images/CeropegiaWoodii_2.jpg">
+        <a href="/plog/2020/07/06/ceropegia-woodii"><img src="resources/images/CeropegiaWoodii_1.jpg"/>
         <div class="grid-text">
-            <h3>Ceropegia Woodii<br>(Rosary vine)</h3>
+            <h3>Ceropegia Woodii<br />(Rosary vine)</h3>
             <h4>Easy care (^_^)/</h4>
-            <p>Trailing vine, beautiful grean-grey leaves with purple accents. Veeery drought-tolerant.</p>
+            <p>Trailing vine, beautiful grean-grey leaves with purple undersides. Veeery drought-tolerant.</p>
         </div>
+        </a>
     </div>
     <div class="grid-item">
         <img src="resources/images/HederaHelix_2.jpg">

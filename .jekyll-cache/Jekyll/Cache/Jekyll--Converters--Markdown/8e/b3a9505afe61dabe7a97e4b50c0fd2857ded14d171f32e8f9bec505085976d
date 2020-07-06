@@ -1,31 +1,26 @@
----
-title: home
-layout: plog
----
-
-<!-- Slideshow container -->
+I"6<!-- Slideshow container -->
 <section>
   <article>
       <div class="slideshow">
       <div class="slideshow-container">
         <!-- Full-width images with caption text -->
-        <a href="/plog/2020/07/06/ceropegia-woodii">
+                <a href="/plog/2020/07/06/ceropegia-woodii">
           <div class="mySlides fade">
-            <img src="/resources/images/CeropegiaWoodii_1.jpg">
+            <img src="/resources/images/CeropegiaWoodii_1.jpg" />
             <div class="slideshow-text">Latest post: Ceropegia Woodii
             </div>
           </div>
         </a>
         <a href="/plog/2020/03/20/calathea-ornata">
           <div class="mySlides fade">
-            <img src="/resources/images/CalatheaOrnata_6.jpg">
+            <img src="/resources/images/CalatheaOrnata_6.jpg" />
             <div class="slideshow-text">Calathea Ornata (featured plant) 
             </div>
           </div>
         </a>
         <a href="/plog/2020/04/02/give-away">
           <div class="mySlides fade">
-            <img src="/resources/images/EpiphyllumAnguliger_3.jpg">
+            <img src="/resources/images/EpiphyllumAnguliger_3.jpg" />
             <div class="slideshow-text">Give away! Only pay shipping! UK ONLY
             </div>
           </div>
@@ -34,7 +29,7 @@ layout: plog
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <br>
+      <br />
       <!-- The dots/circles -->
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -45,14 +40,13 @@ layout: plog
   </article>
 </section>
 
-
 <!-- Featured grid section -->
 <section>
     <article>
         <div class="featured">
           <div class="grid">
             <a href="https://clairevanblerck.com/plog/2020/02/02/propagation">
-              <img src="resources/images/HederaHelix_1.jpg">
+              <img src="resources/images/HederaHelix_1.jpg" />
               <div class="grid-item">
                   <h3>Propagation</h3>
                   <p class="date">02 Feb 2020</p>
@@ -63,18 +57,18 @@ layout: plog
           </div>
             <div class="grid">
               <a href="https://clairevanblerck.com/plog/2020/03/16/neem-oil">
-                <img src="resources/images/NeemOil_Naissance.jpg">
+                <img src="resources/images/NeemOil_Naissance.jpg" />
                 <div class="grid-item">
                     <h3>What about: Neem oil?</h3>
                     <p class="date">16 Mar 2020</p>
-                    <h4>Pest solution & fertiliser in 1</h4>
+                    <h4>Pest solution &amp; fertiliser in 1</h4>
                     <p>Non-toxic to you, your pets, and the bugs you love.</p>    
                 </div>
               </a>
             </div>           
             <div class="grid">
               <a href="https://clairevanblerck.com/plog/2020/01/14/seasonal-tips">
-                <img src="resources/images/HoyaCarnosa_close-up.jpg">
+                <img src="resources/images/HoyaCarnosa_close-up.jpg" />
                 <div class="grid-item">
                     <h3>Seasonal tips</h3>
                     <p class="date">14 Jan 2020</p>
@@ -91,3 +85,4 @@ layout: plog
         </div>
     </article>
 </section>
+:ET
