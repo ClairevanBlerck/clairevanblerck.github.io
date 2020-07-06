@@ -86,10 +86,6 @@ header {
     height: 5rem;
 }
 
-body {
-}
-
-
 /* Nav section */
 
 /* Style the navigation menu */
@@ -245,8 +241,6 @@ nav li a {
 
 
 /* Slideshow container */
-.slideshow {
-}
 
 .slideshow-container {
     width: 85vw;
