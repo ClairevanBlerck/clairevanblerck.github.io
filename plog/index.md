@@ -11,21 +11,21 @@ layout: plog
         <!-- Full-width images with caption text -->
         <a href="/plog/2020/07/06/ceropegia-woodii">
           <div class="mySlides fade">
-            <img src="/resources/images/CeropegiaWoodii_1.jpg">
+            <img src="/plog/resources/images/CeropegiaWoodii_1.jpg">
             <div class="slideshow-text">Latest post: Ceropegia Woodii
             </div>
           </div>
         </a>
         <a href="/plog/2020/03/20/calathea-ornata">
           <div class="mySlides fade">
-            <img src="/resources/images/CalatheaOrnata_6.jpg">
+            <img src="/plog/resources/images/CalatheaOrnata_6.jpg">
             <div class="slideshow-text">Calathea Ornata (featured plant) 
             </div>
           </div>
         </a>
         <a href="/plog/2020/04/02/give-away">
           <div class="mySlides fade">
-            <img src="/resources/images/EpiphyllumAnguliger_3.jpg">
+            <img src="/plog/resources/images/EpiphyllumAnguliger_3.jpg">
             <div class="slideshow-text">Give away! Only pay shipping! UK ONLY
             </div>
           </div>
