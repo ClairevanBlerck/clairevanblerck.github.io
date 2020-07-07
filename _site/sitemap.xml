@@ -24,13 +24,6 @@
     </url>
     
     <url>
-        <loc>/plog/care-tips.html</loc>
-        <lastmod>2020-07-07</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>/cv.html</loc>
         <lastmod>2020-07-07</lastmod>
         <changefreq>daily</changefreq>
@@ -83,6 +76,13 @@
     
     <url>
         <loc>/plog/2020/06/16/chlorophytum-comosum.html</loc>
+        <lastmod>2020-07-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/plog/2020/06/04/beginners-care-tips.html</loc>
         <lastmod>2020-07-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>

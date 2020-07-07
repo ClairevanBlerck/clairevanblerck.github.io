@@ -3,14 +3,14 @@
 
     <channel>
         <title></title>
-        <link>https://clairevanblerck.com/</link>
+        <link>http://localhost:4000</link>
         <description>web developer</description>
-        <lastBuildDate>Tue, 07 Jul 2020 15:44:01 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2020 16:09:31 +0100</lastBuildDate>
         
         <item>
             <title>ceropegia woodii</title>
             <link>
-                https://clairevanblerck.com//plog/2020/07/06/ceropegia-woodii.html
+                http://localhost:4000/plog/2020/07/06/ceropegia-woodii.html
             </link>
             <description>
                 &lt;!-- Slideshow container --&gt;
@@ -25,14 +25,14 @@
             </description>
             <pubDate>Mon, 06 Jul 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/07/06/ceropegia-woodii.html
+                http://localhost:4000/plog/2020/07/06/ceropegia-woodii.html
             </guid>
         </item>
         
         <item>
             <title>chlorophytum comosum</title>
             <link>
-                https://clairevanblerck.com//plog/2020/06/16/chlorophytum-comosum.html
+                http://localhost:4000/plog/2020/06/16/chlorophytum-comosum.html
             </link>
             <description>
                 &lt;p&gt;overview&lt;/p&gt;
@@ -50,14 +50,35 @@ propagation&lt;/li&gt;
             </description>
             <pubDate>Tue, 16 Jun 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/06/16/chlorophytum-comosum.html
+                http://localhost:4000/plog/2020/06/16/chlorophytum-comosum.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>care-tips</title>
+            <link>
+                http://localhost:4000/plog/2020/06/04/beginners-care-tips.html
+            </link>
+            <description>
+                &lt;!-- Text section --&gt;
+&lt;section&gt;
+    &lt;article&gt;
+        &lt;div class=&quot;text-item&quot;&gt;
+            &lt;h2&gt;Fertiliser&lt;/h2&gt;
+            &lt;p&gt;Your plant is reliant on the small pot of soil its in, so you&#39;ll need to supplement it in order to keep your plant healthy and growing strong.&lt;/p&gt;
+            &lt;h3&gt;When&lt;/h3&gt;
+            &lt;p&gt;Fert...
+            </description>
+            <pubDate>Thu, 04 Jun 2020 00:00:00 +0100</pubDate>
+            <guid>
+                http://localhost:4000/plog/2020/06/04/beginners-care-tips.html
             </guid>
         </item>
         
         <item>
             <title>grow lights</title>
             <link>
-                https://clairevanblerck.com//plog/2020/05/10/grow-lights.html
+                http://localhost:4000/plog/2020/05/10/grow-lights.html
             </link>
             <description>
                 &lt;p&gt;excessive?&lt;/p&gt;
@@ -76,14 +97,14 @@ impact&lt;/li&gt;
             </description>
             <pubDate>Sun, 10 May 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/05/10/grow-lights.html
+                http://localhost:4000/plog/2020/05/10/grow-lights.html
             </guid>
         </item>
         
         <item>
             <title>hard water</title>
             <link>
-                https://clairevanblerck.com//plog/2020/05/01/hard-water.html
+                http://localhost:4000/plog/2020/05/01/hard-water.html
             </link>
             <description>
                 &lt;h1 id=&quot;what&quot;&gt;What??&lt;/h1&gt;
@@ -100,14 +121,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Fri, 01 May 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/05/01/hard-water.html
+                http://localhost:4000/plog/2020/05/01/hard-water.html
             </guid>
         </item>
         
         <item>
             <title>seaweed fertiliser</title>
             <link>
-                https://clairevanblerck.com//plog/2020/04/17/seaweed-fertiliser.html
+                http://localhost:4000/plog/2020/04/17/seaweed-fertiliser.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -122,14 +143,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Fri, 17 Apr 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/04/17/seaweed-fertiliser.html
+                http://localhost:4000/plog/2020/04/17/seaweed-fertiliser.html
             </guid>
         </item>
         
         <item>
             <title>give away</title>
             <link>
-                https://clairevanblerck.com//plog/2020/04/02/give-away.html
+                http://localhost:4000/plog/2020/04/02/give-away.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -144,14 +165,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/04/02/give-away.html
+                http://localhost:4000/plog/2020/04/02/give-away.html
             </guid>
         </item>
         
         <item>
             <title>calathea ornata</title>
             <link>
-                https://clairevanblerck.com//plog/2020/03/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
             </link>
             <description>
                 &lt;!-- Slideshow container --&gt;
@@ -166,14 +187,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/03/20/calathea-ornata.html
+                http://localhost:4000/plog/2020/03/20/calathea-ornata.html
             </guid>
         </item>
         
         <item>
             <title>neem oil</title>
             <link>
-                https://clairevanblerck.com//plog/2020/03/16/neem-oil.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -188,14 +209,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/03/16/neem-oil.html
+                http://localhost:4000/plog/2020/03/16/neem-oil.html
             </guid>
         </item>
         
         <item>
             <title>propagation</title>
             <link>
-                https://clairevanblerck.com//plog/2020/02/02/propagation.html
+                http://localhost:4000/plog/2020/02/02/propagation.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -213,14 +234,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/02/02/propagation.html
+                http://localhost:4000/plog/2020/02/02/propagation.html
             </guid>
         </item>
         
         <item>
             <title>winter care</title>
             <link>
-                https://clairevanblerck.com//plog/2020/01/30/winter-care.html
+                http://localhost:4000/plog/2020/01/30/winter-care.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -233,14 +254,14 @@ rain water&lt;/li&...
             </description>
             <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/01/30/winter-care.html
+                http://localhost:4000/plog/2020/01/30/winter-care.html
             </guid>
         </item>
         
         <item>
             <title>seasonal tips</title>
             <link>
-                https://clairevanblerck.com//plog/2020/01/14/seasonal-tips.html
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
             </link>
             <description>
                 &lt;!-- Text section --&gt;
@@ -259,7 +280,7 @@ rain water&lt;/li&...
             </description>
             <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://clairevanblerck.com//plog/2020/01/14/seasonal-tips.html
+                http://localhost:4000/plog/2020/01/14/seasonal-tips.html
             </guid>
         </item>
         

@@ -17,7 +17,8 @@ layout: plog
 <!-- Blog page section -->
 <div class="page-grid">
     <div class="grid-item">
-        <a href="/plog/2020/07/06/ceropegia-woodii"><img src="resources/images/CeropegiaWoodii_1.jpg"/>
+        <a href="/plog/2020/07/06/ceropegia-woodii">
+        <img src="resources/images/CeropegiaWoodii_1.jpg"/>
         <div class="grid-text">
             <h3>Ceropegia Woodii<br />(Rosary vine)</h3>
             <h4>06 Jul 2020</h4>
@@ -27,7 +28,8 @@ layout: plog
         </a>
     </div>
     <div class="grid-item">
-        <a href="https://clairevanblerck.com/plog/2020/04/17/seaweed-fertiliser"><img src="resources/images/Seaweed-Vitax.jpg">
+        <a href="https://clairevanblerck.com/plog/2020/04/17/seaweed-fertiliser">
+        <img src="resources/images/Seaweed-Vitax.jpg">
         <div class="grid-text">
             <h3>Seaweed fertiliser</h3>
             <h4>17 Apr 2020</h4>
@@ -37,7 +39,8 @@ layout: plog
         </a>
     </div>
     <div class="grid-item">
-        <a href="https://clairevanblerck.com/plog/2020/03/16/neem-oil"><img src="resources/images/NeemOil_TheSoapery.jpg">
+        <a href="https://clairevanblerck.com/plog/2020/03/16/neem-oil">
+        <img src="resources/images/NeemOil_TheSoapery.jpg">
         <div class="grid-text">
             <h3>Neem oil</h3>
             <h4>16 Mar 2020</h4>
@@ -47,7 +50,8 @@ layout: plog
         </a>
     </div>
     <div class="grid-item">
-      <a href="https://clairevanblerck.com/plog/2020/03/20/calathea-ornata"><img src="resources/images/CalatheaOrnata_2.jpg">
+      <a href="https://clairevanblerck.com/plog/2020/03/20/calathea-ornata">
+      <img src="resources/images/CalatheaOrnata_2.jpg">
         <div class="grid-text">
             <h3>Calathea Ornata<br>(Pinstipe plant)</h3>
             <h4>20 Mar 2020</h4>

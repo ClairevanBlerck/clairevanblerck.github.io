@@ -19,45 +19,39 @@ layout: plog-posts
 <!-- Row 1 plants -->
 <section>
     <article>
-        <div class="featured">
-            <div class="grid two">
+        <div class="page-grid">
+            <div class="grid-item">
+                <a href="/plog/2020/01/30/winter-care">
                 <img src="/plog/resources/images/PileaPeperomioides.jpg">
-                <div class="grid-item">
+                <div class="grid-text">
                     <h3>Winter</h3>
                     <h4>Maintaining</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <p>Health-check all your plants.</p>
                 </div>
+                </a>
             </div>
-            <div class="grid two">
-                <img src="/plog/resources/images/Sansevieria.jpg">
-                <div class="grid-item">
+            <div class="grid-item">
+                <img src="/plog/resources/images/CeropegiaWoodii_2.jpg">
+                <div class="grid-text">
                     <h3>Spring</h3>
                     <h4>Preparing</h4>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Get moving! So much to do :)</p>
                 </div>
             </div>
-        </div>
-    </article>
-</section>
-
-<!-- Row 2 plants -->
-<section>
-    <article>
-        <div class="featured">
-            <div class="grid two">
-                <img src="/plog/resources/images/CeropegiaWoodii_2.jpg">
-                <div class="grid-item">
+            <div class="grid-item">
+                <img src="/plog/resources/images/HederaHelix_2.jpg">
+                <div class="grid-text">
                     <h3>Summer</h3>
                     <h4>Monitoring</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Sit back and relax?</p>
                 </div>
             </div>
-            <div class="grid two">
-                <img src="/plog/resources/images/HederaHelix_2.jpg">
-                <div class="grid-item">
+            <div class="grid-item">
+                <img src="/plog/resources/images/Sansevieria.jpg">
+                <div class="grid-text">
                     <h3>Autumn</h3>
                     <h4>Planning</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Bulbs bulbs bulbs.</p>
                 </div>
             </div>
         </div>
