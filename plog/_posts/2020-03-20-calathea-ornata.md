@@ -49,7 +49,7 @@ layout: plog-posts
         <div class="about">
             <div class="text-item">
                 <h1>Calathea Ornata</h1>
-                <p class="date">20 Feb 2020</p>
+                <p class="date">20 Mar 2020</p>
                 <h4>Make sure you have the right environment for this plant before you buy it.</h4>
                 <p>This is the most temperamental plant in my collection. There's no doubt that it's increadibly
                     beautiful and very rewarding when it's thriving, but getting that balance is <em>really hard

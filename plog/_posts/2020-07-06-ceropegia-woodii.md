@@ -10,12 +10,12 @@ layout: plog-posts
             <div class="slideshow-container">
                 <!-- Full-width images -->
                 <div class="mySlides fade">
-                    <img src="/plog/resources/images/CeropegiaWoodii_1.jpg">
-                    <div class="slideshow-text">Bright light = vibrant colours</div>
-                </div>
-                <div class="mySlides fade">
                     <img src="/plog/resources/images/CeropegiaWoodii_4.jpg">
                     <div class="slideshow-text">Less light = silvery tones</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="/plog/resources/images/CeropegiaWoodii_1.jpg">
+                    <div class="slideshow-text">Bright light = vibrant colours</div>
                 </div>
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

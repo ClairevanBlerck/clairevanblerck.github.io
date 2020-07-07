@@ -1,55 +1,4 @@
-<html>
-
-  <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-93599017-2');
-  </script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>plog - calathea ornata</title>
-  <link href="/plog/resources/css/index.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="alternate" type="application/rss+xml" href="https://clairevanblerck.com//feed.xml" title="">
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
-</head>
-
-  <body>
-
-      <!-- Logo & Nav -->
-  <header>
-    <nav>
-      <a href="https://clairevanblerck.com/plog/" class="logo">plog</a>
-      <!-- Navigation links (hidden by default) -->
-      <div id="myLinks">
-        <a href="https://clairevanblerck.com/plog/blog">Blog</a>
-        <a href="https://clairevanblerck.com/plog/care-tips">Care tips</a>
-        <a href="https://clairevanblerck.com/plog/about">About</a>
-        <a href="https://www.instagram.com/plants_pleaz/">Instagram</a>
-      </div>
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
-  </header>
-
-    <!-- Slideshow container -->
+I"Ý <!-- Slideshow container -->
 <section>
     <article>
         <div class="slideshow">
@@ -206,15 +155,4 @@
         </div>  
     </article>
 </section>
-
-
-      <!-- Footer -->
-  <footer>
-    <a href="https://clairevanblerck.com/">See my portfolio</a>
-  </footer>
-
-  <script src="/plog/resources/js/plog.js"></script>
-
-  </body>
-
-</html>
+:ET

@@ -70,6 +70,17 @@ strong {
     font-weight: 300;
 }
 
+i {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+b {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
 ul li {
     list-style-type: circle;
 }
@@ -426,6 +437,10 @@ footer {
 
     nav a.icon {
         display: block;
+    }
+
+    figcaption {
+        padding: 0;
     }
 }
 
