@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const width = 28; // 28 x 28 = 784 squares
     const grid = document.querySelector ('.grid');
+    const squares = []
     const scoreDisplay = document.getElementById ('score');
     let score = 0;
 
@@ -34,8 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
         1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
         1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
     ]
-
-    const squares = []
 
     //Legend
     //0 - pac-dot

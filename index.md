@@ -12,7 +12,8 @@ layout: main
                 <h1>Hi, I'm Claire</h1>
                 <p>I have a creative and customer-focussed background, <br>and now I'm a web developer.</p>
             </div>
-            <img src="resources/images/portfolio/4.png" alt="Claire van Blerck">            
+            <img class="profile" src="resources/images/portfolio/4.png" alt="Claire van Blerck"> 
+            <img class="arrow" src="resources/images/portfolio/icons8-arrow-pointing-down-96.png">       
         </div>
     </article>
 </section>
