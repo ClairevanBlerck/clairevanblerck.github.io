@@ -563,12 +563,15 @@ li.grey, .grey p, .grey h5 {
     }
 }
 
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 375px) {
 
     /*About section*/
     h1 {
         font-size: 4rem;
     }
+}
+
+@media only screen and (max-width: 368px) {
 
     /* Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
@@ -608,6 +611,12 @@ li.grey, .grey p, .grey h5 {
 }
 
 @media only screen and (max-width: 320px) {
+
+    /*About section*/
+    h1 {
+        font-size: 3rem;
+    }
+    
 
     /* Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
