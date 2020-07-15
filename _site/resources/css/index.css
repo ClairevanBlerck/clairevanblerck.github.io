@@ -346,12 +346,12 @@ li.grey, .grey p, .grey h5 {
     font-size: 0.9rem;
 }
 
-li.dev {
+li.black {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
-li.other  {
+li.orange  {
     background-color: rgb(240, 188, 60);
     color: rgb(0, 0, 0);
 }
@@ -665,7 +665,7 @@ li.other  {
     /* Contact section */
     .social-panel .social-icons .email a {
         padding: 0.8rem;
-        
+
         font-size: 0.8rem;
     }
 }

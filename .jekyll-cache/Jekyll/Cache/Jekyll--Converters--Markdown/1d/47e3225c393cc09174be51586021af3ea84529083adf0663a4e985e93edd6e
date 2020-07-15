@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-93599017-2');
-    </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Claire van Blerck</title>
-    <link href="resources/css/index.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700|Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
-</head>
-
-
-<body>
-
-    <!-- About section -->
+I"º<!-- About section -->
 
 <section>
     <article>
@@ -87,14 +56,14 @@
             <div class="skill-set">
                 <ul>
                   <li class="black">HTML</li>
-                  <li class="black">CSS</li>
-                  <li class="black">JavaScript</li>
-                  <li class="black">Jekyll</li>
-                  <li class="black">Liquid</li>
-                  <li class="black">Git</li>
-                  <li class="orange">Project management</li>
-                  <li class="orange">CS</li>
-                  <li class="orange">CE</li>
+                  <li class="dev">CSS</li>
+                  <li class="dev">JavaScript</li>
+                  <li class="dev">Jekyll</li>
+                  <li class="dev">Liquid</li>
+                  <li class="dev">Git</li>
+                  <li class="other">Project management</li>
+                  <li class="other">CS</li>
+                  <li class="other">CE</li>
                 </ul>
             </div>
         </div>
@@ -115,13 +84,4 @@
         </div>
     </article>
 </section>
-
-
-    <footer>
-
-    </footer>
-
-
-</body>
-
-</html>
+:ET

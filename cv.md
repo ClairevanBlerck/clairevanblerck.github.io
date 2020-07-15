@@ -21,6 +21,7 @@ layout: main
                         <li>JavaScript</li>
                         <li>Jekyll</li>
                         <li>Liquid</li>
+                        <li>Git</li>
                         <li class="grey">Project management</li>
                         <li class="grey">CS</li>
                         <li class="grey">CE</li>
