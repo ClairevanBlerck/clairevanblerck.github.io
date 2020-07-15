@@ -1,4 +1,4 @@
-I"<!-- About section -->
+I"¸<!-- About section -->
 
 <section>
     <article>
@@ -18,22 +18,23 @@
 <section>
     <article>
         <div class="portfolio">
+        <h2>Personal projects</h2>
             <ul>
                 <li class="portfolio-item">
-                    <a href="/how-to-build-a-gundam" alt="how to build a gundam"><img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg" />
-                      <div class="portfolio-item-text left"><h3>how to build a gundam</h3><br /><h4>A guide to assembling &amp; painting gunpla</h4></div>
+                    <a href="/how-to-build-a-gundam" alt="how to build a gundam"><img src="how-to-build-a-gundam/resources/images/Sandrock-custom_pilot-1.jpg" />
+                      <div class="portfolio-item-text"><h3>how to build a gundam</h3><br /><h4>A guide to assembling &amp; painting gunpla</h4></div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="/plog" alt="plog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg" />
-                      <div class="portfolio-item-text right"><h3>plog</h3><br /><h4>A houseplant journal + product reviews</h4></div>
+                      <div class="portfolio-item-text "><h3>plog</h3><br /><h4>A houseplant journal + product reviews</h4></div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png" />
-                      <div class="portfolio-item-text right"><h3>Tetris</h3><br /><h4>Using a tutorial as a core, adding custom JS and CSS</h4></div>
+                      <div class="portfolio-item-text"><h3>Tetris</h3><br /><h4>Using a tutorial as a core, adding custom JS and CSS</h4></div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="https://clairevanblerck.com/games/gameboy-pacman/" alt="plant blog"><img src="/resources/images/portfolio/gameboy-pacman.png" />
-                      <div class="portfolio-item-text right"><h3>Pacman</h3><br /><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4></div>
+                      <div class="portfolio-item-text"><h3>Pac-Man</h3><br /><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4></div>
                     </a></li>
                 <li class="portfolio-item"></li>
             </ul>  
@@ -54,14 +55,15 @@
             </div>
             <div class="skill-set">
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Jekyll</li>
-                  <li>Liquid</li>
-                  <li>Project management</li>
-                  <li>CS</li>
-                  <li>CE</li>
+                  <li class="dev">HTML</li>
+                  <li class="dev">CSS</li>
+                  <li class="dev">JavaScript</li>
+                  <li class="dev">Jekyll</li>
+                  <li class="dev">Liquid</li>
+                  <li class="dev">Git</li>
+                  <li class="other">Project management</li>
+                  <li class="other">CS</li>
+                  <li class="other">CE</li>
                 </ul>
             </div>
         </div>
