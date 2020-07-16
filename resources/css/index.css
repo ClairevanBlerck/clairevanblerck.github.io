@@ -1,4 +1,5 @@
 /*
+OUTSIDE IN
 1. Layout for CSS Layout Properties (position, float, clear, display)
 2. Box Model Properties (width, height, margin, padding)
 3. Visual Properties (color, background, border, box-shadow)
@@ -13,6 +14,7 @@
     padding: 0;
 
     color: rgb(0, 0, 0);
+    /*border: 1px red solid;*/
 
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
@@ -61,6 +63,12 @@ h5 {
     line-height: 2;
 }
 
+h6 {
+    padding: 1rem;
+
+    font-size: 1.2rem;
+}
+
 p { 
     font-size: 1.2rem;
 }
@@ -69,22 +77,32 @@ a {
     font-size: 1.2rem;
 }
 
-section .image-and-text-panel,.text-panel {
+li {
+    font-family: Raleway, Roboto, san-serif;
+}
+
+
+
+/* Portfolio  & CV page */
+section .text-panel {
     min-width: 100vw;
     min-height: 100vh;
     padding: 2rem;
 }
 
-section .image-grid-panel {
-    min-width: 100vw;
-    min-height: 50vh;
-}
-
-section .social-panel {
+section footer {
     min-width: 100vw;
     min-height: 15rem;
 }
 
+/* Portfolio page */
+section .image-and-text-panel {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* CV page */
 section .experience,.qualifications {
     min-width: 100vw;
     min-height: 55vh;
@@ -93,7 +111,7 @@ section .experience,.qualifications {
 
 
 
-/* About section */
+/* Portfolio page - About section */
 
 .image-and-text-panel {
     display: flex;
@@ -103,12 +121,20 @@ section .experience,.qualifications {
     padding: 10rem 2rem 2rem 2rem;
 }
 
-.image-and-text-panel .profile {
+.image-and-text-panel .text-item {
+    padding: 2rem 0 3rem 0;
+
+    text-align: center;
+    line-height: 2rem;
+}
+
+.image-and-text-panel .avatar {
     width: auto;
     height: 20rem;
     padding: 1rem;
 
     image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 .image-and-text-panel .arrow  {
@@ -117,16 +143,9 @@ section .experience,.qualifications {
     margin: 1rem;
 }
 
-.image-and-text-panel .text-item {
-    padding: 2rem 0 3rem 0;
-
-    text-align: center;
-    line-height: 2rem;
-}
 
 
-
-/* Portfolio section */
+/* Portfolio page - Portfolio section */
 
 .portfolio ul {
     display: inline-flex;
@@ -139,9 +158,9 @@ section .experience,.qualifications {
 
     background-color: rgb(0, 0, 0);
 
-    list-style: none;
+    /*list-style: none; Doesn't seem to do anything*/
 
-    overflow: hidden;
+    /*overflow: hidden; Doesn't seem to do anything*/
 }
 
 .portfolio li:last-child {
@@ -151,6 +170,10 @@ section .experience,.qualifications {
     background: rgb(255, 255, 255);
 }
 
+.portfolio-item {
+    position: relative;
+}
+
 .portfolio-item img {
     object-fit: cover;
 
@@ -158,7 +181,8 @@ section .experience,.qualifications {
     height: 80vh;
 
     opacity: 0.95;
-    transition-duration: 0.7s; /* previously 1.4s */
+    transition-property: opacity;
+    transition-duration: 0.7s;
 
     z-index: 1;
 }
@@ -167,41 +191,34 @@ section .experience,.qualifications {
     text-decoration: none;
 }
 
-.portfolio-item {
-    position: relative;
-}
-
-.portfolio-item .portfolio-item-text h3 {
-    padding: 0.5rem;
-
-    color: rgb(255, 255, 255);
-
-    font-size: 3rem;
-    line-height: 3.2;
-}
-
-.portfolio-item .portfolio-item-text h4 {
-    padding: 0.5rem;
-
-    color: rgb(255, 255, 255);
-
-    font-size: 1.5rem;
-    font-weight: 200;
-    line-height: 2;
-}
-
 .portfolio-item .portfolio-item-text {
     width: 50vw;
     position: absolute;
     bottom: 0;
 
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
+    background-color: rgb(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
 
     z-index: 10;
 }
 
-/* To do: Prevent transformations on resizing ref: https://css-tricks.com/stop-animations-during-window-resizing/#comments */
+.portfolio-item .portfolio-item-text h3, .portfolio-item .portfolio-item-text h4 {
+    padding: 0.5rem;
+
+    color: rgb(255, 255, 255);
+}
+
+.portfolio-item .portfolio-item-text h3 {
+    font-size: 3rem;
+    line-height: 3.2;
+}
+
+.portfolio-item .portfolio-item-text h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2;
+}
 
 .portfolio-item:hover img {
     opacity: 0.6;
@@ -209,11 +226,68 @@ section .experience,.qualifications {
 
 
 
+/* Portfolio page - CV section and CV page */
+
+.text-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+}
+
+.text-panel .text-item {
+    width: 80vw;
+
+    line-height: 2.5rem;
+}
+
+.text-panel .text-item p {
+    padding: 1rem 0;
+}
+
+
+
+/* Portfolio page & CV Page - Skill set */
+
+.skill-set ul {
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+
+    list-style-type: none;
+}
+
+.skill-set li {
+    display: inline-flex;
+
+    padding: 0.5rem 1.5rem;
+    margin: 0.3rem 0.1rem;
+
+    border: 1px rgb(0, 0, 0) solid;
+
+    font-size: 0.9rem;
+}
+
+li.black {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+li.orange  {
+    background-color: rgb(240, 188, 60);
+    color: rgb(0, 0, 0);
+}
+
+li.grey {
+    background-color: rgb(99, 99, 99);
+    color: rgb(255, 255, 255);
+}
+
+
+
 /* CV page */
 
 .experience {
-    width: auto;
-    
     background-color: rgb(94, 94, 114);
 }
 
@@ -221,12 +295,8 @@ section .experience,.qualifications {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.job-item h3, .job-item h4, .job-item h5, .job-item p {
+.experience .job-item h3, .experience .job-item h4, .experience .job-item h5, .experience .job-item p, .experience .job-item li, .experience .job-item a {
     color: rgba(255, 255, 255, 0.603);
-}
-
-.job-item li {
-    color: rgba(255, 255, 255, 0.76);
 }
 
 .experience .job-item {
@@ -234,23 +304,22 @@ section .experience,.qualifications {
 }
 
 .experience .job-item a {
+    font-size: 1rem;
     text-decoration: none;
 }
 
 .experience ol {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-
-    margin: 1rem;
     
     list-style-type: none;
 }
 
-.experience .job-item ul {
+.experience .job-item ul, .qualifications .edu-item ul {
     padding: 2rem;
 }
 
-.experience .job-item li {
+.experience .job-item li, .qualifications .edu-item li {
     list-style-type: disc;
     text-align: left;
 }
@@ -266,100 +335,11 @@ section .experience,.qualifications {
     padding: 2rem;
 }
 
-.qualifications .edu-item ul {
-    padding: 2rem;
-}
-
-.qualifications .edu-item li {
-    text-align: center;
-    list-style-type: none;
-}
 
 
+/* Footer */
 
-/* CV section */
-
-.text-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    padding: 2rem;
-}
-
-.border {
-    padding: 2rem;
-
-    border: 0.5px solid black;
-}
-
-li.grey, .grey p, .grey h5 {
-    color: rgb(255, 255, 255);
-}
-
-.grey {
-    padding: 2rem;
-
-    background-color: rgb(99, 99, 99);
-}
-
-.full-width {
-    width: 100vw;
-    height: fit-content;
-}
-
-.text-panel img {
-    width: auto;
-    height: auto;
-
-    padding: 2rem;
-}
-
-.text-panel .text-item {
-    width: 80vw;
-
-    line-height: 2.5rem;
-}
-
-.text-panel .text-item p {
-    padding: 1rem 0;
-}
-
-.skill-set ul {
-    padding: 0.5rem;
-    padding-bottom: 2rem;
-
-    list-style-type: none;
-}
-
-.skill-set li {
-    display: inline-flex;
-    flex-wrap: wrap;
-
-    padding: 0.5rem 1.5rem;
-    margin: 0.3rem 0.1rem;
-
-    border: 0.5px rgb(0, 0, 0) solid;
-
-    font-family: Raleway, Roboto, san-serif;
-    font-size: 0.9rem;
-}
-
-li.black {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-
-li.orange  {
-    background-color: rgb(240, 188, 60);
-    color: rgb(0, 0, 0);
-}
-
-
-/* Contact section */
-
-.social-panel {
+footer {
     display: block;
 
     margin: 0;
@@ -368,28 +348,24 @@ li.orange  {
     background-color: black;
 }
 
-.social-panel .footer-heading {
-    display: inline;
-
-    font-size: 3rem;
-
+footer h2 {
     color:rgb(255, 255, 255);
 }
 
-.social-panel .social-icons {
+footer .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-panel .social-icons i.fa.fa-linkedin {
+footer .social-icons i.fa.fa-linkedin {
     padding: 2rem;
 
     font-size: 3rem;
     color:rgb(255, 255, 255);
 }
 
-.social-panel .social-icons .email a {
+footer .social-icons .email a {
     padding: 2rem;
 
     color:rgb(255, 255, 255);
@@ -399,7 +375,7 @@ li.orange  {
     text-decoration: none;
 }
 
-.social-panel .social-icons i.fa.fa-github {
+footer .social-icons i.fa.fa-github {
     padding: 2rem;
 
     color:white;
@@ -411,6 +387,7 @@ li.orange  {
 
 /* Media Queries */
 
+/* To do: Add horizontal media queries */
 
 /*
 ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -419,7 +396,7 @@ li.orange  {
 
 @media only screen and (max-width: 1025px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio li {
         height: 70vh;
     }
@@ -433,7 +410,6 @@ li.orange  {
     .portfolio-item .portfolio-item-text {
         min-height: 20vh;
 
-        opacity: 0.7;
         transition-duration: 0s;
 
         font-size: 2.5rem;
@@ -452,7 +428,7 @@ li.orange  {
 
 @media only screen and (max-width: 990px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.6rem;
     }
@@ -464,7 +440,7 @@ li.orange  {
 
 @media only screen and (max-width: 870px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.4rem;
     }
@@ -477,7 +453,7 @@ li.orange  {
 
 @media only screen and (max-width: 799px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio ul {
         display: block;
     }
@@ -506,24 +482,24 @@ li.orange  {
 
 @media only screen and (max-width: 570px) {
 
-    /* Contact section */
-    .social-panel .social-icons {
+    /* Footer */
+    footer .social-icons {
         display: block;
     }
 
-    .social-panel .social-icons i.fa.fa-linkedin {
+    footer .social-icons i.fa.fa-linkedin {
         padding: 1rem;
 
         font-size: 2rem;
     }
 
-    .social-panel .social-icons .email a {
+    footer .social-icons .email a {
         padding: 1rem;
 
         font-size: 1rem;
     }
 
-    .social-panel .social-icons i.fa.fa-github {
+    footer .social-icons i.fa.fa-github {
         padding: 1rem;
 
         font-size: 2rem;
@@ -533,7 +509,7 @@ li.orange  {
 
 @media only screen and (max-width: 500px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.4rem;
     }
@@ -546,7 +522,7 @@ li.orange  {
 
 @media only screen and (max-width: 480px) {
 
-    /* About section */
+    /* Portfolio page - About section */
     section .image-and-text-panel, .text-panel {
         padding: 1rem 2rem;
     }
@@ -555,7 +531,7 @@ li.orange  {
         padding: 0 0 1rem 0;
     }
 
-    .image-and-text-panel .profile {
+    .image-and-text-panel .avatar {
         height: 25vh;
         padding: 0rem;
     }
@@ -564,23 +540,12 @@ li.orange  {
         height: 3rem;
         margin: 2rem;
     }
-
-    /* CV page */
-    .experience .job-item {
-        padding: 0rem;
-        padding-bottom: 2rem;
-    }
-
-    .qualifications .edu-item {
-        padding: 0rem;
-        padding-bottom: 2rem;
-    }
 }
 
 
 @media only screen and (max-width: 417px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.2rem;
     }
@@ -593,15 +558,15 @@ li.orange  {
 
 @media only screen and (max-width: 431px) {
 
-    /* Contact section */
-    .social-panel .footer-heading {
+    /* Footer */
+    footer h2 {
         font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 375px) {
 
-    /*About section*/
+    /* Portfolio page - About section */
     h1 {
         font-size: 4rem;
     }
@@ -609,7 +574,7 @@ li.orange  {
 
 @media only screen and (max-width: 368px) {
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.1rem;
     }
@@ -626,8 +591,8 @@ li.orange  {
 
 @media only screen and (max-width: 353px) {
 
-    /* About section */
-    .image-and-text-panel .profile {
+    /* Portfolio page - About section */
+    .image-and-text-panel .avatar {
         height: 20vh;
     }
 
@@ -636,7 +601,7 @@ li.orange  {
         margin: 1rem;
     }
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2rem;
     }
@@ -648,13 +613,13 @@ li.orange  {
 
 @media only screen and (max-width: 320px) {
 
-    /*About section*/
+    /* Portfolio page - About section */
     h1 {
         font-size: 3rem;
     }
     
 
-    /* Portfolio section */
+    /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 1.6rem;
     }
@@ -662,8 +627,8 @@ li.orange  {
 
 @media only screen and (max-width: 260px) {
 
-    /* Contact section */
-    .social-panel .social-icons .email a {
+    /* Footer */
+    footer .social-icons .email a {
         padding: 0.8rem;
 
         font-size: 0.8rem;
@@ -672,8 +637,8 @@ li.orange  {
 
 @media only screen and (max-width: 200px) {
 
-    /* Contact section */
-    .social-panel .social-icons .email a {
+    /* Footer */
+    footer .social-icons .email a {
         display: none;
     }
 }
