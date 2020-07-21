@@ -1,50 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93599017-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-93599017-2');
-    </script>
-
-    <script src="/resources/js/app.js"></script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Claire van Blerck</title>
-    <link href="resources/css/index.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700|Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/resources/images/favicons/site.webmanifest">
-</head>
-
-
-<body>
-
-    <!-- About section -->
+I"‹<!-- About section -->
 
 <section>
     <article>
         <div class="header">
             <nav>
                 <ul>
+                    <li><a href="#About"><p>About</p></a></li>
                     <li><a href="#Portfolio"><p>Portfolio</p></a></li>
-                    <li><a href="#About"><p>About &amp; CV</p></a></li>
-                    <li><a href="#Contact"><p>Contact</p></a></li>
+                    <li><a href="#CV"><p>CV &amp; Contact</p></a></li>
                 </ul>
             </nav>
             <div class="text-item">
-                <h1>Hi, I'm Claire</h1>
+                <h1 id="About">Hi, I'm Claire</h1>
                 <p>Web developer with a background in art, business, customer experience, and project management.</p>
             </div>  
         </div>
@@ -86,7 +53,7 @@
     <article> 
         <div class="text-panel">
             <div class="text-item">
-                <h3 id="About">A little more about me</h3>
+                <h3 id="CV">A little more about me</h3>
                 <p>I originally studied Fine Art and then Business Administration.</p>
                 <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving interests before I got into web development.</p>
                 <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
@@ -107,21 +74,4 @@
         </div>
     </article>
 </section>
-
-
-    <footer>
-        <section>
-            <article>
-                <h2 id="Contact">Get in touch :)</h2>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/clairemayvanblerck/" target="_blank" rel="noopener" rel="noreferrer" alt="linkedin"><i class="fa fa-linkedin"></i></a>
-                    <p class="email"><a href="mailto:claire.vanblerck@gmail.com">claire.vanblerck@gmail.com</a></p>
-                    <a href="https://github.com/ClairevanBlerck" target="_blank" rel="noopener" rel="noreferrer" alt="github"><i class="fa fa-github"></i></a>
-                </div>
-            </article>
-        </section>
-    </footer>
-
-</body>
-
-</html>
+:ET

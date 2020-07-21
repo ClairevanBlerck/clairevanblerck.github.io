@@ -10,18 +10,15 @@ layout: main
         <div class="header">
             <nav>
                 <ul>
-                    <li><a href="#About"><p>About</p></a></li>
                     <li><a href="#Portfolio"><p>Portfolio</p></a></li>
-                    <li><a href="#CV"><p>CV & Contact</p></a></li>
+                    <li><a href="#About"><p>About & CV</p></a></li>
+                    <li><a href="#Contact"><p>Contact</p></a></li>
                 </ul>
             </nav>
-            <div class="image-and-text-panel">
             <div class="text-item">
                 <h1>Hi, I'm Claire</h1>
                 <p>Web developer with a background in art, business, customer experience, and project management.</p>
-            </div>
-            <!---<img class="avatar" src="resources/images/portfolio/output_6DaoMW.gif" alt="Claire van Blerck">  --->     
-            </div>
+            </div>  
         </div>
     </article>
 </section>
@@ -31,7 +28,7 @@ layout: main
 
 <section>
     <article>
-        <div class="portfolio">
+        <div class="portfolio-panel">
         <h2 id="Portfolio">Projects</h2>
             <ul>
                 <li class="portfolio-item">
@@ -63,7 +60,7 @@ layout: main
     <article> 
         <div class="text-panel">
             <div class="text-item">
-                <h3 id="CV">A little more about me</h3>
+                <h3 id="About">A little more about me</h3>
                 <p>I originally studied Fine Art and then Business Administration.</p>
                 <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving interests before I got into web development.</p>
                 <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
