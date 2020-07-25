@@ -175,7 +175,7 @@ nav p:hover {
 }
 
 .portfolio-panel li {
-    width: 49%;
+    width: 48vw;
     height: 60vh;
     margin: 0.3rem;
 
@@ -185,8 +185,8 @@ nav p:hover {
 }
 
 .portfolio-panel li:last-child {
-    width: 0vw;
-    height: 0vh;
+    display: none;
+
 }
 
 .portfolio-item {
@@ -198,7 +198,7 @@ nav p:hover {
 .portfolio-item img {
     object-fit: cover;
 
-    width: 49vw;
+    width: 48vw;
     height: 60vh;
 }
 
@@ -207,11 +207,11 @@ nav p:hover {
 }
 
 .portfolio-item .portfolio-item-text {
-    width: 49vw;
+    width: 48vw;
     height: 60vh;
     position: absolute;
 
-    bottom: -18rem;
+    bottom: -20rem;
     transition-property: bottom;
     transition-duration: 0.4s;
 
@@ -221,8 +221,6 @@ nav p:hover {
 }
 
 .portfolio-item .portfolio-item-text h3, .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text p, .portfolio-item .portfolio-item-text a {
-    padding: 0.5rem;
-
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);
 
@@ -230,7 +228,12 @@ nav p:hover {
 
 .portfolio-item .portfolio-item-text h3 {
     font-size: 3rem;
-    line-height: 3.2;
+    /*line-height: 4;*/
+    padding: 2.4rem 0.5rem;
+}
+
+.portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text p, .portfolio-item .portfolio-item-text a {
+    padding: 1.5rem 0.5rem;
 }
 
 .portfolio-item .portfolio-item-text h4 {
@@ -428,23 +431,23 @@ footer .social-icons i.fa.fa-github {
 ##Screen = B/w 481px to 767px
 */
 
+@media only screen and (max-width: 1080px) {
+
+    /* Portfolio page - Portfolio section */    
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.8rem;
+    }
+}
+
 @media only screen and (max-width: 1025px) {
 
     /* Portfolio page - Portfolio section */
-    .portfolio-panel li {
-        height: 70vh;
-    }
-
     .portfolio-item img {
-        height: 70vh;
-
         transition-duration: 0s;
     }
     
-    .portfolio-item .portfolio-item-text {
-        height: 70vh;
-
-        font-size: 2.5rem;
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.7rem;
     }
 
     /* CV page */
@@ -466,11 +469,20 @@ footer .social-icons i.fa.fa-github {
     }
 }
 
+@media only screen and (max-width: 920px) {
+
+    /* Portfolio page - Portfolio section */    
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.5rem;
+    }
+}
+
 @media only screen and (max-width: 870px) {
 
     /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.4rem;
+        /*line-height: 5;*/
     }
 
     .portfolio-item .portfolio-item-text h4 {
@@ -478,8 +490,16 @@ footer .social-icons i.fa.fa-github {
     }
 }
 
+@media only screen and (max-width: 850px) {
 
-@media only screen and (max-width: 799px) {
+    /* Portfolio page - Portfolio section */    
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 810px) {
 
     /* Portfolio page - Portfolio section */
     .portfolio-panel ul {
@@ -500,6 +520,7 @@ footer .social-icons i.fa.fa-github {
 
     .portfolio-item .portfolio-item-text h3 {
         font-size: 3rem;
+        /*line-height: 4;*/
     }
 
     .portfolio-item .portfolio-item-text h4 {
@@ -510,6 +531,12 @@ footer .social-icons i.fa.fa-github {
 
 @media only screen and (max-width: 570px) {
 
+
+    /* Portfolio page - Portfolio section */
+    .portfolio-item .portfolio-item-text h3 {
+        font-size: 2.6rem;
+    }
+    
     /* Footer */
     footer .social-icons {
         display: block;
