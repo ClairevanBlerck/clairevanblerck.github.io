@@ -154,14 +154,16 @@ layout: how-to-build-a-gundam
     <article>
         <div class="display">
             <h2 id="Display">Display</h2>
-            <div class="container">
+            <a href="https://instagram.com/dave_scaddog?igshid=ocfrm1y96wvw">
+                <div class="container">
                     <img src="/how-to-build-a-gundam/resources/images/painting2.jpg" alt="Gundum display image 1" loading="lazy">
                     <img src="/how-to-build-a-gundam/resources/images/Altron_04.jpg" alt="Gundum display image 2 - Altron" loading="lazy">
                 </div>
                 <div class="container">
                     <img src="/how-to-build-a-gundam/resources/images/Sandrock-custom_00.jpg" alt="Gundum display image 3 - Sandrock Custom" loading="lazy">
                     <img src="/how-to-build-a-gundam/resources/images/painting3.jpg" alt="Gundum display image 4" loading="lazy">
-            </div>
+                </div>
+            </a>
         </div>
     </article>
 </section>

@@ -461,6 +461,7 @@ footer p, footer a {
         display: inline-grid;
         position: relative;
         bottom: 2rem;
+
         margin-top: 3.5rem;
     }
 
@@ -487,10 +488,11 @@ footer p, footer a {
 
     /* Nav - left block overlays */
     #left-block .top .overlay {
-        font-size: 4.5rem;
-        line-height: 25vh;
         width: 80vw;
         height: 22vh;
+
+        font-size: 4.5rem;
+        line-height: 25vh;
     }
 
     #left-block .bottom .overlay {
@@ -499,16 +501,18 @@ footer p, footer a {
     }
 
     #left-block .bottom .bottom-left .overlay {
+        bottom: 0;
+
         width: 39vw;
         height: 14vh;
-        bottom: 0;
     }
 
-    #left-block .bottom .bottom-right .overlay{
-        width: 39vw;
-        height: 14vh;
+    #left-block .bottom .bottom-right .overlay {
         bottom: 0;
         left: 41vw;
+
+        width: 39vw;
+        height: 14vh;
     }
 
     #left-block .top:hover .overlay {
@@ -549,11 +553,13 @@ footer p, footer a {
 
     /* Nav - right block overlays */
     #right-block .left .overlay {
-        font-size: 4.5rem;
-        line-height: 45vh;
+        top: 0;
+
         width: 45vw;
         height: 41vh;
-        top: 0;
+
+        font-size: 4.5rem;
+        line-height: 45vh;
     }
     
     #right-block .right .overlay {
@@ -562,16 +568,19 @@ footer p, footer a {
     }
     
     #right-block .top .overlay {
+        top: 0;
+
         width: 32vw;
         height: 18.5vh; 
-        top: 0;
     }
     
     #right-block .bottom .overlay {
+        bottom: 0;
+
         width: 32vw;
         height: 20vh;
+
         line-height: 22vh;
-        bottom: 0;
     }
 
     #right-block .left:hover .overlay {
@@ -592,7 +601,6 @@ footer p, footer a {
     }
 
     /* Sections - general */
-
     .equipment .container, .build .container, .finish .container, .tips .container {
         display: block;
     }
@@ -661,6 +669,7 @@ footer p, footer a {
 
     .display .container {
         flex-flow: column;
+        
         padding: 0;
     }
 }
@@ -671,10 +680,6 @@ footer p, footer a {
     /* Nav section */
     #left-block .top .overlay {
         font-size: 3.5rem;
-    }
-
-    #left-block .bottom .overlay {
-        /*font-size: 1.8rem;*/
     }
 
     #right-block .left .overlay {
@@ -700,40 +705,18 @@ footer p, footer a {
         font-size: 3rem;
     }
 
-    #left-block .bottom .overlay {
-        /*font-size: 1.5rem;
-        line-height: 16vh;*/
-    }
-
     #right-block .left .overlay {
         font-size: 3rem;
     }
-
-    /*#right-block .right .overlay {
-        font-size: 1.5rem;
-    }*/
 }
 
 
 @media only screen and (max-width: 400px) {
 
     /* Nav section */
-
     .logo img {
         height: 4rem;
         padding: 0 1rem;
-    }
-
-    #left-block .top .overlay {
-        /*font-size: 2.5rem;*/
-    }
-
-    #left-block .bottom .overlay {
-        /*font-size: 1.4rem;*/
-    }
-
-    #right-block .left .overlay {
-        /*font-size: 2.5rem;*/
     }
 
     #right-block .right .overlay {
