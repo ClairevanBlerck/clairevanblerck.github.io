@@ -6,6 +6,10 @@
     font-size: 16px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-weight: 200;
     display: block;

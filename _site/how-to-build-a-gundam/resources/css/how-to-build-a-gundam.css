@@ -1,73 +1,103 @@
+/*
+OUTSIDE IN
+1. Layout for CSS Layout Properties (position, float, clear, display)
+2. Box Model Properties (width, height, margin, padding)
+3. Visual Properties (color, background, border, box-shadow)
+4. Typography Properties (font-size, font-family, text-align, text-transform)
+5. Misc Properties (cursor, overflow, z-index)
+*/
+
 * {
     box-sizing: border-box;
+
     margin: 0;
     padding: 0;
-    font-size: 20px;
+
+    /*border: 1px solid red;*/
+
+    font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
-    font-family: Timmana;
-    font-size: 3rem;
+    font-family: 'Timmana', sans-serif;
+    font-size: 3.5rem;
+
+    scroll-behavior: smooth;
 }
 
 h2 {
-    font-family: Timmana;
-    font-size: 2.7rem;
-    text-align: center;
     padding-top: 3rem;
+
+    font-family: 'Timmana', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h3 {
-    font-family: Timmana;
-    font-size: 2rem;
+    font-family: 'Timmana', sans-serif;
+    font-size: 2.5rem;
 }
 
 h4 {
-    font-family: Timmana;
-    font-size: 1.7rem;
+    font-family: 'Timmana', sans-serif;
+    font-size: 2rem;
 }
 
 h5 {
-    font-family: Timmana;
-    font-size: 1.2rem;
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.7rem;
 }
 
 h6 {
-    font-family: Timmana;
-    font-size: 1.2rem;
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.7rem;
 }
 
 p {
-    font-size: 1rem;
+    padding: 0.4rem 0 1rem 0;
+
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
 em {
+    font-size: 1.5rem;
+    font-weight: 300i;
+}
+
+i {
+    font-size: 1.5rem;
     font-weight: 300i;
 }
 
 strong {
+    font-size: 1.5rem;
     font-weight: 600;
+}
+
+b {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a {
+    font-size: 1.5rem;
 }
 
 a h2 {
     color: black;
 }
 
-header {
-}
-
 body {
-    /* background-image: url(/resources/images/how-to-build-a-gundam/unicorn-interface-design.png); */
+    margin: 1rem auto;
+
+    background-image: url("/how-to-build-a-gundam/resources/images/gundam-schematics.png"); 
     background-position: center;
     background-repeat: repeat;
-    margin: 1rem auto;
 }
 
-.container .caption h4, h2 {
-    text-decoration: underline;
-}
 
 
 
@@ -76,14 +106,13 @@ body {
 /* Logo */
 .logo {
     position: fixed;
+
     z-index: 10;
-    width: auto;
-    height: fit-content;
 }
 
 .logo img {
     width: auto;
-    height: 6rem;
+    height: 9rem;
     padding: 0 1rem;
 }
 
@@ -92,40 +121,48 @@ body {
 .nav {
     display: inline-flex;
     justify-content: space-evenly;
+
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     margin-top: 4.4rem;
 }
 
 .nav img {
+    /* width & height added as presentational attribute so sizing is present when page is loading */
     width: 100%;
-    Height: 100%;
+    height: 100%;
+
     object-fit: cover;
     outline-color: black;
     outline-style: inset;
 }
 
 .nav p.overlay {
-    font-family: "Timmana", sans-serif;
     color: rgb(255, 255, 255);
+
+    font-family: "Timmana", sans-serif;
     text-align: center;
 }
 
 .nav .overlay {
-    /*opacity: 1;
-    transition: 0.5s ease;*/
     position: absolute;
-    cursor: crosshair;
+
     outline-color: black;
     outline-style: inset;
+    opacity: 1;
+    transition: 0.2s;
+    transition-property: opacity;
+
+    cursor: crosshair;
 }
 
 
 /* Nav - left block */
 .nav #left-block {
     position: relative;
-    float: left;
-    flex-shrink: 2;
+    /*float: left;
+    flex-shrink: 2;*/
+
     width: 42vw;
     height: fit-content;
 }
@@ -138,15 +175,13 @@ body {
 .nav #left-block .bottom {
     display: flex;
     justify-content: space-between;
+
+    /*width: 42vw;
+    height: 30vh; don't semm to do anything */
     margin-top: 1rem;
 }
 
-.nav #left-block .bottom .bottom-left {
-    width: 20vw;
-    height: 28vh;
-}
-
-.nav #left-block .bottom .bottom-right {
+.nav #left-block .bottom .bottom-left, .nav #left-block .bottom .bottom-right {
     width: 20vw;
     height: 28vh;
 }
@@ -157,20 +192,23 @@ body {
 }
 
 #left-block .top .overlay {
-    font-size: 5rem;
-    line-height: 60vh;
+    top: 0;
+
     width: 42vw;
     height: 50vh;
-    top: 0;
+
+    font-size: 5rem;
+    line-height: 60vh;
 }
 
 #left-block .bottom .overlay {
     bottom: 0;
-    font-size: 3rem;
-    line-height: 30vh;
+
     width: 20vw;
     height: 28vh;
-    margin-top: 1rem;
+
+    font-size: 3rem;
+    line-height: 30vh;
 }
 
 #left-block .top:hover .overlay {
@@ -189,16 +227,18 @@ body {
 /* Nav - right block */
 .nav #right-block {
     position: relative;
-    float: right;
-    flex-shrink: 2;
+    /*float: right;
+    flex-shrink: 2;*/
+
     width: 42vw;
     height: fit-content;
 }
 
 .nav #right-block .left {
+    float: left;
+
     width: 20vw;
     height: 80vh;
-    float: left;
 }
 
 .nav #right-block .right {
@@ -206,6 +246,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     float: right;
+
     height: 80vh;
 }
 
@@ -219,35 +260,41 @@ body {
     height: 39vh; 
 }
 
+
 /* Nav - right block overlays */
 #right-block .left .overlay {
     background-color: rgba(160, 123, 41, 0.79);
 }
 
 #right-block .left .overlay {
-    font-size: 5rem;
-    line-height: 80vh;
+    top: 0;
+
     width: 20vw;
     height: 80vh;
-    top: 0;
+
+    font-size: 5rem;
+    line-height: 80vh;
 }
 
 #right-block .right .overlay {
+    background-color: rgba(30, 29, 48, 0.726);
+
     font-size: 3rem;
     line-height: 40vh;
-    background-color: rgba(30, 29, 48, 0.726);
 }
 
 #right-block .top .overlay {
+    top: 0;
+
     width: 20vw;
     height: 36vh;
-    top: 0;
 }
 
 #right-block .bottom .overlay {
+    bottom: 0;
+
     width: 20vw;
     height: 39vh;
-    bottom: 0;
 }
 
 #right-block .left:hover .overlay {
@@ -264,253 +311,156 @@ body {
 
 
 
-
-/* Equipment section */
-
-section .equipment {
-    margin: 2rem auto;
-    background-color: hsl(0, 0%, 96%);
+/* Sections - general */
+section .grades, section .equipment, section .build, section .finish, section .tips  {
     width: 80vw;
-    height: 60vh;
-}
-  
-.equipment .container {
-    display: flex;
-    justify-content: center;
-}
-  
-.equipment .container figure {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-  
-.equipment .container .caption {
-    background-color: hsl(0, 0%, 96%);
-    width: 40vw;
-    height: 60vh;
-    padding: 2rem;
+    margin: 2rem auto;
+
+    background-color: hsla(0, 0%, 96%);
+    border: 1px solid black;
 }
 
-.equipment .container .caption h3 {
-    text-decoration: underline;
-}
-  
-.equipment .container img {
-    object-fit: contain;
+.equipment .container img, .build .container img, .finish .container img, .tips .container img {
     width: 40vw;
     height: 60vh;
     padding: 1rem;
+
+    background-color: hsl(0, 0%, 96%);
 }
+
+.equipment .container .caption, .build .container .caption, .finish .container .caption, .tips .container .caption {
+    width: 38vw;
+    /*height: 60vh;*/
+    height: fit-content;
+    padding: 2rem;
+
+    background-color: hsl(0, 0%, 96%);
+}
+
+.build .container, .finish .container, .equipment .container, .tips .container {
+    display: inline-flex;
+    align-items: center;
+}
+  
 
 
 /* Grades section */
-
-section .grades {
-    margin: 2rem auto;
-    background-color: hsl(0, 0%, 96%);
-    width: 80vw;
-}
-  
   
 .grades .container {
     display: flex;
-    justify-content: center;
-}
-  
-.grades .container figure {
-    display: inline-flex;
     flex-direction: column;
     align-items: center;
 }
-  
-.grades .container .caption {
-    width: 60vw;
-    height: fit-content;
-    padding: 2rem 0.5rem 0 0.5rem;
+
+.grades .container img {
+    width: auto;
+    height: 60vh;
+    padding: 1rem 0;
+
+    object-fit: contain;
+}
+
+.grades .caption-container {
+    padding: 2rem 0;
 }
   
-.grades .container .caption p {
+.grades .container .caption-container .caption {
+    width: 60vw;
+    height: fit-content;
+    padding: 1rem 0;
+}
+  
+.grades .container .caption-container .caption p {
     padding: 0.4rem 0 1rem 0;
 }
   
-.grades .container img {
+
+
+/* Building  & Finishing sections */
+  
+.build .container, .finish .container {
+    flex-direction: row;
+}
+  
+.build .container img, .finish .container img, .tips .container img {
+    object-fit: cover;
+}
+
+
+
+/* Equipment & Tips sections */
+  
+.equipment .container, .tips .container {
+    flex-direction: row-reverse;
+}
+
+.equipment .container img {
     object-fit: contain;
-    width: 60vw;
-    height: 60vh;
-    padding: 1rem;
-    background-color: hsl(0, 0%, 96%);
 }
 
 
-/* Building section */
-
-section .build {
-    margin: 2rem auto;
-    background-color: hsl(0, 0%, 96%);
-    width: 80vw;
-    height: 60vh;
-}
-  
-.build .container {
-    display: flex;
-    justify-content: center;
-}
-  
-.build .container figure {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-}
-  
-.build .container .caption {
-    background-color: hsl(0, 0%, 96%);
-    width: 40vw;
-    height: 60vh;
-    padding: 2rem;
-}
-
-.build .container img {
-    object-fit: cover;
-    width: 40vw;
-    height: 60vh;
-    padding: 1rem;
-}
-
-
-/* Finishing section */
-
-section .finish {
-    margin: 2rem auto;
-    background-color: hsl(0, 0%, 96%);
-    width: 80vw;
-    height: 60vh;
-}
-  
-.finish .container {
-    display: flex;
-    justify-content: center;
-}
-  
-.finish .container figure {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-}
-  
-.finish .container .caption {
-    background-color: whitesmoke;
-    width: 40vw;
-    height: 60vh;
-    padding: 2rem;
-}
-
-.finish .container .caption h3 {
-    text-decoration: underline;
-}
-  
-.finish .container img {
-    object-fit: cover;
-    width: 40vw;
-    height: 60vh;
-    padding: 1rem;
-}
 
 
 /* Display section */
 
 section .display {
-    margin: 1rem auto;
+    width: 90vw;
+    height: auto;
+    margin: 2rem auto;
+
+    background-color: rgba(245, 245, 245, 0.8);
+    border: 1px solid rgba(0, 0, 0);
 }
   
 .display .container {
     display: flex;
-    justify-content: center;
-}
-  
-.display .container figure {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-}
-  
-.display .container .caption {
-    background-color: whitesmoke;
-    width: 40vw;
-    height: 60vh;
-    padding: 2rem;
+    justify-content: center;
 }
   
 .display .container img {
     width: 37vw;
     height: 70vh;
-    object-fit: cover;
-    border: 5px solid black;
     margin: 2rem;
+
+    object-fit: cover;
+    background-color: black;
+    border: 5px solid black;
 }
 
-
-/* Tips section */
-
-section .tips {
-    margin: 2rem auto;
-    background-color: whitesmoke;
-    width: 80vw;
-    height: 60vh;
-}
-  
-.tips .container {
-    display: flex;
-    justify-content: center;
-}
-  
-.tips .container figure {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-  
-.tips .container .caption {
-    background-color: whitesmoke;
-    width: 40vw;
-    height: 60vh;
-    padding: 2rem;
-}
-
-.tips .container img {
-    object-fit: contain;
-    width: 40vw;
-    height: 60vh;
-    padding: 1rem;
-}
 
 
 /* Footer section */
-
 footer {
+    height: 4rem;
+    padding: 1rem;
+
     text-align: center;
+
+    background-color: white;
+    border: 1px solid black;
 }
 
 footer p, footer a {
     font-family: Timmana;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 
-/* Media queries */
 
+/* Media queries */
 @media only screen and (max-width: 1250px) {
 
     /* Nav section */
     .logo img {
-        height: 6rem;
+        height: 7rem;
     }
 
     .nav {
         display: inline-grid;
         position: relative;
         bottom: 2rem;
-        height: 90vh;
         margin-top: 3.5rem;
     }
 
@@ -544,8 +494,8 @@ footer p, footer a {
     }
 
     #left-block .bottom .overlay {
-        font-size: 2.5rem;
-        line-height: 18vh;
+        /*font-size: 2.5rem;*/
+        line-height: 15vh;
     }
 
     #left-block .bottom .bottom-left .overlay {
@@ -620,7 +570,7 @@ footer p, footer a {
     #right-block .bottom .overlay {
         width: 32vw;
         height: 20vh;
-        line-height: 24vh;
+        line-height: 22vh;
         bottom: 0;
     }
 
@@ -638,155 +588,37 @@ footer p, footer a {
 
     /* Nav section */
     .logo img {
-        height: 5rem;
+        height: 6rem;
     }
 
-    /* Equipment section */
-    section .equipment {
-      width: 80vw;
-      height: fit-content;
-      margin: 1rem auto;
+    /* Sections - general */
+
+    .equipment .container, .build .container, .finish .container, .tips .container {
+        display: block;
     }
-  
-    .equipment .container figure {
-      display: block;
+
+    .equipment .container img, .build .container img, .finish .container img, .tips .container img {
+        width: 79vw;
     }
-  
-    .equipment .container .caption {
-      width: 70vw;
-      height: fit-content;
-      padding: 0.5rem;
+
+    .equipment .container .caption, .build .container .caption, .finish .container .caption, .tips .container .caption {
+        width: 70vw;
+        height: auto;
+        margin: 0 auto;
+        padding: 1rem;
     }
-  
-    .equipment .container img {
-      width: 70vw;
-      height: 40vh;
-      padding: 0.5rem;
-    }
+
 
     /* Grades section */
-    section .grades {
-      margin: 1rem auto;
-    }
-
-    .grades .container figure {
-      display: block;
-    }
-
-    .grades .container .caption {
-        width: 80vw;
-        height: fit-content;
-        padding: 0.5rem;
-    }
-
-    .grades .container .caption p {
-        font-size: 1rem;
-    }
-
     .grades .container img {
-      width: 80vw;
-      height: 40vh;
-      padding: 0.5rem;
-    }
-
-    /* Building section */
-    section .build {
-        width: 80vw;
-        height: fit-content;
-        margin: 1rem auto;
-    }
-    
-    .build .container figure {
-        display: block;
-    }
-    
-    .build .container .caption {
-        width: 70vw;
-        height: fit-content;
-        padding: 0.5rem;
-    }
-    
-    .build .container img {
-        width: 70vw;
-        height: 40vh;
-        padding: 0.5rem;
-    }
-
-    /* Finishing section */
-    section .finish {
-        width: 80vw;
-        height: fit-content;
-        margin: 1rem auto;
-    }
-
-    .finish .container figure {
-        display: block;
-    }
-
-    .finish .container .caption {
-        width: 70vw;
-        height: fit-content;
-        padding: 0.5rem;
-    }
-
-    .finish .container img {
-        width: 70vw;
-        height: 40vh;
-        padding: 0.5rem;
-    }
-
-    /* Display section */
-    .display {
-        margin: 1rem auto;
-        width: 80vw;
-    }
-    
-    .display .container figure {
-        display: flex;
-        flex-flow: column;
-        flex-direction: column;
-    }
-    
-    .display .container .caption {
-        width: 70vw;
-        padding: 0.5rem;
-    }
-
-    .display .container img {
-        width: 70vw;
         height: 50vh;
-    }
-    
-    .display .container {
-        flex-flow: column;
+        padding: 1rem;
     }
 
-    /* Tips section */
-    .tips {
-      width: 80vw;
-      height: 100vh;
-      margin: 1rem auto;
-    }
-    
-    .tips .container figure {
-      display: block;
-    }
-    
-    .tips .container .caption {
-      width: 70vw;
-      height: fit-content;
-      padding: 0.5rem;
-    }
-    
-    .tips .container img {
-      width: 70vw;
-      height: 40vh;
-      padding: 0.5rem;
-    }
 
     /* Footer section */
-    footer p, a {
-        font-size: 0.9rem;
+    footer p, footer a {
+        font-size: 1.2rem;
     }
 }
 
@@ -809,6 +641,28 @@ footer p, footer a {
     #right-block .right .overlay {
         font-size: 2.5rem;
     }
+
+
+    /* Display section */
+    .display {
+        margin: 1rem auto;
+        width: 80vw;
+    }
+    
+    .display .container figure {
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+    }
+
+    .display .container img {
+        width: 80vw;
+    }
+
+    .display .container {
+        flex-flow: column;
+        padding: 0;
+    }
 }
 
 
@@ -820,7 +674,7 @@ footer p, footer a {
     }
 
     #left-block .bottom .overlay {
-        font-size: 1.8rem;
+        /*font-size: 1.8rem;*/
     }
 
     #right-block .left .overlay {
@@ -829,6 +683,12 @@ footer p, footer a {
 
     #right-block .right .overlay {
         font-size: 2rem;
+    }
+
+
+    /* Grades section */
+    .grades .container img {
+        height: 40vh;
     }
 }
 
@@ -841,47 +701,50 @@ footer p, footer a {
     }
 
     #left-block .bottom .overlay {
-        font-size: 1.5rem;
-        line-height: 16vh;
+        /*font-size: 1.5rem;
+        line-height: 16vh;*/
     }
 
     #right-block .left .overlay {
         font-size: 3rem;
     }
 
-    #right-block .right .overlay {
+    /*#right-block .right .overlay {
         font-size: 1.5rem;
-    }
+    }*/
 }
 
 
 @media only screen and (max-width: 400px) {
 
     /* Nav section */
-    #left-block .top .overlay {
-        font-size: 2.5rem;
-    }
 
-    #left-block .bottom .overlay {
-        font-size: 1.4rem;
-    }
-
-    #right-block .left .overlay {
-        font-size: 2.5rem;
-    }
-
-    #right-block .right .overlay {
-        font-size: 1.2rem;
-    }
-}
-
-
-@media only screen and (max-width: 400px) {
-
-    /* Nav section */
     .logo img {
         height: 4rem;
         padding: 0 1rem;
+    }
+
+    #left-block .top .overlay {
+        /*font-size: 2.5rem;*/
+    }
+
+    #left-block .bottom .overlay {
+        /*font-size: 1.4rem;*/
+    }
+
+    #right-block .left .overlay {
+        /*font-size: 2.5rem;*/
+    }
+
+    #right-block .right .overlay {
+        font-size: 1.7rem;
+    }
+
+    
+    /* Grades section */
+    .grades .container img {
+        height: 30vh;
+        padding: 1rem;
     }
 }
 
