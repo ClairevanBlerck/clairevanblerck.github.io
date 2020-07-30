@@ -1,4 +1,4 @@
-I"ˆ<!-- About section -->
+I"Ì<!-- About section -->
 
 <section>
     <article>
@@ -27,11 +27,14 @@
             <ul>
                 <li class="portfolio-item">
                     <a href="/how-to-build-a-gundam" alt="how to build a gundam"><img src="how-to-build-a-gundam/resources/images/Sandrock-custom_pilot-1.jpg" />
-                      <div class="portfolio-item-text"><h3>how to build a gundam</h3><h4>A guide to assembling &amp; painting Gunpla</h4><p>Gunpla are plastic model kits from the Gundam universe, a Japanese military science fiction media franchise.</p><p>This is a single-scroll web page with a unique nav based on imagery from the Bandi box design.</p></div>
+                    <div class="portfolio-item-text">
+                        <h3>how to build a gundam</h3><h4>A guide to assembling &amp; painting Gunpla</h4><p>Gunpla are plastic model kits from the Gundam universe, a Japanese military science fiction media franchise.</p><p>This is a single-scroll web page with a unique nav based on imagery from the Bandi box design.</p>
+                    </div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="/plog" alt="plog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg" />
-                      <div class="portfolio-item-text"><h3>plog</h3><h4>A houseplant journal + product reviews</h4><p>A more traditional blog with posts managed through Jekyll.</p></div>
+                      <div class="portfolio-item-text">
+                      <h3>plog</h3><h4>A houseplant journal + product reviews</h4><p>A more traditional blog with posts managed through Jekyll.</p></div> 
                     </a></li>
                 <li class="portfolio-item">
                     <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png" />

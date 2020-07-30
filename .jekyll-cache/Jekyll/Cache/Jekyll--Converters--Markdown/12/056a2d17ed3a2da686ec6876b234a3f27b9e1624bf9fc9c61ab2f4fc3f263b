@@ -1,9 +1,4 @@
----
-title: claire van blerck
-layout: main
----
-
-<!-- About section -->
+I"é<!-- About section -->
 
 <section>
     <article>
@@ -11,7 +6,7 @@ layout: main
             <nav>
                 <ul>
                     <li><a href="#Portfolio"><p>Portfolio</p></a></li>
-                    <li><a href="#About"><p>About & CV</p></a></li>
+                    <li><a href="#About"><p>About &amp; CV</p></a></li>
                     <li><a href="#Contact"><p>Contact</p></a></li>
                 </ul>
             </nav>
@@ -23,7 +18,6 @@ layout: main
     </article>
 </section>
 
-
 <!-- Portfolio section -->
 
 <section>
@@ -32,35 +26,29 @@ layout: main
         <h2 id="Portfolio">Projects</h2>
             <ul>
                 <li class="portfolio-item">
-                    <a href="/how-to-build-a-gundam" alt="how to build a gundam"><img src="how-to-build-a-gundam/resources/images/Sandrock-custom_pilot-1.jpg">
+                    <img src="how-to-build-a-gundam/resources/images/Sandrock-custom_pilot-1.jpg" />
                     <div class="portfolio-item-text">
-                        <h3>how to build a gundam</h3><h4>A guide to assembling & painting Gunpla</h4><p>Gunpla are plastic model kits from the Gundam universe, a Japanese military science fiction media franchise.</p><p>This is a single-scroll web page with a unique nav based on imagery from the Bandi box design.</p>
+                        <h3>how to build a gundam</h3><h4>A guide to assembling &amp; painting Gunpla</h4><p>Gunpla are plastic model kits from the Gundam universe, a Japanese military science fiction media franchise.</p><p>This is a single-scroll web page with a unique nav based on imagery from the Bandi box design.</p>
                     </div>
+                    <div class="button"><a href="/how-to-build-a-gundam" alt="how to build a gundam">enter</a></div>
+                    </li>
+                <li class="portfolio-item">
+                    <a href="/plog" alt="plog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg" />
+                      <div class="portfolio-item-text"><h3>plog</h3><h4>A houseplant journal + product reviews</h4><p>A more traditional blog with posts managed through Jekyll.</p></div> 
                     </a></li>
                 <li class="portfolio-item">
-                    <a href="/plog" alt="plog"><img src="/plog/resources/images/CalatheaOrnata_0.jpg">
-                      <div class="portfolio-item-text">
-                        <h3>plog</h3><h4>A houseplant journal + product reviews</h4><p>A more traditional blog with posts managed through Jekyll.</p>
-                      </div> 
+                    <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png" />
+                      <div class="portfolio-item-text"><h3>Tetris</h3><h4>Using a tutorial as a core, adding custom JS and CSS</h4><p>Playable on desktop and on mobile, and using the original version for the GameBoy handheld as design influence.</p></div>
                     </a></li>
                 <li class="portfolio-item">
-                    <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png">
-                      <div class="portfolio-item-text">
-                        <h3>Tetris</h3><h4>Using a tutorial as a core, adding custom JS and CSS</h4><p>Playable on desktop and on mobile, and using the original version for the GameBoy handheld as design influence.</p>
-                      </div>
-                    </a></li>
-                <li class="portfolio-item">
-                    <a href="https://clairevanblerck.com/games/gameboy-pacman/" alt="plant blog"><img src="/resources/images/portfolio/gameboy-pacman.png">
-                      <div class="portfolio-item-text">
-                        <h3>Pac-Man</h3><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4><p>Playable on desktop only, and using the original version for the GameBoy NES handheld as design influence.</p>
-                      </div>
+                    <a href="https://clairevanblerck.com/games/gameboy-pacman/" alt="plant blog"><img src="/resources/images/portfolio/gameboy-pacman.png" />
+                      <div class="portfolio-item-text"><h3>Pac-Man</h3><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4><p>Playable on desktop only, and using the original version for the GameBoy NES handheld as design influence.</p></div>
                     </a></li>
                 <li class="portfolio-item"></li>
             </ul>  
         </div>
     </article>
 </section>
-
 
 <!-- CV section -->
 
@@ -89,3 +77,4 @@ layout: main
         </div>
     </article>
 </section>
+:ET

@@ -5,7 +5,7 @@ OUTSIDE IN
 3. Visual Properties (color, background, border, box-shadow)
 4. Typography Properties (font-size, font-family, text-align, text-transform)
 5. Misc Properties (cursor, overflow, z-index)
-*/
+*/ 
 
 * {
     box-sizing: border-box;
@@ -28,7 +28,7 @@ html {
 }
 
 h1 {
-    padding: 1.5rem 0 2rem 0;
+    padding: 0 0 2rem 0;
 
     font-size: 5rem;
     line-height: 1.2;
@@ -223,12 +223,10 @@ nav p:hover {
 .portfolio-item .portfolio-item-text h3, .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text p, .portfolio-item .portfolio-item-text a {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);
-
 }
 
 .portfolio-item .portfolio-item-text h3 {
     font-size: 3rem;
-    /*line-height: 4;*/
     padding: 2.4rem 0.5rem;
 }
 
@@ -242,11 +240,19 @@ nav p:hover {
     line-height: 2;
 }
 
+.portfolio-item .portfolio-item-text p {
+    padding: 0.5rem;
+}
+
 .portfolio-item .portfolio-item-text p a {
     text-decoration: underline;
 }
 
 .portfolio-panel li:hover .portfolio-item-text {
+    bottom: 0rem;
+}
+
+.portfolio-panel li:active.portfolio-item-text {
     bottom: 0rem;
 }
 
@@ -482,7 +488,6 @@ footer .social-icons i.fa.fa-github {
     /* Portfolio page - Portfolio section */
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.4rem;
-        /*line-height: 5;*/
     }
 
     .portfolio-item .portfolio-item-text h4 {
@@ -520,7 +525,6 @@ footer .social-icons i.fa.fa-github {
 
     .portfolio-item .portfolio-item-text h3 {
         font-size: 3rem;
-        /*line-height: 4;*/
     }
 
     .portfolio-item .portfolio-item-text h4 {
@@ -605,6 +609,7 @@ footer .social-icons i.fa.fa-github {
 
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.2rem;
+        line-height: 0;
     }
 
     .portfolio-item .portfolio-item-text h4 {
