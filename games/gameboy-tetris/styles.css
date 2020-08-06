@@ -1,28 +1,46 @@
+/*
+OUTSIDE IN
+1. Layout for CSS Layout Properties (position, float, clear, display)
+2. Box Model Properties (width, height, margin, padding)
+3. Visual Properties (color, background, border, box-shadow)
+4. Typography Properties (font-size, font-family, text-align, text-transform)
+5. Misc Properties (cursor, overflow, z-index)
+*/ 
+
 * {
     /*border: 1px red solid;*/
     box-sizing: border-box;
     margin: 0;
+
+    color: #1c343e;
+
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 200;
     font-size: 25px;
-    color: #1c343e;
 }
+
+body {
+    background-color: grey;
+    
+    touch-action: manipulation;
+}
+
 
 ::selection {
     color: none;
     background: none;
 }
+
 /* For Mozilla Firefox */
+
 ::-moz-selection {
     color: none;
     background: none;
 }
 
-body {
-    background-color: grey;
-    touch-action: manipulation;
-}
 
+
+/* Tetraminos */
 
 .test {
     background: 
@@ -100,18 +118,24 @@ body {
 }
 
 
+
 /* Main container */
+
 .container {
     display: flex;
-    background-color: #1c343e;
-    height: fit-content;
-    width: fit-content;
+    justify-content: center;
+
+    height: max-content;
+    width: max-content;
     margin: 0 auto;
     padding: 1rem;
+
+    background-color: #1c343e;
 }
 
 
 /* Left / grid section */
+
 .left {
     display: flex;
 }
@@ -119,47 +143,58 @@ body {
 .left .border {
     width: 38px;
     height: 608px;
+
     border-left: 5px solid #edfcdf;
     border-right: 5px solid #edfcdf;
 }
 
 .border-brick {
     display: flex;
+
     width: 28px;
     height: 10px;
+
     background-color: #b2d1b1;
     border-bottom: 3px solid #1c343e;
 }
 
 .brick0 {
     display: inline-flex;
+
     width: 6px;
+
     border-right: 3px solid #1c343e;
 }
 
 .brick1 {
     display: inline-flex;
+
     width: 17px;
+
     border-right: 3px solid #1c343e;
 }
 
 .brick2 {
     display: inline-flex;
+
     width: 6px;
 }
 
 .brick3 {
     width: 16px;
+
     border-right: 3px solid #1c343e;
 }
 
 .grid {
-    width: 302px;
-    height: 608px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #edfcdf;
+
+    width: 302px;
+    height: 608px;
     padding: 0.1rem 0;
+
+    background-color: #edfcdf;
 }
 
 .grid div {
@@ -170,107 +205,122 @@ body {
 
 /* Right / stats section */
 .right {
-    width: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+
+    width: 9rem;
 }
 
 .stats-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: fit-content;
+
+    width: max-content;
     height: 15rem;
     margin: 0 auto;
 }
 
 .stats-item {
     display: block;
-    background-color: #edfcdf;
+
     width: 7rem;
     height: 3.7rem;
+    margin: 0 auto;
+
+    background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 0.5rem;
-    margin: 0 auto;
 }
 
 .stats-item h3 {
+    padding: 0.2rem 0.1rem;
+
     text-transform: uppercase;
     letter-spacing: 0.25rem;
-    padding: 0.2rem 0.1rem;
 }
 
 
 /* Score section */
 .score-board {
-    width: fit-content;
+    width: max-content;
     height: 6rem;
 }
 
 .stripes {
-    width: fit-content;
+    width: max-content;
     height: 2rem;  
 }
 
 #blue {
-    background-color: #1c343e;
     width: 10rem;
     height: 2rem;
+
+    background-color: #1c343e;
     border-bottom: 5px solid #edfcdf;
 }
 
 #green {
-    background-color: #5b886e;
     width: 10rem;
     height: 1.5rem;
+
+    background-color: #5b886e;
     border-bottom: 9px double #edfcdf;
 }
 
 #white {
-    background-color: #edfcdf;
     width: 10rem;
     height: 2rem;
+
+    background-color: #edfcdf;
     border-bottom: 9px double #5b886e;
 }
 
 .score-board .stats-item {
     position: relative;
     bottom: 1rem;
+
     width: 7rem;
     height: 2rem;
 }
 
 #score {
     display: block;
-    color: #1c343e;
-    padding: 0.1rem;
     position: relative;
     top: 0.9rem;
     float: right;
+
+    padding: 0.1rem;
+
+    color: #1c343e;
 }
 
 
 /* Level and lines section */
 #level {
     display: block;
-    color: #1c343e;
-    padding: 0.1rem;
     position: relative;
     top: 0.2rem;
     right: 1.3rem;
     float: right;
+
+    padding: 0.1rem;
+
+    color: #1c343e;
 }
 
 #lines {
     display: block;
-    color: #1c343e;
-    padding: 0.1rem;
     position: relative;
     top: 0.2rem;
     right: 1.3rem;
     float: right;
+
+    padding: 0.1rem;
+
+    color: #1c343e;
 }
 
 
@@ -282,12 +332,14 @@ body {
 .mini-grid {
     display: flex;
     flex-wrap: wrap;
+
     width: 158px;
     height: 158px;
+    padding: 0.2rem;
+
     background-color: #edfcdf;
     border: 14px double #5b886e;
     border-radius: 0.6rem;
-    padding: 0.2rem;
 }
 
 .mini-grid div {
@@ -300,7 +352,8 @@ body {
 .buttons {
     display: flex;
     justify-content: space-around;
-    width: fit-content;
+
+    width: max-content;
     height: auto;
     margin: 1rem auto;
 }
@@ -309,27 +362,33 @@ body {
 .controls {
     display: flex;
     flex-direction: column;
+
     width: 14rem;
-    height: fit-content;
+    height: max-content;
+
     touch-action: manipulation;
 }
 
 .square-border {
+    margin: 0 auto;
+
+    background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 1rem;
-    background-color: #edfcdf;
-    margin: 0 auto;
 }
 
 .square-button {
     display: block;
-    background-color: #edfcdf;
+
     padding: 0;
+
+    background-color: #edfcdf;
 }
 
 .arrow-up {
     width: 0; 
     height: 0; 
+
     border-top: 0;
     border-right: 2rem solid transparent;
     border-bottom: 3.8rem solid #1c343e;
@@ -340,6 +399,7 @@ body {
 .arrow-down {
     width: 0; 
     height: 0; 
+
     border-top: 3.8rem solid #1c343e; 
     border-right: 2rem solid transparent;
     border-bottom: 0;
@@ -350,6 +410,7 @@ body {
 .arrow-right {
     width: 0; 
     height: 0; 
+
     border-top: 2rem solid transparent;
     border-right: 0;
     border-bottom: 2rem solid transparent;
@@ -360,6 +421,7 @@ body {
 .arrow-left {
     width: 0; 
     height: 0; 
+
     border-top: 2rem solid transparent;
     border-right: 3.8rem solid #1c343e; 
     border-bottom: 2rem solid transparent;  
@@ -378,21 +440,25 @@ body {
 
 #up-button {
     margin: 0.05rem;
+
     touch-action: manipulation;
 }
 
 #right-button {  
     margin: 0.05rem;
+
     touch-action: manipulation;
 }
 
 #down-button {
     margin: 0.05rem;
+
     touch-action: manipulation;
 }
 
 #left-button {
     margin: 0.05rem;
+
     touch-action: manipulation;
 }
 
@@ -402,24 +468,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     width: 11rem;
-    height: fit-content;
+    height: max-content;
+
     touch-action: manipulation;
 }
 
 .rotation h4 {
     display: flex;
     justify-content: center;
+
+    margin: 0 auto;
+
+    color: #1c343e;
+
     font-size: 1.2rem;
     text-transform: uppercase;
-    margin: 0 auto;
-    color: #1c343e;
 }
 
 .round-button {
     display: block;
+
     width: 4rem;
     height: 4rem;
+
     background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 2rem;
@@ -437,36 +510,45 @@ body {
 /* Start button */
 .start {
     display: flex;
-    width: fit-content;
-    height: fit-content;
+
+    width: max-content;
+    height: max-content;
     margin: 0 auto;
 }
 
 #start-button {
     display: block;
+
     width: 7rem;
     height: 3rem;
+
     background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 0.5rem;
+
     touch-action: manipulation;
 }
 
 #start-button h4 {
     display: flex;
     justify-content: center;
+
+    margin: 0 auto;
+
+    color: #1c343e;
+
     font-size: 0.9rem;
     text-transform: uppercase;
-    margin: 0 auto;
-    color: #1c343e;
 }
 
 audio { 
     display: block;
+
+    margin: 1rem auto;
+
     background-color: #edfcdf;
     border: 9px double #5b886e;
     border-radius: 0.5rem;
-    margin: 1rem auto;
 }
 
 
@@ -522,6 +604,7 @@ audio {
     .left .border {
         width: 18px;
         height: 366px;
+
         border-left: 2px solid #edfcdf;
         border-right: 2px solid #edfcdf;
     }
@@ -529,16 +612,19 @@ audio {
     .border-brick {
         width: 14px;
         height: 6px;
+
         border-bottom: 2px solid #1c343e;
     }
 
     .brick0 {
         width: 3px;
+
         border-right: 2px solid #1c343e;
     }
     
     .brick1 {
         width: 9px;
+
         border-right: 2px solid #1c343e;
     }
     
@@ -548,6 +634,7 @@ audio {
     
     .brick3 {
         width: 8px;
+
         border-right: 2px solid #1c343e;
     }
 
@@ -573,22 +660,24 @@ audio {
     .stats-item {
         width: 4.5rem;
         height: 2.2rem;
+        margin-top: 0.1rem;
+
         border: 5px double #5b886e;
         border-radius: 0.3rem;
-        margin-top: 0.1rem;
     }
     
     .stats-item h3 {
+        padding: 0.1rem 0.05rem;
+
         font-size: 0.7rem;
         letter-spacing: 0.1rem;
-        padding: 0.1rem 0.05rem;
     }
     
     
     /* Score section */
     .score-board {
         width: 40vw;
-        height: fit-content;
+        height: max-content;
     }
     
     .stripes {
@@ -596,23 +685,26 @@ audio {
     }
     
     #blue {
-        background-color: #1c343e;
-        height: 1.2rem;
         width: 40vw;
+        height: 1.2rem;
+
+        background-color: #1c343e;
         border-bottom: 4px solid #edfcdf;
     }
     
     #green {
-        background-color: #5b886e;
-        height: 1rem;
         width: 40vw;
+        height: 1rem;
+
+        background-color: #5b886e;
         border-bottom: 4px double #edfcdf;
     }
     
     #white {
-        background-color: #edfcdf;
-        height: 1.5rem;
         width: 40vw;
+        height: 1.5rem;
+
+        background-color: #edfcdf;
         border-bottom: 4px double #5b886e;
     }
     
@@ -623,32 +715,39 @@ audio {
     }
     
     #score {
-        font-size: 0.7rem;
-        padding: 0.1rem;
         position: relative;
         top: 0.8rem;
+
+        padding: 0.1rem;
+
+        font-size: 0.7rem;
     }
     
     
     /* Level and lines section */
     #level {
-        font-size: 0.7rem;
-        padding: 0.1rem;
         top: 0rem;
+
+        padding: 0.1rem;
+
+        font-size: 0.7rem;
     }
     
     #lines {
-        font-size: 0.7rem;
-        padding: 0.1rem;
         top: 0rem;
+
+        padding: 0.1rem;
+
+        font-size: 0.7rem;
     }
 
 
     .mini-grid {
         width: 93px;
         height: 93px;
-        border: 5px double #5b886e;
         margin: 0.3rem;
+
+        border: 5px double #5b886e;
     }
     
     .mini-grid div {
@@ -658,9 +757,9 @@ audio {
 
     /* Buttons section */
     .buttons {
+        width: 100vw;
         margin: 0;
         margin-top: 0.5rem;
-        width: 100vw;
     }
 
     /* Movement control buttons */
@@ -717,8 +816,9 @@ audio {
     .round-button {
         width: 2.2rem;
         height: 2.2rem;
-        border: 5px double #5b886e;
         margin-bottom: 0.5rem;
+
+        border: 5px double #5b886e;
     }
 
     #b-button {
@@ -730,6 +830,7 @@ audio {
     #start-button {
         width: 4rem;
         height: 1.5rem;
+
         border: 5px double #5b886e;
         border-radius: 0.5rem;
     }
@@ -741,5 +842,4 @@ audio {
     audio {
         display: none;
     }
-
 }

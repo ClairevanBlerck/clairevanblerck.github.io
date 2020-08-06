@@ -443,6 +443,11 @@ footer .social-icons i.fa.fa-github {
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.8rem;
     }
+
+    .portfolio-item .portfolio-item-text p {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 1025px) {
@@ -537,6 +542,10 @@ footer .social-icons i.fa.fa-github {
 
 
     /* Portfolio page - Portfolio section */
+    .portfolio-item .portfolio-item-text {
+        bottom: -13rem;
+    }
+    
     .portfolio-item .portfolio-item-text h3 {
         font-size: 2.6rem;
     }
