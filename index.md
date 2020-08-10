@@ -46,13 +46,13 @@ layout: main
                 <li class="portfolio-item">
                     <a href="/games/gameboy-tetris/" alt="gameboy tetris"><img src="/resources/images/portfolio/gameboy-tetris.png">
                       <div class="portfolio-item-text">
-                        <h3>Tetris</h3><h4>Using a tutorial as a core, adding custom JS and CSS</h4><p>Playable on desktop and on mobile, and using the original version for the GameBoy handheld as design influence.</p>
+                        <h3>Tetris</h3><h4>Using a tutorial as a core, adding custom JS and CSS <span class="mobile-disclaimer">- mobile friendly</span></h4><p>Playable on desktop and on mobile, and using the original version for the GameBoy handheld as design influence.</p>
                       </div>
                     </a></li>
                 <li class="portfolio-item">
                     <a href="https://clairevanblerck.com/games/gameboy-pacman/" alt="plant blog"><img src="/resources/images/portfolio/gameboy-pacman.png">
                       <div class="portfolio-item-text">
-                        <h3>Pac-Man</h3><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites</h4><p>Playable on desktop only, and using the original version for the GameBoy NES handheld as design influence.</p>
+                        <h3>Pac-Man</h3><h4>Using a tutorial as a core, adding custom JS, CSS, and sprites <span class="mobile-disclaimer">- desktop only</span></h4><p>Playable on desktop only, and using the original version for the GameBoy NES handheld as design influence.</p>
                       </div>
                     </a></li>
                 <li class="portfolio-item"></li>

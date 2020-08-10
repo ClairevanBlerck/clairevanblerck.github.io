@@ -220,7 +220,7 @@ nav p:hover {
     overflow: hidden;
 }
 
-.portfolio-item .portfolio-item-text h3, .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text p, .portfolio-item .portfolio-item-text a {
+.portfolio-item .portfolio-item-text h3, .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text p, .portfolio-item .portfolio-item-text a, .portfolio-item .portfolio-item-text .mobile-disclaimer {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);
 }
@@ -237,6 +237,15 @@ nav p:hover {
 .portfolio-item .portfolio-item-text h4 {
     font-size: 1.5rem;
     font-weight: 200;
+    line-height: 2;
+}
+
+.portfolio-item .portfolio-item-text .mobile-disclaimer {
+    display: none;
+
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
     line-height: 2;
 }
 
@@ -448,6 +457,8 @@ footer .social-icons i.fa.fa-github {
         display: none;
     }
 
+    .portfolio-item .portfolio-item-text .mobile-disclaimer {
+        display: initial;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -475,7 +486,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 2.6rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.4rem;
     }
 }
@@ -495,7 +506,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 2.4rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.3rem;
     }
 }
@@ -532,7 +543,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 3rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.5rem;
     }
 }
@@ -582,7 +593,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 2.4rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.3rem;
     }
 }
@@ -621,7 +632,7 @@ footer .social-icons i.fa.fa-github {
         line-height: 0;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.2rem;
     }
 }
@@ -660,7 +671,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 2.1rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.1rem;
     }
 
@@ -677,7 +688,7 @@ footer .social-icons i.fa.fa-github {
         font-size: 2rem;
     }
 
-    .portfolio-item .portfolio-item-text h4 {
+    .portfolio-item .portfolio-item-text h4, .portfolio-item .portfolio-item-text .mobile-disclaimer {
         font-size: 1.1rem;
     }
 }
