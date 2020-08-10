@@ -15,7 +15,7 @@ OUTSIDE IN
 
     color: rgb(255, 255, 255);
     /*border: 1px red solid;*/
-    background-color: rgb(58, 67, 75);
+    background-color:  rgb(24, 34, 43); /* rgb(58, 67, 75); */
 
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
@@ -207,16 +207,16 @@ nav p:hover {
     background: rgb(0, 0, 0);
     opacity: 1;
 
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: opacity 1s ease-in-out 0s;
+    -moz-transition: opacity 1s ease-in-out 0s;
+    transition: opacity 1s ease-in-out 0s;
 }
 
 .portfolio-item:hover .image-overlay {
     opacity: 0.5;
 
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
 }
 
 .portfolio-item img {
@@ -559,6 +559,10 @@ footer .social-icons i.fa.fa-github {
     }
 
     .portfolio-panel li {
+        width: 98vw;
+    }
+
+    .portfolio-item .image-overlay {
         width: 98vw;
     }
 
