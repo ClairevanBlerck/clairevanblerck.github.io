@@ -81,8 +81,9 @@ layout: main
                   <li class="orange">HTML</li>
                   <li class="orange">CSS</li>
                   <li class="orange">JavaScript</li>
-                  <li class="orange">Jekyll</li>
+                  <li class="orange">PHP</li>
                   <li class="orange">Liquid</li>
+                  <li class="orange">Jekyll</li>
                   <li class="orange">Git</li>
                   <li class="grey">Project management</li>
                   <li class="grey">CS</li>

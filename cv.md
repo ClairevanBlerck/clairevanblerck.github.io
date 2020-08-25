@@ -19,8 +19,9 @@ layout: main
                         <li class="orange">HTML</li>
                         <li class="orange">CSS</li>
                         <li class="orange">JavaScript</li>
-                        <li class="orange">Jekyll</li>
+                        <li class="orange">PHP</li>
                         <li class="orange">Liquid</li>
+                        <li class="orange">Jekyll</li>
                         <li class="orange">Git</li>
                     </ul>
                 </div>
