@@ -11,7 +11,7 @@ layout: main
             <div class="text-item">
                 <h2>About me</h2>
                 <h5>As a developer</h5>
-                <p>I have HTML, CSS and JavaScript skills; working knowledge of Jekyll; 3y previous experience with web
+                <p>I have experience in HTML, CSS, JavaScript, and PHP; I run my portfolio site through Jekyll using Liquid; 3y previous experience with web
                     design and development projects, e-commerce, SEO, accessibility and performance.
                 </p>
                 <div class="skill-set">
@@ -22,6 +22,7 @@ layout: main
                         <li class="orange">PHP</li>
                         <li class="orange">Liquid</li>
                         <li class="orange">Jekyll</li>
+                        <li class="orange">WordPress</li>
                         <li class="orange">Git</li>
                     </ul>
                 </div>
@@ -33,8 +34,10 @@ layout: main
                 <div class="skill-set">
                     <ul>
                         <li class="grey">Project management</li>
+                        <li class="grey">Knowledge base article writing</li>
                         <li class="grey">CS</li>
                         <li class="grey">CE</li>
+                        <li class="grey">Adobe Suite</li>
                     </ul>
                 </div>
             </div>

@@ -84,10 +84,13 @@ layout: main
                   <li class="orange">PHP</li>
                   <li class="orange">Liquid</li>
                   <li class="orange">Jekyll</li>
+                  <li class="orange">WordPress</li>
                   <li class="orange">Git</li>
-                  <li class="grey">Project management</li>
-                  <li class="grey">CS</li>
-                  <li class="grey">CE</li>
+                <li class="grey">Project management</li>
+                <li class="grey">Knowledge base article writing</li>
+                <li class="grey">CS</li>
+                <li class="grey">CE</li>
+                <li class="grey">Adobe Suite</li>
                 </ul>
             </div>
         </div>
