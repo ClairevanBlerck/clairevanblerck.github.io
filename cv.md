@@ -30,13 +30,13 @@ layout: main
             <div class="text-item">
                 <h5>Pre-developer</h5>
                 <p>I originally studied Fine Art and then Business Administration.</p>
-                <p>Customer success (CS), Customer Experience (CE) and operational streamlining were my driving interests before I got into web development which matches my ambitions, thinking, creativity and personality.</p>
+                <p>Customer success (CS), Customer Experience (CX) and operational streamlining were my driving interests before I got into web development which matches my ambitions, thinking, creativity and personality.</p>
                 <div class="skill-set">
                     <ul>
                         <li class="grey">Project management</li>
                         <li class="grey">Knowledge base article writing</li>
                         <li class="grey">CS</li>
-                        <li class="grey">CE</li>
+                        <li class="grey">CX</li>
                         <li class="grey">Adobe Suite</li>
                     </ul>
                 </div>
