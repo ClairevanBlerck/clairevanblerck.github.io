@@ -43,40 +43,40 @@ body {
 /* Tetraminos */
 
 .l1 {
-    border: 1px solid black;
+    border: 2px solid #213c21;
     box-shadow: inset 5px 5px #a7c7a5, inset -5px -5px #a7c7a5, inset -8px -8px #213c21, inset 8px 8px #213c21;
 }
 
 .l2 {
-    border: 1.5px solid #213c2f;
+    border: 2px solid #213c2f;
     background-color: #72a390;
 }
 
 .z1 {
-    border: 1px solid black;
+    border: 2px solid #213c21;
     box-shadow: inset 5px 5px #72a390, inset -5px -5px #72a390, inset -9px -9px #213c21, inset 9px 9px #213c21;
 }
 
 .z2 {
-    border: 1px solid black;
+    border: 2px solid #213c21;
     background: #213c2f;
     box-shadow: inset 9px 9px #aed3ac, inset -9px -9px #aed3ac;
 }
 
 .t {
-    border: 1px solid black;
+    border: 2px solid #213c21;
     background-color: #bcd3b4;
     box-shadow: inset 5px 5px #a7c7a5, inset -5px -5px #a7c7a5, inset 9px 10px #e0f8e9, inset -8px -9px #213c21, inset -10px -11px #95a88e;
 }
 
 .o {
-    border: 1px solid black;
+    border: 2px solid #213c21;
     background-color: #213c2f;
     box-shadow: inset 5px 5px #e0f8e9, inset -5px -5px #e0f8e9;
 }
 
 .i {
-    border: 1px solid #213c21;
+    border: 2px solid #213c21;
     background:
     radial-gradient(#213c2f 10%, transparent 25%) 0 0,
     radial-gradient(#213c2f 10%, transparent 25%) 6px 9px,
@@ -87,7 +87,7 @@ body {
 }
 
 .tetromino {
-    border: 1px solid #000000;
+    border: 2px solid #213c21;
 }
 
 
@@ -127,7 +127,7 @@ body {
     width: 28px;
     height: 10px;
 
-    background-color: #b2d1b1;
+    background-color: white;
     border-bottom: 3px solid #1c343e;
 }
 
@@ -137,6 +137,7 @@ body {
     width: 6px;
 
     border-right: 3px solid #1c343e;
+    box-shadow: inset -8px -4px #b2d1b1;
 }
 
 .brick1 {
@@ -145,18 +146,21 @@ body {
     width: 17px;
 
     border-right: 3px solid #1c343e;
+    box-shadow: inset -8px -4px #b2d1b1;
 }
 
 .brick2 {
     display: inline-flex;
 
     width: 6px;
+    box-shadow: inset -8px -4px #b2d1b1;
 }
 
 .brick3 {
     width: 16px;
 
     border-right: 3px solid #1c343e;
+    box-shadow: inset -6px -4px #b2d1b1;
 }
 
 .grid {
@@ -589,22 +593,27 @@ audio {
         width: 3px;
 
         border-right: 2px solid #1c343e;
+        box-shadow: inset -4px -2px #b2d1b1;
     }
     
     .brick1 {
         width: 9px;
 
         border-right: 2px solid #1c343e;
+        box-shadow: inset -4px -2px #b2d1b1;
     }
     
     .brick2 {
         width: 3px;
+
+        box-shadow: inset -4px -2px #b2d1b1;
     }
     
     .brick3 {
         width: 8px;
 
         border-right: 2px solid #1c343e;
+        box-shadow: inset -3px -1px #b2d1b1;
     }
 
     .grid {
