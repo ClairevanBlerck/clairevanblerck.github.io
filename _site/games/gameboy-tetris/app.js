@@ -78,10 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     //randomly select a Tetromino and it's first rotation
     let random = Math.floor(Math.random()*theTetrominoes.length);
-    console.log(random)
+    console.log(`tetromino is: ${random}`)
     let current = theTetrominoes[random][currentRotation];
-    console.log(colors[random])
-    console.log((colors[random]))
+    console.log(`tetromino color is: ${colors[random]}`)
     
 
     //draw the Tetromino
@@ -210,22 +209,24 @@ document.addEventListener('DOMContentLoaded', () => {
     //rotate the tetromino clockwise / to the right
     function rotateClockwise() {
         undraw();
-        currentRotation ++;
-        if(currentRotation === current.length) { //if the array limit has been reached proceed to 0
+        currentRotation++;
+        if(currentRotation == current.length) { //if the array limit has been reached proceed to array element 0
             currentRotation = 0;
         } 
         current = theTetrominoes[random][currentRotation];
+        console.log(`current rotation is: ${currentRotation}`);
         draw();
     }
 
     //rotate the tetromino counter-clockwise / to the left
     function rotateCounterClockwise() {
         undraw();
-        currentRotation --;
-        if(currentRotation = [0]) { //if the array limit has been reached proceed to index 3 - FIX THIS
-            currentRotation = [3];
+        currentRotation--;
+        if(currentRotation <= -1) { //if the array limit has been reached proceed to array element 3
+            currentRotation = 3;
         }
         current = theTetrominoes[random][currentRotation];
+        console.log(`current rotation is: ${currentRotation}`);
         draw();
     }
 
