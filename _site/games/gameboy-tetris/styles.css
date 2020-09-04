@@ -19,12 +19,17 @@ OUTSIDE IN
     font-size: 25px;
 }
 
-body {
-    background-color: grey;
+html, body {
+    overflow-x: hidden;
+
+    background-color: beige;
     
     touch-action: manipulation;
 }
 
+body {
+    position: relative
+}
 
 ::selection {
     color: none;
@@ -90,20 +95,57 @@ body {
     border: 2px solid #213c21;
 }
 
+.desktop {
+    display: flex;
+    flex-direction: column;
+
+    /*width: 65vw;*/
+    width: 35rem;
+    height: auto;
+    margin: 1rem auto;
+
+    background-color: #dbdad5;
+    border: 0.5rem white;
+    border-radius: 0.6rem 0.6rem 5rem;
+    border-style: ridge;
+}
 
 
-/* Main container */
+/* Screen container */
+.top {
+    position: relative;
 
-.container {
+    width: 31rem;
+    margin: 2rem auto;
+
+    background-color: #7e808c;
+    border: 1px solid black;
+    border-radius: 0.7rem 0.7rem 5rem;
+}
+
+.line {
+    position: absolute;
+    top: -2rem;
+    left: -1.8rem;
+
+    width: 34.5rem;
+    height: 1.3rem;
+
+    border-bottom: 0.2rem solid rgb(121, 121, 121);
+    border-top: 0.2rem solid rgb(252, 239, 239);
+}
+
+.screen {
     display: flex;
     justify-content: center;
 
-    height: max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 1rem;
+    height: 25rem;
+    width: 25rem;
+    margin: 1rem auto;
+    padding: 0rem;
 
     background-color: #1c343e;
+    border: 0.3rem inset black;
 }
 
 
@@ -153,6 +195,7 @@ body {
     display: inline-flex;
 
     width: 6px;
+
     box-shadow: inset -8px -4px #b2d1b1;
 }
 
@@ -228,11 +271,11 @@ body {
 
 .stripes {
     width: max-content;
-    height: 2rem;  
+    height: 2rem;
 }
 
 #blue {
-    width: 10rem;
+    width: 9.1rem;
     height: 2rem;
 
     background-color: #1c343e;
@@ -240,7 +283,7 @@ body {
 }
 
 #green {
-    width: 10rem;
+    width: 9.1rem;
     height: 1.5rem;
 
     background-color: #5b886e;
@@ -248,7 +291,7 @@ body {
 }
 
 #white {
-    width: 10rem;
+    width: 9.1rem;
     height: 2rem;
 
     background-color: #edfcdf;
@@ -271,6 +314,8 @@ body {
 
     padding: 0.1rem;
 
+    font-size: 1rem;
+
     color: #1c343e;
 }
 
@@ -285,6 +330,8 @@ body {
 
     padding: 0.1rem;
 
+    font-size: 1rem;
+
     color: #1c343e;
 }
 
@@ -296,6 +343,8 @@ body {
     float: right;
 
     padding: 0.1rem;
+
+    font-size: 1rem;
 
     color: #1c343e;
 }
@@ -313,6 +362,7 @@ body {
     width: 158px;
     height: 158px;
     padding: 0.2rem;
+    margin-bottom: 0.5rem;
 
     background-color: #edfcdf;
     border: 14px double #5b886e;
@@ -326,13 +376,20 @@ body {
 
 
 /* Buttons section */
+.bottom {
+    height: max-content;
+    width: max-content;
+    margin: 0 auto;
+}
+
 .buttons {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 
-    width: max-content;
+    width: inherit;
     height: auto;
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 
 /* Movement control buttons */
@@ -342,68 +399,79 @@ body {
 
     width: 14rem;
     height: max-content;
+    margin-right: 5rem;
 
     touch-action: manipulation;
 }
 
 .square-border {
-    margin: 0 auto;
+    margin: 0rem auto;
 
-    background-color: #edfcdf;
-    border: 9px double #5b886e;
+    background-color: black;
+    border: 0.3rem ridge black;
     border-radius: 1rem;
 }
 
 .square-button {
     display: block;
 
-    padding: 0;
+    padding: 0rem;
 
-    background-color: #edfcdf;
+    background-color: rgb(39, 39, 39);
 }
 
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0rem; 
+    height: 0rem; 
 
-    border-top: 0;
+    border-top: 0rem;
     border-right: 2rem solid transparent;
-    border-bottom: 3.8rem solid #1c343e;
+    border-bottom: 3.8rem solid black;
     border-left: 2rem solid transparent;
     border-radius: 0.6rem;
 }
   
 .arrow-down {
-    width: 0; 
-    height: 0; 
+    width: 0rem; 
+    height: 0rem; 
 
-    border-top: 3.8rem solid #1c343e; 
+    border-top: 3.8rem solid black; 
     border-right: 2rem solid transparent;
-    border-bottom: 0;
+    border-bottom: 0rem;
     border-left: 2rem solid transparent;
     border-radius: 0.6rem;
 }
   
 .arrow-right {
-    width: 0; 
-    height: 0; 
+    width: 0rem; 
+    height: 0rem; 
 
     border-top: 2rem solid transparent;
-    border-right: 0;
+    border-right: 0rem;
     border-bottom: 2rem solid transparent;
-    border-left: 3.8rem solid #1c343e;
+    border-left: 3.8rem solid black;
     border-radius: 0.6rem;
 }
   
 .arrow-left {
-    width: 0; 
-    height: 0; 
+    width: 0rem; 
+    height: 0rem; 
 
     border-top: 2rem solid transparent;
-    border-right: 3.8rem solid #1c343e; 
+    border-right: 3.8rem solid black; 
     border-bottom: 2rem solid transparent;  
-    border-left: 0;
+    border-left: 0rem;
     border-radius: 0.6rem;
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+
+    background-color: rgb(39, 39, 39);
+    border: 0.5rem ridge rgb(82, 82, 82);
+    border-radius: 2rem;
 }
 
 .left-right {
@@ -412,7 +480,7 @@ body {
 }
 
 .left-right .square-border {
-    margin: 0;
+    margin: 0rem;
 }
 
 #up-button {
@@ -452,41 +520,50 @@ body {
     touch-action: manipulation;
 }
 
-.rotation h4 {
-    display: flex;
-    justify-content: center;
-
-    margin: 0 auto;
-
-    color: #1c343e;
-
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
-
 .round-button {
     display: block;
 
     width: 4rem;
     height: 4rem;
 
-    background-color: #edfcdf;
-    border: 9px double #5b886e;
+    background-image: linear-gradient(to right, #a92345e7, #940b1dd7);
+    border: 0.3rem ridge black;
     border-radius: 2rem;
+    
 }
 
 #b-button {
     touch-action: manipulation;
-    margin-right: 3rem;
+    margin-right: 4rem;
+}
+
+.b-button {
+    margin: 0.5rem 5rem;
+
+    color: #2a3493;
+
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 #a-button {
     touch-action: manipulation;
 }
 
+.a-button {
+    margin: 0.5rem 1rem;
+
+    color: #2a3493;;
+
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
 /* Start button */
 .start {
     display: flex;
+    flex-direction: column;
 
     width: max-content;
     height: max-content;
@@ -497,22 +574,22 @@ body {
     display: block;
 
     width: 7rem;
-    height: 3rem;
+    height: 2rem;
 
-    background-color: #edfcdf;
-    border: 9px double #5b886e;
-    border-radius: 0.5rem;
+    background-color: #929093;
+    border: 0.3rem ridge black;
+    border-radius: 1rem;
 
     touch-action: manipulation;
 }
 
-#start-button h4 {
+.start-button {
     display: flex;
     justify-content: center;
 
-    margin: 0 auto;
+    margin: 0.5rem auto;
 
-    color: #1c343e;
+    color: #2a3493;
 
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -523,8 +600,8 @@ audio {
 
     margin: 1rem auto;
 
-    background-color: #edfcdf;
-    border: 9px double #5b886e;
+    background-color: white;
+    border: 0.3rem ridge black;
     border-radius: 0.5rem;
 }
 
@@ -532,7 +609,31 @@ audio {
 
 /* Media queries */
 
+@media only screen and (max-width: 768px) {
+    .desktop {
+        width: 0;
+        height: auto;
+        margin: 0;
+
+        border: 0;
+    }
+    
+    
+    /* Screen container */
+    .top {
+        width: 0;
+        margin: 0;
+    
+        border: 0;
+    }
+
+}
+
 @media only screen and (max-width: 414px) {
+
+    html, body {
+        background-color: #dbdad5;
+    }
 
     .l1 {
         box-shadow: inset 3px 3px #a7c7a5, inset -3px -3px #a7c7a5, inset -5px -5px #213c21, inset 5px 5px #213c21;
@@ -564,10 +665,13 @@ audio {
         background-color: #a8d391;
     }
 
-    .container {
+    .screen {
         width: 100vw;
+        height: auto;
         margin: 0 auto;
         padding: 0.1rem;
+
+        border: 0.1rem inset black;
     }
 
     .left {
@@ -705,6 +809,7 @@ audio {
     /* Level and lines section */
     #level {
         top: 0rem;
+        right: 0.8rem;
 
         padding: 0.1rem;
 
@@ -713,6 +818,7 @@ audio {
     
     #lines {
         top: 0rem;
+        right: 0.8rem;
 
         padding: 0.1rem;
 
@@ -747,19 +853,27 @@ audio {
     }
     
     .square-border {
-        border: 5px double #5b886e;
+        border: 0.2rem ridge black;
         border-radius: 0.5rem;
+    }
+
+    .circle {
+        width: 1.7rem;
+        height: 1.7rem;
+    
+        border-width: 0.2rem;
+        border-radius: 2rem;
     }
     
     .arrow-up {
         border-right: 0.8rem solid transparent;
-        border-bottom: 1.6rem solid #1c343e;
+        border-bottom: 1.6rem solid black;
         border-left: 0.8rem solid transparent;
         border-radius: 0.2rem;
     }
       
     .arrow-down {
-        border-top: 1.6rem solid #1c343e; 
+        border-top: 1.6rem solid black; 
         border-right: 0.8rem solid transparent;
         border-left: 0.8rem solid transparent;
         border-radius: 0.2rem;
@@ -768,13 +882,13 @@ audio {
     .arrow-right {
         border-top: 0.8rem solid transparent;
         border-bottom: 0.8rem solid transparent;
-        border-left: 1.6rem solid #1c343e;
+        border-left: 1.6rem solid black;
         border-radius: 0.2rem;
     }
       
     .arrow-left {
         border-top: 0.8rem solid transparent;
-        border-right: 1.6rem solid #1c343e; 
+        border-right: 1.6rem solid black; 
         border-bottom: 0.8rem solid transparent;  
         border-radius: 0.2rem;
     }
@@ -787,7 +901,7 @@ audio {
     }
 
     .rotation h4 {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         text-align: center;
     }
 
@@ -796,8 +910,18 @@ audio {
         height: 2.2rem;
         margin-bottom: 0.5rem;
 
-        border: 5px double #5b886e;
+        border-width: 0.2rem;
     }
+
+    .b-button {
+        margin: 0.2rem 2.9rem;
+    }
+    
+    .a-button {
+        margin: 0.2rem 0.9rem;
+    }
+
+
 
     #b-button {
         margin-right: 2rem;
@@ -805,16 +929,20 @@ audio {
 
 
     /* Start button */
+    .start {
+        margin: 1rem auto;
+    }
+
     #start-button {
         width: 4rem;
-        height: 1.5rem;
+        height: 1rem;
 
-        border: 5px double #5b886e;
+        border-width: 0.2rem;
         border-radius: 0.5rem;
     }
 
-    #start-button h4 {
-        font-size: 0.6rem;
+    .start-button {
+        font-size: 0.5rem;
     }
 
     audio {

@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentRotation = 0;
         } 
         current = theTetrominoes[random][currentRotation];
-        console.log(`current rotation is: ${currentRotation}`);
+        //console.log(`current rotation is: ${currentRotation}`);
         draw();
     }
 
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentRotation = 3;
         }
         current = theTetrominoes[random][currentRotation];
-        console.log(`current rotation is: ${currentRotation}`);
+        //console.log(`current rotation is: ${currentRotation}`);
         draw();
     }
 
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < 199; i +=width) {
             const row = [i, i+1, i+2, i+3, i+4, i+5, i+6, i+7, i+8, i+9]
             if(row.every(index => squares[index].classList.contains('taken'))) {
-                score +=10;
+                score +=40;
                 scoreDisplay.innerHTML = score;
                 lines +=1;
                 linesDisplay.innerHTML = lines;
@@ -303,23 +303,25 @@ document.addEventListener('DOMContentLoaded', () => {
     //game over
     function gameOver() {
         if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-        scoreDisplay.innerHTML = 'end';
+        scoreDisplay.innerHTML = 'END';
         clearInterval(timerId);
         }
     }
 })
 
 /* Known bugs:
-1. Can i remove copy/paste pop-up from rotation buttons?
-2. #b-button - only rotates once, only occasionally, and not to currentRotation--
-3. rotate next to border - allows tetromino to be split by width
-4. right-button and left-button when colliding with taken tetrominos seems to be merging
+1. Can I remove copy/paste pop-up from rotation buttons on mobile?
+2. #b-button - only rotates once, only occasionally, and not to currentRotation-- FIXED 02/09/2020
+3. Rotate next to border - allows tetromino to be split by width
+4. Right-button and left-button when colliding with taken tetrominos seems to be merging
+5. Stop tetrominos falling when game ends
 */
 
 /* Missing features:
-1. Tetrominos - add stying for each shape
+1. Tetrominos - add stying for each shape DONE 01/09/2020
 2. Controls - add 'hold' down-button function to drop the tetromino to the highest 'taken' div
 3. Score - add complex scores for multi-line elimination and level-based multi-lne elimination
 4. Line elimination - add animation
 5. Score save - add top scores board
+6. Add title screen
 */
