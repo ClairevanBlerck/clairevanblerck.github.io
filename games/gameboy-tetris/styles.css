@@ -48,47 +48,48 @@ body {
 /* Tetraminos */
 
 .l1 {
-    border: 2px solid #213c21;
-    box-shadow: inset 5px 5px #a7c7a5, inset -5px -5px #a7c7a5, inset -8px -8px #213c21, inset 8px 8px #213c21;
+    border: 1px solid #213c21;
+    box-shadow: inset 2px 2px #a7c7a5, inset -2px -2px #a7c7a5, inset -3px -3px #213c21, inset 3px 3px #213c21;
 }
 
 .l2 {
-    border: 2px solid #213c2f;
+    border: 1px solid #213c2f;
     background-color: #72a390;
 }
 
 .z1 {
-    border: 2px solid #213c21;
-    box-shadow: inset 5px 5px #72a390, inset -5px -5px #72a390, inset -9px -9px #213c21, inset 9px 9px #213c21;
+    border: 1px solid #213c21;
+    box-shadow: inset 2px 2px #72a390, inset -2px -2px #72a390, inset -3px -3px #213c21, inset 3px 3px #213c21;
 }
 
 .z2 {
-    border: 2px solid #213c21;
+    border: 1px solid #213c21;
     background: #213c2f;
-    box-shadow: inset 9px 9px #aed3ac, inset -9px -9px #aed3ac;
+    box-shadow: inset 4px 4px #aed3ac, inset -4px -4px #aed3ac;
 }
 
 .t {
-    border: 2px solid #213c21;
+    border: 1px solid #213c21;
     background-color: #bcd3b4;
-    box-shadow: inset 5px 5px #a7c7a5, inset -5px -5px #a7c7a5, inset 9px 10px #e0f8e9, inset -8px -9px #213c21, inset -10px -11px #95a88e;
+    box-shadow: inset 2px 2px #a7c7a5, inset -2.5px -2.5px #a7c7a5, inset 4px 4px #e0f8e9, inset -4px -5px #213c21, inset -5px -9px #95a88e;
 }
 
 .o {
-    border: 2px solid #213c21;
+    border: 1px solid #213c21;
     background-color: #213c2f;
-    box-shadow: inset 5px 5px #e0f8e9, inset -5px -5px #e0f8e9;
+    box-shadow: inset 2px 2px #e0f8e9, inset -2px -2px #e0f8e9;
 }
 
 .i {
-    border: 2px solid #213c21;
+    border: 1px solid #213c21;
     background:
-    radial-gradient(#213c2f 10%, transparent 25%) 0 0,
-    radial-gradient(#213c2f 10%, transparent 25%) 6px 9px,
-    radial-gradient(#213c2f 10%, transparent 25%) 0 0px,
-    radial-gradient(#213c2f 10%, transparent 25%) 6px 9px;
+    radial-gradient(#213c2f 5%, transparent 15%) 8px -6px,
+    radial-gradient(#213c2f 5%, transparent 15%) 4px -8px, 
+    radial-gradient(#213c2f 5%, transparent 15%) -2px 1px,
+    radial-gradient(#213c2f 5%, transparent 15%) 6px -4px;
     background-color: #a8d391;
-    background-size: 13px 16px;
+    background-size: 10px 10px;
+    /*    background-size: 13px 16px;*/
 }
 
 .tetromino {
@@ -99,14 +100,16 @@ body {
     display: flex;
     flex-direction: column;
 
-    /*width: 65vw;*/
-    width: 35rem;
+    /*width: 35vw;*/
+    width: 17.5rem;
     height: auto;
     margin: 1rem auto;
 
     background-color: #dbdad5;
-    border: 0.5rem white;
-    border-radius: 0.6rem 0.6rem 5rem;
+    /*border: 0.5rem white;
+    border-radius: 0.6rem 0.6rem 5rem;*/
+    border: 0.3rem white;
+    border-radius: 0.3rem 0.3rem 2.5rem;
     border-style: ridge;
 }
 
@@ -115,23 +118,30 @@ body {
 .top {
     position: relative;
 
-    width: 31rem;
-    margin: 2rem auto;
+    /* width: 31rem;
+    margin: 2rem auto;*/
+    width: 15.5rem;
+    margin: 1rem auto;
 
     background-color: #7e808c;
     border: 1px solid black;
-    border-radius: 0.7rem 0.7rem 5rem;
+    /* border-radius: 0.7rem 0.7rem 5rem;*/
+    border-radius: 0.4rem 0.4rem 2.5rem;
 }
 
 .line {
     position: absolute;
-    top: -2rem;
-    left: -1.8rem;
+    /*top: -2rem;
+    left: -1.8rem;*/
+    top: -1rem;
+    left: -0.8rem;
 
-    width: 34.5rem;
-    height: 1.3rem;
+    /*width: 34.5rem;
+    height: 1.3rem;*/
+    width: 17rem;
+    height: 0.6rem;
 
-    border-bottom: 0.2rem solid rgb(121, 121, 121);
+    border-bottom: 0.1rem solid rgb(121, 121, 121);
     border-top: 0.2rem solid rgb(252, 239, 239);
 }
 
@@ -139,8 +149,10 @@ body {
     display: flex;
     justify-content: center;
 
-    height: 25rem;
-    width: 25rem;
+    /*height: 25rem;
+    width: 25rem;*/
+    height: max-content;
+    width: max-content;
     margin: 1rem auto;
     padding: 0rem;
 
@@ -156,70 +168,92 @@ body {
 }
 
 .left .border {
-    width: 38px;
-    height: 608px;
+    width: 19px;
+    height: 304px;
+    /*width: 38px;
+    height: 608px;*/
 
-    border-left: 5px solid #edfcdf;
-    border-right: 5px solid #edfcdf;
+    border-left: 2.5px solid #edfcdf;
+    border-right: 2.5px solid #edfcdf;
+    /*border-left: 5px solid #edfcdf;
+    border-right: 5px solid #edfcdf;*/
 }
 
 .border-brick {
     display: flex;
 
-    width: 28px;
-    height: 10px;
+    /*width: 28px;
+    height: 10px;*/
+    width: 14px;
+    height: 5px;
 
     background-color: white;
-    border-bottom: 3px solid #1c343e;
+    border-bottom: 1.5px solid #1c343e;
+    /*border-bottom: 3px solid #1c343e;*/
 }
 
 .brick0 {
     display: inline-flex;
 
-    width: 6px;
+    width: 3px;
+    /*width: 6px;*/
 
-    border-right: 3px solid #1c343e;
-    box-shadow: inset -8px -4px #b2d1b1;
+    border-right: 1.5px solid #1c343e;
+    box-shadow: inset -4px -2px #b2d1b1;
+    /*border-right: 3px solid #1c343e;
+    box-shadow: inset -8px -4px #b2d1b1;*/
 }
 
 .brick1 {
     display: inline-flex;
 
-    width: 17px;
+    width: 8.5px;
+    /*width: 17px;*/
 
-    border-right: 3px solid #1c343e;
-    box-shadow: inset -8px -4px #b2d1b1;
+    /*border-right: 3px solid #1c343e;
+    box-shadow: inset -8px -4px #b2d1b1;*/
+    border-right: 1.5px solid #1c343e;
+    box-shadow: inset -4px -2px #b2d1b1;
 }
 
 .brick2 {
     display: inline-flex;
 
-    width: 6px;
+    width: 3px;
+    /*width: 6px;*/
 
-    box-shadow: inset -8px -4px #b2d1b1;
+    box-shadow: inset -4px -2px #b2d1b1;
+    /*box-shadow: inset -8px -4px #b2d1b1;*/
 }
 
 .brick3 {
-    width: 16px;
+    width: 8px;
+    /*width: 16px;*/
 
-    border-right: 3px solid #1c343e;
-    box-shadow: inset -6px -4px #b2d1b1;
+    border-right: 1.5px solid #1c343e;
+    box-shadow: inset -3px -2px #b2d1b1;
+    /*border-right: 3px solid #1c343e;
+    box-shadow: inset -6px -4px #b2d1b1;*/
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
 
-    width: 302px;
-    height: 608px;
+    width: 151px;
+    height: 304px;
     padding: 0.1rem 0;
+    /*width: 302px;
+    height: 608px;*/
 
     background-color: #edfcdf;
 }
 
 .grid div {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
+    /* width: 30px;
+    height: 30px;*/
 }
 
 
@@ -230,7 +264,8 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 
-    width: 9rem;
+    width: 4.5rem;
+    /*width: 9rem;*/
 }
 
 .stats-section {
@@ -239,82 +274,102 @@ body {
     justify-content: space-between;
 
     width: max-content;
-    height: 15rem;
+    height: 6.5rem;
+    /*height: 15rem;*/
     margin: 0 auto;
 }
 
 .stats-item {
     display: block;
 
-    width: 7rem;
-    height: 3.7rem;
+    width: 3.5rem;
+    height: 1.8rem;
+    /*    width: 7rem;
+    height: 3.7rem;*/
     margin: 0 auto;
 
     background-color: #edfcdf;
-    border: 9px double #5b886e;
-    border-radius: 0.5rem;
+    border: 4.5px double #5b886e;
+    border-radius: 0.2rem;
+    /*border: 9px double #5b886e;
+    border-radius: 0.5rem;*/
 }
 
 .stats-item h3 {
-    padding: 0.2rem 0.1rem;
+    padding: 0.1rem 0.1rem;
+    /*    padding: 0.2rem 0.1rem;*/
 
+    font-size: 0.53rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.1rem;
 }
 
 
 /* Score section */
 .score-board {
     width: max-content;
-    height: 6rem;
+    height: 3rem;
+    /*height: 6rem;*/
 }
 
 .stripes {
-    width: max-content;
-    height: 2rem;
+    width: 4.5rem;
+    height: 1rem;
+    /*height: 6rem;*/
 }
 
 #blue {
-    width: 9.1rem;
-    height: 2rem;
+    height: 1rem;
+    /*width: 9.1rem;
+    height: 2rem;*/
 
     background-color: #1c343e;
-    border-bottom: 5px solid #edfcdf;
+    border-bottom: 2.5px solid #edfcdf;
+    /*border-bottom: 5px solid #edfcdf;*/
 }
 
 #green {
-    width: 9.1rem;
-    height: 1.5rem;
+    height: 0.7rem;
+    /*width: 9.1rem;
+    height: 1.5rem;*/
 
     background-color: #5b886e;
-    border-bottom: 9px double #edfcdf;
+    border-bottom: 4.5px double #edfcdf;
+    /*border-bottom: 9px double #edfcdf;*/
 }
 
 #white {
-    width: 9.1rem;
-    height: 2rem;
+    height: 1rem;
+    /*width: 9.1rem;
+    height: 2rem;*/
 
     background-color: #edfcdf;
-    border-bottom: 9px double #5b886e;
+    border-bottom: 4.5px double #5b886e;
+    /*border-bottom: 9px double #5b886e;*/
 }
 
 .score-board .stats-item {
     position: relative;
-    bottom: 1rem;
+    bottom: 0.5rem;
+    /*bottom: 1rem;*/
 
-    width: 7rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 1rem;
+    /*width: 7rem;
+    height: 2rem;*/
 }
 
 #score {
     display: block;
     position: relative;
-    top: 0.9rem;
+    top: 0.5rem;
+    /*top: 0.9rem;*/
     float: right;
 
-    padding: 0.1rem;
+    /*padding: 0.1rem;*/
 
-    font-size: 1rem;
+    font-size: 0.5rem;
+    /*font-size: 1rem;*/
 
     color: #1c343e;
 }
@@ -324,13 +379,16 @@ body {
 #level {
     display: block;
     position: relative;
-    top: 0.2rem;
-    right: 1.3rem;
+    top: 0.05rem;
+    right: 0.55rem;
+    /*top: 0.2rem;
+    right: 1.3rem;*/
     float: right;
 
     padding: 0.1rem;
 
-    font-size: 1rem;
+    font-size: 0.5rem;
+    /*font-size: 1rem;*/
 
     color: #1c343e;
 }
@@ -338,13 +396,16 @@ body {
 #lines {
     display: block;
     position: relative;
-    top: 0.2rem;
-    right: 1.3rem;
+    top: 0.05rem;
+    right: 0.55rem;
+    /*top: 0.2rem;
+    right: 1.3rem;*/
     float: right;
 
     padding: 0.1rem;
 
-    font-size: 1rem;
+    font-size: 0.5rem;
+    /*font-size: 1rem;*/
 
     color: #1c343e;
 }
@@ -353,25 +414,34 @@ body {
 /* Mini grid / next-up section */
 .next {
     margin-right: 0.5rem;
+    /*    margin-right: 0.2rem;*/
 }
 
 .mini-grid {
     display: flex;
     flex-wrap: wrap;
 
-    width: 158px;
+    width: 77px;
+    height: 77px;
+    padding: 0.1rem;
+    margin-bottom: 0.1rem;
+    margin-right: 0.1rem;
+    /*width: 158px;
     height: 158px;
     padding: 0.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;*/
 
     background-color: #edfcdf;
-    border: 14px double #5b886e;
+    border: 6px double #5b886e;
+    /*border: 14px double #5b886e;*/
     border-radius: 0.6rem;
 }
 
 .mini-grid div {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
+    /*width: 30px;
+    height: 30px;*/
 }
 
 
@@ -389,7 +459,8 @@ body {
 
     width: inherit;
     height: auto;
-    margin: 3rem auto;
+    margin: 1.5rem auto;
+    /*margin: 3rem auto;*/
 }
 
 /* Movement control buttons */
@@ -397,9 +468,11 @@ body {
     display: flex;
     flex-direction: column;
 
-    width: 14rem;
+    width: 7rem;
     height: max-content;
-    margin-right: 5rem;
+    margin-right: 2.5rem;
+    /*    width: 14rem;
+    margin-right: 5rem;*/
 
     touch-action: manipulation;
 }
@@ -408,8 +481,10 @@ body {
     margin: 0rem auto;
 
     background-color: black;
-    border: 0.3rem ridge black;
-    border-radius: 1rem;
+    border: 0.2rem ridge black;
+    /*border: 0.3rem ridge black;*/
+    border-radius: 0.5rem;
+    /*border-radius: 1rem;*/
 }
 
 .square-button {
@@ -425,53 +500,77 @@ body {
     height: 0rem; 
 
     border-top: 0rem;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.9rem solid black;
+    border-left: 1rem solid transparent;
+    border-radius: 0.3rem;
+    /*    border-top: 0rem;
     border-right: 2rem solid transparent;
     border-bottom: 3.8rem solid black;
     border-left: 2rem solid transparent;
-    border-radius: 0.6rem;
+    border-radius: 0.6rem;*/
 }
   
 .arrow-down {
     width: 0rem; 
     height: 0rem; 
 
-    border-top: 3.8rem solid black; 
+    border-top: 1.9rem solid black; 
+    border-right: 1rem solid transparent;
+    border-bottom: 0rem;
+    border-left: 1rem solid transparent;
+    border-radius: 0.3rem;
+    /*    border-top: 3.8rem solid black; 
     border-right: 2rem solid transparent;
     border-bottom: 0rem;
     border-left: 2rem solid transparent;
-    border-radius: 0.6rem;
+    border-radius: 0.6rem*/
 }
   
 .arrow-right {
     width: 0rem; 
     height: 0rem; 
 
-    border-top: 2rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-right: 0rem;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.9rem solid black;
+    border-radius: 0.3rem;
+    /*    border-top: 2rem solid transparent;
     border-right: 0rem;
     border-bottom: 2rem solid transparent;
     border-left: 3.8rem solid black;
-    border-radius: 0.6rem;
+    border-radius: 0.6rem;*/
 }
   
 .arrow-left {
     width: 0rem; 
     height: 0rem; 
 
-    border-top: 2rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-right: 1.9rem solid black; 
+    border-bottom: 1rem solid transparent;  
+    border-left: 0rem;
+    border-radius: 0.3rem;
+    /*    border-top: 2rem solid transparent;
     border-right: 3.8rem solid black; 
     border-bottom: 2rem solid transparent;  
     border-left: 0rem;
-    border-radius: 0.6rem;
+    border-radius: 0.6rem;*/
 }
 
 .circle {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
+    /*width: 4rem;
+    height: 4rem;*/
     margin: 0 auto;
 
     background-color: rgb(39, 39, 39);
-    border: 0.5rem ridge rgb(82, 82, 82);
-    border-radius: 2rem;
+    border: 0.2rem ridge rgb(82, 82, 82);
+    border-radius: 1rem;
+    /*border: 0.5rem ridge rgb(82, 82, 82);
+    border-radius: 2rem;*/
 }
 
 .left-right {
@@ -514,7 +613,8 @@ body {
     flex-direction: column;
     align-items: flex-end;
 
-    width: 11rem;
+    width: 5.5rem;
+    /*    width: 11rem;*/
     height: max-content;
 
     touch-action: manipulation;
@@ -523,8 +623,10 @@ body {
 .round-button {
     display: block;
 
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
+    /*width: 4rem;
+    height: 4rem;*/
 
     background-image: linear-gradient(to right, #a92345e7, #940b1dd7);
     border: 0.3rem ridge black;
@@ -534,15 +636,18 @@ body {
 
 #b-button {
     touch-action: manipulation;
-    margin-right: 4rem;
+    margin-right: 2rem;
+    /*margin-right: 4rem;*/
 }
 
 .b-button {
-    margin: 0.5rem 5rem;
+    margin: 0.2rem 2.5rem;
+    /*margin: 0.5rem 5rem;*/
 
     color: #2a3493;
 
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+    /*    font-size: 1.2rem;*/
     text-transform: uppercase;
 }
 
@@ -551,11 +656,13 @@ body {
 }
 
 .a-button {
-    margin: 0.5rem 1rem;
+    margin: 0.2rem 0.7rem;
+    /*    margin: 0.5rem 1rem;*/
 
     color: #2a3493;;
 
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+    /*    font-size: 1.2rem;*/
     text-transform: uppercase;
 }
 
@@ -573,11 +680,14 @@ body {
 #start-button {
     display: block;
 
-    width: 7rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 1rem;
+    /*width: 7rem;
+    height: 2rem;*/
 
     background-color: #929093;
-    border: 0.3rem ridge black;
+    border: 0.2rem ridge black;
+    /*    border: 0.3rem ridge black;*/
     border-radius: 1rem;
 
     touch-action: manipulation;
@@ -591,17 +701,18 @@ body {
 
     color: #2a3493;
 
-    font-size: 0.9rem;
+    font-size: 0.4rem;
+    /*    font-size: 0.9rem;*/
     text-transform: uppercase;
 }
 
 audio { 
     display: block;
 
-    margin: 1rem auto;
+    margin: 0.5rem auto;
 
     background-color: white;
-    border: 0.3rem ridge black;
+    border: 0.2rem ridge black;
     border-radius: 0.5rem;
 }
 
