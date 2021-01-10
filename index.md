@@ -17,7 +17,7 @@ layout: main
             </nav>
             <div class="text-item">
                 <h1>Hi, I'm Claire</h1>
-                <p>Web developer with a background in art, business, customer experience, and project management.</p>
+                <p>I'm a project manager and developer</p>
             </div>  
         </div>
     </article>
@@ -73,24 +73,29 @@ layout: main
             <div class="text-item">
                 <h3 id="About">A little more about me</h3>
                 <p>I originally studied Fine Art and then Business Administration.</p>
-                <p>Customer success (CS), Customer Experience (CX) and operational streamlining were my driving interests before I got into web development.</p>
-                <p>Would you like to see more? Pop me an email to <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">request my full CV</a>.</p>
+                <p>I'm an experienced project manager and enthusiastic developer, with a talent for establishing successful and long-lasting client relationships.</p>
+                <p>Would you like to see more? Pop me an email and <a href="mailto:claire.vanblerck@gmail.com?subject=CV request">let me know</a>.</p>
             </div>
             <div class="skill-set">
                 <ul>
-                  <li class="orange">HTML</li>
-                  <li class="orange">CSS</li>
-                  <li class="orange">JavaScript</li>
-                  <li class="orange">PHP</li>
-                  <li class="orange">Liquid</li>
-                  <li class="orange">Jekyll</li>
-                  <li class="orange">WordPress</li>
-                  <li class="orange">Git</li>
-                <li class="grey">Project management</li>
-                <li class="grey">Knowledge base article writing</li>
-                <li class="grey">CS</li>
-                <li class="grey">CX</li>
-                <li class="grey">Adobe Suite</li>
+                    <li class="orange">HTML</li>
+                    <li class="orange">CSS</li>
+                    <li class="orange">JavaScript</li>
+                    <li class="orange">PHP</li>
+                    <li class="orange">Liquid</li>
+                    <li class="orange">Jekyll</li>
+                    <li class="orange">WordPress</li>
+                    <li class="orange">Git</li>
+                    <li class="grey">Project management</li>
+                    <li class="grey">Wireframing (InVision & Figma)</li>
+                    <li class="grey">Customer Success</li>
+                    <li class="grey">User Experience</li>
+                    <li class="grey">Adobe Suite</li>
+                    <li class="grey">Slack</li>
+                    <li class="grey">Zendesk</li>
+                    <li class="grey">Monday.com</li>
+                    <li class="grey">Asana</li>
+                    <li class="grey">Confluence</li>
                 </ul>
             </div>
         </div>
