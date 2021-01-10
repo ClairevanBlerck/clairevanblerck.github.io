@@ -10,9 +10,28 @@ layout: main
             <h1>Claire van Blerck</h1>
             <div class="text-item">
                 <h2>About me</h2>
+                <h5>Project Managment</h5>
+                <p>Extensively experienced managing digital projects (B2B SaaS and bespoke WordPress) and with programming skills to boot, I can get to grips with and lead digital projects with ease. I'm also an organiser - if there is a way we can be more efficient I will identify it.</p>
+                <p>Creating strong relationships with clients is my super-skill. From a background of customer success (and having preciously lead a support team), I know how to manage expectations, combine transparently with friendliness, and I know how to empower my clients and make them look good.</p>
+                <p>I understand the lifecycle of web design and development projects, and I'm clued up on e-commerce, SEO, accessibility and performance.</p>
+                <div class="skill-set">
+                    <ul>
+                        <li class="grey">Project management</li>
+                        <li class="grey">Wireframing (InVision & Figma)</li>
+                        <li class="grey">Customer Success</li>
+                        <li class="grey">User Experience</li>
+                        <li class="grey">Adobe Suite</li>
+                        <li class="grey">Slack</li>
+                        <li class="grey">Zendesk</li>
+                        <li class="grey">Monday.com</li>
+                        <li class="grey">Asana</li>
+                        <li class="grey">Confluence</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-item">
                 <h5>As a developer</h5>
-                <p>I have experience in HTML, CSS, JavaScript, and PHP; I run my portfolio site through Jekyll using Liquid; 3y previous experience with web
-                    design and development projects, e-commerce, SEO, accessibility and performance.
+                <p>I'm an enthusiastic self-taught developer. I rely on coding to keep me humble, savvy, and appreciative of my colleagues' skills.
                 </p>
                 <div class="skill-set">
                     <ul>
@@ -27,20 +46,6 @@ layout: main
                     </ul>
                 </div>
             </div>
-            <div class="text-item">
-                <h5>Pre-developer</h5>
-                <p>I originally studied Fine Art and then Business Administration.</p>
-                <p>Customer success (CS), Customer Experience (CX) and operational streamlining were my driving interests before I got into web development which matches my ambitions, thinking, creativity and personality.</p>
-                <div class="skill-set">
-                    <ul>
-                        <li class="grey">Project management</li>
-                        <li class="grey">Knowledge base article writing</li>
-                        <li class="grey">CS</li>
-                        <li class="grey">CX</li>
-                        <li class="grey">Adobe Suite</li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </article>
 </section>
@@ -51,17 +56,36 @@ layout: main
         <div class="experience">
             <h2>Professional Experience</h2>
             <ol>
+            <li class="job-item">
+                    <a href="https://wearehdk.com" target="_blank" rel="noopener" rel="noreferrer">
+                        <h4>Hdk Associates</h4>
+                        <p>Current<br>09 / 2020 - </p>
+                        <h5>Project Coordinator and Developer</h5>
+                        <p>
+                        Managing multiple bespoke WordPress projects concurrently, the main focus of my job has been laying a detailed groundwork in the discovery phase of development, interrogating all functionality, creating medium-fidelity wireframes, and mapping out user journeys. From there I lead the project through the design, development, and deployment phases. I also provide support to our existing clients.
+                        </p>
+                        <ul>
+                            <li>Project manage the lifecycle of multiple website projects at once (small and large-scale)</li>
+                            <li>Lead the discovery phase with clients: User journeys, content strategies, and medium-fidelity wireframes</li>
+                            <li>Coordinating a team of designers and developers, and bringing in my own network of freelancers</li>
+                            <li>Leading weekly meetings with clients throughout the projects lifecycle</li>
+                            <li>Providing one-to-one, team and video tutorials to clients to help them use their new WordPress CMS</li>
+                            <li>Presenting free webinars to offer support to arts organisations</li>
+                        </ul>
+                    </a>
+                </li>
                 <li class="job-item">
                     <a href="https://artlogic.net/" target="_blank" rel="noopener" rel="noreferrer">
                         <h4>Artlogic</h4>
                         <p>3 years<br>04 / 2017 - 01 / 2020</p>
                         <h5>Project Manager</h5>
                         <ul>
-                            <li>Data migration to Artlogic Database</li>
-                            <li>Training colleagues & clients on website management (CSS & HTML)</li>
-                            <li>New feature QA & roll-out</li>
+                            <li>Managing complex data migration projects from 3rd party software to the Artlogic Database</li>
+                            <li>Training colleagues & clients on website management (custom CMS, CSS & HTML)</li>
+                            <li>Writing project briefs, QA, user testing and roll-out for new (internal and commissioned) features</li>
+                            <li>Writing project briefs, QA, user testing and roll-out for new (internal and commissioned) features</li>
                             <li>Customer Experience and <a href="https://support.artlogic.net/hc/en-gb" alt="https://support.artlogic.net">support.artlogic.net</a>, Customer Success</li>
-                            <li>Internal process creation & management</li>
+                            <li>Leading internal process creation & management (Slack, ZenDesk, Monday.com, Google Workspace)</li>
                         </ul>
                     </a>
                 </li>
@@ -74,7 +98,7 @@ layout: main
                             <li>Marketing strategy & management</li>
                             <li>Print production, registrar</li>
                             <li>Debtors & creditors management, bookkeeping</li>
-                            <li>Shipping, international & domestic</li>
+                            <li>Shipping: Coordinating shipping globally and developing new and lasting relationships with suppliers</li>
                         </ul>
                     </a>
                 </li>
@@ -97,10 +121,11 @@ layout: main
                         <p>2 years<br>09 / 2013 - 08 / 2015</p>
                         <h5>Gallery Manager</h5>
                         <ul>
+                            <li>Driving and leading the gallerys move to FileMaker</li>
+                            <li>Debtors & creditors management, bookkeeping</li>
                             <li>Gallery management</li>
                             <li>Production management, registrar</li>
-                            <li>Shipping, international & domestic</li>
-                            <li>Debtors & creditors management, bookkeeping</li>
+                            <li>Shipping: Coordinating shipping of high-value artworks globally and developing new and lasting relationships with suppliers</li>
                         </ul>
                     </a>
                 </li>
