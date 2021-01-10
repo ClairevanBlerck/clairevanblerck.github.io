@@ -6,7 +6,7 @@ layout: main
 <!-- Summary -->
 <section>
     <article>
-        <div class="text-panel">
+        <div class="text-panel-cv">
             <h1>Claire van Blerck</h1>
             <div class="text-item">
                 <h2>About me</h2>

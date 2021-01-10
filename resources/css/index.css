@@ -306,13 +306,16 @@ nav p:hover {
     justify-content: center;
 }
 
-.text-panel .text-item {
+.text-panel .text-item-cv {
     width: 80vw;
 
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
-.text-panel .text-item p {
+.text-panel .text-item-cv p {
+    text-align: left;
+
+    margin: 0 7rem;
     padding: 1rem 0;
 }
 
@@ -362,7 +365,7 @@ li.grey {
 
 .experience ol {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
 
     background-color: rgb(94, 94, 114);
     
